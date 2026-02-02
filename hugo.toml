@@ -1,0 +1,43 @@
+baseURL = 'https://firriskadvisory.com/'
+languageCode = 'en-us'
+title = 'FIR Risk Advisory'
+theme = 'fir'
+
+[params]
+  description = "AI-powered risk intelligence for cyber, fraud, and compliance teams"
+  tagline = "Risk Intelligence. Engineered."
+  author = "Bruce Bird"
+  email = "bbird@firriskadvisory.com"
+  phone = "+1-970-689-2473"
+  location = "Berthoud, Colorado"
+
+[menu]
+  [[menu.main]]
+    name = "Platform"
+    url = "/platform/"
+    weight = 1
+  [[menu.main]]
+    name = "Solutions"
+    url = "/solutions/"
+    weight = 2
+  [[menu.main]]
+    name = "Intelligence"
+    url = "/intel/"
+    weight = 3
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 4
+  [[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 5
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[outputs]
+  home = ["HTML", "RSS"]
+  section = ["HTML", "RSS"]
