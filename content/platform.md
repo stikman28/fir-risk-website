@@ -1,11 +1,11 @@
 ---
 title: "FIR Risk Platform"
-description: "AI-powered investigation and risk assessment tools"
+description: "AI-powered risk intelligence platform for enterprise risk, cybersecurity, and fraud teams"
 ---
 
 # FIR Risk Platform
 
-Your investigation co-pilot. AI-powered tools for cyber, fraud, and risk teams—grounded in verified threat intelligence.
+A risk intelligence platform that combines trusted sources, AI-powered analysis, and purpose-built tools for enterprise risk, cybersecurity, and fraud teams—backed by a curated knowledge base spanning security frameworks, threat intelligence, and industry research.
 
 ---
 
@@ -66,6 +66,6 @@ We use a split-brain architecture:
 
 ## Request Access
 
-The FIR Risk Platform is currently in private beta with select organizations.
+The FIR Risk Platform is currently in early access with select organizations.
 
-[Contact Us →](/contact/)
+[Request Early Access →](/contact/)

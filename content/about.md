@@ -1,44 +1,35 @@
 ---
 title: "About"
-description: "Bruce Bird - Founder of FIR Risk Advisory"
+description: "About FIR Risk Advisory - AI, cybersecurity, and risk expertise"
 ---
 
 # About FIR Risk Advisory
 
-## The Founder
+## Why I Built This
 
-**Bruce Bird** is a senior technology and risk management leader with 35+ years of experience spanning audit, finance, fraud operations, and cybersecurity.
+I've spent my career on both sides of the equation—building technology systems, auditing them, securing them, and managing the risks that come with all of it. Accounting taught me to follow the numbers. Audit taught me to question everything. Cybersecurity and fraud taught me what's really at stake.
 
-### Background
+When AI became truly capable, I saw an opportunity: what if we could combine deep domain expertise with AI that's actually grounded in trusted sources? Not generic chatbots that hallucinate—but intelligent tools built on real frameworks, real research, and real experience.
 
-Bruce's career started in accounting and audit—building the analytical foundation that now drives his approach to risk intelligence. That finance discipline evolved into technology leadership, fraud program development, and enterprise security strategy.
+That's why I started FIR Risk Advisory. We build AI solutions, data platforms, and risk intelligence tools for organizations that need more than guesswork. Whether it's our own FIR Risk Platform, a custom AI solution, or a Microsoft Fabric implementation—everything we build is grounded in the same principle: trusted sources and real expertise.
 
-### Credentials
+If you're looking for a partner who's done the work, reach out.
 
-- **CMA** — Certified Management Accountant
-- **CFA** — Certified Financial Manager
-- **Virginia Tech** — Pamplin College of Business
-
-### Professional Affiliations
-
-- **Merchant Risk Council** — Community Committee Member
-- **Institute of Management Accountants** — Member since 2004
-- **Institute of Internal Auditors** — Former Member
-
-### The FIR Risk Philosophy
-
-> Accounting taught me to follow the numbers. Audit taught me to question everything. Technology gave me the tools. Risk management showed me where it all connects.
-
-FIR Risk Advisory was founded on the belief that AI can transform how organizations handle cyber threats, fraud, and compliance—but only when that AI is grounded in verified frameworks and real expertise.
-
-We don't deploy generic chatbots. We build intelligence systems trained on MITRE ATT&CK, NIST, CISA KEV, and decades of hands-on fraud prevention experience.
+— Bruce Bird
+Founder, FIR Risk Advisory
 
 ---
 
-## Contact
+## Our Story
 
-**Bruce Bird**
-Founder, FIR Risk Advisory
-bbird@firriskadvisory.com
-+1-970-689-2473
-Berthoud, Colorado
+FIR Risk Advisory was built on a foundation of accounting discipline, audit rigor, and hands-on experience in technology, cybersecurity, and fraud management. When AI became truly capable, we saw the opportunity to combine that expertise with intelligent tools that actually work.
+
+Today, we build AI solutions, data platforms, and risk intelligence tools for organizations that need more than guesswork. We're builders, not just advisors—and we're invested in your success.
+
+---
+
+## Ready to Put AI and Data to Work?
+
+Schedule a conversation to explore what we can build together.
+
+[Contact Us →](/contact/)

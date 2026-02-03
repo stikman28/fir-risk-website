@@ -1,11 +1,15 @@
 ---
 title: "Contact"
-description: "Get in touch with FIR Risk Advisory"
+description: "Contact FIR Risk Advisory - AI, data, and risk solutions"
 ---
 
-# Contact Us
+# Contact FIR Risk Advisory
 
-Let's talk about what you're trying to solve.
+## Let's Talk
+
+Thank you for your interest in FIR Risk Advisory. We build AI solutions, data platforms, and risk intelligence tools for organizations that need more than guesswork—grounded in trusted sources and real expertise.
+
+Fill out the form below to schedule a conversation, request access to the FIR Risk Platform, or subscribe to our threat intelligence updates. We look forward to hearing from you.
 
 ---
 
@@ -14,22 +18,6 @@ Let's talk about what you're trying to solve.
 **Bruce Bird**
 Founder, FIR Risk Advisory
 
-**Email:** bbird@firriskadvisory.com
+**Email:** hello@firriskadvisory.com
 **Phone:** +1-970-689-2473
 **Location:** Berthoud, Colorado
-
----
-
-## What We Can Help With
-
-- **FIR Risk Platform** — Request access to our AI-powered investigation tools
-- **AI Solutions** — Custom AI assistants, RAG systems, and Fabric data platforms
-- **Advisory** — AI, data, and risk strategy support
-
----
-
-## Schedule a Conversation
-
-<!-- HubSpot form embed will go here -->
-
-*Form coming soon. For now, reach out via email.*

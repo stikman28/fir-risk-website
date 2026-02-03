@@ -1,11 +1,11 @@
 ---
 title: "FIR Risk Intelligence"
-description: "Original threat research and risk intelligence"
+description: "Threat intelligence and cybersecurity research from FIR Risk Advisory"
 ---
 
 # FIR Risk Intelligence
 
-Threat intelligence. Every week. No paywalls.
+Original research and threat intelligence from the FIR Risk team. FIR Risk Tuesday delivers weekly insights, and FIR Risk INTEL provides real-time alerts on emerging threats.
 
 ---
 

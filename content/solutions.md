@@ -1,78 +1,42 @@
 ---
-title: "AI & Data Solutions"
-description: "Custom AI assistants, Microsoft Fabric data platforms, and RAG implementations"
+title: "Solutions"
+description: "AI solutions, data platforms, and risk advisory from FIR Risk Advisory"
 ---
 
-# AI & Data Solutions
+# Explore What We Build
 
-Custom AI. Built for your reality.
+## Solutions
 
-Not every team needs a product—some need a solution built for their data, their workflows, their compliance requirements.
-
----
-
-## What We Build
-
-### AI Assistants & Agents
-
-Domain-specific AI trained on your knowledge base, not generic models.
-
-- Internal policy assistants
-- Compliance Q&A systems
-- Security operations copilots
-- Investigation support agents
-
-We design the prompts, curate the knowledge base, and deploy systems your team can actually use.
-
-### Microsoft Fabric Data Platforms
-
-Unified data lakes that turn scattered logs into AI-ready intelligence.
-
-- Data pipeline architecture
-- Cross-system integration
-- Analytics and reporting layers
-- Foundation for AI/ML workloads
-
-Your data, structured and ready.
-
-### RAG Implementations
-
-Retrieval-augmented generation systems grounded in your proprietary data.
-
-- Document ingestion pipelines
-- Vector database setup
-- Retrieval optimization
-- Hallucination prevention
-
-AI that cites your sources, not the internet's.
+From our risk intelligence platform to custom AI solutions to Microsoft Fabric implementations—explore how we help organizations drive performance and manage risk.
 
 ---
 
-## The Approach
+## FIR Risk Platform
 
-We don't just hand over a model.
+A risk intelligence platform that combines trusted sources, AI-powered analysis, and purpose-built tools for enterprise risk, cybersecurity, and fraud teams. Our curated knowledge base spans security frameworks, threat intelligence, and industry research—giving your team an always-on intelligence partner that cites verified sources, not internet guesswork. Built-in workbenches for fraud investigation and risk evaluation help you move from insight to action.
 
-1. **Understand** — Map your data landscape and workflows
-2. **Architect** — Design the pipeline and knowledge structure
-3. **Build** — Engineer the solution with verified sources
-4. **Train** — Ensure your team can operate and extend it
-
-Every solution is grounded in real frameworks—MITRE, NIST, ISO—not just generic LLM outputs.
+[Request Access →](/contact/)
 
 ---
 
-## Advisory Support
+## Data Platforms
 
-Need strategy before implementation? We provide:
+Most companies have data everywhere—and too much of it is held hostage by third-party vendors. We implement Microsoft Fabric to fix that. We assess your data sources, identify what matters most to business performance, and build a company-owned data lake and warehouse. Data lakes, pipelines, dataflows, and integrated reporting—all under your control. The result: a data foundation that powers AI, reporting, and informed decisions across your organization.
 
-- **AI Readiness Assessments** — Is your data ready for AI? What's the gap?
-- **Data Architecture Reviews** — Where are the integration points?
-- **Use Case Prioritization** — Which AI applications deliver ROI fastest?
+[Let's Talk →](/contact/)
 
 ---
 
-## Let's Talk
+## AI Solutions
 
-Tell us what you're trying to solve.
+Your own AI platform—built around your data, your workflows, and your specific business challenges. We build custom knowledge bases curated from your internal documents and trusted sources, intelligent agents tuned to your team's needs, and purpose-built tools that solve real problems. Whether it's an internal policy assistant, a compliance Q&A system, or investigation support tools, we design AI solutions your team can actually use—grounded in your data, not generic models.
 
-[Contact Us →](/contact/)
+[Let's Talk →](/contact/)
+
+---
+
+## Risk Advisory
+
+Built it. Audited it. Secured it. Our advisory services bring a rare combination of hands-on experience—technology implementations, technology audits, cybersecurity leadership, fraud program management, and enterprise risk. That breadth is what allows us to advise on AI and data solutions that actually work across your business. Whether you need an AI readiness assessment, data architecture review, or strategic guidance on risk and compliance, you get a partner who's been on all sides of the equation—not just theory, but practice.
+
+[Start a Conversation →](/contact/)
