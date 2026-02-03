@@ -1,0 +1,63 @@
+---
+title: "INTEL-1: Law Firms Are Now Premium Ransomware Targets"
+description: "Law firms paid ransoms at a 41% rate in 2025—about 14% more often than the cross-sector average."
+date: 2026-01-29
+type: "intel"
+intel_type: "SECTOR ALERT"
+image: "/images/intel/intel-1-law-firms-ransomware.png"
+tags: ["Ransomware", "Law Firms", "Legal", "MITRE ATT&CK"]
+---
+
+<img src="/images/intel/intel-1-law-firms-ransomware.png" alt="FIR Risk INTEL-1 - Law Firms Ransomware" class="img-fluid mb-4">
+
+## The INTEL
+
+Law firms paid ransoms at a **41% rate in 2025**—about 14% more often than the cross-sector average of 36%.
+
+Ransomware groups have noticed. According to GuidePoint's 2026 Ransomware Report:
+
+- **217 law firm breaches** last year (12% of all ransomware incidents)
+- **$1.2M average ransom demand**—up 60% from 2024
+- **98% involved double extortion** (encryption + data leak threats)
+
+The math is simple: law firms hold sensitive data, face extreme reputation pressure, and pay more often than anyone else. That makes them ideal targets.
+
+---
+
+## Why It Matters
+
+Law firms aren't just targets—they're **gateways**. Compromising one firm exposes M&A details, litigation strategy, and client PII across dozens of corporate clients.
+
+Attackers are now using LLMs to analyze stolen legal documents and prioritize high-value matters. Active M&A deals and pending litigation get flagged for maximum extortion pressure.
+
+If you're a law firm—or rely on outside counsel for sensitive matters—your risk profile just changed.
+
+---
+
+## What To Do
+
+- **Segment client data** — Zero-trust architecture between client matters
+- **Audit your vendors** — Case management platforms (Clio, LexisNexis) are attack vectors
+- **Immutable backups** — LockBit is specifically targeting offsite/cloud backups (MITRE T1489)
+- **Legal-themed phishing simulations** — Fake court filings and client requests are the entry point
+
+---
+
+## MITRE ATT&CK
+
+| Technique | Name | Relevance |
+|-----------|------|-----------|
+| T1566 | Phishing | Fake court documents, client requests, invoice macros |
+| T1078 | Valid Accounts | Session hijacking, MFA fatigue attacks |
+| T1489 | Service Stop | Backup destruction before encryption |
+| T1486 | Data Encrypted for Impact | 98% of attacks include encryption |
+
+---
+
+## Learn More
+
+Full analysis in **[FIR Risk E76 — Ransomware's Profit Problem](/tuesday/e76-guidepoint-ransomware/)**
+
+---
+
+*Powered by [FIR Risk Platform](/platform/) — AI-driven threat intelligence for enterprise risk leaders.*

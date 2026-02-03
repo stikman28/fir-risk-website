@@ -40,3 +40,7 @@ Your own AI platform—built around your data, your workflows, and your specific
 Built it. Audited it. Secured it. Our advisory services bring a rare combination of hands-on experience—technology implementations, technology audits, cybersecurity leadership, fraud program management, and enterprise risk. That breadth is what allows us to advise on AI and data solutions that actually work across your business. Whether you need an AI readiness assessment, data architecture review, or strategic guidance on risk and compliance, you get a partner who's been on all sides of the equation—not just theory, but practice.
 
 [Start a Conversation →](/contact/)
+
+---
+
+{{< section-nav prev="/platform/" prev-label="Platform" next="/intel/" next-label="Intelligence" >}}

@@ -1,0 +1,30 @@
+{{- $url := .Get "url" -}}
+{{- $max := .Get "max" | default 5 -}}
+{{- $feed := "" -}}
+
+{{- $result := try (resources.GetRemote $url) -}}
+{{- if $result.Err -}}
+  <p class="text-muted"><em>Unable to load feed</em></p>
+{{- else if $result.Value -}}
+  {{- $feed = $result.Value | transform.Unmarshal -}}
+{{- end -}}
+
+{{- if $feed -}}
+<div class="rss-feed mb-4">
+  <ul class="list-unstyled">
+    {{- $items := $feed.channel.item | default $feed.rss.channel.item | default (slice) -}}
+    {{- range first (int $max) $items -}}
+    <li class="mb-3 pb-3 border-bottom">
+      <a href="{{ .link }}" target="_blank" rel="noopener" class="text-decoration-none">
+        <strong>{{ .title }}</strong>
+      </a>
+      {{- with .pubDate -}}
+      <br><small class="text-muted">{{ . }}</small>
+      {{- end -}}
+    </li>
+    {{- end -}}
+  </ul>
+</div>
+{{- else -}}
+<p class="text-muted"><em>Feed unavailable</em></p>
+{{- end -}}

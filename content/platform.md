@@ -69,3 +69,7 @@ We use a split-brain architecture:
 The FIR Risk Platform is currently in early access with select organizations.
 
 [Request Early Access →](/contact/)
+
+---
+
+{{< section-nav next="/solutions/" next-label="Solutions" >}}

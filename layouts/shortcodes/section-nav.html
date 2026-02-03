@@ -1,0 +1,22 @@
+<div class="section-nav d-flex justify-content-between align-items-center py-4 mt-5 border-top">
+  {{- $prev := .Get "prev" -}}
+  {{- $prevLabel := .Get "prev-label" -}}
+  {{- $next := .Get "next" -}}
+  {{- $nextLabel := .Get "next-label" -}}
+
+  <div class="nav-prev">
+    {{- if $prev -}}
+    <a href="{{ $prev }}" class="btn btn-outline-secondary">
+      <span class="me-2">&larr;</span> {{ $prevLabel | default "Previous" }}
+    </a>
+    {{- end -}}
+  </div>
+
+  <div class="nav-next">
+    {{- if $next -}}
+    <a href="{{ $next }}" class="btn btn-outline-primary">
+      {{ $nextLabel | default "Next" }} <span class="ms-2">&rarr;</span>
+    </a>
+    {{- end -}}
+  </div>
+</div>

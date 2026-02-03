@@ -1,7 +1,11 @@
 baseURL = 'https://firriskadvisory.com/'
 languageCode = 'en-us'
 title = 'FIR Risk Advisory'
-theme = 'fir'
+
+# Hinode theme via Hugo modules
+[module]
+  [[module.imports]]
+    path = "github.com/gethinode/hinode"
 
 [params]
   description = "AI-powered risk intelligence for cyber, fraud, and compliance teams"
@@ -10,6 +14,27 @@ theme = 'fir'
   email = "bbird@firriskadvisory.com"
   phone = "+1-970-689-2473"
   location = "Berthoud, Colorado"
+
+  [params.navigation]
+    brand = "FIR Risk Advisory"
+    logo = "img/logo.png"
+    logo-height = 50
+
+  [params.favicon]
+    logo = "/img/favicon.png"
+
+  # Hinode theme settings
+  [params.main]
+    separator = "-"
+    description = "AI solutions, data platforms, and risk intelligence—grounded in trusted sources, not internet noise."
+
+  [params.main.colorMode]
+    enabled = true
+    default = "dark"
+
+  [params.style]
+    primary = "#00e5a9"
+    secondary = "#16393F"
 
 [menu]
   [[menu.main]]
@@ -32,6 +57,15 @@ theme = 'fir'
     name = "Contact"
     url = "/contact/"
     weight = 5
+
+  [[menu.footer]]
+    name = "Privacy Policy"
+    url = "/privacy/"
+    weight = 1
+  [[menu.footer]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 2
 
 [markup]
   [markup.goldmark]
