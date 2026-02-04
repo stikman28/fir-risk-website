@@ -5,7 +5,7 @@ description: "AI solutions, data platforms, and risk intelligence—grounded in 
 
 <div class="hero-section text-center py-4 mb-4">
   <h1 id="hero-headline" class="display-3 fw-bold mb-3">Risk Intelligence. Engineered.</h1>
-  <p class="lead fs-4 mb-4 text-muted">AI solutions, data platforms, and risk intelligence—grounded in trusted sources, not internet noise.</p>
+  <p class="lead fs-4 mb-4 text-muted">AI solutions, data platforms, and risk intelligence — grounded in trusted sources, not internet noise.</p>
   <div class="d-flex gap-3 justify-content-center flex-wrap">
     <a href="/platform/" class="btn btn-primary btn-lg px-4">Explore the Platform</a>
     <a href="/intel/" class="btn btn-outline-primary btn-lg px-4">Browse Intelligence</a>
