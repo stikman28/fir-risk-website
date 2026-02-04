@@ -1,0 +1,233 @@
+/* FIR Risk Advisory Custom Styles */
+
+/* Hero Section - Strong visual impact */
+.hero-section {
+  background: linear-gradient(135deg, rgba(0, 229, 169, 0.1) 0%, rgba(22, 57, 63, 0.2) 100%);
+  border-radius: 1.5rem;
+  padding: 3rem 2rem !important;
+  margin-bottom: 2rem;
+  margin-top: 2.5rem;
+}
+
+.hero-section h1 {
+  background: linear-gradient(135deg, var(--fir-teal) 0%, #00b386 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.hero-section .lead {
+  font-size: 1.4rem;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Dark mode hero adjustments */
+[data-bs-theme="dark"] .hero-section {
+  background: linear-gradient(135deg, rgba(0, 229, 169, 0.15) 0%, rgba(22, 57, 63, 0.4) 100%);
+  border: 1px solid rgba(0, 229, 169, 0.2);
+}
+
+/* Brand Colors */
+:root {
+  --fir-teal: #00e5a9;
+  --fir-dark: #16393F;
+  --fir-navy: #213246;
+  --fir-bg-light: #F7FAF2;
+}
+
+/* Logo styling - consistent size */
+.navbar-brand img {
+  max-height: 80px !important;
+  min-height: 60px !important;
+  height: 80px !important;
+  width: auto !important;
+}
+
+/* Dark mode - add white background behind logo for visibility */
+[data-bs-theme="dark"] .navbar-brand img {
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 8px;
+  padding: 8px 12px;
+}
+
+/* Hero section styling */
+.content > h1:first-of-type {
+  font-size: clamp(2rem, 5vw, 3rem);
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+/* Teal accent for emphasis and strong text */
+.content strong,
+.content b {
+  color: var(--fir-teal);
+}
+
+/* Section spacing - more breathing room */
+.content hr {
+  margin: 3rem 0;
+  border-color: rgba(0, 229, 169, 0.2);
+}
+
+.content h2 {
+  margin-top: 2.5rem;
+  padding-top: 1rem;
+}
+
+/* Pill-shaped buttons like current site */
+.btn-primary,
+.btn-outline-primary,
+.btn-secondary,
+.btn-outline-secondary {
+  border-radius: 9999px !important;
+  padding: 0.75rem 2rem !important;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover,
+.btn-outline-primary:hover {
+  transform: translateX(4px);
+}
+
+/* Card styling improvements */
+.card {
+  border: none;
+  border-radius: 1rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 30px rgba(0, 229, 169, 0.15);
+}
+
+/* Newsletter/INTEL post images - make them prominent */
+.content img.img-fluid {
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+}
+
+/* Tables - cleaner look */
+.table {
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.table th {
+  background-color: var(--fir-dark);
+  color: white;
+  border: none;
+}
+
+.table td {
+  border-color: rgba(0, 229, 169, 0.1);
+}
+
+/* Blockquotes for INTEL callouts - make them stand out */
+blockquote,
+.content blockquote {
+  border-left: 4px solid var(--fir-teal) !important;
+  background: rgba(0, 229, 169, 0.08);
+  padding: 1.25rem 1.5rem;
+  border-radius: 0 0.75rem 0.75rem 0;
+  margin: 2rem 0;
+}
+
+blockquote strong,
+.content blockquote strong {
+  color: var(--fir-teal);
+  font-weight: 700;
+}
+
+blockquote p {
+  margin-bottom: 0;
+}
+
+/* Section navigation arrows - more visible */
+.section-nav .btn {
+  border-radius: 9999px;
+  padding: 0.75rem 1.5rem;
+}
+
+/* Link styling - brand color */
+.content a:not(.btn) {
+  color: var(--fir-teal);
+  text-decoration: none;
+  transition: opacity 0.2s ease;
+}
+
+.content a:not(.btn):hover {
+  opacity: 0.8;
+  text-decoration: underline;
+}
+
+/* Newsletter list items on Tuesday page */
+.content h3 a {
+  color: var(--fir-teal) !important;
+}
+
+/* Footer improvements */
+footer {
+  border-top: 1px solid rgba(0, 229, 169, 0.2);
+}
+
+/* Dark mode specific */
+[data-bs-theme="dark"] .card {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(0, 229, 169, 0.15);
+}
+
+[data-bs-theme="dark"] blockquote {
+  background: rgba(0, 229, 169, 0.05);
+}
+
+/* Navigation improvements */
+.navbar {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+/* Normalize page layouts - consistent margins */
+.container-xxl {
+  max-width: 1200px !important;
+}
+
+main .container-xxl.flex-fill,
+main .container-xxl.d-flex {
+  padding-left: 2rem !important;
+  padding-right: 2rem !important;
+}
+
+/* Ensure content aligns consistently */
+.content {
+  max-width: 900px;
+}
+
+.nav-link {
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+  color: var(--fir-teal) !important;
+}
+
+/* Code blocks */
+pre {
+  border-radius: 0.75rem;
+  border: 1px solid rgba(0, 229, 169, 0.2);
+}
+
+/* Lists - better spacing */
+.content ul,
+.content ol {
+  margin-bottom: 1.5rem;
+}
+
+.content li {
+  margin-bottom: 0.5rem;
+}

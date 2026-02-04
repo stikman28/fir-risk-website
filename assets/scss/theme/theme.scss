@@ -1,0 +1,118 @@
+// FIR Risk Advisory Custom Styles
+// Brand Colors
+$fir-teal: #00e5a9;
+$fir-dark: #16393F;
+$fir-navy: #213246;
+$fir-bg-light: #F7FAF2;
+
+// Increase logo visibility
+.navbar-brand img {
+  max-height: 80px !important;
+  height: 80px !important;
+}
+
+// Hero section styling
+.hero-section,
+.content > h1:first-of-type {
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  font-weight: 700;
+}
+
+// Brand color accents on headings
+h1, h2, h3 {
+  color: var(--bs-heading-color);
+}
+
+// Teal accent for emphasis
+strong, b {
+  color: $fir-teal;
+}
+
+// Section spacing - more breathing room
+.content {
+  section,
+  hr + h2,
+  hr + h3 {
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+  }
+}
+
+// Pill-shaped buttons like current site
+.btn-primary,
+.btn-outline-primary {
+  border-radius: 9999px;
+  padding: 0.75rem 2rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+
+  &:hover {
+    transform: translateX(4px);
+  }
+}
+
+// Card styling improvements
+.card {
+  border: none;
+  border-radius: 1rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+
+  &:hover {
+    transform: translateY(-4px);
+  }
+}
+
+// Newsletter/INTEL post images - make them prominent
+.content img.img-fluid {
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+}
+
+// Tables - cleaner look
+.table {
+  border-radius: 0.5rem;
+  overflow: hidden;
+
+  th {
+    background-color: $fir-dark;
+    color: white;
+  }
+}
+
+// Blockquotes for INTEL callouts
+blockquote {
+  border-left: 4px solid $fir-teal;
+  background: rgba($fir-teal, 0.1);
+  padding: 1rem 1.5rem;
+  border-radius: 0 0.5rem 0.5rem 0;
+  margin: 2rem 0;
+
+  strong {
+    color: $fir-teal;
+  }
+}
+
+// Section navigation arrows - more visible
+.section-nav .btn {
+  border-radius: 9999px;
+  padding: 0.75rem 1.5rem;
+}
+
+// Footer improvements
+footer {
+  border-top: 1px solid rgba($fir-teal, 0.3);
+}
+
+// Dark mode specific overrides
+[data-bs-theme="dark"] {
+  .card {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba($fir-teal, 0.2);
+  }
+
+  blockquote {
+    background: rgba($fir-teal, 0.05);
+  }
+}
