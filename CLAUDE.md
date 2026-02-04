@@ -11,8 +11,8 @@
 |---------|-------|
 | **Framework** | Hugo v0.155.2+ (extended) |
 | **Theme** | Hinode v1.23.7 (via Hugo modules) |
-| **Hosting** | Cloudflare Pages (planned) |
-| **Domain** | firrisk.ai |
+| **Hosting** | Cloudflare Pages (deployed) |
+| **Domain** | firrisk.ai (custom domain pending) |
 | **Local Dev** | `hugo server` → http://localhost:1313 |
 | **Build** | `hugo` → outputs to `public/` |
 
@@ -164,13 +164,26 @@ hugo --minify
 
 ---
 
-## Deployment (Planned)
+## Deployment (Cloudflare Pages)
 
-1. Connect `fir-risk-website` repo to Cloudflare Pages
-2. Build command: `hugo --minify`
-3. Output directory: `public`
-4. Domain: firrisk.ai
-5. Contact form: Cloudflare Pages Functions (not Formspree)
+**Status**: Deployed and auto-deploying on push to `main`
+
+| Setting | Value |
+|---------|-------|
+| **Build command** | `hugo --minify` |
+| **Output directory** | `public` |
+| **Environment variable** | `HUGO_VERSION` = `0.155.2` |
+| **Custom domain** | firrisk.ai (pending connection) |
+
+### Deployment Workflow
+1. Make changes locally
+2. `git add` + `git commit`
+3. `git push` to main
+4. Cloudflare auto-deploys (~1-2 min)
+
+### Pending
+- Connect custom domain firrisk.ai
+- Contact form via Cloudflare Pages Functions
 
 ---
 
@@ -207,3 +220,4 @@ hugo --minify
 - Partner logos integrated with proper sizing/alignment
 - Fixed scroll issue with hero top margin
 - All pages use consistent hero-section treatment
+- Deployed to Cloudflare Pages with auto-deploy workflow
