@@ -32,9 +32,8 @@ Real-time alerts on emerging threats, published 2-3 times per week.
 
 **Latest INTEL:**
 
+- [INTEL-2: The Human-in-the-Loop Imperative for AI Security](/intel/intel-2-human-in-the-loop/) — Fully automated security is a design flaw, not a feature
 - [INTEL-1: Law Firms Are Now Premium Ransomware Targets](/intel/intel-1-law-firms-ransomware/) — 41% payment rate, $1.2M average demand
-
-*More INTEL posts coming this week.*
 
 ---
 
