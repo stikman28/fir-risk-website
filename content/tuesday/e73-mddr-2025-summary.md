@@ -8,7 +8,7 @@ sourceUrl: "https://www.microsoft.com/en-us/security/security-insider/microsoft-
 tags: ["Microsoft", "MDDR", "Identity", "Cloud Security", "Ransomware", "ClickFix", "AI", "Nation-State"]
 ---
 
-![FIR Risk E73 - MDDR 2025 Summary](/images/tuesday/e73-mddr-2025-summary.png)
+<img src="/images/tuesday/e73-mddr-2025-summary.png" alt="FIR Risk E73 - MDDR 2025 Summary" class="img-fluid mb-4">
 
 By FIR Risk Advisory | Cybersecurity Fraud Intelligence
 
