@@ -68,6 +68,13 @@ description: "Weekly threat intelligence newsletter from FIR Risk Advisory"
         <p class="mb-0">Anthropic published transparent data on how their AI models are being weaponized — one actor hit 17+ orgs, North Korean operatives faked tech jobs, and a non-coder built ransomware kits.</p>
       </div>
     </div>
+    <div class="col-12">
+      <div class="card p-4">
+        <h3 id="e70" class="h5"><a href="/tuesday/e70-identity-security/">E70 - Identity Is Your Security Nerve Center</a></h3>
+        <p class="text-muted mb-2"><em>September 18, 2025</em> | SailPoint Horizons of Identity Security 2025</p>
+        <p class="mb-0">63% of enterprises remain in the lowest two identity maturity horizons. Less than 40% govern AI agent identities. SailPoint's survey of 375 IAM decision-makers tells the story.</p>
+      </div>
+    </div>
   </div>
 </div>
 
