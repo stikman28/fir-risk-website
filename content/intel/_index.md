@@ -32,7 +32,7 @@ description: "Threat intelligence and cybersecurity research from FIR Risk Advis
           <li><a href="/intel/intel-2-human-in-the-loop/">INTEL-2: Human-in-the-Loop Imperative</a></li>
           <li><a href="/intel/intel-1-law-firms-ransomware/">INTEL-1: Law Firms Are Premium Targets</a></li>
         </ul>
-        <a href="/intel/" class="fw-semibold">View All INTEL →</a>
+        <a href="/alerts/" class="fw-semibold">View All INTEL →</a>
       </div>
     </div>
     <div class="col-md-4">

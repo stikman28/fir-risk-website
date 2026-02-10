@@ -49,7 +49,7 @@ description: "FIR Risk Advisory partner network - hand-selected firms for expert
 <div class="col-md-6">
 <div class="card h-100 p-4">
   <div class="text-start mb-3">
-    <img src="/images/partners/pondurance_clear.png" alt="Pondurance" class="img-fluid" style="max-height: 55px; mix-blend-mode: multiply;">
+    <img src="/images/partners/pondurance_clear.png" alt="Pondurance" class="img-fluid" style="max-height: 55px;">
   </div>
 
   ### Pondurance
@@ -69,8 +69,9 @@ description: "FIR Risk Advisory partner network - hand-selected firms for expert
   <div class="text-center mb-3">
     <img src="/images/partners/altum-logo-retina.png" alt="Altum Strategy Group" class="img-fluid" style="max-height: 60px;">
   </div>
-  <h3 id="altum-strategy-group" class="mt-1 mb-1">Altum Strategy Group</h3>
-  <p class="mb-2"><strong>Digital Transformation, AI Technologies, Data Protection & Privacy</strong></p>
+  ### Altum Strategy Group
+
+  **Digital Transformation, AI Technologies, Data Protection & Privacy**
 
   Altum Strategy Group advises on digital transformation, AI strategy, data protection, solution selection, and M&A technology due diligence.
 

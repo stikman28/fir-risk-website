@@ -58,21 +58,21 @@ description: "AI-powered risk intelligence platform for enterprise risk, cyberse
 <div class="hero-section text-center py-4 mt-4">
   <h2 id="your-data-stays-yours" class="mb-3">Your Data Stays Yours</h2>
   <p class="lead mb-3">We use a split-brain architecture:</p>
-  <div class="row g-4 text-start mx-auto" style="max-width: 700px;">
+  <div class="row g-4 text-start mx-auto" style="max-width: 700px; font-size: 0.9rem;">
     <div class="col-md-6">
       <div class="card h-100 p-3">
-        <p class="mb-1"><strong>Public Brain</strong></p>
-        <p class="mb-0" style="font-size: 0.95rem;">Our knowledge base — frameworks, regulations, threat intel — lives in our secure cloud.</p>
+        <p class="mb-1" style="font-weight: 600; font-size: 0.95rem;">Public Brain</p>
+        <p class="mb-0">Our knowledge base — frameworks, regulations, threat intel — lives in our secure cloud.</p>
       </div>
     </div>
     <div class="col-md-6">
       <div class="card h-100 p-3">
-        <p class="mb-1"><strong>Private Memory</strong></p>
-        <p class="mb-0" style="font-size: 0.95rem;">Your data stays in your environment. Always.</p>
+        <p class="mb-1" style="font-weight: 600; font-size: 0.95rem;">Private Memory</p>
+        <p class="mb-0">Your data stays in your environment. Always.</p>
       </div>
     </div>
   </div>
-  <p class="mt-4"><strong>The Guarantee:</strong> Our AI reads your data to solve problems. It never trains on it. Your secrets don't become our product.</p>
+  <p class="mt-4" style="font-size: 0.95rem;">The Guarantee: Our AI reads your data to solve problems. It never trains on it. Your secrets don't become our product.</p>
 </div>
 
 <div class="text-center py-5">
