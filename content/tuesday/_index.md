@@ -61,6 +61,13 @@ description: "Weekly threat intelligence newsletter from FIR Risk Advisory"
         <p class="mb-0">80% of organizations improved security specifically to qualify for cyber insurance. UC Berkeley's CLTC research reveals insurance as the most effective security lever we have.</p>
       </div>
     </div>
+    <div class="col-12">
+      <div class="card p-4">
+        <h3 id="e71" class="h5"><a href="/tuesday/e71-ai-driven-threats/">E71 - When AI Becomes the Attacker</a></h3>
+        <p class="text-muted mb-2"><em>September 30, 2025</em> | Anthropic Threat Intelligence Report</p>
+        <p class="mb-0">Anthropic published transparent data on how their AI models are being weaponized — one actor hit 17+ orgs, North Korean operatives faked tech jobs, and a non-coder built ransomware kits.</p>
+      </div>
+    </div>
   </div>
 </div>
 
