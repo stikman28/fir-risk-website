@@ -4,8 +4,8 @@ description: "Threat intelligence and cybersecurity research from FIR Risk Advis
 ---
 
 <div class="hero-section text-center py-4 mb-4">
-  <h1 id="hero-headline" class="display-5 fw-bold mb-3">FIR Risk Intelligence</h1>
-  <p class="lead">Original research and threat intelligence from the FIR Risk team.<br><strong>Research = FREE.</strong> We believe intelligence should be accessible.</p>
+  <h1 id="hero-headline" class="display-5 fw-bold mb-3">Research = FREE</h1>
+  <p class="lead">Original research and threat intelligence from the FIR Risk team. No paywalls. No registration required. We believe intelligence should be accessible.</p>
 </div>
 
 <div class="py-4">

@@ -4,7 +4,7 @@ description: "About FIR Risk Advisory - AI, cybersecurity, and risk expertise"
 ---
 
 <div class="hero-section text-center py-4 mb-4">
-  <h1 id="hero-headline" class="display-5 fw-bold mb-3">About FIR Risk Advisory</h1>
+  <h1 id="hero-headline" class="display-5 fw-bold mb-3">Built It. Audited It. Secured It.</h1>
   <p class="lead">AI solutions, data platforms, and risk intelligence — built by someone who's been on all sides of the equation.</p>
 </div>
 

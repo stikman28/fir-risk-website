@@ -4,8 +4,8 @@ description: "Simple, predictable pricing for AI solutions, data platforms, and 
 ---
 
 <div class="hero-section text-center py-4 mb-4">
-  <h1 id="hero-headline" class="display-5 fw-bold mb-3">Simple, Predictable Pricing</h1>
-  <p class="lead">No surprise invoices. No nickel-and-diming. Flat-rate pricing that's easy to budget and easy to understand.</p>
+  <h1 id="hero-headline" class="display-5 fw-bold mb-3">Flat-Rate. No Surprises.</h1>
+  <p class="lead">No surprise invoices. No nickel-and-diming. Pricing that's easy to budget and easy to understand.</p>
 </div>
 
 <div class="py-4">

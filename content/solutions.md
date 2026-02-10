@@ -4,7 +4,7 @@ description: "AI solutions, data platforms, and risk advisory from FIR Risk Advi
 ---
 
 <div class="hero-section text-center py-4 mb-4">
-  <h1 id="hero-headline" class="display-5 fw-bold mb-3">Explore What We Build</h1>
+  <h1 id="hero-headline" class="display-5 fw-bold mb-3">Built for Your Business. Grounded in Expertise.</h1>
   <p class="lead">From our risk intelligence platform to custom AI solutions to Microsoft Fabric implementations — explore how we help organizations drive performance and manage risk.</p>
 </div>
 

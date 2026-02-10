@@ -4,8 +4,8 @@ description: "Weekly threat intelligence newsletter from FIR Risk Advisory"
 ---
 
 <div class="hero-section text-center py-4 mb-4">
-  <h1 id="hero-headline" class="display-5 fw-bold mb-3">FIR Risk Tuesday</h1>
-  <p class="lead">Weekly newsletter covering the threats that matter. We synthesize intelligence from government agencies and industry leaders into actionable insights — so you can stay ahead without drowning in noise.<br><strong>Research = FREE.</strong> No paywalls. No registration required.</p>
+  <h1 id="hero-headline" class="display-5 fw-bold mb-3">The Threats That Matter. Weekly.</h1>
+  <p class="lead">We synthesize intelligence from government agencies and industry leaders into actionable insights — so you can stay ahead without drowning in noise. No paywalls. No registration required.</p>
 </div>
 
 <div class="py-4">
