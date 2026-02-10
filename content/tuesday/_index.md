@@ -54,6 +54,13 @@ description: "Weekly threat intelligence newsletter from FIR Risk Advisory"
         <p class="mb-0">Microsoft processes 100 trillion signals daily. Their MDDR distills it into six threat vectors — identity, cloud, AI weaponization, hybrid ransomware, ClickFix, and nation-state activity.</p>
       </div>
     </div>
+    <div class="col-12">
+      <div class="card p-4">
+        <h3 id="e72" class="h5"><a href="/tuesday/e72-cltc-cyber-insurance/">E72 - When Insurance Becomes a Security Tool</a></h3>
+        <p class="text-muted mb-2"><em>October 29, 2025</em> | CLTC White Paper — Economics of Cyber Policies</p>
+        <p class="mb-0">80% of organizations improved security specifically to qualify for cyber insurance. UC Berkeley's CLTC research reveals insurance as the most effective security lever we have.</p>
+      </div>
+    </div>
   </div>
 </div>
 
