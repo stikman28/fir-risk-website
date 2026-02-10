@@ -15,6 +15,13 @@ Weekly newsletter covering the threats that matter. We synthesize intelligence f
 
 ## Latest Editions
 
+### [E78 - Three Flags, One Target](/tuesday/e78-cert-eu-cyber-brief/)
+*February 10, 2026* | CERT-EU Cyber Brief — January 2026
+
+China, Russia, and North Korea hit Western critical infrastructure simultaneously. Salt Typhoon, Sandworm, Contagious Interview — plus 6 actively exploited zero-days.
+
+---
+
 ### [E77 - The Threat Your Security Stack Can't See](/tuesday/e77-wiz-ciso-budget-survey/)
 *February 3, 2026* | Wiz CISO Budget Survey 2026
 

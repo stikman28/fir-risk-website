@@ -15,6 +15,7 @@ Weekly newsletter covering the threats that matter to cyber, fraud, and risk tea
 
 **Latest Editions:**
 
+- [E78 - Three Flags, One Target](/tuesday/e78-cert-eu-cyber-brief/) — Salt Typhoon, Sandworm, Contagious Interview, 6 zero-days
 - [E77 - The Threat Your Security Stack Can't See](/tuesday/e77-wiz-ciso-budget-survey/) — Shadow AI, Tool Sprawl, CISO Budgets
 - [E76 - Ransomware's Profit Problem](/tuesday/e76-guidepoint-ransomware/) — When profits shrink, attackers industrialize
 - [E75 - When Attackers Move Faster Than You Can Think](/tuesday/e75-fortinet-predictions/) — AI agents hunting autonomously
