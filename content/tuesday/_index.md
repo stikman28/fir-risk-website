@@ -3,59 +3,57 @@ title: "FIR Risk Tuesday"
 description: "Weekly threat intelligence newsletter from FIR Risk Advisory"
 ---
 
-# FIR Risk Tuesday
+<div class="hero-section text-center py-4 mb-4">
+  <h1 id="hero-headline" class="display-5 fw-bold mb-3">FIR Risk Tuesday</h1>
+  <p class="lead">Weekly newsletter covering the threats that matter. We synthesize intelligence from government agencies and industry leaders into actionable insights — so you can stay ahead without drowning in noise.<br><strong>Research = FREE.</strong> No paywalls. No registration required.</p>
+</div>
 
-Weekly newsletter covering the threats that matter. We synthesize intelligence from government agencies and industry leaders into actionable insights—so you can stay ahead without drowning in noise.
+<div class="py-4">
+  <h2 id="latest-editions" class="mb-4">Latest Editions</h2>
 
-**Research = FREE.** No paywalls. No registration required.
+  <div class="row g-4">
+    <div class="col-12">
+      <div class="card p-4">
+        <h3 id="e78" class="h5"><a href="/tuesday/e78-cert-eu-cyber-brief/">E78 - Three Flags, One Target</a></h3>
+        <p class="text-muted mb-2"><em>February 10, 2026</em> | CERT-EU Cyber Brief — January 2026</p>
+        <p class="mb-0">China, Russia, and North Korea hit Western critical infrastructure simultaneously. Salt Typhoon, Sandworm, Contagious Interview — plus 6 actively exploited zero-days.</p>
+      </div>
+    </div>
+    <div class="col-12">
+      <div class="card p-4">
+        <h3 id="e77" class="h5"><a href="/tuesday/e77-wiz-ciso-budget-survey/">E77 - The Threat Your Security Stack Can't See</a></h3>
+        <p class="text-muted mb-2"><em>February 3, 2026</em> | Wiz CISO Budget Survey 2026</p>
+        <p class="mb-0">85% of CISOs increased cloud security spending — 56% say it's still not enough. Shadow AI is the new blind spot.</p>
+      </div>
+    </div>
+    <div class="col-12">
+      <div class="card p-4">
+        <h3 id="e76" class="h5"><a href="/tuesday/e76-guidepoint-ransomware/">E76 - Ransomware's Profit Problem</a></h3>
+        <p class="text-muted mb-2"><em>January 30, 2026</em> | GuidePoint Ransomware Report</p>
+        <p class="mb-0">When profits shrink, attackers don't quit. They industrialize. 7,515 organizations were publicly posted as ransomware victims in 2025.</p>
+      </div>
+    </div>
+    <div class="col-12">
+      <div class="card p-4">
+        <h3 id="e75" class="h5"><a href="/tuesday/e75-fortinet-predictions/">E75 - When Attackers Move Faster Than You Can Think</a></h3>
+        <p class="text-muted mb-2"><em>January 27, 2026</em> | Fortinet 2026 Threat Predictions</p>
+        <p class="mb-0">Attackers aren't just using AI — they're deploying autonomous agents that hunt, breach, and monetize without human intervention.</p>
+      </div>
+    </div>
+    <div class="col-12">
+      <div class="card p-4">
+        <h3 id="e74" class="h5"><a href="/tuesday/e74-google-cybersecurity-forecast/">E74 - Welcome to 2026</a></h3>
+        <p class="text-muted mb-2"><em>January 2, 2026</em> | Google Cybersecurity Forecast 2026</p>
+        <p class="mb-0">AI isn't just accelerating cybersecurity — it IS cybersecurity. The report that sets the tone for 2026.</p>
+      </div>
+    </div>
+  </div>
+</div>
 
-[← Back to Intelligence Hub](/intel/)
-
----
-
-## Latest Editions
-
-### [E78 - Three Flags, One Target](/tuesday/e78-cert-eu-cyber-brief/)
-*February 10, 2026* | CERT-EU Cyber Brief — January 2026
-
-China, Russia, and North Korea hit Western critical infrastructure simultaneously. Salt Typhoon, Sandworm, Contagious Interview — plus 6 actively exploited zero-days.
-
----
-
-### [E77 - The Threat Your Security Stack Can't See](/tuesday/e77-wiz-ciso-budget-survey/)
-*February 3, 2026* | Wiz CISO Budget Survey 2026
-
-85% of CISOs increased cloud security spending—56% say it's still not enough. Shadow AI is the new blind spot.
-
----
-
-### [E76 - Ransomware's Profit Problem](/tuesday/e76-guidepoint-ransomware/)
-*January 30, 2026* | GuidePoint Ransomware Report
-
-When profits shrink, attackers don't quit. They industrialize. 7,515 organizations were publicly posted as ransomware victims in 2025.
-
----
-
-### [E75 - When Attackers Move Faster Than You Can Think](/tuesday/e75-fortinet-predictions/)
-*January 27, 2026* | Fortinet 2026 Threat Predictions
-
-Attackers aren't just using AI—they're deploying autonomous agents that hunt, breach, and monetize without human intervention.
-
----
-
-### [E74 - Welcome to 2026](/tuesday/e74-google-cybersecurity-forecast/)
-*January 2, 2026* | Google Cybersecurity Forecast 2026
-
-AI isn't just accelerating cybersecurity—it IS cybersecurity. The report that sets the tone for 2026.
-
----
-
-## Subscribe
-
-Get FIR Risk Tuesday delivered to your inbox every week.
-
-[Subscribe Now →](/contact/)
-
----
+<div class="hero-section text-center py-4 mt-4">
+  <h2 id="subscribe" class="mb-3">Subscribe</h2>
+  <p class="lead mb-4">Get FIR Risk Tuesday delivered to your inbox every week.</p>
+  <a href="/contact/" class="btn btn-primary btn-lg px-5">Subscribe Now</a>
+</div>
 
 {{< section-nav prev="/intel/" prev-label="Intelligence Hub" next="/reports/" next-label="Annual Reports" >}}
