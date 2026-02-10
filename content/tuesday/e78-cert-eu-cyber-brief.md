@@ -160,6 +160,6 @@ The question is whether you've adapted faster than the threat actors.
 
 ---
 
-Find all editions: [firriskadvisory.com/blog](https://firriskadvisory.com/blog/)
+Find all editions: [FIR Risk Tuesday](/tuesday/)
 
-All 2026 newsletters and source materials: [github.com/stikman28/fir-risk-intelligence](https://github.com/stikman28/fir-risk-intelligence)
+All 2026 newsletters and source materials: [FIR Risk Intelligence on GitHub](https://github.com/stikman28/fir-risk-intelligence)
