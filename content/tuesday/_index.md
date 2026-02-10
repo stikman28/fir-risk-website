@@ -47,6 +47,13 @@ description: "Weekly threat intelligence newsletter from FIR Risk Advisory"
         <p class="mb-0">AI isn't just accelerating cybersecurity — it IS cybersecurity. The report that sets the tone for 2026.</p>
       </div>
     </div>
+    <div class="col-12">
+      <div class="card p-4">
+        <h3 id="e73" class="h5"><a href="/tuesday/e73-mddr-2025-summary/">E73 - Six Threat Vectors. One Action Plan.</a></h3>
+        <p class="text-muted mb-2"><em>November 11, 2025</em> | Microsoft Digital Defense Report 2025</p>
+        <p class="mb-0">Microsoft processes 100 trillion signals daily. Their MDDR distills it into six threat vectors — identity, cloud, AI weaponization, hybrid ransomware, ClickFix, and nation-state activity.</p>
+      </div>
+    </div>
   </div>
 </div>
 
@@ -56,4 +63,4 @@ description: "Weekly threat intelligence newsletter from FIR Risk Advisory"
   <a href="https://www.linkedin.com/build-relation/newsletter-follow?entityUrn=7190764674668265472" target="_blank" class="btn btn-primary btn-lg px-5">Subscribe on LinkedIn</a>
 </div>
 
-{{< section-nav prev="/intel/" prev-label="Intelligence Hub" next="/reports/" next-label="Annual Reports" >}}
+{{< section-nav prev="/intel/" prev-label="Intelligence Hub" next="/alerts/" next-label="INTEL Alerts" >}}
