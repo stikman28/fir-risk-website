@@ -16,14 +16,14 @@ description: "AI-powered risk intelligence platform for enterprise risk, cyberse
     <div class="col-md-4">
       <div class="card h-100 p-4">
         <h3 id="knowledge-base" class="h5">The Knowledge Base</h3>
-        <p>The foundation of everything we build. Curated from authoritative sources:</p>
+        <p>14,000+ indexed threat patterns, vulnerabilities, and attack techniques — curated from authoritative sources:</p>
         <ul>
-          <li><strong>MITRE ATT&CK</strong> — Adversary tactics, techniques, and procedures</li>
+          <li><strong>MITRE</strong> — ATT&CK, CAPEC, and CWE frameworks</li>
           <li><strong>CISA KEV</strong> — Known Exploited Vulnerabilities</li>
-          <li><strong>MITRE CAPEC</strong> — Common Attack Patterns</li>
-          <li><strong>MITRE CWE</strong> — Common Weaknesses</li>
-          <li><strong>NIST / ISO</strong> — Regulatory frameworks</li>
-          <li><strong>Proprietary Intel</strong> — Years of fraud research</li>
+          <li><strong>NIST / ISO</strong> — Regulatory and compliance frameworks</li>
+          <li><strong>Threat Intelligence</strong> — Industry reports and research</li>
+          <li><strong>Proprietary Intel</strong> — Years of fraud and risk research</li>
+          <li><strong>Your Documents</strong> — Ingest company policies, audits, and filings</li>
         </ul>
       </div>
     </div>
@@ -48,6 +48,7 @@ description: "AI-powered risk intelligence platform for enterprise risk, cyberse
           <li>Risk register with deduplication</li>
           <li>Control mapping to frameworks</li>
           <li>Threat-informed prioritization</li>
+          <li><strong>SEC filings ingestion</strong> — Ingest your 10-K, 10-Q, and proxy filings (or your competitors') for AI-powered risk benchmarking</li>
           <li>Assessment documentation</li>
         </ul>
       </div>

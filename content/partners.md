@@ -69,6 +69,7 @@ description: "FIR Risk Advisory partner network - hand-selected firms for expert
   <div class="text-center mb-3">
     <img src="/images/partners/altum-logo-retina.png" alt="Altum Strategy Group" class="img-fluid" style="max-height: 60px;">
   </div>
+
   ### Altum Strategy Group
 
   **Digital Transformation, AI Technologies, Data Protection & Privacy**

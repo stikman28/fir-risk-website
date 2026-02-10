@@ -51,8 +51,8 @@ description: "Threat intelligence and cybersecurity research from FIR Risk Advis
 
 <div class="hero-section text-center py-4 mt-4">
   <h2 id="subscribe" class="mb-3">Subscribe</h2>
-  <p class="lead mb-4">Get FIR Risk Tuesday delivered to your inbox.</p>
-  <a href="/contact/" class="btn btn-primary btn-lg px-5">Subscribe Now</a>
+  <p class="lead mb-4">Get FIR Risk Tuesday and INTEL alerts delivered to your inbox via LinkedIn.</p>
+  <a href="https://www.linkedin.com/build-relation/newsletter-follow?entityUrn=7190764674668265472" target="_blank" class="btn btn-primary btn-lg px-5">Subscribe on LinkedIn</a>
 </div>
 
 {{< section-nav prev="/solutions/" prev-label="Solutions" next="/tuesday/" next-label="FIR Risk Tuesday" >}}

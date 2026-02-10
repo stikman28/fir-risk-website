@@ -52,8 +52,8 @@ description: "Weekly threat intelligence newsletter from FIR Risk Advisory"
 
 <div class="hero-section text-center py-4 mt-4">
   <h2 id="subscribe" class="mb-3">Subscribe</h2>
-  <p class="lead mb-4">Get FIR Risk Tuesday delivered to your inbox every week.</p>
-  <a href="/contact/" class="btn btn-primary btn-lg px-5">Subscribe Now</a>
+  <p class="lead mb-4">Get FIR Risk Tuesday delivered to your inbox every week via LinkedIn.</p>
+  <a href="https://www.linkedin.com/build-relation/newsletter-follow?entityUrn=7190764674668265472" target="_blank" class="btn btn-primary btn-lg px-5">Subscribe on LinkedIn</a>
 </div>
 
 {{< section-nav prev="/intel/" prev-label="Intelligence Hub" next="/reports/" next-label="Annual Reports" >}}

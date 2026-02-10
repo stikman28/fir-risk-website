@@ -37,7 +37,7 @@ Our inaugural report establishing the fraud intelligence baseline. Covers the bi
 
 Get notified when new reports are published.
 
-[Subscribe to FIR Risk Tuesday →](/contact/)
+[Subscribe to FIR Risk Tuesday on LinkedIn →](https://www.linkedin.com/build-relation/newsletter-follow?entityUrn=7190764674668265472)
 
 ---
 
