@@ -75,6 +75,13 @@ description: "Weekly threat intelligence newsletter from FIR Risk Advisory"
         <p class="mb-0">63% of enterprises remain in the lowest two identity maturity horizons. Less than 40% govern AI agent identities. SailPoint's survey of 375 IAM decision-makers tells the story.</p>
       </div>
     </div>
+    <div class="col-12">
+      <div class="card p-4">
+        <h3 id="e69" class="h5"><a href="/tuesday/e69-orca-cloud-security/">E69 - The Cloud Is Now the Battleground</a></h3>
+        <p class="text-muted mb-2"><em>September 9, 2025</em> | Orca Security — 2025 State of Cloud Security</p>
+        <p class="mb-0">Billions of cloud assets analyzed. 84% run AI workloads — 62% with vulnerable packages. 32% unpatched. 38% with exposed databases. 85% with plaintext secrets in code.</p>
+      </div>
+    </div>
   </div>
 </div>
 
