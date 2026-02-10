@@ -61,14 +61,14 @@ description: "AI-powered risk intelligence platform for enterprise risk, cyberse
   <div class="row g-4 text-start mx-auto" style="max-width: 700px;">
     <div class="col-md-6">
       <div class="card h-100 p-3">
-        <h3 id="public-brain" class="h6">Public Brain</h3>
-        <p class="mb-0">Our knowledge base — frameworks, regulations, threat intel — lives in our secure cloud.</p>
+        <p class="mb-1"><strong>Public Brain</strong></p>
+        <p class="mb-0" style="font-size: 0.95rem;">Our knowledge base — frameworks, regulations, threat intel — lives in our secure cloud.</p>
       </div>
     </div>
     <div class="col-md-6">
       <div class="card h-100 p-3">
-        <h3 id="private-memory" class="h6">Private Memory</h3>
-        <p class="mb-0">Your data stays in your environment. Always.</p>
+        <p class="mb-1"><strong>Private Memory</strong></p>
+        <p class="mb-0" style="font-size: 0.95rem;">Your data stays in your environment. Always.</p>
       </div>
     </div>
   </div>

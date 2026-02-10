@@ -4,8 +4,8 @@ description: "FIR Risk Advisory partner network - hand-selected firms for expert
 ---
 
 <div class="hero-section text-center py-4 mb-4">
-  <h1 id="partner-network" class="display-5 fw-bold mb-3">Our Partner Network</h1>
-  <p class="lead fs-5 mb-0">Extending FIR Risk's capabilities across specialized domains.<br>Each firm is hand-selected for expertise, responsiveness, and commitment to client success.</p>
+  <h1 id="partner-network" class="display-5 fw-bold mb-3">Stronger Together</h1>
+  <p class="lead fs-5 mb-0">Cybersecurity, offensive testing, managed SOC, digital transformation — capabilities that extend what we build for you.</p>
 </div>
 
 <div class="row g-4 my-4">
