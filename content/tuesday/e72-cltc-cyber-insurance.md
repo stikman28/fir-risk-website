@@ -3,6 +3,7 @@ title: "E72 - When Insurance Becomes a Security Tool"
 description: "UC Berkeley's CLTC studied cyber insurance economics — 80% of organizations improved security specifically to qualify for coverage."
 date: 2025-10-29
 image: "/images/tuesday/e72-cltc-cyber-insurance.png"
+thumbnail: "/images/tuesday/e72-cltc-cyber-insurance.png"
 source: "CLTC White Paper — Economics of Cyber Policies for Critical Care"
 sourceUrl: "https://cltc.berkeley.edu/wp-content/uploads/2025/08/Economics_of_Cyber_Policies_for_Critical_Care.pdf"
 tags: ["Cyber Insurance", "Healthcare", "Risk Management", "CLTC", "UC Berkeley", "Compliance"]

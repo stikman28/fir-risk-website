@@ -3,6 +3,7 @@ title: "E63 - 90% of Organizations Can't Counter AI-Enabled Threats"
 description: "Accenture surveyed 2,286 executives: 90% lack maturity to counter AI-enabled threats. Only 10% reach Reinvention-Ready status. Cyberattacks surged 75% YoY. 4.8 million unfilled cybersecurity positions globally."
 date: 2025-07-16
 image: "/images/tuesday/e63-state-cybersecurity-2025.png"
+thumbnail: "/images/tuesday/e63-state-cybersecurity-2025.png"
 source: "Accenture — State of Cybersecurity Resilience 2025"
 sourceUrl: "https://www.accenture.com/us-en/insights/security/state-cybersecurity"
 tags: ["Cybersecurity", "Accenture", "AI Security", "Zero Trust", "Cyber Resilience", "Talent Gap"]

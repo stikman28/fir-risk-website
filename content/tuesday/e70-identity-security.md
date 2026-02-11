@@ -3,6 +3,7 @@ title: "E70 - Identity Is Your Security Nerve Center"
 description: "63% of enterprises remain in the lowest two identity maturity horizons. Less than 40% govern AI agent identities. SailPoint's data tells the story."
 date: 2025-09-18
 image: "/images/tuesday/e70-identity-security.png"
+thumbnail: "/images/tuesday/e70-identity-security.png"
 source: "SailPoint — The Horizons of Identity Security 2025"
 sourceUrl: "https://www.sailpoint.com/identity-library/horizons-of-identity-security"
 tags: ["Identity", "IAM", "Zero Trust", "AI", "SailPoint", "Non-Human Identity", "OWASP"]

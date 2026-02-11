@@ -3,6 +3,7 @@ title: "E74 - Welcome to 2026"
 description: "Google's Cybersecurity Forecast 2026: AI isn't just accelerating cybersecurity—it IS cybersecurity."
 date: 2026-01-02
 image: "/images/tuesday/e74-new-year.png"
+thumbnail: "/images/tuesday/e74-new-year.png"
 source: "Google Cybersecurity Forecast 2026"
 sourceUrl: "https://cloud.google.com/security/resources/cybersecurity-forecast"
 tags: ["AI", "Deepfakes", "Cloud Security", "MITRE ATT&CK"]

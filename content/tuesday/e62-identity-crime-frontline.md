@@ -3,6 +3,7 @@ title: "E62 - Identity Crime Is Now a Mental Health Crisis"
 description: "ITRC's 2025 Trends in Identity Report: identity misuse is expanding into prolonged victimization, support systems aren't keeping up, and the emotional toll is turning identity crime into a mental health crisis."
 date: 2025-07-08
 image: "/images/tuesday/e62-identity-crime-frontline.png"
+thumbnail: "/images/tuesday/e62-identity-crime-frontline.png"
 source: "ITRC — 2025 Trends in Identity Report"
 sourceUrl: "https://www.idtheftcenter.org/publication/itrc-2025-trends-in-identity-report/"
 tags: ["Identity Theft", "ITRC", "Fraud", "Mental Health", "Victim Support", "Identity Crime"]

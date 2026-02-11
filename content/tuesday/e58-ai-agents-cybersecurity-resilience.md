@@ -3,6 +3,7 @@ title: "E58 - Can AI Agents Tip the Scales Toward Defenders?"
 description: "World Economic Forum: autonomous AI agents can shift cybersecurity advantage toward defenders — proactive vulnerability remediation, self-healing networks, and coordinated global defense at microsecond speed."
 date: 2025-06-11
 image: "/images/tuesday/e58-ai-agents-cybersecurity-resilience.png"
+thumbnail: "/images/tuesday/e58-ai-agents-cybersecurity-resilience.png"
 source: "World Economic Forum — AI Agents and Cybersecurity"
 sourceUrl: "https://www.weforum.org/stories/2025/04/ai-agents-tipping-cybersecurity-scales-toward-resilience/"
 tags: ["AI Agents", "WEF", "Cyber Resilience", "Self-Healing", "Agentic AI", "Collaborative Defense"]

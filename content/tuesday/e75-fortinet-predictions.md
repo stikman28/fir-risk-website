@@ -3,6 +3,7 @@ title: "E75 - When Attackers Move Faster Than You Can Think"
 description: "Fortinet's 2026 Threat Predictions: Attackers aren't just using AI—they're deploying autonomous agents that hunt, breach, and monetize without human intervention."
 date: 2026-01-27
 image: "/images/tuesday/e75-fortinet-predictions.png"
+thumbnail: "/images/tuesday/e75-fortinet-predictions.png"
 source: "Fortinet 2026 Threat Predictions Report"
 sourceUrl: "https://www.fortinet.com/content/dam/fortinet/assets/threat-reports/report-threat-predictions-2026.pdf"
 tags: ["AI", "Ransomware", "Cloud Security", "MITRE ATT&CK"]

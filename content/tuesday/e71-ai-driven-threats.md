@@ -3,6 +3,7 @@ title: "E71 - When AI Becomes the Attacker"
 description: "Anthropic published transparent data on how their AI models are being weaponized — from ransomware development to employment fraud to automated extortion."
 date: 2025-09-30
 image: "/images/tuesday/e71-ai-driven-threats.png"
+thumbnail: "/images/tuesday/e71-ai-driven-threats.png"
 source: "Anthropic Threat Intelligence Report — Detecting & Countering Misuse"
 sourceUrl: "https://www.anthropic.com/news/detecting-countering-misuse-aug-2025"
 tags: ["AI", "Anthropic", "Ransomware", "Fraud", "Nation-State", "North Korea", "Threat Intelligence"]

@@ -3,6 +3,7 @@ title: "E69 - The Cloud Is Now the Battleground"
 description: "Orca Security analyzed billions of cloud assets. 84% run AI workloads, 62% with vulnerable packages. 32% of assets unpatched. 85% embed plaintext secrets in code."
 date: 2025-09-09
 image: "/images/tuesday/e69-orca-cloud-security.png"
+thumbnail: "/images/tuesday/e69-orca-cloud-security.png"
 source: "Orca Security — 2025 State of Cloud Security Report"
 sourceUrl: "https://orca.security/lp/2025-state-of-cloud-security-report/"
 tags: ["Cloud Security", "Orca", "AI", "Multi-Cloud", "Data Exposure", "Secrets Management"]

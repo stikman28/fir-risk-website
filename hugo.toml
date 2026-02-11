@@ -43,6 +43,31 @@ title = 'FIR Risk Advisory | Risk Intelligence. Engineered.'
     secondary = "#16393F"
     themeOpacity = "10"
 
+  # SEO: Organization schema (replaces Hinode defaults)
+  [params.schema]
+    type = "Organization"
+    name = "FIR Risk Advisory"
+    locale = "en-US"
+    github = "https://github.com/stikman28"
+    linkedin = "https://www.linkedin.com/in/brucebird/"
+    [params.schema.author]
+      name = "Bruce Bird"
+      linkedin = "https://www.linkedin.com/in/brucebird/"
+      github = "https://github.com/stikman28"
+    [params.schema.logo]
+      url = "img/logo.png"
+      width = 546
+      height = 334
+    [params.schema.image]
+      url = "img/logo.png"
+      width = 546
+      height = 334
+
+  # SEO: Open Graph fallback image
+  [params.opengraph]
+    images = ["img/logo.png"]
+    locale = "en_US"
+
 [menu]
   [[menu.main]]
     name = "Home"

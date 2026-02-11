@@ -3,6 +3,7 @@ title: "E76 - Ransomware's Profit Problem (And Why That Makes It Worse)"
 description: "GuidePoint 2026 Ransomware Report: When profits shrink, attackers don't quit. They industrialize. 7,515 organizations were publicly posted as ransomware victims in 2025."
 date: 2026-01-30
 image: "/images/tuesday/e76-guidepoint-ransomware.png"
+thumbnail: "/images/tuesday/e76-guidepoint-ransomware.png"
 source: "GuidePoint 2026 Ransomware and Cyber Threat Report"
 sourceUrl: "https://www.guidepointsecurity.com/resources/grit-2026-ransomware-and-cyber-threat-report/"
 tags: ["Ransomware", "Law Firms", "Third-Party Risk", "MITRE ATT&CK"]

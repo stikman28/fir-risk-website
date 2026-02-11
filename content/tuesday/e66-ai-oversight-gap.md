@@ -3,6 +3,7 @@ title: "E66 - Shadow AI Is Already Costing You $670,000"
 description: "IBM's 2025 Cost of a Data Breach Report: U.S. breaches hit $10.22M average, shadow AI adds $670K to breach costs, 1 in 6 breaches involve AI-powered attacks, and security AI saves $1.9M."
 date: 2025-08-06
 image: "/images/tuesday/e66-ai-oversight-gap.png"
+thumbnail: "/images/tuesday/e66-ai-oversight-gap.png"
 source: "IBM — 2025 Cost of a Data Breach Report"
 sourceUrl: "https://www.ibm.com/reports/data-breach"
 tags: ["Data Breach", "IBM", "Shadow AI", "AI Security", "Breach Costs", "Phishing"]

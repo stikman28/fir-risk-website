@@ -3,6 +3,7 @@ title: "E68 - Your Code Is Aging Faster Than You're Fixing It"
 description: "Veracode's 15th annual report: 80% of apps contain security flaws, median fix time ballooned to 252 days, 74% carry security debt, and 70% of critical debt lives in open-source dependencies."
 date: 2025-08-26
 image: "/images/tuesday/e68-state-software-security.png"
+thumbnail: "/images/tuesday/e68-state-software-security.png"
 source: "Veracode — 2025 State of Software Security"
 sourceUrl: "https://www.veracode.com/resources/analyst-reports"
 tags: ["Application Security", "Veracode", "Security Debt", "Open Source", "Software Security", "Remediation"]

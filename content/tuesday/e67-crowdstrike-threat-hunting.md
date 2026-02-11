@@ -3,6 +3,7 @@ title: "E67 - Attackers Are Running Like a Business"
 description: "CrowdStrike's threat hunting team found interactive intrusions up 27%, 81% malware-free, cloud intrusions surged 136%, and vishing exploded 442%. Electronic crime represents 73% of all interactive activity."
 date: 2025-08-19
 image: "/images/tuesday/e67-crowdstrike-threat-hunting.png"
+thumbnail: "/images/tuesday/e67-crowdstrike-threat-hunting.png"
 source: "CrowdStrike 2025 Threat Hunting Report"
 sourceUrl: "https://www.crowdstrike.com/en-us/resources/reports/threat-hunting-report/"
 tags: ["Threat Hunting", "CrowdStrike", "Vishing", "Cloud Security", "Nation-State", "Malware-Free"]
