@@ -159,6 +159,13 @@ description: "Weekly threat intelligence newsletter from FIR Risk Advisory"
         <p class="mb-0">Autonomous AI agents can shift the advantage toward defenders: proactive vulnerability remediation, self-healing networks, coordinated global defense. But attackers get AI too — microsecond-speed cyber conflict.</p>
       </div>
     </div>
+    <div class="col-12">
+      <div class="card p-4">
+        <h3 id="e57" class="h5"><a href="/tuesday/e57-red-canary-threat-detection/">E57 - 93,000 Threats Across 4 Million Endpoints</a></h3>
+        <p class="text-muted mb-2"><em>June 3, 2025</em> | Red Canary — 2025 Threat Detection Report</p>
+        <p class="mb-0">93,000 threats detected (+33% YoY). Identity attacks surged 4x. Ransomware demands hit $75M. Initial access evolving: fake CAPTCHAs, fake updates, SEO poisoning, LummaC2 infostealers.</p>
+      </div>
+    </div>
   </div>
 </div>
 
