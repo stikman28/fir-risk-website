@@ -103,6 +103,13 @@ description: "Weekly threat intelligence newsletter from FIR Risk Advisory"
         <p class="mb-0">U.S. breaches hit $10.22M average. Shadow AI adds $670K to breach costs. 1 in 6 breaches involve AI-powered attacks. But security AI saves $1.9M and cuts 80 days from breach lifecycle.</p>
       </div>
     </div>
+    <div class="col-12">
+      <div class="card p-4">
+        <h3 id="e65" class="h5"><a href="/tuesday/e65-ciso-priorities-2025/">E65 - 110 CISOs Told Us What Keeps Them Up at Night</a></h3>
+        <p class="text-muted mb-2"><em>July 29, 2025</em> | Team8 — 2025 CISO Village Survey</p>
+        <p class="mb-0">AI has taken over the CISO agenda. #1 pain point: securing AI agents (39%). 5 of the top 9 priorities are AI-related. 67% deploying agentic AI. Budgets tightening — 52% saw increases, down from 70%.</p>
+      </div>
+    </div>
   </div>
 </div>
 
