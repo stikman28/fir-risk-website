@@ -96,6 +96,13 @@ description: "Weekly threat intelligence newsletter from FIR Risk Advisory"
         <p class="mb-0">Interactive intrusions up 27% — 81% are malware-free. Cloud intrusions surged 136%. Vishing exploded 442%. Attackers are fast, credential-led, and cloud-competent.</p>
       </div>
     </div>
+    <div class="col-12">
+      <div class="card p-4">
+        <h3 id="e66" class="h5"><a href="/tuesday/e66-ai-oversight-gap/">E66 - Shadow AI Is Already Costing You $670,000</a></h3>
+        <p class="text-muted mb-2"><em>August 6, 2025</em> | IBM — 2025 Cost of a Data Breach Report</p>
+        <p class="mb-0">U.S. breaches hit $10.22M average. Shadow AI adds $670K to breach costs. 1 in 6 breaches involve AI-powered attacks. But security AI saves $1.9M and cuts 80 days from breach lifecycle.</p>
+      </div>
+    </div>
   </div>
 </div>
 
