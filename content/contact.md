@@ -8,11 +8,18 @@ description: "Contact FIR Risk Advisory - AI, data, and risk solutions"
   <p class="lead">Tell us what you're working on. We'll tell you how we can help.</p>
 </div>
 
+<div id="form-success" class="alert alert-success d-none my-4" role="alert">
+  <strong>Message sent.</strong> We'll get back to you shortly.
+</div>
+<div id="form-error" class="alert alert-danger d-none my-4" role="alert">
+  <strong>Something went wrong.</strong> Please email us directly at <a href="mailto:hello@firriskadvisory.com">hello@firriskadvisory.com</a>.
+</div>
+
 <div class="row g-4 my-4">
   <div class="col-md-7">
     <div class="card p-4">
       <h2 id="get-in-touch" class="h5 mb-3">Get in Touch</h2>
-      <form action="https://formspree.io/f/xpwzgvqr" method="POST" class="contact-form">
+      <form action="/api/contact" method="POST" class="contact-form" id="contact-form">
         <div class="mb-3">
           <label for="name" class="form-label">Name *</label>
           <input type="text" class="form-control" id="name" name="name" required>
@@ -40,7 +47,6 @@ description: "Contact FIR Risk Advisory - AI, data, and risk solutions"
           <label for="message" class="form-label">Message</label>
           <textarea class="form-control" id="message" name="message" rows="4" placeholder="Tell us about your project or question..."></textarea>
         </div>
-        <input type="hidden" name="_subject" value="New inquiry from FIR Risk Website">
         <input type="text" name="_gotcha" style="display:none">
         <button type="submit" class="btn btn-primary btn-lg">Send Message</button>
       </form>
@@ -57,5 +63,18 @@ description: "Contact FIR Risk Advisory - AI, data, and risk solutions"
     </div>
   </div>
 </div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const params = new URLSearchParams(window.location.search);
+    if (params.get('submitted') === 'true') {
+      document.getElementById('form-success').classList.remove('d-none');
+      document.getElementById('contact-form').classList.add('d-none');
+    }
+    if (params.get('error') === 'true') {
+      document.getElementById('form-error').classList.remove('d-none');
+    }
+  });
+</script>
 
 {{< section-nav prev="/about/" prev-label="About" >}}

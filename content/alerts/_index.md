@@ -39,4 +39,4 @@ description: "Real-time threat intelligence alerts from FIR Risk Advisory"
   <a href="https://www.linkedin.com/build-relation/newsletter-follow?entityUrn=7190764674668265472" target="_blank" class="btn btn-primary btn-lg px-5">Subscribe on LinkedIn</a>
 </div>
 
-{{< section-nav prev="/intel/" prev-label="Intelligence Hub" next="/tuesday/" next-label="FIR Risk Tuesday" >}}
+{{< section-nav prev="/tuesday/" prev-label="FIR Risk Tuesday" next="/reports/" next-label="Annual Reports" >}}
