@@ -145,6 +145,13 @@ description: "Weekly threat intelligence newsletter from FIR Risk Advisory"
         <p class="mb-0">50% of orgs had machine identity incidents. 79% expect 150% growth. Only 23% prioritize them. Certificate outages tripled since 2022. This is cyber debt compounding.</p>
       </div>
     </div>
+    <div class="col-12">
+      <div class="card p-4">
+        <h3 id="e59" class="h5"><a href="/tuesday/e59-iris-2025-risk-insights/">E59 - 150,000 Incidents Prove Time Is the Variable That Matters</a></h3>
+        <p class="text-muted mb-2"><em>June 17, 2025</em> | Cyentia Institute — IRIS 2025</p>
+        <p class="mb-0">150,000+ incidents over 15 years. Sixfold increase in significant incidents. Large firms 620x more likely to be targeted. Median loss $2.9M, tail risk $32M.</p>
+      </div>
+    </div>
   </div>
 </div>
 
