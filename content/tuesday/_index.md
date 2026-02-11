@@ -166,6 +166,13 @@ description: "Weekly threat intelligence newsletter from FIR Risk Advisory"
         <p class="mb-0">93,000 threats detected (+33% YoY). Identity attacks surged 4x. Ransomware demands hit $75M. Initial access evolving: fake CAPTCHAs, fake updates, SEO poisoning, LummaC2 infostealers.</p>
       </div>
     </div>
+    <div class="col-12">
+      <div class="card p-4">
+        <h3 id="e56" class="h5"><a href="/tuesday/e56-sans-threat-analysis-rundown/">E56 - 48 Minutes to Breakout</a></h3>
+        <p class="text-muted mb-2"><em>May 27, 2025</em> | SANS — Threat Analysis Rundown with Katie Nickels</p>
+        <p class="mb-0">Three reports, one message: credential abuse, phishing, and vuln exploitation dominate. Breakout time: 48 minutes. Ransomware +37%. Dwell time down to 11 days. 79% of detections involve legitimate tools.</p>
+      </div>
+    </div>
   </div>
 </div>
 
