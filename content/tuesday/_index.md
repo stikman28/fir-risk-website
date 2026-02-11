@@ -152,6 +152,13 @@ description: "Weekly threat intelligence newsletter from FIR Risk Advisory"
         <p class="mb-0">150,000+ incidents over 15 years. Sixfold increase in significant incidents. Large firms 620x more likely to be targeted. Median loss $2.9M, tail risk $32M.</p>
       </div>
     </div>
+    <div class="col-12">
+      <div class="card p-4">
+        <h3 id="e58" class="h5"><a href="/tuesday/e58-ai-agents-cybersecurity-resilience/">E58 - Can AI Agents Tip the Scales Toward Defenders?</a></h3>
+        <p class="text-muted mb-2"><em>June 11, 2025</em> | World Economic Forum — AI Agents and Cybersecurity</p>
+        <p class="mb-0">Autonomous AI agents can shift the advantage toward defenders: proactive vulnerability remediation, self-healing networks, coordinated global defense. But attackers get AI too — microsecond-speed cyber conflict.</p>
+      </div>
+    </div>
   </div>
 </div>
 
