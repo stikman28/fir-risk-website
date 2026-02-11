@@ -138,6 +138,13 @@ description: "Weekly threat intelligence newsletter from FIR Risk Advisory"
         <p class="mb-0">Hospitals, schools, utilities, local governments — enterprise-grade threats, minimal defenses. UC Berkeley CLTC's five building blocks for community cyber resilience.</p>
       </div>
     </div>
+    <div class="col-12">
+      <div class="card p-4">
+        <h3 id="e60" class="h5"><a href="/tuesday/e60-machine-identity-security/">E60 - The Identities You're Not Managing Are the Ones Getting Compromised</a></h3>
+        <p class="text-muted mb-2"><em>June 24, 2025</em> | CyberArk — 2025 State of Machine Identity Security</p>
+        <p class="mb-0">50% of orgs had machine identity incidents. 79% expect 150% growth. Only 23% prioritize them. Certificate outages tripled since 2022. This is cyber debt compounding.</p>
+      </div>
+    </div>
   </div>
 </div>
 
