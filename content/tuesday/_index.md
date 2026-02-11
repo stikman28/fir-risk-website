@@ -117,6 +117,13 @@ description: "Weekly threat intelligence newsletter from FIR Risk Advisory"
         <p class="mb-0">Cyber Risk Index: 38.4 (medium). 1 billion+ accounts lack MFA. 57M high-risk emails blocked (+27% YoY). Mean patch time 41.3 days for large enterprises. All 10 riskiest CVEs were patchable — yet unpatched.</p>
       </div>
     </div>
+    <div class="col-12">
+      <div class="card p-4">
+        <h3 id="e63" class="h5"><a href="/tuesday/e63-state-cybersecurity-2025/">E63 - 90% of Organizations Can't Counter AI-Enabled Threats</a></h3>
+        <p class="text-muted mb-2"><em>July 16, 2025</em> | Accenture — State of Cybersecurity Resilience 2025</p>
+        <p class="mb-0">2,286 executives surveyed: 90% lack maturity to counter AI-enabled threats. Only 10% reach Reinvention-Ready status. Cyberattacks surged 75% YoY. 4.8M unfilled cybersecurity positions globally.</p>
+      </div>
+    </div>
   </div>
 </div>
 
