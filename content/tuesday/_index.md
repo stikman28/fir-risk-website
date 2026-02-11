@@ -110,6 +110,13 @@ description: "Weekly threat intelligence newsletter from FIR Risk Advisory"
         <p class="mb-0">AI has taken over the CISO agenda. #1 pain point: securing AI agents (39%). 5 of the top 9 priorities are AI-related. 67% deploying agentic AI. Budgets tightening — 52% saw increases, down from 70%.</p>
       </div>
     </div>
+    <div class="col-12">
+      <div class="card p-4">
+        <h3 id="e64" class="h5"><a href="/tuesday/e64-trendmicro-cyber-risk/">E64 - A Billion Accounts Without MFA</a></h3>
+        <p class="text-muted mb-2"><em>July 23, 2025</em> | Trend Micro — 2025 Cyber Risk Report</p>
+        <p class="mb-0">Cyber Risk Index: 38.4 (medium). 1 billion+ accounts lack MFA. 57M high-risk emails blocked (+27% YoY). Mean patch time 41.3 days for large enterprises. All 10 riskiest CVEs were patchable — yet unpatched.</p>
+      </div>
+    </div>
   </div>
 </div>
 
