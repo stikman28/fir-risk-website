@@ -82,6 +82,20 @@ description: "Weekly threat intelligence newsletter from FIR Risk Advisory"
         <p class="mb-0">Billions of cloud assets analyzed. 84% run AI workloads — 62% with vulnerable packages. 32% unpatched. 38% with exposed databases. 85% with plaintext secrets in code.</p>
       </div>
     </div>
+    <div class="col-12">
+      <div class="card p-4">
+        <h3 id="e68" class="h5"><a href="/tuesday/e68-state-software-security/">E68 - Your Code Is Aging Faster Than You're Fixing It</a></h3>
+        <p class="text-muted mb-2"><em>August 26, 2025</em> | Veracode — 2025 State of Software Security</p>
+        <p class="mb-0">80% of apps contain security flaws. Median fix time ballooned to 252 days. 74% carry security debt. But only 8% of flaws are both severe AND exploitable — that's your target.</p>
+      </div>
+    </div>
+    <div class="col-12">
+      <div class="card p-4">
+        <h3 id="e67" class="h5"><a href="/tuesday/e67-crowdstrike-threat-hunting/">E67 - Attackers Are Running Like a Business</a></h3>
+        <p class="text-muted mb-2"><em>August 19, 2025</em> | CrowdStrike 2025 Threat Hunting Report</p>
+        <p class="mb-0">Interactive intrusions up 27% — 81% are malware-free. Cloud intrusions surged 136%. Vishing exploded 442%. Attackers are fast, credential-led, and cloud-competent.</p>
+      </div>
+    </div>
   </div>
 </div>
 
