@@ -124,6 +124,13 @@ description: "Weekly threat intelligence newsletter from FIR Risk Advisory"
         <p class="mb-0">2,286 executives surveyed: 90% lack maturity to counter AI-enabled threats. Only 10% reach Reinvention-Ready status. Cyberattacks surged 75% YoY. 4.8M unfilled cybersecurity positions globally.</p>
       </div>
     </div>
+    <div class="col-12">
+      <div class="card p-4">
+        <h3 id="e62" class="h5"><a href="/tuesday/e62-identity-crime-frontline/">E62 - Identity Crime Is Now a Mental Health Crisis</a></h3>
+        <p class="text-muted mb-2"><em>July 8, 2025</em> | ITRC — 2025 Trends in Identity Report</p>
+        <p class="mb-0">Identity misuse is expanding into prolonged, recurring victimization. Support systems aren't keeping up. The emotional toll — stress, fear, permanent exposure — is turning identity crime into a mental health crisis.</p>
+      </div>
+    </div>
   </div>
 </div>
 
