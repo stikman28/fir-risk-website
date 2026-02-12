@@ -29,6 +29,7 @@ description: "Threat intelligence and cybersecurity research from FIR Risk Advis
         <p>Real-time alerts on emerging threats, published 2-3 times per week.</p>
         <p><code>THREAT ALERT</code> · <code>VULNERABILITY</code> · <code>SECTOR ALERT</code> · <code>TECHNIQUE</code> · <code>REGULATORY</code> · <code>TREND</code> · <code>FILING INTEL</code></p>
         <ul>
+          <li><a href="/intel/intel-3-llm-infrastructure-targeting/">INTEL-3: 91,000 Sessions — AI Infrastructure Targeting</a></li>
           <li><a href="/intel/intel-2-human-in-the-loop/">INTEL-2: Human-in-the-Loop Imperative</a></li>
           <li><a href="/intel/intel-1-law-firms-ransomware/">INTEL-1: Law Firms Are Premium Targets</a></li>
         </ul>

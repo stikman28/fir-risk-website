@@ -4,7 +4,6 @@ description: "NIST built its detection framework around one assumption: AI detec
 date: 2026-02-04
 type: "intel"
 intel_type: "TREND"
-image: "/images/intel/intel-2-human-in-the-loop.png"
 thumbnail: "/images/intel/intel-2-human-in-the-loop.png"
 tags: ["AI Security", "NIST", "CISO", "MITRE ATT&CK", "SOC"]
 ---

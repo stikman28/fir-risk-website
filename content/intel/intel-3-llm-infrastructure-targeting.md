@@ -4,10 +4,11 @@ description: "GreyNoise documented 91,000+ reconnaissance sessions against LLM d
 date: 2026-02-11
 type: "intel"
 intel_type: "TREND"
-image: "/images/intel/intel-3-llm-infrastructure-targeting.png"
 thumbnail: "/images/intel/intel-3-llm-infrastructure-targeting.png"
 tags: ["AI Security", "LLM", "MITRE ATT&CK", "MITRE ATLAS", "OWASP", "CISO"]
 ---
+
+<img src="/images/intel/intel-3-llm-infrastructure-targeting.png" alt="FIR Risk INTEL-3 - LLM Infrastructure Targeting" class="img-fluid mb-4">
 
 ## The INTEL
 

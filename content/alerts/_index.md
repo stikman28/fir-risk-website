@@ -3,6 +3,9 @@ title: "FIR Risk INTEL"
 description: "Real-time threat intelligence alerts from FIR Risk Advisory"
 ---
 
+<!-- Hide Hinode's auto-generated "No articles found" (all content is manual HTML below) -->
+<style>.list-none, .text-center.my-3 { display: none; }</style>
+
 <div class="hero-section text-center py-4 mb-4">
   <h1 id="hero-headline" class="display-5 fw-bold mb-3">Real-Time Threat Intelligence</h1>
   <p class="lead">Emerging threats, vulnerabilities, and regulatory shifts — published 2-3 times per week.<br><strong>No paywalls. No registration required.</strong></p>
@@ -16,6 +19,13 @@ description: "Real-time threat intelligence alerts from FIR Risk Advisory"
   <h2 id="all-intel" class="mb-4">All INTEL</h2>
 
   <div class="row g-4">
+    <div class="col-12">
+      <div class="card p-4">
+        <h3 id="intel-3" class="h5"><a href="/intel/intel-3-llm-infrastructure-targeting/">INTEL-3: 91,000 Sessions — Threat Actors Are Mapping Your AI Infrastructure</a></h3>
+        <p class="text-muted mb-2"><em>February 11, 2026</em> | <code>TREND</code></p>
+        <p class="mb-0">GreyNoise documented 91,000+ reconnaissance sessions against LLM deployments in January 2026. If your AI endpoints are reachable without authentication, assume they've been mapped.</p>
+      </div>
+    </div>
     <div class="col-12">
       <div class="card p-4">
         <h3 id="intel-2" class="h5"><a href="/intel/intel-2-human-in-the-loop/">INTEL-2: The Human-in-the-Loop Imperative for AI Security</a></h3>
