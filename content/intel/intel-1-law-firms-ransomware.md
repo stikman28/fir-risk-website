@@ -5,6 +5,7 @@ date: 2026-01-29
 type: "intel"
 intel_type: "SECTOR ALERT"
 image: "/images/intel/intel-1-law-firms-ransomware.png"
+thumbnail: "/images/intel/intel-1-law-firms-ransomware.png"
 tags: ["Ransomware", "Law Firms", "Legal", "MITRE ATT&CK"]
 ---
 

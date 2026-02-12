@@ -9,8 +9,6 @@ thumbnail: "/images/intel/intel-3-llm-infrastructure-targeting.png"
 tags: ["AI Security", "LLM", "MITRE ATT&CK", "MITRE ATLAS", "OWASP", "CISO"]
 ---
 
-<img src="/images/intel/intel-3-llm-infrastructure-targeting.png" alt="FIR Risk INTEL-3 - LLM Infrastructure Targeting" class="img-fluid mb-4">
-
 ## The INTEL
 
 GreyNoise documented two coordinated campaigns against global LLM deployments in January 2026. One exploited server-side request forgery (SSRF) vulnerabilities in inference APIs. The other conducted large-scale endpoint enumeration linked to a professional threat actor. Over **91,000 sessions** were recorded — systematic reconnaissance of AI services at scale.
