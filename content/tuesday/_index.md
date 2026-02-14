@@ -223,6 +223,13 @@ description: "Weekly threat intelligence newsletter from FIR Risk Advisory"
         <p class="mb-0">The independent benchmark for endpoint security. 19 vendors tested against LockBit and CL0P ransomware behaviors — most detected fewer than 50% of attack steps. Cynet and Cortex XDR achieved 100%. CrowdStrike absent. First macOS and false positive testing.</p>
       </div>
     </div>
+    <div class="col-12">
+      <div class="card p-4">
+        <h3 id="best-of-e30" class="h5"><a href="/tuesday/best-of-e30-asd-annual-cyber-threat-report/">Best of E30 - A Five Eyes Intelligence Agency Shows Its Cards</a></h3>
+        <p class="text-muted mb-2"><em>December 3, 2024</em> | Australian Signals Directorate — Annual Cyber Threat Report</p>
+        <p class="mb-0">A government intelligence perspective. 36,700 hotline calls, 82M domains blocked, 250% surge in high-priority taskings. PRC pre-positioning confirmed by Five Eyes. SMB cybercrime costs rising 8% while larger orgs decline. Risk quantification data for boards.</p>
+      </div>
+    </div>
   </div>
 </div>
 
