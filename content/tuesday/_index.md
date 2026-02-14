@@ -216,6 +216,13 @@ description: "Weekly threat intelligence newsletter from FIR Risk Advisory"
         <p class="mb-0">The strategic umbrella report. The 29-point gap between AI expectation and readiness defines 2025. 60% cite geopolitical risk, 54% name supply chain #1 challenge, 35% SMB resilience gap, 69% regulatory complexity barrier, $12.5B cybercrime costs.</p>
       </div>
     </div>
+    <div class="col-12">
+      <div class="card p-4">
+        <h3 id="best-of-e32" class="h5"><a href="/tuesday/best-of-e32-mitre-enterprise-evaluation-2024/">Best of E32 - 19 Vendors Tested. Most Missed Over Half the Attack.</a></h3>
+        <p class="text-muted mb-2"><em>December 17, 2024</em> | MITRE ATT&CK Enterprise Evaluation 2024</p>
+        <p class="mb-0">The independent benchmark for endpoint security. 19 vendors tested against LockBit and CL0P ransomware behaviors — most detected fewer than 50% of attack steps. Cynet and Cortex XDR achieved 100%. CrowdStrike absent. First macOS and false positive testing.</p>
+      </div>
+    </div>
   </div>
 </div>
 
