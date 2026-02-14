@@ -188,6 +188,13 @@ description: "Weekly threat intelligence newsletter from FIR Risk Advisory"
         <p class="mb-0">The most-cited cybersecurity report in the world. 12,000+ breaches analyzed — third-party risk doubled, ransomware surged 37%, zero-day edge exploitation up 800%, and SMBs face an 88% ransomware rate. Consolidated from E51 + E53.</p>
       </div>
     </div>
+    <div class="col-12">
+      <div class="card p-4">
+        <h3 id="best-of-e52" class="h5"><a href="/tuesday/best-of-e52-mandiant-m-trends-2025/">Best of E52 - 450,000 Hours on the Front Lines</a></h3>
+        <p class="text-muted mb-2"><em>April 29, 2025</em> | Mandiant M-Trends 2025</p>
+        <p class="mb-0">The gold standard for incident response intelligence. 450K+ hours of IR engagements — exploits lead at 33%, stolen credentials surpass phishing, North Korean IT workers at 5% of attack vectors, and the 11-day dwell time isn't what it seems.</p>
+      </div>
+    </div>
   </div>
 </div>
 
