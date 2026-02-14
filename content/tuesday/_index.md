@@ -176,6 +176,21 @@ description: "Weekly threat intelligence newsletter from FIR Risk Advisory"
   </div>
 </div>
 
+<div class="py-4">
+  <h2 id="best-of" class="mb-3">Best of the Best</h2>
+  <p class="lead mb-4">Our most impactful editions — deep analysis of the industry's most-cited annual reports. Consolidated and updated for lasting reference value.</p>
+
+  <div class="row g-4">
+    <div class="col-12">
+      <div class="card p-4">
+        <h3 id="best-of-e51" class="h5"><a href="/tuesday/best-of-e51-verizon-dbir-2025/">Best of E51 - 12,000 Breaches and the Year Everything Doubled</a></h3>
+        <p class="text-muted mb-2"><em>April 23, 2025</em> | Verizon 2025 Data Breach Investigations Report (DBIR)</p>
+        <p class="mb-0">The most-cited cybersecurity report in the world. 12,000+ breaches analyzed — third-party risk doubled, ransomware surged 37%, zero-day edge exploitation up 800%, and SMBs face an 88% ransomware rate. Consolidated from E51 + E53.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
 <div class="hero-section text-center py-4 mt-4">
   <h2 id="subscribe" class="mb-3">Subscribe</h2>
   <p class="lead mb-4">Get FIR Risk Tuesday delivered to your inbox every week via LinkedIn.</p>
