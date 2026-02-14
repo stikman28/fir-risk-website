@@ -202,6 +202,13 @@ description: "Weekly threat intelligence newsletter from FIR Risk Advisory"
         <p class="mb-0">The speed benchmark for the threat landscape. Breakout time averages 48 minutes (51-second floor), 79% of attacks are malware-free, vishing surged 442%, China-nexus espionage spiked 150%, and 35% of cloud incidents start with valid accounts.</p>
       </div>
     </div>
+    <div class="col-12">
+      <div class="card p-4">
+        <h3 id="best-of-e39" class="h5"><a href="/tuesday/best-of-e39-forescout-global-threat-roundup-2024/">Best of E39 - 900 Million Attacks and the List That Missed 73%</a></h3>
+        <p class="text-muted mb-2"><em>January 28, 2025</em> | Forescout 2024 Global Threat Roundup</p>
+        <p class="mb-0">The OT/IoT threat landscape most reports miss. 900M attacks observed — 73% of exploited vulnerabilities NOT in CISA KEV, critical infrastructure up 668% since 2022, state-sponsored at 48%, and 95% of brute force uses default credentials.</p>
+      </div>
+    </div>
   </div>
 </div>
 
