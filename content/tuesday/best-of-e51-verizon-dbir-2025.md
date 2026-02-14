@@ -9,8 +9,6 @@ sourceUrl: "https://www.verizon.com/business/resources/reports/dbir/"
 tags: ["Verizon DBIR", "Data Breaches", "Ransomware", "SMB", "Third-Party Risk", "Zero-Day", "MITRE ATT&CK", "Best Of"]
 ---
 
-<img src="/images/tuesday/best-of-e51-verizon-dbir-2025.png" alt="FIR Risk Best of E51 - Verizon DBIR 2025" class="img-fluid mb-4">
-
 *Originally published April 23, 2025 | Consolidated from E51 + E53*
 
 ## What You Need to Know
