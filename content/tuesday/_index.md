@@ -237,6 +237,20 @@ description: "Weekly threat intelligence newsletter from FIR Risk Advisory"
         <p class="mb-0">The fraud-cybercrime convergence edition. $1 trillion global fraud, 775M malware emails, 4,500 DDoS attacks daily, 83% of organizations hit multiple times. Synthetic identities, PhaaS, and patch windows compressed from weeks to 24-72 hours.</p>
       </div>
     </div>
+    <div class="col-12">
+      <div class="card p-4">
+        <h3 id="best-of-e23" class="h5"><a href="/tuesday/best-of-e23-atlantic-council-information-influence-activities/">Best of E23 - The War You Can't See</a></h3>
+        <p class="text-muted mb-2"><em>October 15, 2024</em> | Atlantic Council Freedom and Prosperity Center</p>
+        <p class="mb-0">The information warfare edition. The IIA taxonomy — disinformation, misinformation, malinformation, propaganda — and Russia's documented playbook. AI as force multiplier for influence operations. Your SOC isn't built to detect the threat that costs more than ransomware.</p>
+      </div>
+    </div>
+    <div class="col-12">
+      <div class="card p-4">
+        <h3 id="best-of-e21" class="h5"><a href="/tuesday/best-of-e21-enisa-threat-landscape-2024/">Best of E21 - Europe's Threat Map and the Seven Threats That Define the Landscape</a></h3>
+        <p class="text-muted mb-2"><em>October 1, 2024</em> | ENISA Threat Landscape 2024</p>
+        <p class="mb-0">The regulatory authority's view. Seven prime threats mapped to MITRE ATT&CK, ISO 27001, and NIST CSF v2.0. Public admin absorbs 19% of attacks. LOTS technique abuses trusted cloud services. FraudGPT operational. $25M deepfake loss. When ENISA identifies threats, NIS2 compliance follows.</p>
+      </div>
+    </div>
   </div>
 </div>
 
