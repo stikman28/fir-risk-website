@@ -195,6 +195,13 @@ description: "Weekly threat intelligence newsletter from FIR Risk Advisory"
         <p class="mb-0">The gold standard for incident response intelligence. 450K+ hours of IR engagements — exploits lead at 33%, stolen credentials surpass phishing, North Korean IT workers at 5% of attack vectors, and the 11-day dwell time isn't what it seems.</p>
       </div>
     </div>
+    <div class="col-12">
+      <div class="card p-4">
+        <h3 id="best-of-e45" class="h5"><a href="/tuesday/best-of-e45-crowdstrike-global-threat-2025/">Best of E45 - 51 Seconds to Breakout</a></h3>
+        <p class="text-muted mb-2"><em>March 11, 2025</em> | CrowdStrike 2025 Global Threat Report</p>
+        <p class="mb-0">The speed benchmark for the threat landscape. Breakout time averages 48 minutes (51-second floor), 79% of attacks are malware-free, vishing surged 442%, China-nexus espionage spiked 150%, and 35% of cloud incidents start with valid accounts.</p>
+      </div>
+    </div>
   </div>
 </div>
 
