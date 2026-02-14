@@ -230,6 +230,13 @@ description: "Weekly threat intelligence newsletter from FIR Risk Advisory"
         <p class="mb-0">A government intelligence perspective. 36,700 hotline calls, 82M domains blocked, 250% surge in high-priority taskings. PRC pre-positioning confirmed by Five Eyes. SMB cybercrime costs rising 8% while larger orgs decline. Risk quantification data for boards.</p>
       </div>
     </div>
+    <div class="col-12">
+      <div class="card p-4">
+        <h3 id="best-of-e24" class="h5"><a href="/tuesday/best-of-e24-microsoft-digital-defense-report-2024/">Best of E24 - $1 Trillion in Fraud and 775 Million Malware Emails</a></h3>
+        <p class="text-muted mb-2"><em>October 22, 2024</em> | Microsoft Digital Defense Report 2024</p>
+        <p class="mb-0">The fraud-cybercrime convergence edition. $1 trillion global fraud, 775M malware emails, 4,500 DDoS attacks daily, 83% of organizations hit multiple times. Synthetic identities, PhaaS, and patch windows compressed from weeks to 24-72 hours.</p>
+      </div>
+    </div>
   </div>
 </div>
 
