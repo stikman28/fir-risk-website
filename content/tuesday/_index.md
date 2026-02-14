@@ -209,6 +209,13 @@ description: "Weekly threat intelligence newsletter from FIR Risk Advisory"
         <p class="mb-0">The OT/IoT threat landscape most reports miss. 900M attacks observed — 73% of exploited vulnerabilities NOT in CISA KEV, critical infrastructure up 668% since 2022, state-sponsored at 48%, and 95% of brute force uses default credentials.</p>
       </div>
     </div>
+    <div class="col-12">
+      <div class="card p-4">
+        <h3 id="best-of-e36" class="h5"><a href="/tuesday/best-of-e36-wef-global-cybersecurity-outlook-2025/">Best of E36 - 66% Say AI Will Reshape Cybersecurity. Only 37% Are Ready.</a></h3>
+        <p class="text-muted mb-2"><em>January 14, 2025</em> | WEF Global Cybersecurity Outlook 2025</p>
+        <p class="mb-0">The strategic umbrella report. The 29-point gap between AI expectation and readiness defines 2025. 60% cite geopolitical risk, 54% name supply chain #1 challenge, 35% SMB resilience gap, 69% regulatory complexity barrier, $12.5B cybercrime costs.</p>
+      </div>
+    </div>
   </div>
 </div>
 
