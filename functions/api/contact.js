@@ -23,8 +23,8 @@ export async function onRequestPost(context) {
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
-        from: "FIR Risk Website <onboarding@resend.dev>",
-        to: "hello@firriskadvisory.com",
+        from: "FIR Risk Website <noreply@firrisk.ai>",
+        to: "hello@firrisk.ai",
         reply_to: email,
         subject: `Website Inquiry from ${name}`,
         text: [
