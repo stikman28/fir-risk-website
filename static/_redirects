@@ -1,0 +1,18 @@
+# Cloudflare Pages Redirects
+# WordPress (firriskadvisory.com) → Hugo URL mapping
+# These handle visitors arriving via old WordPress URLs
+
+# Main pages with different slugs
+/contact-us/                    /contact/           301
+/services/                      /solutions/         301
+/about-us/                      /about/             301
+/privacy-policy/                /privacy/           301
+
+# Content sections
+/blog/                          /tuesday/           301
+/fraud-database/                /intel/             301
+/fraud-risk-advisory-news/      /intel/             301
+/fir-risk-quarterly-reports/    /reports/fir-2025/  301
+
+# www to apex redirect
+https://www.firrisk.ai/*        https://firrisk.ai/:splat  301
