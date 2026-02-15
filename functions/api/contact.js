@@ -1,5 +1,3 @@
-import { EmailMessage } from "cloudflare:email";
-
 export async function onRequestPost(context) {
   try {
     const formData = await context.request.formData();
@@ -18,33 +16,34 @@ export async function onRequestPost(context) {
     const interest = formData.get("interest") || "General";
     const message = formData.get("message") || "No message";
 
-    // Construct raw MIME email
-    const mimeEmail = [
-      "MIME-Version: 1.0",
-      "From: FIR Risk Website <noreply@firriskadvisory.com>",
-      "To: hello@firriskadvisory.com",
-      `Reply-To: ${name} <${email}>`,
-      `Subject: Website Inquiry from ${name}`,
-      "Content-Type: text/plain; charset=utf-8",
-      "",
-      "New inquiry from the FIR Risk website:",
-      "",
-      `Name: ${name}`,
-      `Email: ${email}`,
-      `Company: ${company}`,
-      `Interest: ${interest}`,
-      "",
-      "Message:",
-      message,
-    ].join("\r\n");
+    const response = await fetch("https://api.resend.com/emails", {
+      method: "POST",
+      headers: {
+        "Authorization": `Bearer ${context.env.RESEND_API_KEY}`,
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        from: "FIR Risk Website <onboarding@resend.dev>",
+        to: "hello@firriskadvisory.com",
+        reply_to: email,
+        subject: `Website Inquiry from ${name}`,
+        text: [
+          "New inquiry from the FIR Risk website:",
+          "",
+          `Name: ${name}`,
+          `Email: ${email}`,
+          `Company: ${company}`,
+          `Interest: ${interest}`,
+          "",
+          "Message:",
+          message,
+        ].join("\n"),
+      }),
+    });
 
-    const msg = new EmailMessage(
-      "noreply@firriskadvisory.com",
-      "hello@firriskadvisory.com",
-      mimeEmail
-    );
-
-    await context.env.EMAIL.send(msg);
+    if (!response.ok) {
+      throw new Error(`Resend API error: ${response.status}`);
+    }
 
     return new Response(null, {
       status: 302,

@@ -12,7 +12,7 @@ description: "Contact FIR Risk Advisory - AI, data, and risk solutions"
   <strong>Message sent.</strong> We'll get back to you shortly.
 </div>
 <div id="form-error" class="alert alert-danger d-none my-4" role="alert">
-  <strong>Something went wrong.</strong> Please email us directly at <a href="mailto:hello@firriskadvisory.com">hello@firriskadvisory.com</a>.
+  <strong>Something went wrong.</strong> Please email us directly at <a href="mailto:hello@firrisk.ai">hello@firrisk.ai</a>.
 </div>
 
 <div class="row g-4 my-4">
@@ -57,7 +57,7 @@ description: "Contact FIR Risk Advisory - AI, data, and risk solutions"
       <h2 id="direct-contact" class="h5 mb-3">Direct Contact</h2>
       <p class="mb-1" style="font-weight: 600;">Bruce Bird</p>
       <p class="text-muted mb-3">Founder, FIR Risk Advisory</p>
-      <p class="mb-2"><strong>Email:</strong> <a href="mailto:hello@firriskadvisory.com">hello@firriskadvisory.com</a></p>
+      <p class="mb-2"><strong>Email:</strong> <a href="mailto:hello@firrisk.ai">hello@firrisk.ai</a></p>
       <p class="mb-2"><strong>Phone:</strong> +1-970-689-2473</p>
       <p class="mb-0"><strong>Location:</strong> Berthoud, Colorado</p>
     </div>
