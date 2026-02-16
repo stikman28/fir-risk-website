@@ -8,9 +8,6 @@ source: "Veracode — 2025 State of Software Security"
 sourceUrl: "https://www.veracode.com/resources/analyst-reports"
 tags: ["Application Security", "Veracode", "Security Debt", "Open Source", "Software Security", "Remediation"]
 ---
-
-<img src="/images/tuesday/e68-state-software-security.png" alt="FIR Risk E68 - State of Software Security" class="img-fluid mb-4">
-
 By FIR Risk Advisory | Cybersecurity Fraud Intelligence
 
 ## Weekly Risk Intelligence Brief

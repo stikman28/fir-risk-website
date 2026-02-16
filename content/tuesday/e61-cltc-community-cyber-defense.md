@@ -8,9 +8,6 @@ source: "UC Berkeley CLTC — The Roadmap to Community Cyber Defense"
 sourceUrl: "https://cltc.berkeley.edu/publication/roadmap-to-community-cybersecurity/"
 tags: ["Community Defense", "CLTC", "Public Sector", "Policy", "CISA", "Resilience"]
 ---
-
-<img src="/images/tuesday/e61-cltc-community-cyber-defense.png" alt="FIR Risk E61 - CLTC Community Cyber Defense" class="img-fluid mb-4">
-
 By FIR Risk Advisory | Cybersecurity Fraud Intelligence
 
 ## Weekly Risk Intelligence Brief

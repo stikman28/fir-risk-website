@@ -8,9 +8,6 @@ source: "CLTC White Paper — Economics of Cyber Policies for Critical Care"
 sourceUrl: "https://cltc.berkeley.edu/wp-content/uploads/2025/08/Economics_of_Cyber_Policies_for_Critical_Care.pdf"
 tags: ["Cyber Insurance", "Healthcare", "Risk Management", "CLTC", "UC Berkeley", "Compliance"]
 ---
-
-<img src="/images/tuesday/e72-cltc-cyber-insurance.png" alt="FIR Risk E72 - CLTC Cyber Insurance Economics" class="img-fluid mb-4">
-
 By FIR Risk Advisory | Cybersecurity Fraud Intelligence
 
 ## Weekly Risk Intelligence Brief

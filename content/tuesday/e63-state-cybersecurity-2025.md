@@ -8,9 +8,6 @@ source: "Accenture — State of Cybersecurity Resilience 2025"
 sourceUrl: "https://www.accenture.com/us-en/insights/security/state-cybersecurity"
 tags: ["Cybersecurity", "Accenture", "AI Security", "Zero Trust", "Cyber Resilience", "Talent Gap"]
 ---
-
-<img src="/images/tuesday/e63-state-cybersecurity-2025.png" alt="FIR Risk E63 - State of Cybersecurity 2025" class="img-fluid mb-4">
-
 By FIR Risk Advisory | Cybersecurity Fraud Intelligence
 
 ## Weekly Risk Intelligence Brief

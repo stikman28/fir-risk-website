@@ -9,8 +9,6 @@ sourceUrl: "https://cert.europa.eu/publications/threat-intelligence/cb26-02/"
 tags: ["Nation-State", "Salt Typhoon", "Sandworm", "Critical Infrastructure", "Zero-Day", "CERT-EU", "MITRE ATT&CK"]
 ---
 
-<img src="/images/tuesday/e78-cert-eu-cyber-brief.png" alt="FIR Risk E78 - CERT-EU Cyber Brief January 2026" class="img-fluid mb-4">
-
 ## What You Need to Know
 
 CERT-EU analyzed 268 open-source reports for their January 2026 Cyber Brief. One pattern jumps off the page: **China, Russia, and North Korea all hit Western critical infrastructure in the same month.**

@@ -7,9 +7,6 @@ intel_type: "TREND"
 thumbnail: "/images/intel/intel-2-human-in-the-loop.png"
 tags: ["AI Security", "NIST", "CISO", "MITRE ATT&CK", "SOC"]
 ---
-
-<img src="/images/intel/intel-2-human-in-the-loop.png" alt="FIR Risk INTEL-2 - Human in the Loop AI Security" class="img-fluid mb-4">
-
 ## The INTEL
 
 NIST built its entire detection and response framework around a single assumption: AI detects, humans validate.

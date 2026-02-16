@@ -8,9 +8,6 @@ source: "Wiz CISO Budget Survey Report 2026"
 sourceUrl: "https://www.wiz.io/reports/ciso-security-budget-benchmark-2026"
 tags: ["CISO", "Cloud Security", "Shadow AI", "AI Governance", "Tool Sprawl"]
 ---
-
-<img src="/images/tuesday/e77-wiz-ciso-budget-survey.png" alt="FIR Risk E77 - Wiz CISO Budget Survey 2026" class="img-fluid mb-4">
-
 ## What You Need to Know
 
 CISOs are spending more on security than ever—and falling further behind. The Wiz CISO Budget Survey reveals a troubling paradox: 85% of organizations increased cloud security budgets this year, yet 56% of CISOs say it's still not enough.

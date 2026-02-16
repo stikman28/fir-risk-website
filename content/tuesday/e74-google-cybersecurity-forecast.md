@@ -8,9 +8,6 @@ source: "Google Cybersecurity Forecast 2026"
 sourceUrl: "https://cloud.google.com/security/resources/cybersecurity-forecast"
 tags: ["AI", "Deepfakes", "Cloud Security", "MITRE ATT&CK"]
 ---
-
-<img src="/images/tuesday/e74-new-year.png" alt="FIR Risk E74 - Welcome to 2026" class="img-fluid mb-4">
-
 ## What You Need to Know
 
 Welcome to 2026—a new chapter for FIR Risk Tuesday. This year brings more content, more detailed risk intelligence to help you navigate our rapidly changing world.

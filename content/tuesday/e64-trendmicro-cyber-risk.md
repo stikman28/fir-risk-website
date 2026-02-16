@@ -8,9 +8,6 @@ source: "Trend Micro — 2025 Cyber Risk Report"
 sourceUrl: "https://www.trendmicro.com/vinfo/us/security/news/threat-landscape/trend-2025-cyber-risk-report"
 tags: ["Cyber Risk", "Trend Micro", "MFA", "Patching", "Ransomware", "Email Security"]
 ---
-
-<img src="/images/tuesday/e64-trendmicro-cyber-risk.png" alt="FIR Risk E64 - Trend Micro Cyber Risk" class="img-fluid mb-4">
-
 By FIR Risk Advisory | Cybersecurity Fraud Intelligence
 
 ## Weekly Risk Intelligence Brief

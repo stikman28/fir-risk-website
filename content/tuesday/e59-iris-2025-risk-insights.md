@@ -8,9 +8,6 @@ source: "Cyentia Institute — IRIS 2025"
 sourceUrl: "https://cyentia.com/iris"
 tags: ["Cyber Risk", "Cyentia", "IRIS", "Risk Quantification", "Enterprise Security", "Financial Impact"]
 ---
-
-<img src="/images/tuesday/e59-iris-2025-risk-insights.png" alt="FIR Risk E59 - IRIS 2025 Risk Insights" class="img-fluid mb-4">
-
 By FIR Risk Advisory | Cybersecurity Fraud Intelligence
 
 ## Weekly Risk Intelligence Brief

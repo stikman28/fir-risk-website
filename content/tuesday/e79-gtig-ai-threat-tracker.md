@@ -9,8 +9,6 @@ sourceUrl: "https://cloud.google.com/blog/topics/threat-intelligence/distillatio
 tags: ["AI", "GTIG", "Google", "APT31", "APT42", "HONESTCUE", "COINBAIT", "Model Extraction", "MITRE ATT&CK", "Nation-State"]
 ---
 
-<img src="/images/tuesday/e79-gtig-ai-threat-tracker.png" alt="FIR Risk E79 - GTIG AI Threat Tracker" class="img-fluid mb-4">
-
 ## What You Need to Know
 
 Google Threat Intelligence Group just published their latest AI Threat Tracker — and the findings should change how every security leader thinks about AI deployment.

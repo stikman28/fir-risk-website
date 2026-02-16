@@ -8,9 +8,6 @@ source: "Anthropic Threat Intelligence Report — Detecting & Countering Misuse"
 sourceUrl: "https://www.anthropic.com/news/detecting-countering-misuse-aug-2025"
 tags: ["AI", "Anthropic", "Ransomware", "Fraud", "Nation-State", "North Korea", "Threat Intelligence"]
 ---
-
-<img src="/images/tuesday/e71-ai-driven-threats.png" alt="FIR Risk E71 - AI-Driven Threats" class="img-fluid mb-4">
-
 By FIR Risk Advisory | Cybersecurity Fraud Intelligence
 
 ## Weekly Risk Intelligence Brief

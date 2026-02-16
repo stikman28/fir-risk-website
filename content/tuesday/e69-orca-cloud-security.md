@@ -8,9 +8,6 @@ source: "Orca Security — 2025 State of Cloud Security Report"
 sourceUrl: "https://orca.security/lp/2025-state-of-cloud-security-report/"
 tags: ["Cloud Security", "Orca", "AI", "Multi-Cloud", "Data Exposure", "Secrets Management"]
 ---
-
-<img src="/images/tuesday/e69-orca-cloud-security.png" alt="FIR Risk E69 - Orca State of Cloud Security" class="img-fluid mb-4">
-
 By FIR Risk Advisory | Cybersecurity Fraud Intelligence
 
 ## Weekly Risk Intelligence Brief

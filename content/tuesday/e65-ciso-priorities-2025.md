@@ -8,9 +8,6 @@ source: "Team8 — 2025 CISO Village Survey"
 sourceUrl: "https://team8.vc/rethink/ciso-survey-2025"
 tags: ["CISO", "AI Security", "Agentic AI", "Shadow AI", "Team8", "SOC"]
 ---
-
-<img src="/images/tuesday/e65-ciso-priorities-2025.png" alt="FIR Risk E65 - CISO Priorities 2025" class="img-fluid mb-4">
-
 By FIR Risk Advisory | Cybersecurity Fraud Intelligence
 
 ## Weekly Risk Intelligence Brief

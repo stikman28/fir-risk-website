@@ -8,9 +8,6 @@ source: "GuidePoint 2026 Ransomware and Cyber Threat Report"
 sourceUrl: "https://www.guidepointsecurity.com/resources/grit-2026-ransomware-and-cyber-threat-report/"
 tags: ["Ransomware", "Law Firms", "Third-Party Risk", "MITRE ATT&CK"]
 ---
-
-<img src="/images/tuesday/e76-guidepoint-ransomware.png" alt="FIR Risk E76 - GuidePoint Ransomware Annual Report 2026" class="img-fluid mb-4">
-
 ## The Counterintuitive Truth About Ransomware in 2026
 
 Ransomware payments dropped 35% last year. Median ransom demands collapsed from $9.9 million to under $3 million. Sixty-four percent of victims refused to pay—up from 50% just two years ago.

@@ -8,9 +8,6 @@ source: "SailPoint — The Horizons of Identity Security 2025"
 sourceUrl: "https://www.sailpoint.com/identity-library/horizons-of-identity-security"
 tags: ["Identity", "IAM", "Zero Trust", "AI", "SailPoint", "Non-Human Identity", "OWASP"]
 ---
-
-<img src="/images/tuesday/e70-identity-security.png" alt="FIR Risk E70 - Identity Security 2025-2026" class="img-fluid mb-4">
-
 By FIR Risk Advisory | Cybersecurity Fraud Intelligence
 
 ## Weekly Risk Intelligence Brief

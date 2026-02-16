@@ -8,9 +8,6 @@ source: "CrowdStrike 2025 Threat Hunting Report"
 sourceUrl: "https://www.crowdstrike.com/en-us/resources/reports/threat-hunting-report/"
 tags: ["Threat Hunting", "CrowdStrike", "Vishing", "Cloud Security", "Nation-State", "Malware-Free"]
 ---
-
-<img src="/images/tuesday/e67-crowdstrike-threat-hunting.png" alt="FIR Risk E67 - CrowdStrike Threat Hunting" class="img-fluid mb-4">
-
 By FIR Risk Advisory | Cybersecurity Fraud Intelligence
 
 ## Weekly Risk Intelligence Brief

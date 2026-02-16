@@ -8,9 +8,6 @@ source: "Red Canary — 2025 Threat Detection Report"
 sourceUrl: "https://redcanary.com/threat-detection-report/"
 tags: ["Threat Detection", "Red Canary", "Ransomware", "Identity", "Infostealers", "MITRE ATT&CK"]
 ---
-
-<img src="/images/tuesday/e57-red-canary-threat-detection.png" alt="FIR Risk E57 - Red Canary Threat Detection" class="img-fluid mb-4">
-
 By FIR Risk Advisory | Cybersecurity Fraud Intelligence
 
 ## Weekly Risk Intelligence Brief

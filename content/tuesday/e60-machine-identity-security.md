@@ -8,9 +8,6 @@ source: "CyberArk — 2025 State of Machine Identity Security"
 sourceUrl: "https://www.cyberark.com/resources/white-papers/2025-state-of-machine-identity-security-report"
 tags: ["Machine Identity", "CyberArk", "Certificates", "AI Security", "Zero Trust", "Cyber Debt"]
 ---
-
-<img src="/images/tuesday/e60-machine-identity-security.png" alt="FIR Risk E60 - Machine Identity Security" class="img-fluid mb-4">
-
 By FIR Risk Advisory | Cybersecurity Fraud Intelligence
 
 ## Weekly Risk Intelligence Brief

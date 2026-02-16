@@ -7,9 +7,6 @@ intel_type: "SECTOR ALERT"
 thumbnail: "/images/intel/intel-1-law-firms-ransomware.png"
 tags: ["Ransomware", "Law Firms", "Legal", "MITRE ATT&CK"]
 ---
-
-<img src="/images/intel/intel-1-law-firms-ransomware.png" alt="FIR Risk INTEL-1 - Law Firms Ransomware" class="img-fluid mb-4">
-
 ## The INTEL
 
 Law firms paid ransoms at a **41% rate in 2025**—about 14% more often than the cross-sector average of 36%.

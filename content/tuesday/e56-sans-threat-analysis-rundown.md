@@ -8,9 +8,6 @@ source: "SANS — Threat Analysis Rundown with Katie Nickels"
 sourceUrl: "https://www.sans.org/"
 tags: ["SANS", "Mandiant", "CrowdStrike", "Verizon DBIR", "Ransomware", "Threat Intelligence"]
 ---
-
-<img src="/images/tuesday/e56-sans-threat-analysis-rundown.png" alt="FIR Risk E56 - SANS Threat Analysis Rundown" class="img-fluid mb-4">
-
 By FIR Risk Advisory | Cybersecurity Fraud Intelligence
 
 ## Weekly Risk Intelligence Brief

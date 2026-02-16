@@ -8,9 +8,6 @@ source: "IBM — 2025 Cost of a Data Breach Report"
 sourceUrl: "https://www.ibm.com/reports/data-breach"
 tags: ["Data Breach", "IBM", "Shadow AI", "AI Security", "Breach Costs", "Phishing"]
 ---
-
-<img src="/images/tuesday/e66-ai-oversight-gap.png" alt="FIR Risk E66 - The AI Oversight Gap" class="img-fluid mb-4">
-
 By FIR Risk Advisory | Cybersecurity Fraud Intelligence
 
 ## Weekly Risk Intelligence Brief

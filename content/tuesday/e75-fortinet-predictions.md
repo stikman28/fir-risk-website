@@ -8,9 +8,6 @@ source: "Fortinet 2026 Threat Predictions Report"
 sourceUrl: "https://www.fortinet.com/content/dam/fortinet/assets/threat-reports/report-threat-predictions-2026.pdf"
 tags: ["AI", "Ransomware", "Cloud Security", "MITRE ATT&CK"]
 ---
-
-<img src="/images/tuesday/e75-fortinet-predictions.png" alt="FIR Risk E75 - Fortinet 2026 Threat Predictions" class="img-fluid mb-4">
-
 ## 2026: The Year Cybercrime Becomes a Machine
 
 Fortinet's 2026 Threat Predictions report delivers a sobering message: attackers aren't just using AI—they're deploying autonomous agents that hunt, breach, and monetize without human intervention. The attack lifecycle that once took days now takes hours. Sometimes minutes.

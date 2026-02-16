@@ -8,9 +8,6 @@ source: "Microsoft Digital Defense Report 2025"
 sourceUrl: "https://www.microsoft.com/en-us/security/security-insider/microsoft-digital-defense-report-2025"
 tags: ["Microsoft", "MDDR", "Identity", "Cloud Security", "Ransomware", "ClickFix", "AI", "Nation-State"]
 ---
-
-<img src="/images/tuesday/e73-mddr-2025-summary.png" alt="FIR Risk E73 - MDDR 2025 Summary" class="img-fluid mb-4">
-
 By FIR Risk Advisory | Cybersecurity Fraud Intelligence
 
 ## Weekly Risk Intelligence Brief

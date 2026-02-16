@@ -8,9 +8,6 @@ source: "World Economic Forum — AI Agents and Cybersecurity"
 sourceUrl: "https://www.weforum.org/stories/2025/04/ai-agents-tipping-cybersecurity-scales-toward-resilience/"
 tags: ["AI Agents", "WEF", "Cyber Resilience", "Self-Healing", "Agentic AI", "Collaborative Defense"]
 ---
-
-<img src="/images/tuesday/e58-ai-agents-cybersecurity-resilience.png" alt="FIR Risk E58 - AI Agents Cybersecurity" class="img-fluid mb-4">
-
 By FIR Risk Advisory | Cybersecurity Fraud Intelligence
 
 ## Weekly Risk Intelligence Brief

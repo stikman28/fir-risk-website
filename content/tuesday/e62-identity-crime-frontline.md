@@ -8,9 +8,6 @@ source: "ITRC — 2025 Trends in Identity Report"
 sourceUrl: "https://www.idtheftcenter.org/publication/itrc-2025-trends-in-identity-report/"
 tags: ["Identity Theft", "ITRC", "Fraud", "Mental Health", "Victim Support", "Identity Crime"]
 ---
-
-<img src="/images/tuesday/e62-identity-crime-frontline.png" alt="FIR Risk E62 - Identity Crime Frontline" class="img-fluid mb-4">
-
 By FIR Risk Advisory | Cybersecurity Fraud Intelligence
 
 ## Weekly Risk Intelligence Brief
