@@ -14,6 +14,13 @@ description: "Weekly threat intelligence newsletter from FIR Risk Advisory"
   <div class="row g-4">
     <div class="col-12">
       <div class="card p-4">
+        <h3 id="e79" class="h5"><a href="/tuesday/e79-gtig-ai-threat-tracker/">E79 - Same AI, Different Mission</a></h3>
+        <p class="text-muted mb-2"><em>February 17, 2026</em> | GTIG AI Threat Tracker — February 2026</p>
+        <p class="mb-0">Seven state-sponsored groups weaponize Gemini across the full attack lifecycle. HONESTCUE malware calls AI APIs at runtime. Model extraction at 100K+ prompts. ClickFix on trusted AI platforms.</p>
+      </div>
+    </div>
+    <div class="col-12">
+      <div class="card p-4">
         <h3 id="e78" class="h5"><a href="/tuesday/e78-cert-eu-cyber-brief/">E78 - Three Flags, One Target</a></h3>
         <p class="text-muted mb-2"><em>February 10, 2026</em> | CERT-EU Cyber Brief — January 2026</p>
         <p class="mb-0">China, Russia, and North Korea hit Western critical infrastructure simultaneously. Salt Typhoon, Sandworm, Contagious Interview — plus 6 actively exploited zero-days.</p>
