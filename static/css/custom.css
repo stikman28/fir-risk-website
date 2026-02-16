@@ -114,8 +114,8 @@
 /* Post hero images — show full image without cropping
    Overrides Hinode's .img-wrap img { object-fit: cover } which clips top/bottom */
 .content .img-wrap img {
-  height: auto;
-  object-fit: initial;
+  height: auto !important;
+  object-fit: initial !important;
 }
 
 /* Tables - cleaner look */
