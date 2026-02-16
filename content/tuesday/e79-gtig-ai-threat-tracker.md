@@ -1,7 +1,7 @@
 ---
 title: "E79 - Same AI, Different Mission"
 description: "GTIG AI Threat Tracker: Seven state-sponsored groups weaponize Gemini across the full attack lifecycle. HONESTCUE malware calls AI APIs at runtime. Model extraction at 100K+ prompts. ClickFix campaigns hosted on trusted AI platforms."
-date: 2026-02-17
+date: 2026-02-16
 image: "/images/tuesday/e79-gtig-ai-threat-tracker.png"
 thumbnail: "/images/tuesday/e79-gtig-ai-threat-tracker.png"
 source: "GTIG AI Threat Tracker — February 12, 2026"

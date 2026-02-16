@@ -1,6 +1,7 @@
 baseURL = 'https://firrisk.ai/'
 languageCode = 'en-us'
 title = 'FIR Risk Advisory | Risk Intelligence. Engineered.'
+buildFuture = true
 
 # Hinode theme via Hugo modules
 [module]
