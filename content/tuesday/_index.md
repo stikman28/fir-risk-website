@@ -14,6 +14,13 @@ description: "Weekly threat intelligence newsletter from FIR Risk Advisory"
   <div class="row g-4">
     <div class="col-12">
       <div class="card p-4">
+        <h3 id="e81" class="h5"><a href="/tuesday/e81-unit42-incident-response-debrief/">E81 - 72 Minutes</a></h3>
+        <p class="text-muted mb-2"><em>March 3, 2026</em> | Unit 42 Global Incident Response Report 2026</p>
+        <p class="mb-0">Unit 42 analyzed 750+ incidents. 90% were preventable. Exfiltration in 72 minutes. Identity is the skeleton key. AI compresses the kill chain. Supply chains are nation-state highways. A debrief on the report that should reshape every security strategy.</p>
+      </div>
+    </div>
+    <div class="col-12">
+      <div class="card p-4">
         <h3 id="e80" class="h5"><a href="/tuesday/e80-wef-knowing-doing-gap/">E80 - From Knowing to Doing</a></h3>
         <p class="text-muted mb-2"><em>February 24, 2026</em> | World Economic Forum — February 2026</p>
         <p class="mb-0">Three WEF reports in one week expose the same gap: 87% flag AI vulnerabilities as top risk, fewer than 1% govern AI responsibly, and quantum harvest-now-decrypt-later is already underway. The knowing-doing gap is where risk lives.</p>

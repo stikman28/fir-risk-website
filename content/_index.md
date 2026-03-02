@@ -57,12 +57,31 @@ description: "AI solutions, data platforms, and risk intelligence—grounded in 
   <h2 id="fir-risk-intelligence" class="mb-3">FIR Risk Intelligence</h2>
   <p class="lead mb-4">Original threat research, delivered weekly. <strong>No paywalls.</strong></p>
 
+  <div class="card p-0 mb-4 overflow-hidden">
+    <div class="row g-0">
+      <div class="col-md-5">
+        <a href="/tuesday/e81-unit42-incident-response-debrief/">
+          <img src="/images/tuesday/e81-unit42-incident-response-debrief.png" class="img-fluid w-100 h-100" style="object-fit: cover;" alt="FIR Risk E81 - 72 Minutes">
+        </a>
+      </div>
+      <div class="col-md-7 d-flex align-items-center">
+        <div class="p-4">
+          <span class="badge bg-primary mb-2">Latest Edition</span>
+          <h3 class="h4 mb-2"><a href="/tuesday/e81-unit42-incident-response-debrief/" class="text-decoration-none">E81 — 72 Minutes</a></h3>
+          <p class="text-muted mb-1"><em>March 3, 2026</em> | Unit 42 Global Incident Response Report 2026</p>
+          <p class="mb-3">Unit 42 analyzed 750+ incidents. 90% were preventable. Exfiltration in 72 minutes. Identity is the skeleton key. AI compresses the kill chain. Supply chains are nation-state highways.</p>
+          <a href="/tuesday/e81-unit42-incident-response-debrief/" class="btn btn-primary">Read Now →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <div class="row g-4">
     <div class="col-md-6">
       <div class="card h-100 p-4">
         <h3 id="fir-risk-tuesday" class="h5">FIR Risk Tuesday</h3>
         <p>Weekly newsletter on the threats that matter to cyber, fraud, and risk teams.</p>
-        <a href="/tuesday/" class="fw-semibold">Read Latest →</a>
+        <a href="/tuesday/" class="fw-semibold">All Editions →</a>
       </div>
     </div>
     <div class="col-md-6">

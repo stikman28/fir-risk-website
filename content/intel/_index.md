@@ -15,10 +15,10 @@ description: "Threat intelligence and cybersecurity research from FIR Risk Advis
         <h3 id="fir-risk-tuesday" class="h5">FIR Risk Tuesday</h3>
         <p>Weekly newsletter covering the threats that matter to cyber, fraud, and risk teams. Ransomware trends. Supply chain attacks. Regulatory changes. MITRE technique breakdowns.</p>
         <ul>
+          <li><a href="/tuesday/e81-unit42-incident-response-debrief/">E81 - 72 Minutes</a></li>
           <li><a href="/tuesday/e80-wef-knowing-doing-gap/">E80 - From Knowing to Doing</a></li>
           <li><a href="/tuesday/e79-gtig-ai-threat-tracker/">E79 - Same AI, Different Mission</a></li>
           <li><a href="/tuesday/e78-cert-eu-cyber-brief/">E78 - Three Flags, One Target</a></li>
-          <li><a href="/tuesday/e77-wiz-ciso-budget-survey/">E77 - The Threat Your Security Stack Can't See</a></li>
         </ul>
         <a href="/tuesday/" class="fw-semibold">View All Newsletters →</a>
       </div>
