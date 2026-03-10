@@ -48,8 +48,10 @@ description: "Contact FIR Risk Advisory - AI, data, and risk solutions"
           <textarea class="form-control" id="message" name="message" rows="4" placeholder="Tell us about your project or question..."></textarea>
         </div>
         <input type="text" name="_gotcha" style="display:none">
+        <div class="cf-turnstile mb-3" data-sitekey="0x4AAAAAACoyw8lLBVOhI2a1" data-theme="light"></div>
         <button type="submit" class="btn btn-primary btn-lg">Send Message</button>
       </form>
+      <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
     </div>
   </div>
   <div class="col-md-5">

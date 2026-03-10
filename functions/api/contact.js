@@ -10,6 +10,36 @@ export async function onRequestPost(context) {
       });
     }
 
+    // Turnstile verification
+    const turnstileToken = formData.get("cf-turnstile-response");
+    if (!turnstileToken) {
+      return new Response(null, {
+        status: 302,
+        headers: { Location: "/contact/?error=true" },
+      });
+    }
+
+    const turnstileResponse = await fetch(
+      "https://challenges.cloudflare.com/turnstile/v0/siteverify",
+      {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          secret: context.env.TURNSTILE_SECRET_KEY,
+          response: turnstileToken,
+          remoteip: context.request.headers.get("CF-Connecting-IP"),
+        }),
+      }
+    );
+
+    const turnstileResult = await turnstileResponse.json();
+    if (!turnstileResult.success) {
+      return new Response(null, {
+        status: 302,
+        headers: { Location: "/contact/?error=true" },
+      });
+    }
+
     const name = formData.get("name") || "Unknown";
     const email = formData.get("email") || "not provided";
     const company = formData.get("company") || "Not provided";
