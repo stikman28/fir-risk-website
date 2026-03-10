@@ -60,17 +60,17 @@ description: "AI solutions, data platforms, and risk intelligence—grounded in 
   <div class="card p-0 mb-4 overflow-hidden">
     <div class="row g-0">
       <div class="col-md-5">
-        <a href="/tuesday/e81-unit42-incident-response-debrief/">
-          <img src="/images/tuesday/e81-unit42-incident-response-debrief.png" class="img-fluid w-100 h-100" style="object-fit: cover;" alt="FIR Risk E81 - 72 Minutes">
+        <a href="/tuesday/e82-cloudflare-threat-landscape/">
+          <img src="/images/tuesday/e82-cloudflare-threat-landscape.png" class="img-fluid w-100 h-100" style="object-fit: cover;" alt="FIR Risk E82 - Blending In">
         </a>
       </div>
       <div class="col-md-7 d-flex align-items-center">
         <div class="p-4">
           <span class="badge bg-primary mb-2">Latest Edition</span>
-          <h3 class="h4 mb-2"><a href="/tuesday/e81-unit42-incident-response-debrief/" class="text-decoration-none">E81 — 72 Minutes</a></h3>
-          <p class="text-muted mb-1"><em>March 3, 2026</em> | Unit 42 Global Incident Response Report 2026</p>
-          <p class="mb-3">Unit 42 analyzed 750+ incidents. 90% were preventable. Exfiltration in 72 minutes. Identity is the skeleton key. AI compresses the kill chain. Supply chains are nation-state highways.</p>
-          <a href="/tuesday/e81-unit42-incident-response-debrief/" class="btn btn-primary">Read Now →</a>
+          <h3 class="h4 mb-2"><a href="/tuesday/e82-cloudflare-threat-landscape/" class="text-decoration-none">E82 — Blending In</a></h3>
+          <p class="text-muted mb-1"><em>March 9, 2026</em> | 2026 Cloudflare Threat Report</p>
+          <p class="mb-3">Cloudflare processes 20% of global internet traffic. Their inaugural threat report reveals attackers have stopped breaking in — they're blending in. 94% of login attempts are bots. 63% of human logins use compromised credentials.</p>
+          <a href="/tuesday/e82-cloudflare-threat-landscape/" class="btn btn-primary">Read Now →</a>
         </div>
       </div>
     </div>

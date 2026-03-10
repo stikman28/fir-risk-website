@@ -14,6 +14,13 @@ description: "Weekly threat intelligence newsletter from FIR Risk Advisory"
   <div class="row g-4">
     <div class="col-12">
       <div class="card p-4">
+        <h3 id="e82" class="h5"><a href="/tuesday/e82-cloudflare-threat-landscape/">E82 - Blending In</a></h3>
+        <p class="text-muted mb-2"><em>March 9, 2026</em> | 2026 Cloudflare Threat Report</p>
+        <p class="mb-0">Cloudflare processes 20% of global internet traffic. Their inaugural threat report reveals attackers have stopped breaking in — they're blending in. 94% of login attempts are bots. 63% of human logins use compromised credentials. Living off XaaS is the new attack model.</p>
+      </div>
+    </div>
+    <div class="col-12">
+      <div class="card p-4">
         <h3 id="e81" class="h5"><a href="/tuesday/e81-unit42-incident-response-debrief/">E81 - 72 Minutes</a></h3>
         <p class="text-muted mb-2"><em>March 3, 2026</em> | Unit 42 Global Incident Response Report 2026</p>
         <p class="mb-0">Unit 42 analyzed 750+ incidents. 90% were preventable. Exfiltration in 72 minutes. Identity is the skeleton key. AI compresses the kill chain. Supply chains are nation-state highways. A debrief on the report that should reshape every security strategy.</p>
