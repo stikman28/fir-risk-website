@@ -37,7 +37,7 @@ If you use the FIR Risk Platform, your data is governed by a separate data proce
 
 ## Third-Party Services
 
-- **Formspree** — Processes contact form submissions ([Formspree Privacy Policy](https://formspree.io/legal/privacy-policy/))
+- **Resend** — Processes contact form submissions ([Resend Privacy Policy](https://resend.com/legal/privacy-policy))
 - **Cloudflare** — Hosts this website and provides analytics ([Cloudflare Privacy Policy](https://www.cloudflare.com/privacypolicy/))
 - **LinkedIn** — Manages newsletter subscriptions ([LinkedIn Privacy Policy](https://www.linkedin.com/legal/privacy-policy))
 

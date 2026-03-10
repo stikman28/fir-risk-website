@@ -18,8 +18,7 @@ buildFuture = true
   description = "AI-powered risk intelligence for cyber, fraud, and compliance teams"
   tagline = "Risk Intelligence. Engineered."
   author = "Bruce Bird"
-  email = "bbird@firriskadvisory.com"
-  phone = "+1-970-689-2473"
+  email = "hello@firrisk.ai"
   location = "Berthoud, Colorado"
 
   [params.navigation]

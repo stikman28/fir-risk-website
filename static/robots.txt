@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://firriskadvisory.com/sitemap.xml
+Sitemap: https://firrisk.ai/sitemap.xml
