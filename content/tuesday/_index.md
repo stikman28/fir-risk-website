@@ -14,6 +14,20 @@ description: "Weekly threat intelligence newsletter from FIR Risk Advisory"
   <div class="row g-4">
     <div class="col-12">
       <div class="card p-4">
+        <h3 id="e84" class="h5"><a href="/tuesday/e84-digital-parasite/">E84 - The Digital Parasite</a></h3>
+        <p class="text-muted mb-2"><em>March 17, 2026</em> | Picus Red Report 2026</p>
+        <p class="mb-0">Picus Labs analyzed 1.1 million malicious files and 15.5 million adversarial actions. 80% of the top 10 MITRE ATT&CK techniques are now dedicated to evasion and persistence — not disruption. Ransomware encryption declined 38%. Credential theft is now double encryption. The adversary's primary success metric is dwell time.</p>
+      </div>
+    </div>
+    <div class="col-12">
+      <div class="card p-4">
+        <h3 id="e83" class="h5"><a href="/tuesday/e83-crowdstrike-global-threat-report/">E83 - The Convergence</a></h3>
+        <p class="text-muted mb-2"><em>March 13, 2026</em> | CrowdStrike 2026 Global Threat Report</p>
+        <p class="mb-0">CrowdStrike tracks 281 adversaries. The fastest breakout time: 27 seconds. 82% of intrusions are malware-free. Three major 2026 threat reports in three weeks converge on one conclusion — identity is the perimeter, cloud is the battlefield, and traditional security models are defending against yesterday's threat landscape.</p>
+      </div>
+    </div>
+    <div class="col-12">
+      <div class="card p-4">
         <h3 id="e82" class="h5"><a href="/tuesday/e82-cloudflare-threat-landscape/">E82 - Blending In</a></h3>
         <p class="text-muted mb-2"><em>March 9, 2026</em> | 2026 Cloudflare Threat Report</p>
         <p class="mb-0">Cloudflare processes 20% of global internet traffic. Their inaugural threat report reveals attackers have stopped breaking in — they're blending in. 94% of login attempts are bots. 63% of human logins use compromised credentials. Living off XaaS is the new attack model.</p>

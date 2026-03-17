@@ -60,17 +60,17 @@ description: "AI solutions, data platforms, and risk intelligence—grounded in 
   <div class="card p-0 mb-4 overflow-hidden">
     <div class="row g-0">
       <div class="col-md-5">
-        <a href="/tuesday/e82-cloudflare-threat-landscape/">
-          <img src="/images/tuesday/e82-cloudflare-threat-landscape.png" class="img-fluid w-100 h-100" style="object-fit: cover;" alt="FIR Risk E82 - Blending In">
+        <a href="/tuesday/e84-digital-parasite/">
+          <img src="/images/tuesday/e84-picus-red-report.png" class="img-fluid w-100 h-100" style="object-fit: cover;" alt="FIR Risk E84 - The Digital Parasite">
         </a>
       </div>
       <div class="col-md-7 d-flex align-items-center">
         <div class="p-4">
           <span class="badge bg-primary mb-2">Latest Edition</span>
-          <h3 class="h4 mb-2"><a href="/tuesday/e82-cloudflare-threat-landscape/" class="text-decoration-none">E82 — Blending In</a></h3>
-          <p class="text-muted mb-1"><em>March 9, 2026</em> | 2026 Cloudflare Threat Report</p>
-          <p class="mb-3">Cloudflare processes 20% of global internet traffic. Their inaugural threat report reveals attackers have stopped breaking in — they're blending in. 94% of login attempts are bots. 63% of human logins use compromised credentials.</p>
-          <a href="/tuesday/e82-cloudflare-threat-landscape/" class="btn btn-primary">Read Now →</a>
+          <h3 class="h4 mb-2"><a href="/tuesday/e84-digital-parasite/" class="text-decoration-none">E84 — The Digital Parasite</a></h3>
+          <p class="text-muted mb-1"><em>March 17, 2026</em> | Picus Red Report 2026</p>
+          <p class="mb-3">Picus Labs analyzed 1.1 million malicious files. 80% of the top 10 MITRE ATT&CK techniques are now dedicated to evasion and persistence — not disruption. Ransomware encryption declined 38%. Credential theft is now twice as prevalent. The adversary's primary success metric is dwell time.</p>
+          <a href="/tuesday/e84-digital-parasite/" class="btn btn-primary">Read Now →</a>
         </div>
       </div>
     </div>
