@@ -14,6 +14,13 @@ description: "Weekly threat intelligence newsletter from FIR Risk Advisory"
   <div class="row g-4">
     <div class="col-12">
       <div class="card p-4">
+        <h3 id="e85" class="h5"><a href="/tuesday/e85-responders-report/">E85 - The Responder's Report</a></h3>
+        <p class="text-muted mb-2"><em>March 24, 2026</em> | Mandiant M-Trends 2026</p>
+        <p class="mb-0">Built on 500,000+ hours of incident response across 83 campaigns and 73 countries. Voice phishing surges to #2 vector at 11%. Ransomware operators industrialize recovery denial — destroying backups, identity, and virtualization before encrypting. First AI-powered malware families confirmed. The 22-second handoff has replaced the detection window.</p>
+      </div>
+    </div>
+    <div class="col-12">
+      <div class="card p-4">
         <h3 id="e84" class="h5"><a href="/tuesday/e84-digital-parasite/">E84 - The Digital Parasite</a></h3>
         <p class="text-muted mb-2"><em>March 17, 2026</em> | Picus Red Report 2026</p>
         <p class="mb-0">Picus Labs analyzed 1.1 million malicious files and 15.5 million adversarial actions. 80% of the top 10 MITRE ATT&CK techniques are now dedicated to evasion and persistence — not disruption. Ransomware encryption declined 38%. Credential theft is now double encryption. The adversary's primary success metric is dwell time.</p>

@@ -1,0 +1,231 @@
+---
+title: "E85 - The Responder's Report"
+description: "Mandiant M-Trends 2026 — built on 500,000+ hours of incident response across 83 campaigns and 73 countries. Voice phishing surges to #2 vector, ransomware operators industrialize recovery denial, and the first AI-powered malware families are confirmed in the wild."
+date: 2026-03-24
+image: "/images/tuesday/e85-m-trends-2026.png"
+thumbnail: "/images/tuesday/e85-m-trends-2026.png"
+source: "Mandiant M-Trends 2026 — March 2026"
+sourceUrl: "https://cloud.google.com/security/resources/m-trends"
+tags: ["Mandiant", "M-Trends", "Incident Response", "Voice Phishing", "Ransomware", "Recovery Denial", "AI Malware", "MITRE ATT&CK", "Identity Security", "Cloud Security", "Risk Management", "Threat Intelligence"]
+---
+
+## Bottom Line
+
+The first four reports told you what's coming. This one tells you what the responders actually found when they arrived.
+
+Mandiant's M-Trends 2026 is built on over 500,000 hours of frontline incident response across 83 campaigns and 73 countries. Where Unit 42 showed speed, Cloudflare showed infrastructure, CrowdStrike showed scale, and Picus showed technique — Mandiant shows the aftermath. What the investigators find when they walk into a compromised environment. And what they found in 2025 should change how every organization thinks about risk.
+
+Three findings define this report. First, **voice phishing has risen to the #2 initial infection vector at 11%** — the breach increasingly starts with a phone call, not a phishing email. Second, **ransomware operators have industrialized recovery denial**, systematically destroying backups, identity services, and virtualization infrastructure before encryption even begins. Third, **malware now queries AI models mid-execution** to adapt its behavior in real time — the first generation of truly AI-powered attack tools observed in the wild.
+
+Global median dwell time rose to **14 days from 11** — the first increase since Mandiant began tracking in 2010. The long-term trend toward faster detection has reversed, driven by espionage operations and DPRK IT workers maintaining access for months. Meanwhile, the handoff between initial access brokers and ransomware operators has collapsed to a median of **22 seconds** — down from over 8 hours in 2022.
+
+This is our fifth consecutive deep dive into a 2026 annual threat report, following [Unit 42 (E81)](/tuesday/e81-unit42-incident-response-debrief/), [Cloudflare (E82)](/tuesday/e82-cloudflare-threat-landscape/), [CrowdStrike (E83)](/tuesday/e83-crowdstrike-global-threat-report/), and [Picus (E84)](/tuesday/e84-digital-parasite/). With each new report, the convergence sharpens — and the organizations still defending against yesterday's threats are already compromised.
+
+---
+
+## Key Judgments
+
+**1. The breach starts with a phone call.** Voice phishing rose to 11% of initial infection vectors while email phishing collapsed from 14% to 6%. Your security stack was built to analyze bits — adversaries switched to voices. Email filters, sandbox detonation, URL scanning — none of it applies to a conversation where the attacker adapts in real time. *High confidence — confirmed by Mandiant IR data across all regions.*
+
+**2. Recovery is now the primary target, not the systems themselves.** Ransomware operators systematically destroy backup infrastructure, compromise identity providers, and seize virtualization management planes before encrypting anything. Mandiant calls this "Trusted Service Infrastructure" (TSI) targeting. Organizations are forced to disconnect their own identity providers to halt the spread — triggering self-inflicted business outages regardless of whether they pay. *High confidence — dedicated M-Trends article with multiple case studies.*
+
+**3. Malware now thinks.** PROMPTFLUX and PROMPTSTEAL actively query large language models during execution to modify their behavior and evade detection in real time. QUIETVAULT targets AI development environments through NPM supply chain compromise, harvesting GitHub tokens and AI CLI credentials. This is not theoretical — these are observed malware families from 2025 incident response engagements. *High confidence — confirmed in Mandiant investigations.*
+
+**4. The 22-second window has replaced the detection window.** The median time between initial access and handoff to a ransomware operator is now 22 seconds — down from over 8 hours in 2022. A 1,300x compression in three years. Low-impact initial infections escalate to full ransomware deployments before security teams can triage the first alert. *High confidence — based on Mandiant's direct observation of hand-off patterns.*
+
+**5. Dwell time is rising again — and that's not an accident.** Global median dwell time increased to 14 days from 11, the first reversal since 2010. Espionage groups like UNC6201 (linked to Silk Typhoon) maintained average dwell times of 390 days using BRICKSTORM backdoors on virtualization infrastructure. DPRK IT workers averaged 122 days. The adversaries staying longest are the ones doing the most damage. *High confidence — driven by espionage and insider threat data.*
+
+---
+
+## Three Critical Shifts
+
+The M-Trends data reveals three fundamental changes that explain why the responders are finding what they're finding:
+
+**From Emails to Voices.** The collapse of email phishing (22% in 2022 → 6% in 2025) and simultaneous rise of voice phishing (to 11%) represents a deliberate adversary pivot. UNC6040 used vishing to convince targets to authorize attacker-controlled SaaS applications, leading to data theft and ShinyHunters-branded extortion months later. UNC3944 (Scattered Spider) specifically researched and targeted help desk staff — the people trained to be helpful — impersonating employees requesting password resets and MFA changes. The help desk, designed as an access recovery mechanism, has become the primary attack surface.
+
+**From Encryption to Erasure.** E84 showed ransomware encryption dropped 38%. M-Trends shows why: they don't need to encrypt when they can destroy your ability to recover. In one case, threat actors compromised backup management servers to extract administrative passwords for storage controllers and cloud accounts, then executed broad-scale deletion commands wiping millions of backup objects. In another, attackers deleted backup configurations from the backup server, unlinking the virtualization environment — the data existed on immutable storage but was inaccessible through the backup platform, requiring weeks of vendor engagement to restore. The encryption decline wasn't retreat. It was evolution.
+
+**From Tools to Intelligence.** PROMPTFLUX and PROMPTSTEAL represent a category-defining shift: malware that queries AI to decide what to do next. Combined with "distillation attacks" that extract proprietary logic from machine learning models, and AI-accelerated reconnaissance that compresses weeks of target profiling into hours, the AI integration Mandiant observed isn't experimental. It's operational. But Mandiant is careful to note: "we don't consider 2025 to be the year where breaches were the direct result of AI." The technology is accelerating existing methods, not replacing them. The human and systemic failures remain the root cause.
+
+> **INTEL [GLOBAL] [FINDING]:** The convergence of voice-based social engineering (11%), recovery denial as doctrine, and AI-powered malware creates a threat environment where traditional security architectures are systematically outmatched at every layer — human, infrastructure, and detection. Organizations defending against email phishing, protecting endpoints, and maintaining accessible backups are fighting three wars that have already moved on.
+
+---
+
+## Evidence
+
+### The Voice Shift: 11% Vishing, 6% Email
+
+When Mandiant arrived at breach scenes in 2025, they found something the email security industry doesn't want to hear: **email phishing has collapsed as an initial infection vector.** From 22% in 2022 to 17% in 2023 to 14% in 2024 to just 6% in 2025. Meanwhile, voice phishing rose to 11% — nearly double email — becoming the second most common way organizations get breached.
+
+The most devastating campaigns weren't crude robocalls. **UNC6040** ran a sophisticated multi-phase operation spanning the first half of 2025: voice calls convinced targets to provide credentials and authorize attacker-controlled versions of legitimate SaaS applications. Organizations later received ShinyHunters-branded extortion notes demanding payment for the non-release of stolen data. The significant time gap between initial data theft and extortion — tracked separately as UNC6240 — complicated incident response timelines and made attribution harder.
+
+**UNC3944 (Scattered Spider)** took a different approach, specifically targeting help desk staff. Active since early 2022 and overlapping with public Scattered Spider reporting, UNC3944 impersonated employees requesting password resets and MFA setting changes. They researched targets by name and role before calling. The help desk — the function designed to restore access — became the function that granted it to adversaries.
+
+In cloud-specific investigations, the picture was even starker: **voice phishing was the #1 initial infection vector for cloud compromises at 23%**, followed by third-party compromise (17%) and stolen credentials (16%). The cloud, which organizations migrated to for better security, is being breached primarily through phone calls.
+
+> **INTEL [GLOBAL] [TREND]:** Email phishing has collapsed from 22% (2022) to 6% (2025) while voice phishing rose to 11% globally and 23% for cloud-specific compromises. The adversary has identified that the human voice bypasses every technical control organizations have spent decades building.
+
+---
+
+### The 22-Second Handoff
+
+In 2022, Mandiant observed a median time of more than 8 hours between an initial access broker gaining entry and a secondary threat group beginning operations. By 2025, that median had collapsed to **22 seconds.**
+
+This isn't a gradual shift. It's a 1,300x compression in three years. The cybercrime ecosystem has industrialized to the point where initial access partners deliver malware directly on behalf of ransomware operators rather than advertising access on underground forums. The time between a low-impact initial infection and a full-blown ransomware deployment is now shorter than the time it takes most security teams to read an alert.
+
+Mandiant documented this pattern through the partnership between **UNC1543** and **UNC2165** (linked to Evil Corp). UNC1543 gains access opportunistically through drive-by downloads distributing FAKEUPDATES. In one case, Mandiant observed approximately 70 minutes of inactivity between the FAKEUPDATES infection and the handoff to UNC2165. Once active, UNC2165 established persistent SSH tunnels, dumped credentials, moved laterally throughout the network, staged terabytes of data using cloud file sync utilities — and then destroyed system backups before deploying RansomHub ransomware.
+
+The implication for defenders: **a minor infection today can be a ransomware attack tomorrow — or in 22 seconds.** Organizations hunting solely for high-impact TTPs may not have high-priority detections in place for the low-impact initial access that precedes them.
+
+> **INTEL [GLOBAL] [THREAT ALERT]:** The median handoff time from initial access broker to ransomware operator collapsed from 8+ hours (2022) to 22 seconds (2025). Low-impact initial infections now escalate to full ransomware deployments faster than most security teams can triage an alert.
+
+---
+
+### Recovery Denied: The New Ransomware Doctrine
+
+Mandiant's article "Ransomware is Now a Resilience Problem" is the most operationally significant piece in this year's report. The thesis: **the traditional framing of ransomware as encryption plus data theft no longer captures reality.** Ransomware operators have made recovery denial their primary objective.
+
+They target three pillars of what Mandiant calls **Trusted Service Infrastructure (TSI)**:
+
+- **Backup infrastructure** — Attackers compromise backup management servers, extract stored credentials, then execute broad-scale deletion commands. In one case, millions of backup objects were wiped from cloud storage and dozens of local system backups were deleted. In another, attackers unlinked backup configurations from the virtualization platform — the immutable backup data still existed but was inaccessible through the backup interface, requiring lengthy vendor engagement.
+
+- **Identity services** — Attackers exploit misconfigured Active Directory Certificate Services to issue certificates and create admin accounts that bypass MFA and are excluded from password rotation. When identity is fundamentally compromised, defenders face a "Greenfield" recovery — rebuilding the entire AD forest from scratch while operations remain impacted. Restoration timelines stretch from days to weeks.
+
+- **Virtualization management planes** — Rather than encrypting individual VMs, attackers target the hypervisor itself. They deploy custom malware like FOULFOG.LINUX and INC.LINUX that shut down running VMs and encrypt datastore files (.VMDKs and .VMEMs) directly. One Akira attack encrypted most virtualized servers including network telemetry logging, causing complete loss of investigative visibility.
+
+The result: **organizations trigger self-inflicted business outages** by preemptively disconnecting their own identity providers to halt the spread. Business is disrupted whether they pay or not. The attacker has shifted from holding data hostage to holding the organization's ability to function hostage.
+
+> **INTEL [GLOBAL] [FINDING]:** Ransomware operators have industrialized recovery denial — systematically targeting backup infrastructure, identity services, and virtualization management planes before encryption begins. The encryption decline documented in E84 (38% drop) is explained by M-Trends: adversaries no longer need to encrypt when they can destroy the ability to recover.
+
+---
+
+### AI Malware: The First Generation
+
+Mandiant confirmed what many feared but few had observed in the wild: **malware that actively queries large language models during execution.**
+
+**PROMPTFLUX** and **PROMPTSTEAL** represent a new category of threat. These malware families query LLMs mid-execution to dynamically modify their behavior and evade detection systems in real time. This isn't AI being used for reconnaissance or social engineering preparation — it's AI integrated directly into the malware's runtime decision-making.
+
+**QUIETVAULT** represents a parallel threat: malware specifically targeting AI infrastructure. Discovered through an NPM package manager supply chain compromise, QUIETVAULT checks whether AI command-line interface tools are installed on the targeted machine. If found, it executes a predefined prompt to search for configuration files, then attempts to collect GitHub and NPM tokens and copy them to a publicly accessible repository. The adversary isn't just using AI — they're hunting organizations that use AI, targeting the credentials and infrastructure that power enterprise AI development.
+
+Mandiant frames threat actor AI adoption in tiers: less sophisticated actors use AI to overcome technical skill gaps (often making detectable errors), APT groups use it to accelerate operational tempo, and state-sponsored actors integrate LLM-powered intelligence analysis for strategic targeting. But the report strikes a measured note: despite increasing AI integration in the early phases of attacks, **"we don't consider 2025 to be the year where breaches were the direct result of AI."** The breaches still stem from human and systemic failures. AI is the accelerant, not the ignition.
+
+> **INTEL [GLOBAL] [THREAT]:** PROMPTFLUX and PROMPTSTEAL are the first observed malware families that query LLMs mid-execution to adapt behavior in real time. QUIETVAULT targets AI development environments through supply chain compromise. AI-powered malware is no longer theoretical — it was observed in 2025 incident response engagements.
+
+---
+
+### The Dwell Time Paradox
+
+For the first time since Mandiant began tracking in 2010, **global median dwell time increased** — rising to 14 days from 11 in 2024. This reverses a 15-year trend of steady decline (from 416 days in 2011).
+
+The paradox: organizations are simultaneously detecting breaches faster AND adversaries are staying longer. Both are true because different threat actors optimize for different things.
+
+**Ransomware-related dwell time remained at 9 days** — fast operators focused on speed to encryption. But **espionage-motivated intrusions averaged 122 days**, and DPRK IT worker operations matched that figure. The most extreme case: **UNC6201 (linked to Silk Typhoon)**, a PRC-nexus cyber espionage cluster using the BRICKSTORM backdoor, maintained an average dwell time of **390 days** — over a year undetected in targeted environments.
+
+UNC6201 focused on network edge appliances that sit outside EDR coverage, cloned sensitive virtual machines including SSO identity providers and PAM systems, and blended in by using legitimate credentials for what appeared to be normal system administrator activity. Similarly, **UNC5807 (consistent with Salt Typhoon)** systematically exploited vulnerabilities in VPN solutions and routers to target telecommunications backbones, harvesting TACACS+ and RADIUS authentication protocols using packet capture tools native to the compromised appliances.
+
+The good news buried in the data: **internal detection rose to 52%** (from 43% in 2024), meaning organizations are catching more breaches themselves. External entity notifications declined from 43% to 34%. But 14% of compromises were still first detected when the adversary announced themselves — typically through a ransom demand.
+
+> **INTEL [GLOBAL] [ANOMALY]:** Global median dwell time rose to 14 days — first increase since 2010. The reversal is driven by espionage operations (122-day median) and state-sponsored campaigns like BRICKSTORM (390 days) that prioritize persistence over speed. Ransomware dwell time remained at 9 days, creating a bimodal distribution.
+
+---
+
+### The Enterprise Application Zero-Days
+
+The most frequently exploited vulnerabilities in 2025 Mandiant investigations were all zero-days targeting internet-facing enterprise web applications:
+
+- **SAP NetWeaver** (CVE-2025-31324) — An improper authorization flaw in the Metadata Uploader allowing unauthenticated arbitrary file uploads. At least four separately tracked threat clusters exploited it as a zero-day, followed by six additional clusters including PRC-nexus espionage groups after a patch was released.
+
+- **Oracle E-Business Suite** (CVE-2025-61882) — An improper authentication vulnerability enabling unauthenticated remote code execution. Attributed to a suspected FIN11 cluster using the CL0P extortion brand and GOLDVEIN.JAVA payloads.
+
+- **Microsoft SharePoint** (CVE-2025-53770) — A deserialization vulnerability chainable with CVE-2025-53771 for path traversal. At least two threat clusters exploited it as a zero-day, with PRC-nexus espionage and financially motivated LOCKBIT.WARLOCK deployment observed post-compromise.
+
+The pattern: attackers are targeting the enterprise platforms that centralize access to financial data, business operations, and internal documents. These aren't endpoint compromises — they're direct hits on the applications that run the business.
+
+> **INTEL [GLOBAL] [VULNERABILITY]:** The top 3 exploited vulnerabilities in 2025 were zero-days in SAP NetWeaver, Oracle EBS, and Microsoft SharePoint — all internet-facing enterprise platforms that centralize access to critical business data. Exploit remains the #1 initial infection vector for the sixth consecutive year at 32%.
+
+---
+
+## Convergence: Five Reports, One Picture
+
+This is our fifth consecutive deep dive into a 2026 annual threat report — and with each new report, the convergence becomes harder to ignore:
+
+**Identity is the battlefield:**
+- Unit 42 (E81): 90% of incidents involved identity compromise
+- Cloudflare (E82): 63% of human logins use compromised credentials
+- CrowdStrike (E83): 35% of cloud intrusions via valid accounts
+- Picus (E84): Credential theft (23%) double ransomware encryption (13%)
+- **M-Trends (E85): Voice phishing at 11% — adversaries call to get credentials, not hack to steal them**
+
+**Recovery is the new target:**
+- Picus (E84): Ransomware encryption dropped 38%
+- **M-Trends (E85): Because they stopped encrypting and started destroying recovery. TSI targeting — backups, identity, virtualization — is now standard doctrine**
+
+**The adversary has split into two speeds:**
+- CrowdStrike (E83): 62-minute average breakout time
+- **M-Trends (E85): 22-second handoff for ransomware, 390-day dwell time for espionage. Speed AND patience, depending on the objective**
+
+**AI is operational, not theoretical:**
+- All five reports noted AI-enhanced social engineering
+- **M-Trends (E85): First confirmed AI-querying malware families (PROMPTFLUX, PROMPTSTEAL) observed in incident response**
+
+**Your security tools are being systematically outmaneuvered:**
+- Picus (E84): LummaC2 trigonometry, RealBlindingEDR kernel callbacks
+- CrowdStrike (E83): Unmanaged VMs to evade EDR
+- **M-Trends (E85): Attackers target hypervisors where EDR can't reach, create rogue VMs invisible to asset management, and use "Snapshot Mounting" to steal credentials below the OS**
+
+**The permanent shift:**
+
+- Email phishing → **Voice phishing**
+- Encrypt and ransom → **Deny recovery and extort**
+- File-based malware → **AI-adaptive malware**
+- Fast OR persistent → **Both — 22 seconds AND 390 days**
+- Breach the perimeter → **Inhabit the infrastructure**
+- Success = disruption → **Success = organizational survival in question**
+
+---
+
+## Recommended Actions
+
+**The one question this report demands you answer:** *If attackers destroyed your backup infrastructure and compromised your identity provider simultaneously, could your organization recover?*
+
+If you hesitated, here's where to focus:
+
+**1. Secure your recovery path.** This is the existential priority. Recovery denial is the #1 reason ransomware incidents escalate from security events to organizational survival crises. Mandiant documented attackers wiping millions of backup objects, deleting backup configurations to strand immutable data, and compromising identity providers to force "Greenfield" AD rebuilds that take weeks. The starting point: determine whether your backup infrastructure and your recovery procedures can function independently of your production identity and virtualization systems. If your recovery path shares the same attack surface as your production environment, it isn't a recovery path — it's an additional target.
+
+**2. Close the voice gap.** Your security architecture was built to analyze digital traffic. Voice phishing at 11% — and 23% for cloud compromises — means adversaries have found the channel your controls don't cover. UNC3944 researched help desk staff by name before calling. UNC6040's vishing led to SaaS application compromise and delayed extortion months later. The starting point: implement mandatory out-of-band identity verification for all credential and MFA changes initiated by phone. Your help desk procedures were designed for a world where the caller was probably who they said they were. That world is gone.
+
+**3. Detect the handoff.** The 22-second median between initial access and ransomware operator activity means your low-impact alerts are your early warning system — and possibly your only one. A FAKEUPDATES browser infection or a suspicious download that sits in the SOC queue for an hour is no longer a low-priority ticket. It's a potential ransomware deployment that already happened. The starting point: build correlation rules that link low-impact initial access indicators to known hand-off patterns, and escalate detections consistent with initial access broker TTPs to the same urgency as ransomware indicators themselves.
+
+---
+
+## MITRE ATT&CK Reference
+
+**Top 10 Most Frequently Seen Techniques (Mandiant 2025 Investigations):**
+
+- **T1059 — Command and Scripting Interpreter:** #1 at 45.9% — Windows Command Shell (26.2%) and PowerShell (24.0%) remain dominant for living-off-the-land operations
+- **T1074 — Data Staged:** #2 at 39.6% (returned to Top 10) — reflects shift toward data theft and extortion-based models
+- **T1083 — File and Directory Discovery:** #3 at 33.5% — foundational reconnaissance post-compromise
+- **T1021 — Remote Services:** #4 at 30.6% — RDP (22.1%), SMB/Windows Admin Shares (19.4%), SSH (12.9%) for lateral movement
+- **T1190 — Exploit Public-Facing Application:** #5 at 27.7% — SAP NetWeaver, Oracle EBS, SharePoint zero-days
+- **T1027 — Obfuscated Files or Information:** #6 at 27.2% — continued emphasis on evasion
+- **T1070 — Indicator Removal:** #7 at 24.8% — File Deletion (15.5%) to cover tracks
+- **T1105 — Ingress Tool Transfer:** #8 at 24.5% (returned to Top 10) — staging tools post-compromise
+- **T1033 — System Owner/User Discovery:** #9 at 24.0% — reconnaissance for privilege escalation targeting
+- **T1133 — External Remote Services:** #10 at 23.8% — VPN, Citrix, and remote access exploitation
+
+**Notable absence:** T1486 (Data Encrypted for Impact) **dropped out of the Top 10** after appearing for the first time in 2024. This confirms the shift from encryption-based ransomware to data theft and recovery denial models documented across both Picus (E84) and M-Trends (E85).
+
+---
+
+## Learn More
+
+- [Mandiant M-Trends 2026](https://cloud.google.com/security/resources/m-trends) — Primary source
+- [FIR Risk Tuesday E81 — 72 Minutes](/tuesday/e81-unit42-incident-response-debrief/) — Unit 42 Incident Response Report 2026
+- [FIR Risk Tuesday E82 — Blending In](/tuesday/e82-cloudflare-threat-landscape/) — Cloudflare 2026 Threat Report
+- [FIR Risk Tuesday E83 — The Convergence](/tuesday/e83-crowdstrike-global-threat-report/) — CrowdStrike 2026 Global Threat Report
+- [FIR Risk Tuesday E84 — The Digital Parasite](/tuesday/e84-digital-parasite/) — Picus Red Report 2026
+- [FIR Risk Intelligence](https://github.com/stikman28/fir-risk-intelligence) — Source prompts, methodology, and all published INTEL
+
+---
+
+*Powered by [FIR Risk Platform](https://firrisk.ai/platform/) — AI-driven threat intelligence for enterprise risk leaders.*
