@@ -39,7 +39,7 @@ The gap isn't that organizations are wrong about ransomware. It's that the risk 
 ## Learn More
 
 - [Picus Red Report 2026](https://www.picussecurity.com/red-report) — Primary source (1.1M malicious files analyzed)
-- [FIR Risk Tuesday E84 — The Digital Parasite](/tuesday/e84-picus-red-report/) — Full Picus Red Report analysis
+- [FIR Risk Tuesday E84 — The Digital Parasite](/tuesday/e84-digital-parasite/) — Full Picus Red Report analysis
 - [FIR Risk Tuesday E83 — The Convergence](/tuesday/e83-crowdstrike-global-threat-report/) — CrowdStrike 2026 report
 - [FIR Risk Tuesday E82 — Blending In](/tuesday/e82-cloudflare-threat-landscape/) — Cloudflare 2026 report
 - [FIR Risk Tuesday E81 — 72 Minutes](/tuesday/e81-unit42-incident-response-debrief/) — Unit 42 2026 report
