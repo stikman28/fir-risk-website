@@ -1,0 +1,58 @@
+{{ define "main" -}}
+<div class="container-xxl flex-fill p-4 px-xxl-0">
+
+  {{/* Hero section */}}
+  <div class="hero-section text-center py-4 mb-4">
+    <h1 id="hero-headline" class="display-5 fw-bold mb-3">Real-Time Threat Intelligence</h1>
+    <p class="lead">Emerging threats, vulnerabilities, and regulatory shifts — published 2-3 times per week.<br><strong>No paywalls. No registration required.</strong></p>
+  </div>
+
+  <div class="py-3 mb-2">
+    <p><strong>Alert Types:</strong> <code>THREAT ALERT</code> · <code>VULNERABILITY</code> · <code>SECTOR ALERT</code> · <code>TECHNIQUE</code> · <code>REGULATORY</code> · <code>TREND</code> · <code>FILING INTEL</code></p>
+  </div>
+
+  {{/* All INTEL — pulled dynamically from content/intel/ section */}}
+  {{ $intel := where .Site.RegularPages "Section" "intel" }}
+  {{ if $intel }}
+  <div class="py-4">
+    <h2 id="all-intel" class="mb-4">All INTEL</h2>
+    <div class="row g-4">
+      {{ range $intel }}
+      <div class="col-12">
+        <div class="card p-4">
+          <h3 class="h5"><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+          <p class="text-muted mb-2">
+            <em>{{ .Date.Format "January 2, 2006" }}</em>
+            {{ with .Params.intel_type }} | <code>{{ . }}</code>{{ end }}
+          </p>
+          <p class="mb-0">{{ .Description }}</p>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+  {{ end }}
+
+  {{/* Subscribe CTA */}}
+  <div class="hero-section text-center py-4 mt-4">
+    <h2 id="subscribe" class="mb-3">Stay Ahead</h2>
+    <p class="lead mb-4">Get INTEL alerts and FIR Risk Tuesday delivered to your inbox via LinkedIn.</p>
+    <a href="https://www.linkedin.com/build-relation/newsletter-follow?entityUrn=7190764674668265472" target="_blank" class="btn btn-primary btn-lg px-5">Subscribe on LinkedIn</a>
+  </div>
+
+  {{/* Section navigation */}}
+  <div class="section-nav d-flex justify-content-between align-items-center py-4 mt-5 border-top">
+    <div class="nav-prev">
+      <a href="/tuesday/" class="btn btn-outline-secondary">
+        <span class="me-2">&larr;</span> FIR Risk Tuesday
+      </a>
+    </div>
+    <div class="nav-next">
+      <a href="/reports/" class="btn btn-outline-primary">
+        Annual Reports <span class="ms-2">&rarr;</span>
+      </a>
+    </div>
+  </div>
+
+</div>
+{{ end -}}

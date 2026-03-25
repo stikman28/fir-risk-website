@@ -1,0 +1,90 @@
+{{ define "main" -}}
+<div class="container-xxl flex-fill p-4 px-xxl-0">
+
+  {{/* Hero section */}}
+  <div class="hero-section text-center py-4 mb-4">
+    <h1 id="hero-headline" class="display-5 fw-bold mb-3">Research = FREE</h1>
+    <p class="lead">Original research and threat intelligence from the FIR Risk team. No paywalls. No registration required. We believe intelligence should be accessible.</p>
+  </div>
+
+  {{/* Three-column hub: Tuesday / INTEL / Reports */}}
+  <div class="py-4">
+    <div class="row g-4">
+
+      {{/* Column 1: Latest Tuesday editions (auto, last 4, excluding best-of) */}}
+      <div class="col-md-4">
+        <div class="card h-100 p-4">
+          <h3 id="fir-risk-tuesday" class="h5">FIR Risk Tuesday</h3>
+          <p>Weekly newsletter covering the threats that matter to cyber, fraud, and risk teams. Ransomware trends. Supply chain attacks. Regulatory changes. MITRE technique breakdowns.</p>
+          <ul>
+            {{ $tuesday := where (where .Site.RegularPages "Section" "tuesday") ".Params.category" "ne" "best-of" }}
+            {{ range first 4 $tuesday }}
+            <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+            {{ end }}
+          </ul>
+          <a href="/tuesday/" class="fw-semibold">View All Newsletters →</a>
+        </div>
+      </div>
+
+      {{/* Column 2: Latest INTEL (auto, last 6) */}}
+      <div class="col-md-4">
+        <div class="card h-100 p-4">
+          <h3 id="fir-risk-intel" class="h5">FIR Risk INTEL</h3>
+          <p>Real-time alerts on emerging threats, published 2-3 times per week.</p>
+          <p><code>THREAT ALERT</code> · <code>VULNERABILITY</code> · <code>SECTOR ALERT</code> · <code>TECHNIQUE</code> · <code>REGULATORY</code> · <code>TREND</code> · <code>FILING INTEL</code></p>
+          <ul>
+            {{ $intel := where .Site.RegularPages "Section" "intel" }}
+            {{ range first 6 $intel }}
+            <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+            {{ end }}
+          </ul>
+          <a href="/alerts/" class="fw-semibold">View All INTEL →</a>
+        </div>
+      </div>
+
+      {{/* Column 3: Annual Reports (small set, kept static) */}}
+      <div class="col-md-4">
+        <div class="card h-100 p-4">
+          <h3 id="annual-reports" class="h5">Annual Reports</h3>
+          <p>In-depth analysis synthesizing intelligence from government agencies and industry leaders.</p>
+          <ul>
+            {{ $reports := where .Site.RegularPages "Section" "reports" }}
+            {{ if $reports }}
+              {{ range $reports }}
+              <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+              {{ end }}
+            {{ else }}
+              <li><a href="/reports/fir-2025/">2025 Fraud Intelligence Report</a></li>
+              <li><a href="/reports/fir-2024/">2024 Fraud Intelligence Report</a></li>
+            {{ end }}
+          </ul>
+          <a href="/reports/" class="fw-semibold">View All Reports →</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  {{/* Subscribe CTA */}}
+  <div class="hero-section text-center py-4 mt-4">
+    <h2 id="subscribe" class="mb-3">Subscribe</h2>
+    <p class="lead mb-4">Get FIR Risk Tuesday and INTEL alerts delivered to your inbox via LinkedIn.</p>
+    <a href="https://www.linkedin.com/build-relation/newsletter-follow?entityUrn=7190764674668265472" target="_blank" class="btn btn-primary btn-lg px-5">Subscribe on LinkedIn</a>
+  </div>
+
+  {{/* Section navigation */}}
+  <div class="section-nav d-flex justify-content-between align-items-center py-4 mt-5 border-top">
+    <div class="nav-prev">
+      <a href="/solutions/" class="btn btn-outline-secondary">
+        <span class="me-2">&larr;</span> Solutions
+      </a>
+    </div>
+    <div class="nav-next">
+      <a href="/tuesday/" class="btn btn-outline-primary">
+        FIR Risk Tuesday <span class="ms-2">&rarr;</span>
+      </a>
+    </div>
+  </div>
+
+</div>
+{{ end -}}

@@ -2,6 +2,7 @@
 title: "Best of E45 - 51 Seconds to Breakout"
 description: "CrowdStrike 2025 Global Threat Report: Breakout time averages 48 minutes with a 51-second floor. 79% of attacks are malware-free. Vishing surged 442%. China-nexus espionage spiked 150%. The speed benchmark for the threat landscape."
 date: 2025-03-11
+category: "best-of"
 image: "/images/tuesday/best-of-e45-crowdstrike-global-threat-2025.png"
 thumbnail: "/images/tuesday/best-of-e45-crowdstrike-global-threat-2025.png"
 source: "CrowdStrike 2025 Global Threat Report"

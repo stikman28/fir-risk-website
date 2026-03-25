@@ -2,6 +2,7 @@
 title: "Best of E24 - $1 Trillion in Fraud and 775 Million Malware Emails"
 description: "Microsoft Digital Defense Report 2024: $1 trillion global fraud losses, 775M malware emails, 4,500 DDoS attacks daily, 83% of orgs hit multiple times. The fraud-cybercrime convergence — synthetic identities, PhaaS, and patch windows compressed to hours."
 date: 2024-10-22
+category: "best-of"
 image: "/images/tuesday/best-of-e24-microsoft-digital-defense-report-2024.png"
 thumbnail: "/images/tuesday/best-of-e24-microsoft-digital-defense-report-2024.png"
 source: "Microsoft Digital Defense Report 2024"

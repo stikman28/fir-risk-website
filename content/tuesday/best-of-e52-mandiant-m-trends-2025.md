@@ -2,6 +2,7 @@
 title: "Best of E52 - 450,000 Hours on the Front Lines"
 description: "Mandiant M-Trends 2025: 450K+ hours of incident response. Exploits lead at 33%, stolen credentials surpass phishing, North Korean IT workers at 5% of attack vectors, and dwell time drops to 11 days — but not because defenders are faster."
 date: 2025-04-29
+category: "best-of"
 image: "/images/tuesday/best-of-e52-mandiant-m-trends-2025.png"
 thumbnail: "/images/tuesday/best-of-e52-mandiant-m-trends-2025.png"
 source: "Mandiant M-Trends 2025"

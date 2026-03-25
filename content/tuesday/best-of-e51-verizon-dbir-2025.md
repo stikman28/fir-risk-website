@@ -2,6 +2,7 @@
 title: "Best of E51 - 12,000 Breaches and the Year Everything Doubled"
 description: "Verizon 2025 DBIR: 12,000+ breaches analyzed. Third-party risk doubled, ransomware surged 37%, zero-day edge exploitation up 800%, and SMBs face 88% ransomware rate. The most-cited cybersecurity report of the year."
 date: 2025-04-23
+category: "best-of"
 image: "/images/tuesday/best-of-e51-verizon-dbir-2025.png"
 thumbnail: "/images/tuesday/best-of-e51-verizon-dbir-2025.png"
 source: "Verizon 2025 Data Breach Investigations Report (DBIR)"

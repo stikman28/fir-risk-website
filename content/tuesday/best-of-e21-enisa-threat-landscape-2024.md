@@ -2,6 +2,7 @@
 title: "Best of E21 - Europe's Threat Map and the Seven Threats That Define the Landscape"
 description: "ENISA Threat Landscape 2024: Seven prime threats mapped to MITRE ATT&CK, ISO 27001, and NIST CSF v2.0. Public administration absorbs 19% of attacks. Living Off Trusted Sites (LOTS) abuses legitimate cloud services. FraudGPT operational. $25M deepfake loss. The regulatory authority's threat assessment IS the NIS2 compliance preview."
 date: 2024-10-01
+category: "best-of"
 image: "/images/tuesday/best-of-e21-enisa-threat-landscape-2024.png"
 thumbnail: "/images/tuesday/best-of-e21-enisa-threat-landscape-2024.png"
 source: "ENISA Threat Landscape 2024"
