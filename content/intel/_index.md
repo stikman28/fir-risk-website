@@ -29,6 +29,8 @@ description: "Threat intelligence and cybersecurity research from FIR Risk Advis
         <p>Real-time alerts on emerging threats, published 2-3 times per week.</p>
         <p><code>THREAT ALERT</code> · <code>VULNERABILITY</code> · <code>SECTOR ALERT</code> · <code>TECHNIQUE</code> · <code>REGULATORY</code> · <code>TREND</code> · <code>FILING INTEL</code></p>
         <ul>
+          <li><a href="/intel/intel-7-risk-profile-inversion/">INTEL-7: A New Risk Has Entered the Top 5</a></li>
+          <li><a href="/intel/intel-6-self-aware-malware/">INTEL-6: The Malware That Does Math to Prove You're Human</a></li>
           <li><a href="/intel/intel-5-microsoft-identity-trust-exploitation/">INTEL-5: Your Microsoft Login Page Is the Phishing Page</a></li>
           <li><a href="/intel/intel-4-muddled-libra-cloud-api-abuse/">INTEL-4: Your Cloud APIs Are the Attack Infrastructure</a></li>
           <li><a href="/intel/intel-3-llm-infrastructure-targeting/">INTEL-3: 91,000 Sessions — AI Infrastructure Targeting</a></li>
