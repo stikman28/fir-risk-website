@@ -60,17 +60,17 @@ description: "AI solutions, data platforms, and risk intelligence—grounded in 
   <div class="card p-0 mb-4 overflow-hidden">
     <div class="row g-0">
       <div class="col-md-5">
-        <a href="/tuesday/e86-castles-on-quicksand/">
-          <img src="/images/tuesday/e86-castles-on-quicksand.png" class="img-fluid w-100 h-100" style="object-fit: cover;" alt="FIR Risk E86 - Castles on Quicksand">
+        <a href="/tuesday/e87-the-agents-have-keys/">
+          <img src="/images/tuesday/e87-the-agents-have-keys.png" class="img-fluid w-100 h-100" style="object-fit: cover;" alt="FIR Risk E87 - The Agents Have Keys">
         </a>
       </div>
       <div class="col-md-7 d-flex align-items-center">
         <div class="p-4">
           <span class="badge bg-primary mb-2">Latest Edition</span>
-          <h3 class="h4 mb-2"><a href="/tuesday/e86-castles-on-quicksand/" class="text-decoration-none">E86 — Castles on Quicksand</a></h3>
-          <p class="text-muted mb-1"><em>March 31, 2026</em> | IBM X-Force 2026 & Red Canary 2026</p>
-          <p class="mb-3">Two reports, two vantage points, one conclusion: sophisticated attacks succeed through basic failures. 109 ransomware groups. 850% identity attack surge. 56% of vulnerabilities need no authentication. The security industry is optimizing for the wrong threats.</p>
-          <a href="/tuesday/e86-castles-on-quicksand/" class="btn btn-primary">Read Now →</a>
+          <h3 class="h4 mb-2"><a href="/tuesday/e87-the-agents-have-keys/" class="text-decoration-none">E87 — The Agents Have Keys</a></h3>
+          <p class="text-muted mb-1"><em>April 7, 2026</em> | Anthropic 2026 Agentic Coding Trends Report & State of AI Agents Report</p>
+          <p class="mb-3">57% of enterprises deploy AI agents with production credentials. Only 15% govern them. Anthropic's research reveals the machine identity governance gap — and why the 850% identity attack surge is about to meet an entirely new category of privileged user.</p>
+          <a href="/tuesday/e87-the-agents-have-keys/" class="btn btn-primary">Read Now →</a>
         </div>
       </div>
     </div>
