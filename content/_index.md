@@ -60,17 +60,17 @@ description: "AI solutions, data platforms, and risk intelligence—grounded in 
   <div class="card p-0 mb-4 overflow-hidden">
     <div class="row g-0">
       <div class="col-md-5">
-        <a href="/tuesday/e87-the-agents-have-keys/">
-          <img src="/images/tuesday/e87-the-agents-have-keys.png" class="img-fluid w-100 h-100" style="object-fit: cover;" alt="FIR Risk E87 - The Agents Have Keys">
+        <a href="/tuesday/e88-the-trust-audit/">
+          <img src="/images/tuesday/e88-the-trust-audit.png" class="img-fluid w-100 h-100" style="object-fit: cover;" alt="FIR Risk E88 - The Trust Audit">
         </a>
       </div>
       <div class="col-md-7 d-flex align-items-center">
         <div class="p-4">
           <span class="badge bg-primary mb-2">Latest Edition</span>
-          <h3 class="h4 mb-2"><a href="/tuesday/e87-the-agents-have-keys/" class="text-decoration-none">E87 — The Agents Have Keys</a></h3>
-          <p class="text-muted mb-1"><em>April 7, 2026</em> | Anthropic 2026 Agentic Coding Trends Report & State of AI Agents Report</p>
-          <p class="mb-3">57% of enterprises deploy AI agents with production credentials. Only 15% govern them. Anthropic's research reveals the machine identity governance gap — and why the 850% identity attack surge is about to meet an entirely new category of privileged user.</p>
-          <a href="/tuesday/e87-the-agents-have-keys/" class="btn btn-primary">Read Now →</a>
+          <h3 class="h4 mb-2"><a href="/tuesday/e88-the-trust-audit/" class="text-decoration-none">E88 — The Trust Audit</a></h3>
+          <p class="text-muted mb-1"><em>April 21, 2026</em> | Intel 471 2026 Cyber Threat Trends &amp; Outlook + Trend Micro 2026 Security Predictions</p>
+          <p class="mb-3">6,800+ breach events in 2025 — a 63% jump. But the costliest campaigns rode in through trusted software, trusted user actions, and synthetic insiders. Intel 471 and Trend Micro agree: 2025 was the year trust got weaponized, and the durable 2026 investment is verification-as-architecture.</p>
+          <a href="/tuesday/e88-the-trust-audit/" class="btn btn-primary">Read Now →</a>
         </div>
       </div>
     </div>
