@@ -60,17 +60,17 @@ description: "AI solutions, data platforms, and risk intelligence—grounded in 
   <div class="card p-0 mb-4 overflow-hidden">
     <div class="row g-0">
       <div class="col-md-5">
-        <a href="/tuesday/e88-the-trust-audit/">
-          <img src="/images/tuesday/e88-the-trust-audit.png" class="img-fluid w-100 h-100" style="object-fit: cover;" alt="FIR Risk E88 - The Trust Audit">
+        <a href="/tuesday/e89-the-april-inflection/">
+          <img src="/images/tuesday/e89-the-april-inflection.png" class="img-fluid w-100 h-100" style="object-fit: cover;" alt="FIR Risk E89 - The April Inflection">
         </a>
       </div>
       <div class="col-md-7 d-flex align-items-center">
         <div class="p-4">
           <span class="badge bg-primary mb-2">Latest Edition</span>
-          <h3 class="h4 mb-2"><a href="/tuesday/e88-the-trust-audit/" class="text-decoration-none">E88 — The Trust Audit</a></h3>
-          <p class="text-muted mb-1"><em>April 21, 2026</em> | Intel 471 2026 Cyber Threat Trends &amp; Outlook + Trend Micro 2026 Security Predictions</p>
-          <p class="mb-3">6,800+ breach events in 2025 — a 63% jump. But the costliest campaigns rode in through trusted software, trusted user actions, and synthetic insiders. Intel 471 and Trend Micro agree: 2025 was the year trust got weaponized, and the durable 2026 investment is verification-as-architecture.</p>
-          <a href="/tuesday/e88-the-trust-audit/" class="btn btn-primary">Read Now →</a>
+          <h3 class="h4 mb-2"><a href="/tuesday/e89-the-april-inflection/" class="text-decoration-none">E89 — The April Inflection</a></h3>
+          <p class="text-muted mb-1"><em>April 28, 2026</em> | Anthropic Project Glasswing &amp; Claude Opus 4.7 + OpenAI GPT-5.5 &amp; Trusted Access for Cyber</p>
+          <p class="mb-3">Twelve days ago Anthropic launched Project Glasswing with eleven coalition partners. Five days ago OpenAI launched GPT-5.5 and Trusted Access for Cyber. Two competing US frontier-model labs converged on the same architectural answer in seven days. Read against six months of FIR Risk corpus, this is the inflection: AI is finally good enough to be the defender's tool of choice.</p>
+          <a href="/tuesday/e89-the-april-inflection/" class="btn btn-primary">Read Now →</a>
         </div>
       </div>
     </div>
