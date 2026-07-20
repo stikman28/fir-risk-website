@@ -60,17 +60,17 @@ description: "AI solutions, data platforms, and risk intelligence—grounded in 
   <div class="card p-0 mb-4 overflow-hidden">
     <div class="row g-0">
       <div class="col-md-5">
-        <a href="/tuesday/e91-the-window-closed/">
-          <img src="/images/tuesday/e91-the-window-closed.png" class="img-fluid w-100 h-100" style="object-fit: cover;" alt="FIR Risk E91 - The Window Closed">
+        <a href="/tuesday/e92-time-is-the-attack-surface/">
+          <img src="/images/tuesday/e92-time-is-the-attack-surface.png" class="img-fluid w-100 h-100" style="object-fit: cover;" alt="FIR Risk E92 - Time Is the Attack Surface">
         </a>
       </div>
       <div class="col-md-7 d-flex align-items-center">
         <div class="p-4">
           <span class="badge bg-primary mb-2">Latest Edition</span>
-          <h3 class="h4 mb-2"><a href="/tuesday/e91-the-window-closed/" class="text-decoration-none">E91 — The Window Closed</a></h3>
-          <p class="text-muted mb-1"><em>July 14, 2026</em> | Rapid7, VulnCheck &amp; Zscaler 2026 Threat Reports</p>
-          <p class="mb-3">Three 2026 threat reports, from three different corners of the industry, reach one conclusion: the window between when a threat appears and when it hurts you has collapsed. Nearly 3 in 10 vulnerabilities are exploited on or before disclosure, initial access is now a commoditized product, and 100% of red-tested AI systems failed — and the neutral Verizon breach data agrees.</p>
-          <a href="/tuesday/e91-the-window-closed/" class="btn btn-primary">Read Now →</a>
+          <h3 class="h4 mb-2"><a href="/tuesday/e92-time-is-the-attack-surface/" class="text-decoration-none">E92 — Time Is the Attack Surface</a></h3>
+          <p class="text-muted mb-1"><em>July 21, 2026</em> | Microsoft &amp; Accenture — Securing Nations in the Intelligent Economy</p>
+          <p class="mb-3">A cyberattack showed up in a G7 nation's GDP statistics — and the report analyzing it reframes how cyber loss is priced. Not by whether you're breached, but by three clocks: recovery time (each extra week roughly triples the damage), adversary tempo (80–90% of a disclosed espionage campaign ran on agentic AI), and your data's shelf life (harvest-now-decrypt-later is already operational).</p>
+          <a href="/tuesday/e92-time-is-the-attack-surface/" class="btn btn-primary">Read Now →</a>
         </div>
       </div>
     </div>
