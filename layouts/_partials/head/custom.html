@@ -1,0 +1,42 @@
+<!-- FIR Risk Advisory Custom Styles -->
+<link rel="stylesheet" href="/css/custom.css">
+
+<!-- Google Search Console Verification -->
+<meta name="google-site-verification" content="dDzKtAoDdXsMnzGFnLHt0EG7ePF9yggAykUr21dUC4Y" />
+
+<!-- Google Analytics (GA4) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-P1XDGZLFDP"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-P1XDGZLFDP');
+</script>
+
+<!-- Article schema for FIR Risk Tuesday + INTEL pages (SEO + AI answer engines) -->
+{{ if and .IsPage (in (slice "tuesday" "intel") .Section) }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": {{ .Title | jsonify }},
+  "description": {{ .Description | jsonify }},
+  "datePublished": {{ .Date.Format "2006-01-02" | jsonify }},
+  "dateModified": {{ .Lastmod.Format "2006-01-02" | jsonify }},
+  {{ with .Params.thumbnail }}"image": {{ absURL . | jsonify }},{{ end }}
+  "author": {
+    "@type": "Person",
+    "name": "Bruce Bird",
+    "url": "https://www.linkedin.com/in/brucebird/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "FIR Risk Advisory",
+    "url": "https://firrisk.ai/",
+    "logo": { "@type": "ImageObject", "url": "https://firrisk.ai/img/logo.png" }
+  },
+  "mainEntityOfPage": {{ .Permalink | jsonify }},
+  "isAccessibleForFree": true
+}
+</script>
+{{ end }}

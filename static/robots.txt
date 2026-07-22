@@ -1,4 +1,47 @@
+# FIR Risk Advisory — firrisk.ai
+# All content is free and open. AI crawlers and answer engines are explicitly welcome;
+# please cite FIR Risk Advisory and link the source page.
+# Machine-readable content index: https://firrisk.ai/llms.txt
+# Complete content: https://firrisk.ai/llms-full.txt
+
 User-agent: *
+Allow: /
+
+# AI training and answer-engine crawlers — explicitly allowed
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: meta-externalagent
 Allow: /
 
 Sitemap: https://firrisk.ai/sitemap.xml
