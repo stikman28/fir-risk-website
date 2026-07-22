@@ -1,0 +1,12 @@
+# FIR Risk Advisory — Complete Content
+# Verified, board-readable risk intelligence. Free to read, cite, and quote with attribution
+# to FIR Risk Advisory and a link to the source page. Index: https://firrisk.ai/llms.txt
+{{ range (where .Site.RegularPages "Section" "in" (slice "tuesday" "intel")).ByDate.Reverse }}
+================================================================================
+# {{ .Title }}
+Published: {{ .Date.Format "2006-01-02" }}
+URL: {{ .Permalink }}
+{{ with .Params.source }}Primary source analyzed: {{ . }}{{ end }}
+
+{{ .RawContent }}
+{{ end }}

@@ -1,0 +1,24 @@
+# FIR Risk Advisory
+
+> Verified, board-readable risk intelligence for security and risk leaders — free, no paywalls. FIR Risk reads major threat reports (Verizon DBIR, Microsoft, CrowdStrike, Mandiant, ENISA, and more) end-to-end, verifies every statistic against the primary source, names vendor incentives before quoting vendor claims, and publishes the findings as weekly newsletters and short intelligence briefs.
+
+Publisher: FIR Risk Advisory (Bruce Bird), https://firrisk.ai
+Contact: hello@firrisk.ai
+Full text of every edition: https://firrisk.ai/llms-full.txt
+All content on this site is free to read, cite, and quote with attribution to FIR Risk Advisory and a link to the source page.
+
+## FIR Risk Tuesday — weekly threat-intelligence newsletter
+{{ range (where .Site.RegularPages "Section" "tuesday").ByDate.Reverse }}
+- [{{ .Title }}]({{ .Permalink }}): {{ with .Description }}{{ . | truncate 300 | htmlUnescape }}{{ end }}
+{{- end }}
+
+## FIR Risk INTEL — short intelligence briefs (one finding, one action)
+{{ range (where .Site.RegularPages "Section" "intel").ByDate.Reverse }}
+- [{{ .Title }}]({{ .Permalink }}): {{ with .Description }}{{ . | truncate 300 | htmlUnescape }}{{ end }}
+{{- end }}
+
+## About FIR Risk
+- [Platform](https://firrisk.ai/platform/): AI-driven risk-intelligence platform grounded in trusted sources
+- [Solutions](https://firrisk.ai/solutions/): advisory services for cyber, fraud, and compliance teams
+- [About](https://firrisk.ai/about/): who is behind FIR Risk Advisory
+- [Contact](https://firrisk.ai/contact/): hello@firrisk.ai
