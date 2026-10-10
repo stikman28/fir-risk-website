@@ -49,7 +49,7 @@ Four decades in accounting, audit, risk, and fraud. Bruce started at Arthur Ande
 
 ## What We're Building Now
 
-- **Specialty online retailer** — a custom data foundation and full application stack replacing legacy SaaS, saving $150K a year in software costs. Includes autonomous accounting (general ledger, purchasing, month- and quarter-end close) and AI-driven inventory and purchasing optimization.
+- **Specialty online retailer** — legacy SaaS applications replaced with custom software the company owns, on its own data foundation. Includes autonomous accounting (general ledger, purchasing, month- and quarter-end close) and AI-driven inventory and purchasing optimization.
 - **Public investment firm** — AI and data-foundation analysis and roadmap, delivered to the CFO and executive team.
 - **[FIR Risk Platform](/platform/)** — a fraud and enterprise risk platform where an AI agent monitors primary sources and company SEC filings, grounded in thousands of public research documents. In testing with security and fraud teams.
 - **Custom door manufacturer** — prototype AI tools, built with the CEO and production team, for plant capacity planning and delivery.
