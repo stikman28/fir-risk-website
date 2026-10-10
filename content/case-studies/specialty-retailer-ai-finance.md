@@ -47,11 +47,12 @@ Moving fast with AI is only valuable if the numbers can be trusted. The platform
 - **Real-time books.** Sales, inventory movements, and cash post daily rather than waiting for month-end.
 - **A faster, repeatable close.** An early close took about 28 hours of reconstruction. That experience became a written close checklist and automated gates, so each month is repeatable instead of rediscovered.
 - **Ownership.** The company owns its software and its data, rather than renting a system it can't change.
-- **Speed of change.** When the business needed something new — a customer-deposit flow for phone orders, real-time retail-store posting — it shipped in days. The platform shipped about seventeen releases in ten weeks.
+- **Live in about seven weeks.** Work on the accounting platform began in late March, and it went live in May.
+- **Speed of change.** When the business needed something new — a customer-deposit flow for phone orders, real-time retail-store posting — it shipped in days. The platform has shipped more than 150 updates since going live.
 
 ## What It Took
 
-Roughly nine months of steady work, one experienced advisor using Claude Code, and close collaboration with the company's leadership. Not a large implementation team, and not a multi-year ERP project.
+About seven weeks from start to go-live, then continuous improvement: one experienced advisor using Claude Code, in close collaboration with the company's leadership. Not a large implementation team, and not a multi-year ERP project.
 
 ## Lessons for CEOs
 
