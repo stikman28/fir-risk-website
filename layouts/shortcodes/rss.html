@@ -1,5 +1,7 @@
 {{- $url := .Get "url" -}}
 {{- $max := .Get "max" | default 5 -}}
+{{- $sortByDate := eq (.Get "sort") "date" -}}
+{{- $strip := .Get "strip" | default "" -}}
 {{- $feed := "" -}}
 
 {{- $result := try (resources.GetRemote $url) -}}
@@ -10,13 +12,24 @@
 {{- end -}}
 
 {{- if $feed -}}
+{{- $items := $feed.channel.item | default $feed.rss.channel.item | default (slice) -}}
+{{- /* Aggregated feeds (e.g. Google News search RSS) aren't in date order: sort="date" sorts newest first */ -}}
+{{- if $sortByDate -}}
+  {{- $dated := slice -}}
+  {{- range $items -}}
+    {{- $dated = $dated | append (dict "t" (time.AsTime .pubDate).Unix "item" .) -}}
+  {{- end -}}
+  {{- $items = slice -}}
+  {{- range sort $dated "t" "desc" -}}
+    {{- $items = $items | append .item -}}
+  {{- end -}}
+{{- end -}}
 <div class="rss-feed mb-4">
   <ul class="list-unstyled">
-    {{- $items := $feed.channel.item | default $feed.rss.channel.item | default (slice) -}}
     {{- range first (int $max) $items -}}
     <li class="mb-3 pb-3 border-bottom">
       <a href="{{ .link }}" target="_blank" rel="noopener" class="text-decoration-none">
-        <strong>{{ .title }}</strong>
+        <strong>{{ cond (ne $strip "") (replace .title $strip "") .title }}</strong>
       </a>
       {{- with .pubDate -}}
       <br><small class="text-muted">{{ . }}</small>
