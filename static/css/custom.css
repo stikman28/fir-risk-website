@@ -311,3 +311,22 @@ pre {
   text-decoration-thickness: 1px;
   text-underline-offset: 0.18em;
 }
+
+/* ---- Article readability ------------------------------------------------------------
+   INTEL / Tuesday / report text ran ~95-105 characters per line in the col-lg-8 column.
+   Limit running text to ~70ch and bump body size slightly; tables, images and the TOC
+   sidebar keep the full column width. */
+.article-body p,
+.article-body ul,
+.article-body ol,
+.article-body blockquote,
+.article-body h2,
+.article-body h3,
+.article-body h4 {
+  max-width: 70ch;
+}
+.article-body p,
+.article-body li {
+  font-size: 1.0625rem;
+  line-height: 1.65;
+}
