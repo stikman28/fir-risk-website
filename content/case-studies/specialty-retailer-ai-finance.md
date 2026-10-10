@@ -1,6 +1,6 @@
 ---
 title: "How a Specialty Retailer Replaced Five Software Subscriptions with One AI-Native Platform"
-description: "A multichannel retailer replaced five SaaS subscriptions, including NetSuite, with one AI-native platform it owns: real-time books, connected operations, real controls."
+description: "A multichannel retailer replaced five SaaS tools, including NetSuite, with one AI-native platform it owns: real-time books, connected operations, real controls."
 seoTitle: "Retailer Replaces NetSuite and 4 More SaaS Tools with AI"
 date: 2026-10-10
 ---
