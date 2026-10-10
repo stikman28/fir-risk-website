@@ -260,3 +260,17 @@ pre {
 .navbar .navbar-nav > .nav-item.dropdown.me-auto {
   margin-right: 0 !important;
 }
+
+/* ---- Contrast (WCAG AA) ------------------------------------------------------------
+   Dark mode: outline-secondary buttons used --bs-secondary (#73888c) on #212529 = 4.14:1.
+   #9aabae on #212529 = 6.47:1; hover fills with the same color and dark text. */
+[data-bs-theme="dark"] .btn-outline-secondary {
+  --bs-btn-color: #9aabae;
+  --bs-btn-border-color: #9aabae;
+  --bs-btn-hover-color: #212529;
+  --bs-btn-hover-bg: #9aabae;
+  --bs-btn-hover-border-color: #9aabae;
+  --bs-btn-active-color: #212529;
+  --bs-btn-active-bg: #9aabae;
+  --bs-btn-active-border-color: #9aabae;
+}

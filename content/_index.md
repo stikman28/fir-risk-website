@@ -66,7 +66,7 @@ description: "AI solutions, data platforms, and risk intelligence for cyber, fra
       </div>
       <div class="col-md-7 d-flex align-items-center">
         <div class="p-4">
-          <span class="badge bg-primary mb-2">Latest Edition</span>
+          <span class="badge bg-primary text-dark mb-2">Latest Edition</span>
           <h3 class="h4 mb-2"><a href="/tuesday/e92-time-is-the-attack-surface/" class="text-decoration-none">E92 — Time Is the Attack Surface</a></h3>
           <p class="text-muted mb-1"><em>July 21, 2026</em> | Microsoft &amp; Accenture — Securing Nations in the Intelligent Economy</p>
           <p class="mb-3">A cyberattack showed up in a G7 nation's GDP statistics — and the report analyzing it reframes how cyber loss is priced. Not by whether you're breached, but by three clocks: recovery time (each extra week roughly triples the damage), adversary tempo (80–90% of a disclosed espionage campaign ran on agentic AI), and your data's shelf life (harvest-now-decrypt-later is already operational).</p>
