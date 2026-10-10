@@ -45,9 +45,9 @@ All of the NetSuite history moved into the new platform first. Then the new syst
 
 While the parallel runs were happening, the core of the business platform came together: the general ledger, warehouse management, shipping, and the integrations with every sales channel and bank. In place of the old warehouse software, a custom warehouse management system built on open-source software — designed and coded by the company's own developer. In place of the channel manager, direct connections to the web store, Amazon, and eBay. In place of the point-of-sale subscription, a custom point-of-sale system for the store.
 
-### 4. Go live — May 12
+### 4. Go live — mid-May
 
-The platform went live in May, after the numbers had been proven.
+The platform went live in mid-May, after the numbers had been proven.
 
 ### 5. Make it the team's own (four months)
 
