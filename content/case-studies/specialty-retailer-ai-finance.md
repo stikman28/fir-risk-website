@@ -1,5 +1,5 @@
 ---
-title: "How a Specialty Retailer Replaced Five Software Subscriptions with One AI-Native Platform"
+title: "It Started with the Accounting System. It Ended with Five SaaS Subscriptions Gone."
 description: "A multichannel retailer replaced five SaaS tools, including NetSuite, with one AI-native platform it owns: real-time books, connected operations, real controls."
 seoTitle: "Retailer Replaces NetSuite and 4 More SaaS Tools with AI"
 date: 2026-10-10
@@ -9,61 +9,90 @@ date: 2026-10-10
   <h2 id="at-a-glance" class="h5 mb-3">At a Glance</h2>
   <ul class="mb-0">
     <li><strong>Client:</strong> a specialty online retailer selling through its own web store, Amazon (including Fulfillment by Amazon), eBay, phone orders, and a retail store.</li>
-    <li><strong>Challenge:</strong> five separate annual software subscriptions that didn't talk to each other, and month-end numbers that arrived weeks late.</li>
-    <li><strong>What we built:</strong> one AI-native platform on Microsoft Fabric, built with Claude Code, that replaced <strong>NetSuite</strong> (accounting), <strong>Rithum</strong> (marketplace channel management), <strong>NetStock</strong> (inventory planning), <strong>OZ WMS</strong> (warehouse management), and its SaaS point-of-sale system — integrated across every process, from the warehouse floor to the general ledger.</li>
-    <li><strong>Result:</strong> leadership sees sales, inventory, and cash as they happen, and the company owns its software and its data.</li>
+    <li><strong>Before:</strong> five separate SaaS subscriptions — <strong>NetSuite</strong> (accounting), <strong>Rithum</strong> (marketplace channel management), <strong>NetStock</strong> (inventory planning), <strong>OZ WMS</strong> (warehouse management), and a SaaS point-of-sale system — on fixed contracts with rising costs.</li>
+    <li><strong>After:</strong> one AI-native data foundation and custom business platform on Microsoft Fabric, built with Claude Code, running the business end to end.</li>
+    <li><strong>Today:</strong> automated posting, a one-day month-end close, and leadership seeing sales, inventory, and cash as they happen.</li>
   </ul>
 </div>
 
-## The Business Problem
+## Five Subscriptions, One Business
 
-The company had outgrown the way it ran its operations. Sales came in through five channels, each with its own fees, timing, and quirks. The business paid every year for five separate software subscriptions — accounting, marketplace channel management, inventory planning, warehouse management, and point of sale — that didn't share data cleanly and couldn't easily be changed. Month-end was a long manual exercise, so leadership was always looking at last month — and making today's decisions on purchasing, pricing, and cash without current information.
+The company did what growing retailers do: every time it hit a new problem, it bought a subscription. An ERP for accounting. A channel manager to list products and pull orders from the marketplaces. An inventory-planning tool. A warehouse management system. A point-of-sale system for the store.
 
-The CEO wanted three things: **current numbers, fewer software subscriptions, and control over the company's own data.**
+Each made sense when it was bought. Together, they became the problem. Five vendors, five fixed annual contracts, five price increases. Data copied between systems that didn't agree with each other. Month-end numbers that arrived weeks late, so leadership was always making today's decisions about purchasing, pricing, and cash with last month's information.
 
-## What We Built
+The CEO wanted current numbers, fewer subscriptions, and control over the company's own data. The question was whether to buy a sixth system to tie the other five together — or to build something the company would actually own.
 
-Rather than switching to another packaged system, we built the company its own platform, designed around how the business actually works. One advisor built it with Claude Code, in close partnership with the company's leadership and its warehouse-systems developer.
+## Build It Once, Around the Business
 
-- **The whole operation, connected.** Automated accounting only works if every system feeds it. In place of the old warehouse software, we integrated a customized open-source warehouse management system (inventory by location, receiving, picking, and shipping). In place of the channel-management subscription, we connected every sales channel directly — the web store, Amazon, eBay, phone orders, and the retail store, where a custom point-of-sale system replaced the old subscription — and the company's bank and card accounts. Orders, fees, payouts, inventory movements, and bank activity all flow in automatically, and inventory levels flow back out to the marketplaces.
+We chose to build: a single data foundation, and a custom business platform on top of it, designed around how this business actually works. One experienced advisor did the building with Claude Code, in close partnership with the company's leadership and its warehouse-systems developer.
 
-- **A real-time general ledger.** Sales from every channel, purchase-order receipts, returns, Amazon fulfillment activity, retail-store sales, and phone orders with customer deposits post to a proper double-entry ledger automatically, as they happen — not at month-end.
-- **Inventory valued every day.** Each morning the platform revalues inventory at weighted average cost from the prior day's receipts, so cost of goods sold and margins stay current.
-- **AI-driven inventory planning.** In place of the inventory-planning subscription, the platform classifies products by sales value and demand predictability and supports purchasing decisions from the company's own sales history.
-- **Bank activity flowing in.** Bank transactions are pulled automatically and matched by rule. Anything the rules don't recognize goes to a review queue for a person — never to a guess.
-- **AI-assisted payables.** An AI assistant reads vendor invoices, enters headers and line detail, and prepares the three-way match against the purchase order and receipt. **It never approves or pays a bill.** People do.
-- **A daily outlook for the CEO.** Every morning a refreshed month-to-date outlook is published automatically, so leadership starts the day with current sales, margin, and a forecast for the month.
+The key decision was the order of the work. Nothing went live until it had been proven against the old systems.
+
+### 1. The data foundation (two months)
+
+First, a proper data foundation on Microsoft Fabric: a warehouse and lakehouse holding the company's orders, inventory, purchasing, and financial history in one place. Everything after this was built on it.
+
+### 2. Migrate, then prove it
+
+All of the NetSuite history moved into the new platform first. Then the new system ran **in parallel with NetSuite through three monthly closes**, and the first four months of the year were tied out between the two, account by account, to prove the new numbers were complete and accurate before anyone relied on them.
+
+### 3. Build the platform
+
+While the parallel runs were happening, the core of the business platform came together: the general ledger, warehouse management, shipping, and the integrations with every sales channel and bank. In place of the old warehouse software, a customized open-source warehouse management system. In place of the channel manager, direct connections to the web store, Amazon, and eBay. In place of the point-of-sale subscription, a custom point-of-sale system for the store.
+
+### 4. Go live — May 12
+
+The platform went live in May, after the numbers had been proven.
+
+### 5. Make it the team's own (four months)
+
+Going live was the start, not the finish. The first two months went to fine-tuning, building out the user interface and features, and continuing to validate completeness and accuracy. The next two went to the people who use it every day. The team — leadership included — was used to the way the old systems worked and wanted those workflows preserved. So we kept what worked and made it better: more capabilities, cleaner flows, and a better interface than the systems it replaced.
+
+### 6. Automate
+
+Only in September, with the platform stable and trusted, did we turn to automation: automatic posting to the books as transactions happen, a faster month-end close, and further improvements to the marketplace integrations.
+
+## What the Business Runs On Now
+
+- **Real-time books.** Sales from every channel, purchase receipts, returns, Amazon fulfillment activity, store sales, and phone orders with customer deposits post to a double-entry general ledger as they happen.
+- **One connected operation.** Orders, fees, payouts, inventory movements, and bank activity flow in automatically; inventory levels flow back out to the marketplaces.
+- **Inventory valued every day,** at weighted average cost, so margins stay current.
+- **AI-driven inventory planning,** using the company's own sales history in place of a separate planning subscription.
+- **AI-assisted payables.** An AI assistant reads vendor invoices, enters them, and prepares the three-way match against the purchase order and receipt. It never approves or pays a bill — people do.
+- **A daily outlook for the CEO,** published automatically every morning: month-to-date sales, margin, and a forecast for the month.
 
 ## How It Stays Controlled
 
-Moving fast with AI is only valuable if the numbers can be trusted. The platform was built the way an auditor would want it:
+Speed only matters if the numbers can be trusted:
 
-- **Nothing goes live without human approval.** Every production release is approved explicitly and ships with a named rollback.
-- **Automation is switched on deliberately.** Automatic posting for each area was enabled only after dry runs showed clean, balanced results.
+- **Proven before it was trusted.** Three parallel closes and a four-month tie-out against NetSuite before go-live.
+- **Human approval for every release,** each with a named rollback.
+- **Automation switched on deliberately,** one area at a time, after dry runs came back clean and balanced.
 - **Unknowns stop at a person.** Unrecognized bank activity and exceptions go to review queues instead of being forced into an account.
-- **A completeness check before every close.** Before reconciliations begin, a standard check confirms that every source transaction has posted to the ledger.
-- **Reconciled at the quarter.** At the third-quarter close, every balance-sheet account was reconciled or tied to a named open item, and the inventory roll-forward tied.
-- **Tested.** Nearly a thousand automated tests check the platform's logic.
+- **A completeness check before every close,** confirming every source transaction has posted.
+- **Reconciled at the quarter.** At the third-quarter close, every balance-sheet account was reconciled or tied to a named open item.
+- **Nearly a thousand automated tests** check the platform's logic.
 
 ## Results
 
-- **Real-time books.** Sales, inventory movements, and cash post daily rather than waiting for month-end.
-- **A faster, repeatable close.** An early close took about 28 hours of reconstruction. That experience became a written close checklist and automated gates, so each month is repeatable instead of rediscovered.
-- **Five subscriptions retired.** NetSuite, Rithum, NetStock, OZ WMS, and the SaaS point-of-sale system were replaced by one platform the company owns.
-- **Ownership.** The company owns its data and its platform, rather than renting a system it can't change. The data sits in a dedicated environment FIR manages on the company's behalf, with a planned move to the company's own Microsoft tenant.
-- **Live in about seven weeks.** Work on the accounting platform began in late March, and it went live in May.
-- **Speed of change.** When the business needed something new — a customer-deposit flow for phone orders, real-time retail-store posting — it shipped in days. The platform has shipped more than 150 updates since going live.
+- **Five SaaS subscriptions retired.** NetSuite, Rithum, NetStock, OZ WMS, and the point-of-sale subscription — replaced by one platform the company owns.
+- **A one-day month-end close.** An early close on the new platform took about 28 hours of reconstruction; that experience became a written checklist, automated gates, and automatic posting.
+- **Numbers leadership can use today,** not weeks later.
+- **Ownership.** The company owns its data and its platform. The data sits in a dedicated environment FIR manages on the company's behalf, with a planned move to the company's own Microsoft tenant.
+- **Speed of change.** New needs — a customer-deposit flow for phone orders, real-time store posting — ship in days. The platform has shipped more than 150 updates since going live.
 
-## What It Took
+## What's Next
 
-About seven weeks from start to go-live, then continuous improvement: one experienced advisor using Claude Code, in close collaboration with the company's leadership. Not a large implementation team, and not a multi-year ERP project.
+With every process running on one data foundation, the company is positioned for what comes next: AI agents that take on more of the day-to-day operating work — reordering, exception handling, reconciliations, and daily performance reviews — so leadership spends its time on decisions, not data.
 
 ## Lessons for CEOs
 
-1. **Start where the data is.** Finance is rule-based and measurable, which makes it the best first place to put AI to work.
-2. **Keep humans on the decisions that matter.** AI does the reading, entering, and matching. People approve, pay, and sign off.
-3. **Make failures loud.** The most expensive problems were silent ones — a process that "ran" but wrote nothing. Build checks that shout.
-4. **Own your data.** Your data foundation should belong to you, not to a vendor — even if someone else hosts it for now.
+1. **Add up your subscriptions.** Five tools that each made sense can cost more — in fees and in disconnected data — than one platform built around your business.
+2. **Prove it before you trust it.** Run the new system alongside the old one until the numbers tie.
+3. **Start where the data is.** Finance is rule-based and measurable, which makes it the best first place to put AI to work.
+4. **Keep humans on the decisions that matter.** AI does the reading, entering, and matching. People approve, pay, and sign off.
+5. **Own your data.** Your data foundation should belong to you, not to a vendor — even if someone else hosts it for now.
 
 <div class="hero-section text-center py-4 mt-4">
   <h2 id="what-could-ai-do-for-your-company" class="mb-3">What Could AI Do for Your Company?</h2>
