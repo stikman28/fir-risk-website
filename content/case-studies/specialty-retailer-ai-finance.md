@@ -29,7 +29,7 @@ The CEO wanted current numbers, fewer subscriptions, and control over the compan
 
 We chose to build: a single data foundation the company owns, and a custom business platform on top of it, designed around how this business actually works.
 
-It was built by two people, with the CEO setting direction. FIR designed and built the data foundation, the database, the infrastructure, and the accounting and integration platform with Claude Code. The company's own systems developer was a true partner: he drove the design and coding of the custom warehouse management system, built on open-source software, with FIR's support.
+It was built by two people, with the CEO setting direction. FIR designed and built the data foundation, the database, the infrastructure, and the accounting and integration platform with Claude Code. And the company's own developer stepped up to take on the other half of the job: the warehouse.
 
 The key decision was the order of the work. Nothing went live until it had been proven against the old systems.
 
@@ -43,7 +43,7 @@ All of the NetSuite history moved into the new platform first. Then the new syst
 
 ### 3. Build the platform
 
-While the parallel runs were happening, the core of the business platform came together: the general ledger, warehouse management, shipping, and the integrations with every sales channel and bank. In place of the old warehouse software, the custom open-source warehouse management system the company's developer built. In place of the channel manager, direct connections to the web store, Amazon, and eBay. In place of the point-of-sale subscription, a custom point-of-sale system for the store.
+While the parallel runs were happening, the core of the business platform came together: the general ledger, warehouse management, shipping, and the integrations with every sales channel and bank. In place of the old warehouse software, a custom warehouse management system built on open-source software — designed and coded by the company's own developer. In place of the channel manager, direct connections to the web store, Amazon, and eBay. In place of the point-of-sale subscription, a custom point-of-sale system for the store.
 
 ### 4. Go live — May 12
 
@@ -56,6 +56,16 @@ Going live was the start, not the finish. The first two months went to fine-tuni
 ### 6. Automate
 
 Only in September, with the platform stable and trusted, did we turn to automation: automatic posting to the books as transactions happen, a faster month-end close, and further improvements to the marketplace integrations.
+
+## The Developer Who Stepped Up
+
+A project like this doesn't succeed on software alone. It succeeds because someone inside the company decides to own it.
+
+While FIR built the data foundation, the infrastructure, and the accounting platform, the company's developer took on the warehouse. He chose to build on open-source software, drove the design, and wrote the code for a warehouse management system shaped around how this company actually receives, stores, picks, and ships — work that had always been handled by an outside vendor's product. FIR supported him with infrastructure, database design, and a second set of hands when he wanted one. The warehouse system was his.
+
+He didn't stop at the warehouse. As the platform came together, he learned how all of it connects — the data foundation, the integrations, the accounting — and he became the person the team turns to for every part of it.
+
+After the new system was live, tested, and working, the company promoted him to **Director of Operations**. Today he runs the entire platform day to day under the CEO's direction, and FIR is on call when he needs us. That's the outcome we're proudest of: the company didn't just get a new system. It got a leader who knows that system inside and out.
 
 ## What the Business Runs On Now
 
@@ -83,7 +93,7 @@ Speed only matters if the numbers can be trusted:
 - **Five SaaS subscriptions retired.** NetSuite, Rithum, NetStock, OZ WMS, and the point-of-sale subscription — replaced by one platform the company owns.
 - **A one-day month-end close.** An early close on the new platform took about 28 hours of reconstruction; that experience became a written checklist, automated gates, and automatic posting.
 - **Numbers leadership can use today,** not weeks later.
-- **A promotion, not a layoff.** The company's developer now supports the entire platform day to day, under the CEO's direction, with FIR on call when needed — and earned a promotion to **Director of Operations** because of the project.
+- **A promotion, not a layoff.** The developer who built the warehouse system was promoted to **Director of Operations** and now runs the whole platform. The company's knowledge of its own systems lives inside the company.
 - **The company owns its data.** All of it, in one place, connected across every process — and it owns the platform that runs on it. The data sits in a dedicated environment FIR manages on the company's behalf, with a planned move to the company's own Microsoft tenant.
 - **Speed of change.** New needs — a customer-deposit flow for phone orders, real-time store posting — ship in days. The platform has shipped more than 150 updates since going live.
 
