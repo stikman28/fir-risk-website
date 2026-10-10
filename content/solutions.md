@@ -22,6 +22,7 @@ description: "FIR Risk Advisory solutions: the FIR Risk Platform, Microsoft Fabr
         <h3 id="data-platforms" class="h5">Data Platforms</h3>
         <p>Most companies have data everywhere — and too much of it is held hostage by third-party vendors. We implement Microsoft Fabric to fix that. We assess your data sources, identify what matters most to business performance, and build a company-owned data lake and warehouse. Data lakes, pipelines, dataflows, and integrated reporting — all under your control.</p>
         <p class="mb-0"><strong>Your data belongs to you.</strong> We build your warehouse and lakehouse in your own Microsoft tenant — or host it for you in a dedicated environment until you're ready to take it over. Either way, it's your data, and it moves with you.</p>
+        <p class="mt-3 mb-0"><a href="/case-studies/specialty-retailer-ai-finance/" class="fw-semibold">See how a retailer replaced five SaaS subscriptions →</a></p>
         <a href="/partners/" class="fw-semibold">Meet Our Partners →</a>
       </div>
     </div>

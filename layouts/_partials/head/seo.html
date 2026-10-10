@@ -68,7 +68,7 @@
                INTEL/Tuesday pages, and add the brand only when the result fits ~60 chars (Google's display
                limit). The on-page H1 and og:title keep the full title. */ -}}
         {{- $brand := .Site.Params.brand | default "FIR Risk Advisory" -}}
-        {{- $t := .Title -}}
+        {{- $t := .Params.seoTitle | default .Title -}}
         {{- if and (in (slice "intel" "tuesday") .Section) .IsPage -}}
           {{- $t = replaceRE `^(Best of )?E\d+ [-–—] |^INTEL-\d+: ` "" $t -}}
         {{- end -}}
