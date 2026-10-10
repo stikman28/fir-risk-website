@@ -64,7 +64,16 @@
     {{ if .IsHome -}}
         <title>{{ .Site.Title }}</title>
     {{ else -}}
-        <title>{{ .Title }} | {{ .Site.Params.brand | default "FIR Risk Advisory" }}</title>
+        {{- /* Search title: drop internal edition prefixes ("E60 - ", "Best of E21 - ", "INTEL-3: ") on
+               INTEL/Tuesday pages, and add the brand only when the result fits ~60 chars (Google's display
+               limit). The on-page H1 and og:title keep the full title. */ -}}
+        {{- $brand := .Site.Params.brand | default "FIR Risk Advisory" -}}
+        {{- $t := .Title -}}
+        {{- if and (in (slice "intel" "tuesday") .Section) .IsPage -}}
+          {{- $t = replaceRE `^(Best of )?E\d+ [-–—] |^INTEL-\d+: ` "" $t -}}
+        {{- end -}}
+        {{- $full := printf "%s | %s" $t $brand -}}
+        <title>{{ if le (strings.RuneCount $full) 60 }}{{ $full }}{{ else }}{{ $t }}{{ end }}</title>
     {{ end -}}
 
     <meta name="description" content="{{ $.Scratch.Get "description" }}">
