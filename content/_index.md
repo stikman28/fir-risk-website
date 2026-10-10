@@ -61,7 +61,7 @@ description: "AI solutions, data platforms, and risk intelligence for cyber, fra
     <div class="row g-0">
       <div class="col-md-5">
         <a href="/tuesday/e92-time-is-the-attack-surface/">
-          <img src="/images/tuesday/e92-time-is-the-attack-surface.png" class="img-fluid w-100 h-100" style="object-fit: cover;" alt="FIR Risk E92 - Time Is the Attack Surface">
+          <img src="/images/home/fir-risk-watercolor-960.webp" srcset="/images/home/fir-risk-watercolor-480.webp 480w, /images/home/fir-risk-watercolor-960.webp 960w" sizes="(min-width: 768px) 40vw, 100vw" width="960" height="524" loading="lazy" decoding="async" class="img-fluid w-100 h-100" style="object-fit: cover;" alt="Watercolor of a Colorado mountain valley with a trail sign reading FIR Risk, Risk Intelligence, Engineered">
         </a>
       </div>
       <div class="col-md-7 d-flex align-items-center">
