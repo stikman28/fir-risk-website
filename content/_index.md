@@ -13,6 +13,15 @@ description: "AI solutions, data platforms, and risk intelligence for cyber, fra
 </div>
 
 <div class="py-4">
+  <div class="card p-4 p-md-5">
+    <span class="badge bg-primary text-dark mb-2" style="width: fit-content;">Case Study</span>
+    <h2 id="case-study-five-saas" class="h3 mb-3">It Started with the Accounting System. It Ended with Five SaaS Subscriptions Gone.</h2>
+    <p class="mb-3">A specialty retailer replaced NetSuite, Rithum, NetStock, its warehouse system, and its point-of-sale subscription with one platform it owns. Real-time books, a one-day close, and a team that uses AI every day.</p>
+    <a href="/case-studies/specialty-retailer-ai-finance/" class="btn btn-primary" style="width: fit-content;">Read the story →</a>
+  </div>
+</div>
+
+<div class="py-4">
   <h2 id="our-mission" class="text-center mb-3">Our Mission</h2>
   <p class="lead text-center mx-auto" style="max-width: 800px;">Our mission is to help organizations harness AI and data to drive business performance, manage risk, and make informed decisions—powered by verified intelligence and deep domain expertise.</p>
 </div>
