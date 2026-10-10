@@ -17,3 +17,11 @@
 
 /img/*
   Cache-Control: public, max-age=2592000
+
+# Cloudflare Pages preview/branch hostnames are duplicate copies of the site: keep them out of search
+# (Google had indexed fir-risk-website.pages.dev). Production firrisk.ai is unaffected.
+https://:project.pages.dev/*
+  X-Robots-Tag: noindex
+
+https://:version.:project.pages.dev/*
+  X-Robots-Tag: noindex
