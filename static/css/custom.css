@@ -254,3 +254,9 @@ pre {
 .content li {
   margin-bottom: 0.5rem;
 }
+
+/* Main-menu dropdowns (Intelligence): Hinode adds .me-auto to every dropdown <li>, which
+   pushes the items after it to the far right of the navbar. Keep normal menu spacing. */
+.navbar .navbar-nav > .nav-item.dropdown.me-auto {
+  margin-right: 0 !important;
+}

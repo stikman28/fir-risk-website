@@ -101,8 +101,28 @@ buildFuture = true
     weight = 4
   [[menu.main]]
     name = "Intelligence"
-    url = "/intel/"
+    identifier = "intelligence"
     weight = 5
+  [[menu.main]]
+    name = "INTEL Briefs"
+    url = "/intel/"
+    parent = "intelligence"
+    weight = 1
+  [[menu.main]]
+    name = "FIR Risk Tuesday"
+    url = "/tuesday/"
+    parent = "intelligence"
+    weight = 2
+  [[menu.main]]
+    name = "Reports"
+    url = "/reports/"
+    parent = "intelligence"
+    weight = 3
+  [[menu.main]]
+    name = "Resources"
+    url = "/resources/"
+    parent = "intelligence"
+    weight = 4
   [[menu.main]]
     name = "Partners"
     url = "/partners/"
