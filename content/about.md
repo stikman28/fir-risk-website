@@ -8,6 +8,19 @@ description: "FIR Risk Advisory is led by Bruce C. Bird: four decades in account
   <p class="lead">AI solutions, data platforms, and risk intelligence — built by someone who's been on all sides of the equation.</p>
 </div>
 
+## Why I Built This
+
+I've spent my career on both sides of the equation — building technology systems, auditing them, securing them, and managing the risks that come with all of it. Accounting taught me to follow the numbers. Audit taught me to question everything. Cybersecurity and fraud taught me what's really at stake.
+
+When AI became truly capable, I saw an opportunity: what if we could combine deep domain expertise with AI that's actually grounded in trusted sources? Not generic chatbots that hallucinate — but intelligent tools built on real frameworks, real research, and real experience.
+
+That's why I started FIR Risk Advisory. We build AI solutions, data platforms, and risk intelligence tools for organizations that need more than guesswork. Whether it's our own FIR Risk Platform, a custom AI solution, or a Microsoft Fabric implementation — everything we build is grounded in the same principle: trusted sources and real expertise.
+
+If you're looking for a partner who's done the work, reach out.
+
+— Bruce Bird
+Founder, FIR Risk Advisory
+
 ## Meet Bruce
 
 **Bruce C. Bird** — Founder & Principal, FIR Risk Advisory · Colorado
@@ -53,6 +66,13 @@ Four decades in accounting, audit, risk, and fraud. Bruce started at Arthur Ande
 - **Public investment firm** — AI and data-foundation analysis and roadmap, delivered to the CFO and executive team.
 - **[FIR Risk Platform](/platform/)** — a fraud and enterprise risk platform where an AI agent monitors primary sources and company SEC filings, grounded in thousands of public research documents. In testing with security and fraud teams.
 - **Custom door manufacturer** — prototype AI tools, built with the CEO and production team, for plant capacity planning and delivery.
+
+<div class="py-4">
+  <div class="card p-4">
+    <h2 id="our-story" class="h5 mb-3">Our Story</h2>
+    <p class="mb-0">FIR Risk Advisory was built on a foundation of accounting discipline, audit rigor, and hands-on experience in technology, cybersecurity, and fraud management. When AI became truly capable, we saw the opportunity to combine that expertise with intelligent tools that actually work. Today, we build AI solutions, data platforms, and risk intelligence tools for organizations that need more than guesswork. We're builders, not just advisors — and we're invested in your success.</p>
+  </div>
+</div>
 
 ## Connect
 
