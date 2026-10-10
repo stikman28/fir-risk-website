@@ -97,9 +97,28 @@ Speed only matters if the numbers can be trusted:
 - **The company owns its data.** All of it, in one place, connected across every process — and it owns the platform that runs on it. The data sits in a dedicated environment FIR manages on the company's behalf, with a planned move to the company's own Microsoft tenant.
 - **Speed of change.** New needs — a customer-deposit flow for phone orders, real-time store posting — ship in days. The platform has shipped more than 150 updates since going live.
 
+## AI as a Daily Partner
+
+The biggest change isn't a system. It's how the team works.
+
+Claude is built into the business. It runs alongside the critical workflows — reading vendor invoices, preparing the morning outlook, supporting the month-end close — and the team uses it every day: to refine ideas, to manage and clean up data, to analyze what's happening in the business, and to find improvements that move the company toward a more profitable future.
+
+That works because of the data foundation. Claude is connected to the company's own data, so its answers come from the company's real numbers — not from a vendor's report or a generic chatbot's guess. **Owning the data is what makes the AI useful.**
+
+The team no longer sees AI as a threat or a novelty. They see it as a tool and a partner: the most capable AI available, working beside them so they can do more and be more thorough.
+
 ## What's Next
 
-With every process running on one data foundation, the company is positioned for what comes next: AI agents that take on more of the day-to-day operating work — reordering, exception handling, reconciliations, and daily performance reviews — so leadership spends its time on decisions, not data.
+The next step is AI agents that partner with each part of the business:
+
+- **Customers** — an AI assistant that helps shoppers find the right products and get answers, any time.
+- **The warehouse** — help with receiving, stock exceptions, and replenishment.
+- **Customer service** — order status, returns, and first drafts of replies, with a person in the loop.
+- **Purchasing** — reorder recommendations from the company's own sales history and vendor lead times.
+- **Marketing and the marketplaces** — listings, pricing, and performance across every channel.
+- **Accounting** — more of the routine close and reconciliation work, with people approving every step that matters.
+
+Every one of these runs on the same foundation: one set of data the company owns, and AI it trusts.
 
 ## Lessons for CEOs
 
