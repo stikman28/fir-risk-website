@@ -133,3 +133,10 @@ buildFuture = true
 [outputs]
   home = ["HTML", "RSS", "llms", "llmsfull"]
   section = ["HTML", "RSS"]
+
+# RSS feeds on /resources/ are fetched at build time (resources.GetRemote). Expire the
+# fetch cache so the daily scheduled rebuild pulls fresh items even if the build cache persists.
+[caches]
+  [caches.getresource]
+    dir = ':cacheDir/:project'
+    maxAge = '6h'

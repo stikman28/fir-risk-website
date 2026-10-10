@@ -1,9 +1,8 @@
 ---
 title: "Resources"
-description: "FIR Risk resources: weekly Tuesday research, INTEL threat alerts, annual fraud intelligence reports, and curated feeds from CISA, NIST, WEF, and FIDO Alliance."
+description: "FIR Risk resources: weekly Tuesday research, INTEL threat alerts, annual fraud intelligence reports, and curated feeds from CISA, NIST, and FIDO Alliance."
 ---
 
-# Resources
 
 Intelligence, research, and curated feeds to help you stay ahead of evolving threats.
 
@@ -49,10 +48,10 @@ Guidance and research from the National Institute of Standards and Technology.
 
 ---
 
-### World Economic Forum - Cybersecurity
+### CISA News
 
-Global perspectives on cybersecurity policy, trends, and emerging risks.
+Alerts, joint advisories, and guidance from the U.S. Cybersecurity and Infrastructure Security Agency.
 
-{{< rss url="https://www.weforum.org/agenda/cybersecurity/feed" max="5" >}}
+{{< rss url="https://www.cisa.gov/news.xml" max="5" >}}
 
-[View All WEF Cybersecurity →](https://www.weforum.org/agenda/cybersecurity)
+[View All CISA News →](https://www.cisa.gov/news-events/news)
