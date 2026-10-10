@@ -160,3 +160,9 @@ buildFuture = true
   [caches.getresource]
     dir = ':cacheDir/:project'
     maxAge = '6h'
+
+# GA4 is loaded directly in layouts/_partials/head/custom.html. Hinode's mod-google-analytics
+# bundle (core.bundle-analytics.js) only renders a comment here and shipped with a mismatched
+# SRI hash, so keep that module out of the core bundle.
+[params.modules.GoogleAnalytics]
+  integration = "optional"
