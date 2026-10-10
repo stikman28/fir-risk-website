@@ -46,7 +46,7 @@ Moving fast with AI is only valuable if the numbers can be trusted. The platform
 
 - **Real-time books.** Sales, inventory movements, and cash post daily rather than waiting for month-end.
 - **A faster, repeatable close.** An early close took about 28 hours of reconstruction. That experience became a written close checklist and automated gates, so each month is repeatable instead of rediscovered.
-- **Ownership.** The company owns its software and its data, rather than renting a system it can't change.
+- **Ownership.** The company owns its data and its platform, rather than renting a system it can't change. The data sits in a dedicated environment FIR manages on the company's behalf, with a planned move to the company's own Microsoft tenant.
 - **Live in about seven weeks.** Work on the accounting platform began in late March, and it went live in May.
 - **Speed of change.** When the business needed something new — a customer-deposit flow for phone orders, real-time retail-store posting — it shipped in days. The platform has shipped more than 150 updates since going live.
 
@@ -59,7 +59,7 @@ About seven weeks from start to go-live, then continuous improvement: one experi
 1. **Start where the data is.** Finance is rule-based and measurable, which makes it the best first place to put AI to work.
 2. **Keep humans on the decisions that matter.** AI does the reading, entering, and matching. People approve, pay, and sign off.
 3. **Make failures loud.** The most expensive problems were silent ones — a process that "ran" but wrote nothing. Build checks that shout.
-4. **Own your data.** Your data foundation should belong to you, not to a vendor.
+4. **Own your data.** Your data foundation should belong to you, not to a vendor — even if someone else hosts it for now.
 
 <div class="hero-section text-center py-4 mt-4">
   <h2 id="what-could-ai-do-for-your-company" class="mb-3">What Could AI Do for Your Company?</h2>
