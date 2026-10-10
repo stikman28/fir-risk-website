@@ -21,7 +21,14 @@ If you're looking for a partner who's done the work, reach out.
 — Bruce Bird
 Founder, FIR Risk Advisory
 
-## Meet Bruce
+<div class="py-4">
+  <div class="card p-4">
+    <h2 id="our-story" class="h5 mb-3">Our Story</h2>
+    <p class="mb-0">FIR Risk Advisory was built on a foundation of accounting discipline, audit rigor, and hands-on experience in technology, cybersecurity, and fraud management. When AI became truly capable, we saw the opportunity to combine that expertise with intelligent tools that actually work. Today, we build AI solutions, data platforms, and risk intelligence tools for organizations that need more than guesswork. We're builders, not just advisors — and we're invested in your success.</p>
+  </div>
+</div>
+
+## Background
 
 **Bruce C. Bird** — Founder & Principal, FIR Risk Advisory · Colorado
 
@@ -29,7 +36,7 @@ Four decades in accounting, audit, risk, and fraud. Bruce started at Arthur Ande
 
 <a href="https://www.linkedin.com/in/brucecbird/" class="btn btn-primary" target="_blank" rel="noopener">Connect on LinkedIn →</a>
 
-## Career Highlights
+### Career Highlights
 
 <div class="row g-4 my-2">
   <div class="col-md-6">
@@ -66,13 +73,6 @@ Four decades in accounting, audit, risk, and fraud. Bruce started at Arthur Ande
 - **Public investment firm** — AI and data-foundation analysis and roadmap, delivered to the CFO and executive team.
 - **[FIR Risk Platform](/platform/)** — a fraud and enterprise risk platform where an AI agent monitors primary sources and company SEC filings, grounded in thousands of public research documents. In testing with security and fraud teams.
 - **Custom door manufacturer** — prototype AI tools, built with the CEO and production team, for plant capacity planning and delivery.
-
-<div class="py-4">
-  <div class="card p-4">
-    <h2 id="our-story" class="h5 mb-3">Our Story</h2>
-    <p class="mb-0">FIR Risk Advisory was built on a foundation of accounting discipline, audit rigor, and hands-on experience in technology, cybersecurity, and fraud management. When AI became truly capable, we saw the opportunity to combine that expertise with intelligent tools that actually work. Today, we build AI solutions, data platforms, and risk intelligence tools for organizations that need more than guesswork. We're builders, not just advisors — and we're invested in your success.</p>
-  </div>
-</div>
 
 ## Connect
 
