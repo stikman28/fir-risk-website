@@ -10,7 +10,7 @@ date: 2026-10-10
   <ul class="mb-0">
     <li><strong>Client:</strong> a specialty online retailer selling through its own web store, Amazon (including Fulfillment by Amazon), eBay, phone orders, and a retail store.</li>
     <li><strong>Challenge:</strong> expensive, rigid legacy software, and month-end numbers that arrived weeks late.</li>
-    <li><strong>What we built:</strong> a custom accounting and operations platform on Microsoft Fabric, built with Claude Code, replacing NetSuite.</li>
+    <li><strong>What we built:</strong> a custom accounting and operations platform on Microsoft Fabric, built with Claude Code, replacing NetSuite — connected to a customized open-source warehouse management system, every sales channel, and the company's banks.</li>
     <li><strong>Result:</strong> leadership sees sales, inventory, and cash as they happen, and the company owns its software and its data.</li>
   </ul>
 </div>
@@ -24,6 +24,8 @@ The CEO wanted three things: **current numbers, lower software costs, and contro
 ## What We Built
 
 Rather than switching to another packaged system, we built the company its own platform, designed around how the business actually works. One advisor built it with Claude Code, in close partnership with the company's leadership and its warehouse-systems developer.
+
+- **The whole operation, connected.** Automated accounting only works if every system feeds it. We integrated a customized open-source warehouse management system (inventory by location, receiving, picking, and shipping), every sales channel — the web store, Amazon, eBay, phone orders, and the retail store — and the company's bank and card accounts. Orders, fees, payouts, inventory movements, and bank activity all flow in automatically, and inventory levels flow back out to the marketplaces.
 
 - **A real-time general ledger.** Sales from every channel, purchase-order receipts, returns, Amazon fulfillment activity, retail-store sales, and phone orders with customer deposits post to a proper double-entry ledger automatically, as they happen — not at month-end.
 - **Inventory valued every day.** Each morning the platform revalues inventory at weighted average cost from the prior day's receipts, so cost of goods sold and margins stay current.
