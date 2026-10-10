@@ -54,7 +54,7 @@ Regulatory pressure is mounting. NIST AI RMF and GDPR require human accountabili
 ## Learn More
 
 - [NIST CSF 2.0](https://www.nist.gov/cyberframework) — DE.AE-02, DE.CM-01, RS.MA-02
-- [NIST SP 800-61r3](https://csrc.nist.gov/publications/detail/sp/800-61/rev-3/final) — Incident Response guidance
+- [NIST SP 800-61r3](https://csrc.nist.gov/pubs/sp/800/61/r3/final) — Incident Response guidance
 - [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
 
 ---

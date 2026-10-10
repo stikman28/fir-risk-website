@@ -1,0 +1,27 @@
+{{/* End-of-article panel for INTEL and Tuesday pages: follow + contact actions, then up to
+     3 related INTEL/Tuesday pieces (Hugo related content on tags + date, see [related]). */}}
+<div class="article-end mt-5">
+  <div class="hero-section text-center py-4 mb-4">
+    <h2 id="article-end-next" class="h4 mb-3">Get the next one</h2>
+    <p class="mb-4">FIR Risk Tuesday: verified risk intelligence for security, fraud, and risk leaders. Free, every week.</p>
+    <div class="d-flex gap-3 justify-content-center flex-wrap">
+      <a href="https://www.linkedin.com/build-relation/newsletter-follow?entityUrn=7190764674668265472" class="btn btn-primary" target="_blank" rel="noopener">Follow FIR Risk Tuesday on LinkedIn</a>
+      <a href="/contact/" class="btn btn-outline-primary">Talk to Bruce about putting AI and data to work</a>
+    </div>
+  </div>
+
+  {{- $related := where (site.RegularPages.Related .) "Section" "in" (slice "intel" "tuesday") | first 3 -}}
+  {{- with $related }}
+  <h2 id="article-end-related" class="h5 mb-3">Related intelligence</h2>
+  <div class="row g-3 mb-2">
+    {{- range . }}
+    <div class="col-md-4">
+      <div class="card h-100 p-3">
+        <small class="text-body-secondary text-uppercase mb-1">{{ cond (eq .Section "intel") "INTEL" "FIR Risk Tuesday" }}</small>
+        <a href="{{ .RelPermalink }}" class="fw-semibold">{{ .LinkTitle }}</a>
+      </div>
+    </div>
+    {{- end }}
+  </div>
+  {{- end }}
+</div>

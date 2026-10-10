@@ -1,0 +1,7 @@
+{{/* Copy of Hinode v1.23.7 layouts/body.html — re-sync on upgrade.
+     Local change: wrap article text in .article-body so its line length can be limited. */}}
+{{- partial "page/thumbnail.html" (dict "page" . "wrapper" "mb-5") -}}
+
+<div class="article-body">
+{{ partial "utilities/ProcessContent" (dict "page" .Page "raw" .RawContent) }}
+</div>

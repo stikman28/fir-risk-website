@@ -5,10 +5,10 @@ description: "AI solutions, data platforms, and risk intelligence for cyber, fra
 
 <div class="hero-section text-center py-4 mb-4">
   <h1 id="hero-headline" class="display-3 fw-bold mb-3">Risk Intelligence. Engineered.</h1>
-  <p class="lead fs-4 mb-4 text-muted">AI solutions, data platforms, and risk intelligence — grounded in trusted sources, not internet noise.</p>
+  <p class="lead fs-4 mb-4 text-muted">AI solutions, data platforms, and verified risk intelligence for finance, risk, and security leaders — built by a former auditor, controller, and fraud executive.</p>
   <div class="d-flex gap-3 justify-content-center flex-wrap">
-    <a href="/platform/" class="btn btn-primary btn-lg px-4">Explore the Platform</a>
-    <a href="/intel/" class="btn btn-outline-primary btn-lg px-4">Browse Intelligence</a>
+    <a href="/contact/" class="btn btn-primary btn-lg px-4">Talk to Bruce</a>
+    <a href="/intel/" class="btn btn-outline-primary btn-lg px-4">Read the research</a>
   </div>
 </div>
 
@@ -60,17 +60,17 @@ description: "AI solutions, data platforms, and risk intelligence for cyber, fra
   <div class="card p-0 mb-4 overflow-hidden">
     <div class="row g-0">
       <div class="col-md-5">
-        <a href="/tuesday/e92-time-is-the-attack-surface/">
-          <img src="/images/tuesday/e92-time-is-the-attack-surface.png" class="img-fluid w-100 h-100" style="object-fit: cover;" alt="FIR Risk E92 - Time Is the Attack Surface">
+        <a href="/intel/">
+          <img src="/images/home/fir-risk-watercolor-960.webp" srcset="/images/home/fir-risk-watercolor-480.webp 480w, /images/home/fir-risk-watercolor-960.webp 960w" sizes="(min-width: 768px) 40vw, 100vw" width="960" height="524" loading="lazy" decoding="async" class="img-fluid w-100 h-100" style="object-fit: cover;" alt="Watercolor of a Colorado mountain valley with a trail sign reading FIR Risk, Risk Intelligence, Engineered">
         </a>
       </div>
       <div class="col-md-7 d-flex align-items-center">
         <div class="p-4">
-          <span class="badge bg-primary mb-2">Latest Edition</span>
-          <h3 class="h4 mb-2"><a href="/tuesday/e92-time-is-the-attack-surface/" class="text-decoration-none">E92 — Time Is the Attack Surface</a></h3>
-          <p class="text-muted mb-1"><em>July 21, 2026</em> | Microsoft &amp; Accenture — Securing Nations in the Intelligent Economy</p>
-          <p class="mb-3">A cyberattack showed up in a G7 nation's GDP statistics — and the report analyzing it reframes how cyber loss is priced. Not by whether you're breached, but by three clocks: recovery time (each extra week roughly triples the damage), adversary tempo (80–90% of a disclosed espionage campaign ran on agentic AI), and your data's shelf life (harvest-now-decrypt-later is already operational).</p>
-          <a href="/tuesday/e92-time-is-the-attack-surface/" class="btn btn-primary">Read Now →</a>
+          <span class="badge bg-primary text-dark mb-2">Free · No paywall</span>
+          <h3 id="fir-risk-research" class="h4 mb-2"><a href="/intel/" class="text-decoration-none">FIR Risk Research</a></h3>
+          <p class="text-muted mb-1">FIR Risk Tuesday editions, INTEL briefs, and annual Fraud Intelligence Reports</p>
+          <p class="mb-3">We read the major threat reports end to end, verify every statistic against the primary source, and turn them into board-ready briefs: what changed, why it matters, and the one action to take.</p>
+          <a href="/intel/" class="btn btn-primary">Read the research →</a>
         </div>
       </div>
     </div>

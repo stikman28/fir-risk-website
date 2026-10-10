@@ -1,6 +1,6 @@
 ---
 title: "Privacy Policy"
-description: "How FIR Risk Advisory collects, uses, and protects information submitted through firrisk.ai, including contact form data, site analytics, and minimal cookies."
+description: "How FIR Risk Advisory collects, uses, and protects information submitted through firrisk.ai, including contact form data, Google Analytics, and cookies."
 ---
 
 <div class="hero-section text-center py-4 mb-4">
@@ -8,15 +8,15 @@ description: "How FIR Risk Advisory collects, uses, and protects information sub
   <p class="lead">How we handle your information.</p>
 </div>
 
-*Last updated: February 10, 2026*
+*Last updated: October 10, 2026*
 
 ## Information We Collect
 
 When you use our website or contact us, we may collect:
 
 - **Contact information** — Name, email, company, and phone number submitted through our contact form
-- **Usage data** — Standard web analytics (page views, browser type, referring pages) via Cloudflare Web Analytics
-- **Cookies** — We use minimal cookies for site functionality (theme preference). No third-party tracking cookies.
+- **Usage data** — Standard web analytics (pages viewed, approximate location, device and browser type, referring pages) via Google Analytics 4
+- **Cookies** — Google Analytics sets first-party cookies (`_ga`, `_ga_*`) to count visits and distinguish returning visitors. The site also stores your light/dark theme preference in your browser. We don't use advertising cookies.
 
 ## How We Use Your Information
 
@@ -28,7 +28,7 @@ When you use our website or contact us, we may collect:
 
 - We **never sell** your personal information
 - We **never share** your contact details with third parties for marketing
-- We **don't use** third-party tracking pixels or ad networks
+- We **don't use** advertising, remarketing, or ad networks
 - Our AI platform **never trains** on client data
 
 ## FIR Risk Platform
@@ -38,7 +38,8 @@ If you use the FIR Risk Platform, your data is governed by a separate data proce
 ## Third-Party Services
 
 - **Resend** — Processes contact form submissions ([Resend Privacy Policy](https://resend.com/legal/privacy-policy))
-- **Cloudflare** — Hosts this website and provides analytics ([Cloudflare Privacy Policy](https://www.cloudflare.com/privacypolicy/))
+- **Google Analytics** — Website usage analytics ([Google Privacy Policy](https://policies.google.com/privacy)). You can opt out with the [Google Analytics Opt-out Browser Add-on](https://tools.google.com/dlpage/gaoptout).
+- **Cloudflare** — Hosts this website, provides security services, and runs Turnstile, the bot check on our contact form ([Cloudflare Privacy Policy](https://www.cloudflare.com/privacypolicy/))
 - **LinkedIn** — Manages newsletter subscriptions ([LinkedIn Privacy Policy](https://www.linkedin.com/legal/privacy-policy))
 
 ## Processing in the United States
