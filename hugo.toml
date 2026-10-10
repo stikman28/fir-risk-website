@@ -166,3 +166,16 @@ buildFuture = true
 # SRI hash, so keep that module out of the core bundle.
 [params.modules.GoogleAnalytics]
   integration = "optional"
+
+# Related content for the end-of-article panel (layouts/_partials/article/end-panel.html):
+# match on shared tags, prefer recent, include newer pieces too.
+[related]
+  includeNewer = true
+  threshold = 30
+  toLower = true
+  [[related.indices]]
+    name = "tags"
+    weight = 100
+  [[related.indices]]
+    name = "date"
+    weight = 10
