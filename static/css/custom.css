@@ -274,3 +274,40 @@ pre {
   --bs-btn-active-bg: #9aabae;
   --bs-btn-active-border-color: #9aabae;
 }
+
+/* ---- Light-mode text teal (WCAG AA) --------------------------------------------------
+   Bright teal #00e5a9 as TEXT on white / #F7FAF2 is 1.64:1 / 1.56:1. In light mode only,
+   text uses of teal switch to #007a5a (5.34:1 on white, 5.06:1 on #F7FAF2). Fills, buttons,
+   borders and all of dark mode keep the bright brand teal. */
+[data-bs-theme="light"] {
+  --fir-teal-text: #007a5a;
+}
+[data-bs-theme="light"] .content a:not(.btn),
+[data-bs-theme="light"] .content strong,
+[data-bs-theme="light"] .content b,
+[data-bs-theme="light"] blockquote strong,
+[data-bs-theme="light"] .content blockquote strong,
+[data-bs-theme="light"] .price-tag {
+  color: var(--fir-teal-text);
+}
+[data-bs-theme="light"] .content h3 a,
+[data-bs-theme="light"] .nav-link:hover {
+  color: var(--fir-teal-text) !important;
+}
+/* Hero gradient text: #007a5a -> #005f46 (large text; worst case 3.49:1 on the darkest hero
+   background stop, >= 3:1 AA-large; 5.03:1 for the end color on that stop) */
+[data-bs-theme="light"] .hero-section h1,
+[data-bs-theme="light"] .hero-section .hero-title {
+  background: linear-gradient(135deg, #007a5a 0%, #005f46 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+/* Links inside running text are underlined (both modes) so they don't rely on color alone */
+.content p a:not(.btn),
+.content li a:not(.btn),
+.content td a:not(.btn) {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.18em;
+}
