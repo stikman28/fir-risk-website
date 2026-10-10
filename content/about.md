@@ -1,10 +1,10 @@
 ---
 title: "About"
-description: "About FIR Risk Advisory - AI, cybersecurity, and risk expertise"
+description: "FIR Risk Advisory is led by Bruce Bird—accounting, audit, cybersecurity, and fraud experience—building AI and data tools grounded in trusted sources."
 ---
 
 <div class="hero-section text-center py-4 mb-4">
-  <h1 id="hero-headline" class="display-5 fw-bold mb-3">Built It. Audited It. Secured It.</h1>
+  <h2 id="hero-headline" class="hero-title display-5 fw-bold mb-3">Built It. Audited It. Secured It.</h2>
   <p class="lead">AI solutions, data platforms, and risk intelligence — built by someone who's been on all sides of the equation.</p>
 </div>
 

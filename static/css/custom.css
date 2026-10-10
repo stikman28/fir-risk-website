@@ -9,11 +9,19 @@
   margin-top: 2.5rem;
 }
 
-.hero-section h1 {
+.hero-section h1,
+.hero-section .hero-title {
   background: linear-gradient(135deg, var(--fir-teal) 0%, #00b386 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+}
+
+/* Inner-page hero headlines are h2 (the theme renders the page title as the h1);
+   cancel the .content h2 section spacing so they look like the old h1 heroes */
+.content .hero-section .hero-title {
+  margin-top: 0;
+  padding-top: 0;
 }
 
 .hero-section .lead {

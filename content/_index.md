@@ -1,6 +1,6 @@
 ---
 title: "FIR Risk Advisory"
-description: "AI solutions, data platforms, and risk intelligence—grounded in trusted sources, not internet noise."
+description: "AI solutions, data platforms, and risk intelligence for cyber, fraud, and risk teams—grounded in verified sources, with free weekly research and alerts."
 ---
 
 <div class="hero-section text-center py-4 mb-4">

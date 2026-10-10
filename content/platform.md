@@ -1,10 +1,10 @@
 ---
 title: "FIR Risk Platform"
-description: "AI-powered risk intelligence platform for enterprise risk, cybersecurity, and fraud teams"
+description: "The FIR Risk Platform pairs AI analysis with a curated knowledge base of 14,000+ threat patterns from MITRE, CISA KEV, and NIST—answers that cite their sources."
 ---
 
 <div class="hero-section text-center py-4 mb-4">
-  <h1 id="hero-headline" class="display-5 fw-bold mb-3">Intelligence That Cites Its Sources</h1>
+  <h2 id="hero-headline" class="hero-title display-5 fw-bold mb-3">Intelligence That Cites Its Sources</h2>
   <p class="lead">Trusted sources, AI-powered analysis, and purpose-built tools for enterprise risk, cybersecurity, and fraud teams.</p>
 </div>
 

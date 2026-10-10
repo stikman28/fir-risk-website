@@ -1,0 +1,93 @@
+{{/* FIR Risk override of Hinode v1.23.7 head/seo.html (2026-10-10):
+     - page titles are "Page | FIR Risk Advisory" (site.Title carries the tagline, which
+       made every page title 60-80 chars); home keeps the full site title
+     - every page emits a self-referencing canonical (Hinode only did so on paginated lists)
+     - meta description limit raised 150 -> 160 chars (what Google displays)
+     Re-sync with the module template when upgrading Hinode. */}}
+{{/* TODO: replace scratch with dict */}}
+
+{{/* Adapted from doks */}}
+{{ with .Params.meta.title }}
+    {{ $title := . }}
+    {{ if and site.Params.main.titleCase (not $.Params.exact) }}{{ $title = title $title }}{{ end }}
+    {{ $.Scratch.Set "title" $title -}}
+{{ else }}
+    {{ $title := .Title | default .Site.Title }}
+    {{ if and site.Params.main.titleCase (not $.Params.exact) }}{{ $title = title $title }}{{ end }}
+    {{ $.Scratch.Set "title" $title -}}
+{{ end }}
+
+{{ $description := or (partial "utilities/GetDescription.html" (dict "page" . "meta" true)) .Site.Params.main.description }}
+{{ if gt (strings.RuneCount $description) 160 }}
+    {{ $description = print (substr $description 0 160) "..." }}
+{{ end }}
+{{ $.Scratch.Set "description" $description -}}
+
+{{- $thumbnail := "" -}}
+{{ if reflect.IsMap .Params.Thumbnail }}{{ $thumbnail = .Params.Thumbnail.url }}{{ else }}{{ $thumbnail = .Params.Thumbnail }}{{ end }}
+
+{{ if $thumbnail -}}
+    {{ $imgURL := index (partial "assets/helpers/image-dimension.html" (dict "src" $thumbnail "image-width" 1280 "image-height" 640 "page" .)) "target" }}
+    {{ $.Scratch.Set "thumbnail" ($imgURL | absURL) -}}
+{{ else -}}
+    {{ with .Site.Params.schema.image.url -}}    
+        {{ $.Scratch.Set "thumbnail" (. | absURL) -}}
+    {{ else -}}
+        {{ $images := $.Resources.ByType "image" -}}
+        {{ $featured := $images.GetMatch "*feature*" -}}
+        {{ if not $featured -}}
+            {{ $featured = $images.GetMatch "{*cover*,*thumbnail*}" -}}
+        {{ end -}}
+        {{ with $featured -}}
+            {{ $.Scratch.Set "thumbnail" $featured.Permalink -}}
+        {{ else -}}
+            {{ with $.Site.Params.opengraph.images -}}
+                {{ $.Scratch.Set "thumbnail" (index . 0 | absURL) -}}
+            {{ end -}}
+        {{ end -}}
+    {{ end -}}
+{{ end -}}
+
+
+{{ if eq .Kind "404" -}}
+    <meta name="robots" content="noindex, follow">
+{{ else }}
+  {{ with or .Params.robots .Params.meta.robots .Site.Params.meta.robots -}}
+    <meta name="robots" content="{{ . }}">
+  {{ else -}}
+    <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  {{ end -}}
+{{ end -}}
+
+    {{ if .IsHome -}}
+        <title>{{ .Site.Title }}</title>
+    {{ else -}}
+        <title>{{ .Title }} | {{ .Site.Params.brand | default "FIR Risk Advisory" }}</title>
+    {{ end -}}
+
+    <meta name="description" content="{{ $.Scratch.Get "description" }}">
+
+
+{{ $paginator := $.Store.Get "paginator" }}
+{{ if $paginator }}
+    <link rel="canonical" href="{{ $paginator.URL | absURL }}">
+    {{ if $paginator.HasPrev -}}
+        <link rel="prev" href="{{ $paginator.Prev.URL | absURL }}">
+    {{ end -}}
+    {{ if $paginator.HasNext -}}
+        <link rel="next" href="{{ $paginator.Next.URL | absURL }}">
+    {{ end -}}
+{{ else if ne .Kind "404" -}}
+    <link rel="canonical" href="{{ .Permalink }}">
+{{ end -}}
+
+{{ partial "head/opengraph.html" . }}
+{{ partial "head/twitter_cards.html" . }}
+
+{{ range .AlternativeOutputFormats -}}
+    <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}">
+{{ end -}}
+
+{{ partial "head/structured-data.html" . }}

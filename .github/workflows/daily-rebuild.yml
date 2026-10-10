@@ -1,0 +1,21 @@
+name: Daily rebuild
+
+# Rebuilds firrisk.ai every morning so the curated RSS feeds on /resources/ stay current
+# even on days nothing is published. Triggers a Cloudflare Pages deploy hook.
+# Secret CF_PAGES_DEPLOY_HOOK = Cloudflare dashboard → Pages project → Settings → Builds → Deploy hooks (branch: main).
+
+on:
+  schedule:
+    - cron: "0 11 * * *" # 11:00 UTC = 5am MT (MDT)
+  workflow_dispatch:
+
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Cloudflare Pages build
+        env:
+          HOOK: ${{ secrets.CF_PAGES_DEPLOY_HOOK }}
+        run: |
+          if [ -z "$HOOK" ]; then echo "::error::CF_PAGES_DEPLOY_HOOK secret is not set"; exit 1; fi
+          curl -fsS -X POST "$HOOK" -o /dev/null -w "deploy hook: HTTP %{http_code}\n"

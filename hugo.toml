@@ -30,6 +30,7 @@ buildFuture = true
 [params]
   description = "AI-powered risk intelligence for cyber, fraud, and compliance teams"
   tagline = "Risk Intelligence. Engineered."
+  brand = "FIR Risk Advisory"
   author = "Bruce Bird"
   email = "hello@firrisk.ai"
   location = "Berthoud, Colorado"
@@ -62,10 +63,10 @@ buildFuture = true
     name = "FIR Risk Advisory"
     locale = "en-US"
     github = "https://github.com/stikman28"
-    linkedin = "https://www.linkedin.com/in/brucebird/"
+    linkedin = "https://www.linkedin.com/in/brucecbird/"
     [params.schema.author]
       name = "Bruce Bird"
-      linkedin = "https://www.linkedin.com/in/brucebird/"
+      linkedin = "https://www.linkedin.com/in/brucecbird/"
       github = "https://github.com/stikman28"
     [params.schema.logo]
       url = "img/logo.png"
@@ -132,3 +133,10 @@ buildFuture = true
 [outputs]
   home = ["HTML", "RSS", "llms", "llmsfull"]
   section = ["HTML", "RSS"]
+
+# RSS feeds on /resources/ are fetched at build time (resources.GetRemote). Expire the
+# fetch cache so the daily scheduled rebuild pulls fresh items even if the build cache persists.
+[caches]
+  [caches.getresource]
+    dir = ':cacheDir/:project'
+    maxAge = '6h'
