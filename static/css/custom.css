@@ -282,15 +282,17 @@ pre {
 [data-bs-theme="light"] {
   --fir-teal-text: #007a5a;
 }
+/* Single pages have no .content wrapper, so target main (all pages) as well. */
+[data-bs-theme="light"] main a:not(.btn),
 [data-bs-theme="light"] .content a:not(.btn),
 [data-bs-theme="light"] .content strong,
 [data-bs-theme="light"] .content b,
 [data-bs-theme="light"] blockquote strong,
-[data-bs-theme="light"] .content blockquote strong,
 [data-bs-theme="light"] .price-tag {
   color: var(--fir-teal-text);
 }
 [data-bs-theme="light"] .content h3 a,
+[data-bs-theme="light"] main h3 a,
 [data-bs-theme="light"] .nav-link:hover {
   color: var(--fir-teal-text) !important;
 }
@@ -304,9 +306,10 @@ pre {
 }
 
 /* Links inside running text are underlined (both modes) so they don't rely on color alone */
-.content p a:not(.btn),
-.content li a:not(.btn),
-.content td a:not(.btn) {
+.article-body p a:not(.btn),
+.article-body li a:not(.btn),
+.article-body td a:not(.btn),
+main p a:not(.btn) {
   text-decoration: underline;
   text-decoration-thickness: 1px;
   text-underline-offset: 0.18em;
