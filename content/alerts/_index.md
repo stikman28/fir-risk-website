@@ -1,4 +1,4 @@
 ---
 title: "FIR Risk INTEL"
-description: "Real-time threat intelligence alerts from FIR Risk Advisory"
+description: "FIR Risk INTEL: short, verified threat intelligence briefs for security and risk leaders, each isolating one emerging threat and the one action to take on it."
 ---

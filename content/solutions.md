@@ -1,10 +1,10 @@
 ---
 title: "Solutions"
-description: "AI solutions, data platforms, and risk advisory from FIR Risk Advisory"
+description: "FIR Risk Advisory solutions: the FIR Risk Platform, Microsoft Fabric data platforms, custom AI knowledge bases and agents, and cyber, fraud, and risk advisory."
 ---
 
 <div class="hero-section text-center py-4 mb-4">
-  <h1 id="hero-headline" class="display-5 fw-bold mb-3">Built for Your Business. Grounded in Expertise.</h1>
+  <h2 id="hero-headline" class="hero-title display-5 fw-bold mb-3">Built for Your Business. Grounded in Expertise.</h2>
   <p class="lead">From our risk intelligence platform to custom AI solutions to Microsoft Fabric implementations — explore how we help organizations drive performance and manage risk.</p>
 </div>
 

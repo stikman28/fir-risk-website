@@ -1,10 +1,10 @@
 ---
 title: "Pricing"
-description: "Simple, predictable pricing for AI solutions, data platforms, and risk advisory"
+description: "Flat-rate pricing for AI, data, and risk work: Essentials at $3,000/month with 15 hours of advisory and build time, plus Builder Packs. No surprise invoices."
 ---
 
 <div class="hero-section text-center py-4 mb-4">
-  <h1 id="hero-headline" class="display-5 fw-bold mb-3">Flat-Rate. No Surprises.</h1>
+  <h2 id="hero-headline" class="hero-title display-5 fw-bold mb-3">Flat-Rate. No Surprises.</h2>
   <p class="lead">No surprise invoices. No nickel-and-diming. Pricing that's easy to budget and easy to understand.</p>
 </div>
 

@@ -1,10 +1,10 @@
 ---
 title: "Partners"
-description: "FIR Risk Advisory partner network - hand-selected firms for expertise and client success"
+description: "Our partner network—Fastrics, Raxis, Pondurance, and Altum Strategy Group—adds IT audit, penetration testing, managed SOC, and transformation expertise."
 ---
 
 <div class="hero-section text-center py-4 mb-4">
-  <h1 id="partner-network" class="display-5 fw-bold mb-3">Stronger Together</h1>
+  <h2 id="partner-network" class="hero-title display-5 fw-bold mb-3">Stronger Together</h2>
   <p class="lead fs-5 mb-0">Cybersecurity, offensive testing, managed SOC, digital transformation — capabilities that extend what we build for you.</p>
 </div>
 

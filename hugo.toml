@@ -30,6 +30,7 @@ buildFuture = true
 [params]
   description = "AI-powered risk intelligence for cyber, fraud, and compliance teams"
   tagline = "Risk Intelligence. Engineered."
+  brand = "FIR Risk Advisory"
   author = "Bruce Bird"
   email = "hello@firrisk.ai"
   location = "Berthoud, Colorado"

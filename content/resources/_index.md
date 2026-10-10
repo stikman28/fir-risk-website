@@ -1,6 +1,6 @@
 ---
 title: "Resources"
-description: "FIR Risk Advisory resources - intelligence, reports, and curated sources"
+description: "FIR Risk resources: weekly Tuesday research, INTEL threat alerts, annual fraud intelligence reports, and curated feeds from CISA, NIST, WEF, and FIDO Alliance."
 ---
 
 # Resources

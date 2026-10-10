@@ -1,10 +1,10 @@
 ---
 title: "Contact"
-description: "Contact FIR Risk Advisory - AI, data, and risk solutions"
+description: "Contact FIR Risk Advisory about the FIR Risk Platform, Microsoft Fabric data platforms, custom AI solutions, or risk advisory. Tell us what you're working on."
 ---
 
 <div class="hero-section text-center py-4 mb-4">
-  <h1 id="hero-headline" class="display-5 fw-bold mb-3">Let's Build Something</h1>
+  <h2 id="hero-headline" class="hero-title display-5 fw-bold mb-3">Let's Build Something</h2>
   <p class="lead">Tell us what you're working on. We'll tell you how we can help.</p>
 </div>
 

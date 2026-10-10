@@ -1,10 +1,10 @@
 ---
 title: "Privacy Policy"
-description: "FIR Risk Advisory privacy policy"
+description: "How FIR Risk Advisory collects, uses, and protects information submitted through firrisk.ai, including contact form data, site analytics, and minimal cookies."
 ---
 
 <div class="hero-section text-center py-4 mb-4">
-  <h1 id="hero-headline" class="display-5 fw-bold mb-3">Privacy Policy</h1>
+  <h2 id="hero-headline" class="hero-title display-5 fw-bold mb-3">Privacy Policy</h2>
   <p class="lead">How we handle your information.</p>
 </div>
 
