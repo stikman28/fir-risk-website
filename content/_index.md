@@ -77,18 +77,25 @@ description: "AI solutions, data platforms, and risk intelligence for cyber, fra
   </div>
 
   <div class="row g-4">
-    <div class="col-md-6">
+    <div class="col-md-4">
       <div class="card h-100 p-4">
         <h3 id="fir-risk-tuesday" class="h5">FIR Risk Tuesday</h3>
         <p>Weekly newsletter on the threats that matter to cyber, fraud, and risk teams.</p>
         <a href="/tuesday/" class="fw-semibold">All Editions →</a>
       </div>
     </div>
-    <div class="col-md-6">
+    <div class="col-md-4">
       <div class="card h-100 p-4">
         <h3 id="fir-risk-intel" class="h5">FIR Risk INTEL</h3>
         <p>Real-time alerts on vulnerabilities, techniques, and regulatory shifts.</p>
         <a href="/intel/" class="fw-semibold">View INTEL →</a>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card h-100 p-4">
+        <h3 id="resources-live-feeds" class="h5">Resources &amp; Live Feeds</h3>
+        <p>The latest from CISA, NIST, the FIDO Alliance, and the World Economic Forum, refreshed daily in one place.</p>
+        <a href="/resources/" class="fw-semibold">See the Feeds →</a>
       </div>
     </div>
   </div>
