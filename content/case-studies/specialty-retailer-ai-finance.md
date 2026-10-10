@@ -21,11 +21,15 @@ The company did what growing retailers do: every time it hit a new problem, it b
 
 Each made sense when it was bought. Together, they became the problem. Five vendors, five fixed annual contracts, five price increases. Data copied between systems that didn't agree with each other. Month-end numbers that arrived weeks late, so leadership was always making today's decisions about purchasing, pricing, and cash with last month's information.
 
+And underneath it all: **the company didn't really control its own data.** Each vendor held a piece of it. Working with it directly meant exports and workarounds. Connecting it across five systems was effectively impossible. And every vendor's answer was another paid tier — usually whatever "AI-enabled" feature it was pushing that year.
+
 The CEO wanted current numbers, fewer subscriptions, and control over the company's own data. The question was whether to buy a sixth system to tie the other five together — or to build something the company would actually own.
 
 ## Build It Once, Around the Business
 
-We chose to build: a single data foundation, and a custom business platform on top of it, designed around how this business actually works. One experienced advisor did the building with Claude Code, in close partnership with the company's leadership and its warehouse-systems developer.
+We chose to build: a single data foundation the company owns, and a custom business platform on top of it, designed around how this business actually works.
+
+It was built by two people, with the CEO setting direction. FIR designed and built the data foundation, the database, the infrastructure, and the accounting and integration platform with Claude Code. The company's own systems developer was a true partner: he drove the design and coding of the custom warehouse management system, built on open-source software, with FIR's support.
 
 The key decision was the order of the work. Nothing went live until it had been proven against the old systems.
 
@@ -39,7 +43,7 @@ All of the NetSuite history moved into the new platform first. Then the new syst
 
 ### 3. Build the platform
 
-While the parallel runs were happening, the core of the business platform came together: the general ledger, warehouse management, shipping, and the integrations with every sales channel and bank. In place of the old warehouse software, a customized open-source warehouse management system. In place of the channel manager, direct connections to the web store, Amazon, and eBay. In place of the point-of-sale subscription, a custom point-of-sale system for the store.
+While the parallel runs were happening, the core of the business platform came together: the general ledger, warehouse management, shipping, and the integrations with every sales channel and bank. In place of the old warehouse software, the custom open-source warehouse management system the company's developer built. In place of the channel manager, direct connections to the web store, Amazon, and eBay. In place of the point-of-sale subscription, a custom point-of-sale system for the store.
 
 ### 4. Go live — May 12
 
@@ -79,7 +83,8 @@ Speed only matters if the numbers can be trusted:
 - **Five SaaS subscriptions retired.** NetSuite, Rithum, NetStock, OZ WMS, and the point-of-sale subscription — replaced by one platform the company owns.
 - **A one-day month-end close.** An early close on the new platform took about 28 hours of reconstruction; that experience became a written checklist, automated gates, and automatic posting.
 - **Numbers leadership can use today,** not weeks later.
-- **Ownership.** The company owns its data and its platform. The data sits in a dedicated environment FIR manages on the company's behalf, with a planned move to the company's own Microsoft tenant.
+- **A promotion, not a layoff.** The company's developer now supports the entire platform day to day, under the CEO's direction, with FIR on call when needed — and earned a promotion to **Director of Operations** because of the project.
+- **The company owns its data.** All of it, in one place, connected across every process — and it owns the platform that runs on it. The data sits in a dedicated environment FIR manages on the company's behalf, with a planned move to the company's own Microsoft tenant.
 - **Speed of change.** New needs — a customer-deposit flow for phone orders, real-time store posting — ship in days. The platform has shipped more than 150 updates since going live.
 
 ## What's Next
@@ -88,11 +93,11 @@ With every process running on one data foundation, the company is positioned for
 
 ## Lessons for CEOs
 
-1. **Add up your subscriptions.** Five tools that each made sense can cost more — in fees and in disconnected data — than one platform built around your business.
-2. **Prove it before you trust it.** Run the new system alongside the old one until the numbers tie.
-3. **Start where the data is.** Finance is rule-based and measurable, which makes it the best first place to put AI to work.
-4. **Keep humans on the decisions that matter.** AI does the reading, entering, and matching. People approve, pay, and sign off.
-5. **Own your data.** Your data foundation should belong to you, not to a vendor — even if someone else hosts it for now.
+1. **Own your data. This is the one that matters most.** When a software vendor holds your data, you can't work with it directly, you can't connect it across systems, and you pay their price to get at it. A data foundation you own is what makes everything else — including AI — possible, even if someone else hosts it for now.
+2. **Add up your subscriptions.** Five tools that each made sense can cost more — in fees and in disconnected data — than one platform built around your business.
+3. **Prove it before you trust it.** Run the new system alongside the old one until the numbers tie.
+4. **Start where the data is.** Finance is rule-based and measurable, which makes it the best first place to put AI to work.
+5. **Keep humans on the decisions that matter — and invest in them.** AI does the reading, entering, and matching. People approve, pay, and sign off. The person who learns the new platform becomes more valuable, not less.
 
 <div class="hero-section text-center py-4 mt-4">
   <h2 id="what-could-ai-do-for-your-company" class="mb-3">What Could AI Do for Your Company?</h2>
