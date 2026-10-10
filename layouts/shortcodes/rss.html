@@ -17,7 +17,8 @@
 {{- if $sortByDate -}}
   {{- $dated := slice -}}
   {{- range $items -}}
-    {{- $dated = $dated | append (dict "t" (time.AsTime .pubDate).Unix "item" .) -}}
+    {{- $d := try (time.AsTime (replaceRE `^(\w{3}, \d{1,2} \w{3} )(\d{2}) ` "${1}20${2} " .pubDate)) -}}
+    {{- $dated = $dated | append (dict "t" (cond $d.Err 0 $d.Value.Unix) "item" .) -}}
   {{- end -}}
   {{- $items = slice -}}
   {{- range sort $dated "t" "desc" -}}
@@ -32,7 +33,11 @@
         <strong>{{ cond (ne $strip "") (replace .title $strip "") .title }}</strong>
       </a>
       {{- with .pubDate -}}
-      <br><small class="text-muted">{{ . }}</small>
+        {{- /* Normalize dates ("Oct 8, 2026"); CISA sends 2-digit years ("Thu, 08 Oct 26 ..."). Fall back to the raw string. */ -}}
+        {{- $raw := . -}}
+        {{- $fixed := replaceRE `^(\w{3}, \d{1,2} \w{3} )(\d{2}) ` "${1}20${2} " $raw -}}
+        {{- $t := try (time.AsTime $fixed) -}}
+      <br><small class="text-muted">{{ if $t.Err }}{{ $raw }}{{ else }}{{ $t.Value | time.Format "Jan 2, 2006" }}{{ end }}</small>
       {{- end -}}
     </li>
     {{- end -}}
