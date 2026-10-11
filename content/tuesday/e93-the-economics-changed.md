@@ -71,7 +71,7 @@ The design is sound, and it was shaped by more than 100 enterprises and the CISO
 
 ## The test we ran before we believed any of it
 
-- **It's self-reported.** Anthropic is both the reporter and a vendor, EFS is one of its products, and some critics argue claims like these can't be independently verified. We weigh it accordingly: the patterns match what Google's GTIG ([E79](/tuesday/e79-same-ai-different-mission/)), Mandiant and Verizon have reported, and the techniques described are well established.
+- **It's self-reported.** Anthropic is both the reporter and a vendor, EFS is one of its products, and some critics argue claims like these can't be independently verified. We weigh it accordingly: the patterns match what Google's GTIG ([E79](/tuesday/e79-gtig-ai-threat-tracker/)), Mandiant and Verizon have reported, and the techniques described are well established.
 - **It's the extreme end.** Anthropic stresses that these cases are the most notable and novel activity it found, not typical misuse. Read it as a view of where the frontier of attacker capability is, not of what the median attacker does today.
 - **It's one provider's view.** By the report's own account, attackers spread work across AI providers. No single lab sees the whole operation, which is the strongest argument for every lab publishing at this level.
 
