@@ -21,9 +21,9 @@ Status as of October 11, 2026: EFS is rolling out in phases to *eligible* custom
 
 This is the first time a frontier lab has handed misuse monitoring to the customer as an operating responsibility. That's a genuine tailwind: regulated firms can now run frontier models with the data, keys and reviewers they already trust. But it also moves accountability. Under EFS, a flag that arrives at 2 a.m. has no Anthropic analyst behind it. It's your team, your playbook and your clock. A flag nobody acts on is no control at all.
 
-The timing isn't a coincidence. Anthropic's September 2026 threat report documents attackers stealing and reselling access to AI models, harvesting credentials through fake AI resellers, and spreading operations across several AI providers so no single vendor sees the whole picture. EFS is the vendor-side answer to the credential problem. The cross-provider blind spot remains the enterprise's problem: only you can see all of your own AI usage.
+The timing lines up with the threat picture. Anthropic's September 2026 threat report documents criminal groups treating access to AI (compromised API keys, session tokens and devices) as a primary objective, attackers using customers' stolen API keys, and a fake reseller harvesting account credentials. EFS is the vendor-side answer to the credential problem. But Anthropic only sees activity on its own platform: if your organization uses several AI providers, only you can see all of your own AI usage.
 
-Two caveats belong in any board briefing. Anthropic has not yet published detection-performance data, flag thresholds or eligibility rules, so treat EFS as a promising control whose effectiveness is still unproven. And smaller organizations may never be eligible, which leaves them running frontier AI without this layer at all.
+Three caveats belong in any board briefing. Anthropic has not yet published detection-performance data, flag thresholds or eligibility rules, so treat EFS as a promising control whose effectiveness is still unproven. Anthropic also has a commercial interest: EFS is its product, launched days before its threat report. And smaller organizations may never be eligible, which leaves them running frontier AI without this layer at all.
 
 ---
 
