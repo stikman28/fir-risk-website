@@ -21,7 +21,7 @@ Why read a vendor's report about its own platform? Because a frontier lab sees a
 
 In June we argued, from the Verizon DBIR, that AI was a *breadth* multiplier, not a *depth* multiplier ([E90](/tuesday/e90-refinement-not-revolution/)). Anthropic's report confirms the first half and escalates it. The techniques are still old: stolen credentials, unpatched edge devices, exposed services, SQL injection, phishing. What's new is that breadth now covers the expensive work. The reconnaissance, exploitation, tool development and data processing that once required a well-funded team are delegated to AI agents running at machine speed and in parallel.
 
-**Same playbook, new cost structure: attack frequency against commodity weaknesses rises, while damage per incident stays the same.**
+**Same playbook, new cost structure: attacks on known, fixable weaknesses get more frequent, while damage per incident stays the same.**
 
 ---
 
@@ -41,7 +41,7 @@ The clearest example is a Russia state-nexus espionage actor Anthropic tracks as
 
 Criminal groups showed the same pattern. In one case involving operators Anthropic suspects are affiliates of the ShinyHunters collective, a single stolen developer token became full administrative control of a victim's cloud environment in roughly three hours, and one affiliate took data from roughly 200 of a SaaS company's downstream customer organizations.
 
-**What it means for you:** in risk-register terms, *likelihood* rises for every commodity weakness you carry, because each attempt costs the attacker far less. *Severity* doesn't change; the report itself notes that potential payoffs are largely unchanged. That's a concrete reason to re-score this quarter, not a vague worry about AI.
+**What it means for you:** in risk-register terms, *likelihood* rises for every known, fixable weakness you carry (stolen passwords, unpatched internet-facing devices, exposed services, phishing), because each attempt costs the attacker far less. *Severity* doesn't change; the report itself notes that potential payoffs are largely unchanged. That's a concrete reason to re-score this quarter, not a vague worry about AI.
 
 ---
 
@@ -61,7 +61,7 @@ Anthropic's own advice to organizations is blunt: treat AI keys and agent integr
 
 When reconnaissance and exploitation were expensive, it made sense for attackers to concentrate on high-value targets. Anthropic's report says AI autonomy makes previously marginal targets viable and encourages higher-volume, lower-touch operations. Our reading: an unpatched VPN appliance at a 200-person company is now an economic target, not an afterthought.
 
-**What it means for you:** if your security budget rests on the assumption that you aren't interesting enough to attack, that assumption no longer holds. Exposure management and patch speed on internet-facing systems become board-level metrics, at every size of organization.
+**What it means for you:** if your security budget rests on the assumption that you aren't interesting enough to attack, that assumption no longer holds. Your patch metrics need to show the worst-case exposure on internet-facing systems, not just the average, at every size of organization.
 
 ---
 
@@ -87,12 +87,19 @@ None of that weakens the core finding. If anything, the fact that the techniques
 
 ## So What Should Organizations Actually Do?
 
-1. **Treat AI keys like production credentials.** Inventory every API key and agent integration, put them in a vault, scope them and rotate them. Never share keys in chat or plain-text files.
-2. **Audit your AI supply chain.** Buy AI access only through authorized channels, and ask every third-party AI tool, router and reseller where your traffic goes and who can see it.
-3. **Re-score likelihood, not severity.** Raise likelihood for commodity weaknesses (credential theft, unpatched edge devices, exposed services) in your risk register this quarter.
-4. **Shrink exposure windows.** Report patch time for internet-facing systems to the board as a key risk indicator, with edge devices on the shortest clock.
-5. **Get EFS-ready, or build its equivalent.** Name an owner for AI misuse flags, prepare your cloud storage, and submit Anthropic's eligibility form. If you're not eligible, log your own AI usage and ask your vendors what misuse monitoring they run.
-6. **Claim the defender's dividend.** The labor that's cheap for attackers is cheap for you too: reconnaissance of your own attack surface, patch triage, log review. Put AI-assisted defense on the roadmap with a budget line, share threat intelligence through your sector's ISAC, and write secure-development requirements into vendor contracts.
+None of these are brand-new ideas. Most organizations already do some version of each. What changes is the speed and scope they need to run at.
+
+**Now (this quarter)**
+
+1. **Lock down AI access.** You already vault and rotate production credentials. AI keys and accounts are now a target too, so bring them into the same vault and rotation, buy AI only through authorized channels, and check where third-party AI tools and resellers send your traffic.
+2. **Watch your AI use from both sides.** You already monitor endpoints, identity and cloud. Add AI activity: alerts from your AI vendor that one of your accounts or keys is being misused (Anthropic's Enterprise Frontier Safeguards, if you're eligible), plus your own monitoring of AI usage, spend and logs. Give those alerts a named owner and a triage playbook.
+3. **Re-score likelihood for known, fixable weaknesses.** These are stolen passwords, unpatched internet-facing devices like VPN gateways and firewalls, exposed services, and phishing. Raise their likelihood. Impact stays roughly the same, since the report finds attackers' payoffs largely unchanged.
+4. **Shrink the worst-case exposure window.** You already track average patch time. Also report the *longest* exposure on internet-facing systems and known-exploited vulnerabilities, with a target in days, because an average can hide one device that's been open for two months.
+5. **Enforce secure development, internally and with vendors.** You have the policies and contract clauses already. Add AI-assisted code review before release, and ask vendors for evidence, not attestation.
+
+**Next (6–12 months)**
+
+6. **Put AI to work on defense, and share what you learn.** Use AI to map your own attack surface and triage findings at the attacker's speed, and share indicators through your ISAC.
 
 <!-- VERIFY: confirm this closing passage (defenders using AI, sharing threat intel, faster patching, less tolerance for insecure code) appears in the report's conclusion. Our fetch of the report page was cut off before the end. -->
 Anthropic closes its report on cautious optimism: capable AI should ultimately help defenders more than attackers, by finding bugs before code ships and hardening the systems we depend on. That payoff isn't automatic. The transition will be hardest for organizations that wait, and the advantage goes to those who treat this moment as urgent.

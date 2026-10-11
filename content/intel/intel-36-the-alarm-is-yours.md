@@ -15,6 +15,8 @@ The reason it exists: Anthropic says the most sophisticated misuse is spread acr
 
 Status as of October 11, 2026: EFS is rolling out in phases to *eligible* customers, with broad availability targeted for this fall. Anthropic confirms eligibility and hasn't published the criteria. Eligible Fable 5 and 5.1 customers can request zero data retention in the meantime. It will be supported on Claude Code, Claude Enterprise, the Claude Platform, Amazon Bedrock, Claude Platform on AWS, Google's Agent Platform and Microsoft Foundry.
 
+**What's a "flag"?** An alert that one of your AI accounts or keys may be in the wrong hands or being used for harm: a stolen key in use, or activity that looks like attack tooling. EFS is one source of these alerts. Your own monitoring of AI usage, spend and logs is the other, and you don't need EFS for that.
+
 ---
 
 ## Why It Matters
