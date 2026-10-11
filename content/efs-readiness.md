@@ -15,18 +15,12 @@ tags: ["ai-governance", "anthropic", "agentic-ai", "third-party-risk"]
 
 ## Where Availability Stands
 
-<div class="table-responsive my-3">
-<table class="table">
-  <tbody>
-    <tr><th scope="row">Announced</th><td>September 1, 2026, by Anthropic.</td></tr>
-    <tr><th scope="row">Status</th><td>Rolling out in phases to <strong>eligible</strong> customers, with the goal of broad availability this fall. We have found no general-availability announcement as of October 11, 2026.</td></tr>
-    <tr><th scope="row">Eligibility</th><td>Anthropic confirms eligibility and has not published the criteria. Submitting the access form does not guarantee access.</td></tr>
-    <tr><th scope="row">Interim option</th><td>Eligible customers on Fable 5 and Fable 5.1 can request zero data retention (ZDR) until EFS reaches them.</td></tr>
-    <tr><th scope="row">Platforms</th><td>Claude Code, Claude Enterprise, the Claude Platform, Amazon Bedrock, Claude Platform on AWS, Google's Agent Platform and Microsoft Foundry.</td></tr>
-    <tr><th scope="row">Cost</th><td>No Anthropic fee for EFS. Your cloud provider bills storage, reads, writes and egress as usual. Budget for your own team's time to review alerts.</td></tr>
-  </tbody>
-</table>
-</div>
+- **Announced:** September 1, 2026, by Anthropic.
+- **Status:** Rolling out in phases to **eligible** customers, with the goal of broad availability this fall. We have found no general-availability announcement as of October 11, 2026.
+- **Eligibility:** Anthropic confirms eligibility and has not published the criteria. Submitting the access form does not guarantee access.
+- **Interim option:** Eligible customers on Fable 5 and Fable 5.1 can request zero data retention (ZDR) until EFS reaches them.
+- **Platforms:** Claude Code, Claude Enterprise, the Claude Platform, Amazon Bedrock, Claude Platform on AWS, Google's Agent Platform and Microsoft Foundry.
+- **Cost:** No Anthropic fee for EFS. Your cloud provider bills storage, reads, writes and egress as usual. Budget for your own team's time to review alerts.
 
 **Do this week:** submit Anthropic's [EFS eligibility form](https://claude.com/form/enterprise-frontier-safeguards) and ask your Anthropic or cloud account team where you are in the rollout.
 
@@ -49,16 +43,9 @@ EFS is the compromise. It pairs the privacy of zero data retention with Anthropi
 
 ## Who Does What
 
-<div class="table-responsive my-3">
-<table class="table">
-  <thead><tr><th scope="col">Party</th><th scope="col">Responsibilities</th></tr></thead>
-  <tbody>
-    <tr><th scope="row">Anthropic</th><td>Automated misuse detection across sessions and accounts; account enforcement; intelligence sharing with industry and government; ongoing safeguard updates.</td></tr>
-    <tr><th scope="row">Your organization</th><td>Custody of the monitoring data; encryption keys and access policies; reviewing and responding to every flag; deciding who may see sensitive content.</td></tr>
-    <tr><th scope="row">Your cloud provider</th><td>Hosting the storage under your existing agreement and controls.</td></tr>
-  </tbody>
-</table>
-</div>
+- **Anthropic:** automated misuse detection across sessions and accounts, account enforcement, intelligence sharing with industry and government, and ongoing safeguard updates.
+- **Your organization:** custody of the monitoring data, encryption keys and access policies, reviewing and responding to every flag, and deciding who may see sensitive content.
+- **Your cloud provider:** hosting the storage under your existing agreement and controls.
 
 ## Readiness Checklist
 
