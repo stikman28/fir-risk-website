@@ -47,7 +47,7 @@ Criminal groups showed the same pattern. In one case involving operators Anthrop
 
 ## 2. AI access is now the thing being stolen
 
-New in 2026: attackers are going after AI itself. Anthropic reports that criminal groups now treat access to AI (compromised API keys, session tokens and devices) as a primary objective, often selling it on through brokers.
+New in 2026: attackers are going after AI itself. Anthropic reports that for multiple criminal groups, access to AI (compromised API keys, session tokens and devices) has become the sole objective, often sold on through brokers.
 
 Two cases show how. GTG-50020 used production AI API keys stolen from customers' environments, then attacked roughly thirty AI companies in about four days trying to reach a pre-release Claude model. Every attempt failed, and Anthropic says its own systems were not compromised. GTG-50021 ran a fake reseller offering cheap Claude access that was neither cheap nor actually Claude: it quietly routed buyers to another model and harvested their Anthropic account credentials for resale.
 
@@ -106,14 +106,16 @@ None of these are brand-new ideas. Most organizations already do some version of
 7. **Adopt vendor-side safeguards as they arrive.** EFS isn't broadly available yet, and other AI vendors may follow with their own versions. Get your cloud storage, encryption keys and cleared reviewers ready, and ask every AI vendor what misuse alerts it can send you.
 8. **Defend at machine speed.** The labor that's now cheap for attackers will be cheap for defenders too. Watch for AI tools that map your own attack surface and triage findings continuously, and for threat-sharing that moves at the same pace through your ISAC.
 
-<!-- VERIFY: confirm this closing passage (defenders using AI, sharing threat intel, faster patching, less tolerance for insecure code) appears in the report's conclusion. Our fetch of the report page was cut off before the end. -->
-Anthropic closes its report on cautious optimism: capable AI should ultimately help defenders more than attackers, by finding bugs before code ships and hardening the systems we depend on. That payoff isn't automatic. The transition will be hardest for organizations that wait, and the advantage goes to those who treat this moment as urgent.
+The threat report itself warns that AI "has inverted the cost back onto defenders": capable attackers can now bypass a new detection faster than defenders can build and deploy it. Anthropic's Frontier Red Team, in its June analysis of AI-enabled cyber threats, sets out the response. Defenders will need to use AI with the same sophistication and urgency as attackers, share threat intelligence, shorten the time from finding a vulnerability to patching it, and become much less tolerant of insecure code. It also says plainly that "the transitional period will be difficult," while arguing that capable AI should benefit defenders more than attackers in the long run.
+
+That payoff isn't automatic. The transition will be hardest for organizations that wait, and the advantage goes to those who treat this moment as urgent.
 
 ---
 
 ## Learn More
 
 - [Detecting and countering misuse of AI: September 2026 (Anthropic)](https://www.anthropic.com/threat-intelligence-report-september-2026) — Primary source
+- [Mapping AI-enabled cyber threats: Insights from the LLM ATT&CK Navigator (Anthropic Frontier Red Team)](https://www.anthropic.com/research/attack-navigator) — Source of the defender recommendations (June 3, 2026)
 - [Developing Enterprise Frontier Safeguards with our customers (Anthropic)](https://www.anthropic.com/news/enterprise-frontier-safeguards) — The EFS announcement
 - [FIR Risk EFS Readiness Guide](/efs-readiness/) — Free availability status and readiness checklist
 - [FIR Risk INTEL-36 — The Alarm Is Yours](/intel/intel-36-the-alarm-is-yours/) — The one action on EFS
