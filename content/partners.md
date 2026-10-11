@@ -84,6 +84,9 @@ description: "Our partners, Fastrics, Raxis, Pondurance, Altum Strategy Group, a
 
 <div class="col-md-6">
 <div class="card h-100 p-4">
+  <div class="text-center mb-3">
+    <img src="/images/partners/future-state-analytics-logo.png" alt="Future State Analytics" class="img-fluid partner-logo-light" style="max-height: 60px;">
+  </div>
 
   ### Future State Analytics
 
