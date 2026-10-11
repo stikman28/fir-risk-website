@@ -33,7 +33,7 @@ EFS is the compromise. It pairs the privacy of zero data retention with Anthropi
 - **Your storage.** Activity data used for monitoring sits in your own cloud account (Amazon S3, Azure Blob Storage or Google Cloud Storage), not Anthropic's.
 - **Your keys and policies.** You can use your own encryption keys, access policies and audit logging.
 - **Automated detection.** Anthropic's systems scan a rolling window of activity for signs of serious misuse, including offensive cyber activity, biological misuse, and stolen or leaked credentials.
-- **Your reviewers.** Flags go directly to you. No Anthropic employee needs to review them.
+- **Your reviewers.** Flags go directly to you. No Anthropic employee needs to review them. A flag is an alert that one of your AI accounts or keys may be in the wrong hands or being used for harm, such as a stolen key in use or activity that looks like attack tooling.
 - **Opt-in controls.** Customer-owned storage, customer-managed keys and fully automated review are each optional. None change model behavior, pricing or rate limits.
 
 <div class="hero-section text-center py-4 my-4">
@@ -95,7 +95,8 @@ EFS targets eligible enterprise customers. If it doesn't reach you, these compen
 - [ ] Avoid unvetted AI resellers and model routers. Anthropic has documented fraudulent resellers harvesting account credentials.
 - [ ] Log your own organization's AI usage: who uses which tools, with what data.
 - [ ] Ask each AI vendor what misuse monitoring it runs, who sees the alerts, and how fast you'll be told.
-- [ ] Shorten patch timelines for internet-facing systems. AI lets attackers find and exploit known weaknesses at machine speed.
+- [ ] Monitor your own AI usage, spend and logs for signs of a stolen key or account. You don't need EFS for this.
+- [ ] Track the longest exposure on internet-facing systems, not just average patch time. AI lets attackers find and exploit known weaknesses at machine speed.
 
 ## Why This Matters Now
 
