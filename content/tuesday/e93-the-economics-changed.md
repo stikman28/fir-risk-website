@@ -1,6 +1,6 @@
 ---
 title: "E93 - The Attacks Aren't New. The Economics Are."
-description: "Anthropic's September 2026 threat intelligence report documents eight months of disrupted AI misuse, and its central finding is not a new technique. It's a new cost structure: the reconnaissance, exploitation, tooling and data processing that once set elite operations apart now run as AI agents, at machine speed and in parallel. Your controls are still right. Your timelines, your likelihood scores and your assumption that you're too small to target are not."
+description: "Anthropic's September 2026 threat intelligence report documents eight months of disrupted AI misuse, and its central finding is not a new technique. It's a new cost structure: the reconnaissance, exploitation, tooling and data processing that once set elite operations apart now run as AI agents, at machine speed and in parallel. You don't need exotic new controls. You need the familiar ones to run at the attacker's speed, and your likelihood scores and your assumption that you're too small to target need to change."
 date: 2026-10-13
 source: "Anthropic — Detecting and countering misuse of AI: September 2026"
 sourceUrl: "https://www.anthropic.com/threat-intelligence-report-september-2026"
@@ -27,7 +27,9 @@ In June we argued, from the Verizon DBIR, that AI was a *breadth* multiplier, no
 
 ## The One Sentence Your Board Needs
 
-> Our controls are still the right ones, but attackers now execute against them at machine speed and near-zero cost, so we need shorter exposure windows, higher likelihood scores, and an owner for every AI system we run.
+> Attackers aren't using new techniques; they're using AI to run familiar ones faster and more often, so the measure that matters now is how quickly we close known gaps.
+
+A control that works on a 30-day cycle is not the same control when the attacker moves in hours. The question for the board isn't whether we have the right controls on paper. It's whether they operate fast enough to matter.
 
 ---
 
