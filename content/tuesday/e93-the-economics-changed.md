@@ -87,19 +87,24 @@ None of that weakens the core finding. If anything, the fact that the techniques
 
 ## So What Should Organizations Actually Do?
 
-None of these are brand-new ideas. Most organizations already do some version of each. What changes is the speed and scope they need to run at.
+None of these are brand-new ideas. Most organizations already do some version of each. What changes is the speed and scope they need to run at. We've grouped them by when you can realistically act.
 
-**Now (this quarter)**
+**Now: do these immediately**
 
-1. **Lock down AI access.** You already vault and rotate production credentials. AI keys and accounts are now a target too, so bring them into the same vault and rotation, buy AI only through authorized channels, and check where third-party AI tools and resellers send your traffic.
-2. **Watch your AI use from both sides.** You already monitor endpoints, identity and cloud. Add AI activity: alerts from your AI vendor that one of your accounts or keys is being misused (Anthropic's Enterprise Frontier Safeguards, if you're eligible), plus your own monitoring of AI usage, spend and logs. Give those alerts a named owner and a triage playbook.
-3. **Re-score likelihood for known, fixable weaknesses.** These are stolen passwords, unpatched internet-facing devices like VPN gateways and firewalls, exposed services, and phishing. Raise their likelihood. Impact stays roughly the same, since the report finds attackers' payoffs largely unchanged.
-4. **Shrink the worst-case exposure window.** You already track average patch time. Also report the *longest* exposure on internet-facing systems and known-exploited vulnerabilities, with a target in days, because an average can hide one device that's been open for two months.
-5. **Enforce secure development, internally and with vendors.** You have the policies and contract clauses already. Add AI-assisted code review before release, and ask vendors for evidence, not attestation.
+1. **Find and lock down your AI keys.** Inventory every AI API key and account, move them into the vault you already use for production credentials, and rotate any you find in code, chat or shared files. Buy AI only through authorized channels.
+2. **Re-score likelihood for known, fixable weaknesses.** These are stolen passwords, unpatched internet-facing devices like VPN gateways and firewalls, exposed services, and phishing. Raise their likelihood in your risk register. Impact stays roughly the same, since the report finds attackers' payoffs largely unchanged.
+3. **Decide who owns AI alerts.** Before you have any monitoring in place, name who responds if your AI vendor tells you a key or account is being misused. If you're eligible, submit Anthropic's Enterprise Frontier Safeguards form so you're in the queue.
 
-**Next (6–12 months)**
+**Next: plan these over the next few quarters, in order of priority**
 
-6. **Put AI to work on defense, and share what you learn.** Use AI to map your own attack surface and triage findings at the attacker's speed, and share indicators through your ISAC.
+4. **Watch your own AI use.** You already monitor endpoints, identity and cloud. Add AI usage, spend and logs to that monitoring, with a triage playbook for misuse alerts, and review where third-party AI tools and resellers send your traffic.
+5. **Shrink the worst-case exposure window.** You already track average patch time. Also report the *longest* exposure on internet-facing systems and known-exploited vulnerabilities, with a target in days, because an average can hide one device that's been open for two months.
+6. **Enforce secure development, internally and with vendors.** You have the policies and contract clauses already. Add AI-assisted code review before release, and ask vendors for evidence, not attestation.
+
+**Future: prepare now, act when you can**
+
+7. **Adopt vendor-side safeguards as they arrive.** EFS isn't broadly available yet, and other AI vendors may follow with their own versions. Get your cloud storage, encryption keys and cleared reviewers ready, and ask every AI vendor what misuse alerts it can send you.
+8. **Defend at machine speed.** The labor that's now cheap for attackers will be cheap for defenders too. Watch for AI tools that map your own attack surface and triage findings continuously, and for threat-sharing that moves at the same pace through your ISAC.
 
 <!-- VERIFY: confirm this closing passage (defenders using AI, sharing threat intel, faster patching, less tolerance for insecure code) appears in the report's conclusion. Our fetch of the report page was cut off before the end. -->
 Anthropic closes its report on cautious optimism: capable AI should ultimately help defenders more than attackers, by finding bugs before code ships and hardening the systems we depend on. That payoff isn't automatic. The transition will be hardest for organizations that wait, and the advantage goes to those who treat this moment as urgent.
