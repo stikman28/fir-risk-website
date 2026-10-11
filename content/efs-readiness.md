@@ -102,7 +102,7 @@ EFS targets eligible enterprise customers. If it doesn't reach you, these compen
 
 Anthropic's [September 2026 threat intelligence report](https://www.anthropic.com/threat-intelligence-report-september-2026) shows attackers using AI agents to run large parts of intrusions on their own: reconnaissance, exploitation, tool development and data processing, at machine speed and in parallel. The techniques are familiar: stolen credentials, unpatched edge devices, exposed services, phishing. What's changed is the cost. Work that once required a well-funded team is now cheap, which puts far more organizations, including smaller ones, in range.
 
-The report also shows that access to AI itself has become a target: criminal groups treat compromised API keys, session tokens and devices as a primary objective and sell that access through brokers, and one fake reseller harvested buyers' account credentials. EFS is one of the first serious answers to that problem, and it works best for organizations that prepare before it arrives.
+The report also shows that access to AI itself has become a target: for multiple criminal groups, compromised API keys, session tokens and devices have become the sole objective, often sold on through brokers, and one fake reseller harvested buyers' account credentials. EFS is one of the first serious answers to that problem, and it works best for organizations that prepare before it arrives.
 
 ## What's Still Unknown
 
