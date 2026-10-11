@@ -40,6 +40,8 @@ Every company I work with ends up building the same four layers, in the same ord
   </div>
 </div>
 
+<p><strong>Run it side by side. Tie it out. Then rely on it.</strong> Nothing new replaces an existing process until it has run beside it for a full close and the numbers match.</p>
+
 <p><strong>Your data belongs to you.</strong> We build your warehouse and lakehouse in your own Microsoft tenant, or host it for you in a dedicated environment until you're ready to take it over. Either way, it's your data, and it moves with you.</p>
 
 ## Where Companies Start
@@ -49,7 +51,7 @@ Every company I work with ends up building the same four layers, in the same ord
   <p class="text-body-secondary small mb-3">For CEOs and leadership teams · Snapshot: 3–4 weeks · Full Assessment: 8–12 weeks</p>
   <p>You know AI matters, your data is spread across a stack of subscriptions, and you're not sure where to start. I map what you have today, every system, what data it holds, how that data moves or doesn't, and what it costs you, then lay out a plan across the four layers with phases, rough costs, and quick wins.</p>
   <p>The <strong>Snapshot</strong> is built for owner-led companies that want a clear plan fast. The full <strong>Assessment</strong> covers the whole company, including a complete controls assessment, and ends with a future-state design and a presentation to your leadership team or board.</p>
-  <p><strong>The real story:</strong> for a publicly traded investment firm, I spent three months documenting every system, the data in each one, and how it was shared, assessed the controls, and designed the future state: a data foundation, automated preventive controls, a reporting layer, and an intelligence layer using Claude Enterprise on approved, reconciled data.</p>
+  <p><strong>The real story:</strong> for a publicly traded investment firm, we spent three months on the full Assessment, delivered with our data-engineering partner. I led the process and controls work: mapping every accounting process with the people who run it, assessing each control, and designing the controls and evidence for the future state. Together we designed a governed data foundation, a reporting layer, and an intelligence layer where Claude reads approved, reconciled data.</p>
   <a href="/readiness-assessment/" class="btn btn-primary" style="width: fit-content;">See how the Assessment works →</a>
 </div>
 
