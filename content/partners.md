@@ -1,6 +1,6 @@
 ---
 title: "Partners"
-description: "Our partner network—Fastrics, Raxis, Pondurance, and Altum Strategy Group—adds IT audit, penetration testing, managed SOC, and transformation expertise."
+description: "Our partners, Fastrics, Raxis, Pondurance, Altum Strategy Group, and Future State Analytics, add IT audit, testing, SOC, transformation, and Fabric expertise."
 ---
 
 <div class="hero-section text-center py-4 mb-4">
@@ -78,6 +78,21 @@ description: "Our partner network—Fastrics, Raxis, Pondurance, and Altum Strat
 
   <div class="mt-3">
     <a href="https://altumstrategy.com" target="_blank" class="btn btn-outline-primary">Visit Website →</a>
+  </div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="card h-100 p-4">
+
+  ### Future State Analytics
+
+  **Microsoft Fabric Data Platforms, Automation, AI Solutions**
+
+  Future State Analytics designs and builds Microsoft Fabric data platforms, automation, and AI solutions for private equity funds, SBIC firms, and the companies they own. We work together on data foundation and controls engagements.
+
+  <div class="mt-3">
+    <a href="https://futurestateanalytics.co/" target="_blank" rel="noopener" class="btn btn-outline-primary">Visit Website →</a>
   </div>
 </div>
 </div>
