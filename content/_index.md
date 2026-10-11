@@ -42,21 +42,21 @@ description: "AI solutions, data platforms, and risk intelligence for cyber, fra
       <div class="card h-100 p-4">
         <h3 id="data-platforms" class="h5">Data Platforms</h3>
         <p>Take control of your data. We implement Microsoft Fabric to consolidate scattered sources into a company-owned data lake.</p>
-        <a href="/solutions/#data-platforms" class="fw-semibold">Learn More →</a>
+        <a href="/solutions/#own-your-data" class="fw-semibold">Learn More →</a>
       </div>
     </div>
     <div class="col-md-6">
       <div class="card h-100 p-4">
         <h3 id="ai-solutions" class="h5">AI Solutions</h3>
         <p>Your own AI platform—custom knowledge bases, intelligent agents, and purpose-built tools designed around your data.</p>
-        <a href="/solutions/#ai-solutions" class="fw-semibold">Learn More →</a>
+        <a href="/solutions/#prototype-sprint" class="fw-semibold">Learn More →</a>
       </div>
     </div>
     <div class="col-md-6">
       <div class="card h-100 p-4">
         <h3 id="risk-advisory" class="h5">Risk Advisory</h3>
         <p>Built it. Audited it. Secured it. Advisory that spans technology, cybersecurity, fraud, and risk.</p>
-        <a href="/contact/" class="fw-semibold">Start a Conversation →</a>
+        <a href="/solutions/#fraud-risk-controls" class="fw-semibold">Learn More →</a>
       </div>
     </div>
   </div>

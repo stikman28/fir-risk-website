@@ -5,6 +5,7 @@
 # Main pages with different slugs
 /contact-us/                    /contact/           301
 /services/                      /solutions/         301
+/pricing/                       /how-we-work/       301
 /about-us/                      /about/             301
 /privacy-policy/                /privacy/           301
 

@@ -92,12 +92,12 @@ buildFuture = true
     url = "/platform/"
     weight = 2
   [[menu.main]]
-    name = "Solutions"
+    name = "Services"
     url = "/solutions/"
     weight = 3
   [[menu.main]]
-    name = "Pricing"
-    url = "/pricing/"
+    name = "How We Work"
+    url = "/how-we-work/"
     weight = 4
   [[menu.main]]
     name = "Intelligence"

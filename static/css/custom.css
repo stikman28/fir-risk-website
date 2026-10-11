@@ -333,3 +333,10 @@ main p a:not(.btn) {
   font-size: 1.0625rem;
   line-height: 1.65;
 }
+
+/* Partner logos with dark text on transparent backgrounds: white plate in dark mode */
+[data-bs-theme="dark"] .partner-logo-light {
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 8px;
+  padding: 6px 10px;
+}

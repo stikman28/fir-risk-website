@@ -19,6 +19,8 @@ All content on this site is free to read, cite, and quote with attribution to FI
 
 ## About FIR Risk
 - [Platform](https://firrisk.ai/platform/): AI-driven risk-intelligence platform grounded in trusted sources
-- [Solutions](https://firrisk.ai/solutions/): advisory services for cyber, fraud, and compliance teams
+- [Services](https://firrisk.ai/solutions/): AI and data readiness assessments, prototype sprints, SaaS consolidation, AI finance operations, and fraud and risk controls reviews
+- [Readiness Assessment](https://firrisk.ai/readiness-assessment/): current-state map of systems, data, and controls with a roadmap for where AI pays off first
+- [How We Work](https://firrisk.ai/how-we-work/): free scoping conversation, fixed-fee engagements, ongoing partnership
 - [About](https://firrisk.ai/about/): who is behind FIR Risk Advisory
 - [Contact](https://firrisk.ai/contact/): hello@firrisk.ai
