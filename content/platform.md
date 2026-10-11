@@ -82,4 +82,4 @@ description: "The FIR Risk Platform pairs AI analysis with a curated knowledge b
   <a href="/contact/" class="btn btn-primary btn-lg px-5">Request Early Access</a>
 </div>
 
-{{< section-nav next="/solutions/" next-label="Solutions" >}}
+{{< section-nav next="/solutions/" next-label="Services" >}}
