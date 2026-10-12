@@ -2,6 +2,8 @@
 {{- $max := .Get "max" | default 5 -}}
 {{- $sortByDate := eq (.Get "sort") "date" -}}
 {{- $strip := .Get "strip" | default "" -}}
+{{- /* exclude="Launches|Certif": case-insensitive regex on titles. Keeps vendor promotion and off-topic items off the page */ -}}
+{{- $exclude := .Get "exclude" | default "" -}}
 {{- $feed := "" -}}
 
 {{- $result := try (resources.GetRemote $url) -}}
@@ -24,6 +26,15 @@
   {{- range sort $dated "t" "desc" -}}
     {{- $items = $items | append .item -}}
   {{- end -}}
+{{- end -}}
+{{- if ne $exclude "" -}}
+  {{- $kept := slice -}}
+  {{- range $items -}}
+    {{- if not (findRE (printf "(?i)%s" $exclude) (string .title)) -}}
+      {{- $kept = $kept | append . -}}
+    {{- end -}}
+  {{- end -}}
+  {{- $items = $kept -}}
 {{- end -}}
 <div class="rss-feed mb-4">
   <ul class="list-unstyled">
