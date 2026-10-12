@@ -1,6 +1,6 @@
 ---
 title: "INTEL-39: Your Prompts Went Somewhere Else"
-description: "Anthropic's September 2026 threat report alleges that AI labs and third-party model routers silently relayed user prompts, including names, company data and live credentials, to another provider's model without telling users. The one action: inventory the AI tools your employees use and approve only those whose data path you can see."
+description: "Anthropic's September 2026 threat report alleges that several AI labs silently relayed user prompts, many arriving via third-party model routers,, including names, company data and live credentials, to another provider's model without telling users. The one action: inventory the AI tools your employees use and approve only those whose data path you can see."
 date: 2026-10-19
 type: "intel"
 intel_type: "REGULATORY"
@@ -9,11 +9,11 @@ tags: ["Data Protection", "Privacy", "Shadow AI", "Third-Party Risk", "AI Govern
 
 ## The INTEL
 
-**The AI tool your employee chose may not be the AI that answers them. Anthropic's September 2026 threat report alleges that several China-based AI labs silently forwarded their own customers' requests to Claude, served Claude's answers back as their own, and kept the exchanges to train their models. In one case, Moonshot AI relayed almost 300,000 customer requests in ten days. The report says users "had no way of knowing" where their prompts actually went.**
+**The AI tool your employee chose may not be the AI that answers them. Anthropic's September 2026 threat report alleges that China-based AI labs silently forwarded their own customers' requests to Claude and kept the exchanges to train their models; at least two, Moonshot AI and DeepSeek, served Claude's answers back as their own. In one case, Moonshot AI relayed almost 300,000 customer requests in ten days. In one example, the report says a user "had no way of knowing" their requests were being forwarded to Claude.**
 
 The data in those prompts was sensitive. Anthropic reports that many of the relayed exchanges came from users of third-party model routing services "commonly used by users in the United States and Europe," and that the sessions contained names, email addresses, company data and other sensitive information from hundreds of end users in at least a dozen languages. Its redacted examples include a pharmaceutical company's internal capital expenditure forecasts and a developer's live access credentials. Anthropic says these practices are "likely inconsistent with privacy laws."
 
-A caution on independence: Anthropic competes with the labs it names, and these are its allegations, based on its own platform data. The compliance lesson holds either way.
+A caution on independence: Anthropic competes with the labs it names, and these are its allegations, based on its own platform data. Anthropic also says it has no indication US persons' data was exposed, though the routing platforms involved are commonly used in the US and Europe. The compliance lesson holds either way.
 
 ---
 
@@ -41,7 +41,7 @@ Anthropic's report makes the same point from the other side: buy AI access only 
 
 ## Learn More
 
-- [Detecting and countering misuse of AI: September 2026 (Anthropic)](https://www.anthropic.com/threat-intelligence-report-september-2026) — Primary source, section on illicit distillation (cases GTG-16001 and GTG-16002)
+- [Detecting and countering misuse of AI: September 2026 (Anthropic)](https://www.anthropic.com/threat-intelligence-report-september-2026) — Primary source, section on illicit distillation (cases GTG-16001, GTG-16002 and GTG-16008)
 - [FIR Risk Tuesday E93 — The Attacks Aren't New. The Economics Are.](/tuesday/e93-the-economics-changed/) — Full analysis of the report
 - [FIR Risk INTEL-37 — Loot, Compute, Cover](/intel/intel-37-loot-compute-cover/) — The criminal market for AI access
 
