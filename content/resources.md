@@ -24,6 +24,18 @@ Annual reports synthesizing intelligence from government agencies and industry l
 
 ---
 
+## Free Guides
+
+Practical guides you can use with your team today, free to read and share.
+
+### Enterprise Frontier Safeguards: Readiness Guide
+
+What Anthropic's new customer-controlled AI misuse safeguards are, where availability stands, and a readiness checklist for enterprises and smaller organizations alike.
+
+[Read the Guide →](/efs-readiness/)
+
+---
+
 ## Curated Sources
 
 Real-time feeds from the sources we trust. A window into the intelligence that powers our work.
