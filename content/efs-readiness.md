@@ -13,6 +13,8 @@ tags: ["ai-governance", "anthropic", "agentic-ai", "third-party-risk"]
   <p class="small text-body-secondary mb-0">Status as of October 11, 2026 · For enterprise risk, security and compliance leaders · Free to read and share · Independent guide by FIR Risk Advisory, not affiliated with Anthropic</p>
 </div>
 
+<div class="guide">
+
 ## Where Availability Stands
 
 - **Announced:** September 1, 2026, by Anthropic.
@@ -123,6 +125,8 @@ We'll update this guide as Anthropic publishes more.
 - [Anthropic: Detecting and countering misuse of AI, September 2026](https://www.anthropic.com/threat-intelligence-report-september-2026) (September 10, 2026)
 
 <p class="small text-body-secondary mt-4">This guide is provided by FIR Risk Advisory for general information only. It is not legal, compliance or security advice, and FIR Risk Advisory is not affiliated with Anthropic. Product details are based on Anthropic's public statements as of October 11, 2026 and may change; confirm current terms with Anthropic or your cloud provider.</p>
+
+</div>
 
 <div class="hero-section text-center py-4 mt-4">
   <h2 id="talk-it-through" class="mb-3">Want Help Getting Ready?</h2>
