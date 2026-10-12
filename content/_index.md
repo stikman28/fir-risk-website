@@ -13,11 +13,26 @@ description: "AI solutions, data platforms, and risk intelligence for cyber, fra
 </div>
 
 <div class="py-4">
-  <div class="card p-4 p-md-5">
-    <span class="badge bg-primary text-dark mb-2" style="width: fit-content;">Case Study</span>
-    <h2 id="case-study-five-saas" class="h3 mb-3">It Started with the Accounting System. It Ended with Five SaaS Subscriptions Gone.</h2>
-    <p class="mb-3">A specialty retailer replaced NetSuite, Rithum, NetStock, its warehouse system, and its point-of-sale subscription with one platform it owns. Real-time books, a one-day close, and a team that uses AI every day.</p>
-    <a href="/case-studies/specialty-retailer-ai-finance/" class="btn btn-primary" style="width: fit-content;">Read the story →</a>
+  <div class="row g-4">
+    <div class="col-lg-6">
+      <div class="card h-100 p-4 p-md-5">
+        <span class="badge bg-primary text-dark mb-2" style="width: fit-content;">Free Guide</span>
+        <h2 id="efs-readiness-guide" class="h3 mb-3">Get Ready Before the Alarm Is Yours</h2>
+        <p class="mb-3">Anthropic's Enterprise Frontier Safeguards hand AI misuse alerts to your team. Our free readiness guide covers where availability stands and gives you a checklist to take back to your business, including steps for organizations that won't be eligible.</p>
+        <div class="mt-auto d-flex gap-3 flex-wrap align-items-center">
+          <a href="/efs-readiness/" class="btn btn-primary" style="width: fit-content;">Get the checklist →</a>
+          <a href="/resources/#free-guides" class="fw-semibold">All free resources</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-6">
+      <div class="card h-100 p-4 p-md-5">
+        <span class="badge bg-primary text-dark mb-2" style="width: fit-content;">Case Study</span>
+        <h2 id="case-study-five-saas" class="h3 mb-3">It Started with the Accounting System. It Ended with Five SaaS Subscriptions Gone.</h2>
+        <p class="mb-3">A specialty retailer replaced NetSuite, Rithum, NetStock, its warehouse system, and its point-of-sale subscription with one platform it owns. Real-time books, a one-day close, and a team that uses AI every day.</p>
+        <a href="/case-studies/specialty-retailer-ai-finance/" class="btn btn-primary mt-auto" style="width: fit-content;">Read the story →</a>
+      </div>
+    </div>
   </div>
 </div>
 

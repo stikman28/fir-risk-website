@@ -18,6 +18,29 @@ $fir-bg-light: #F7FAF2;
   font-weight: 700;
 }
 
+// Small print inside a hero stays small (the hero's display font-size
+// otherwise scales .small/<small> up to ~3rem)
+.hero-section .small,
+.hero-section small {
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
+// Free guides: calmer heading scale for long, checklist-style pages
+.guide > h2 {
+  font-size: calc(1.2rem + 0.6vw);
+}
+@media (min-width: 1200px) {
+  .guide > h2 { font-size: 1.75rem; }
+}
+.guide > h3 {
+  font-size: 1.25rem;
+  margin-top: 2rem;
+}
+.guide > h4 {
+  font-size: 1rem;
+}
+
 // Brand color accents on headings
 h1, h2, h3 {
   color: var(--bs-heading-color);
