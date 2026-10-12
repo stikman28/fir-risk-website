@@ -13,7 +13,7 @@ tags: ["Attack Surface Management", "Vulnerability Management", "SMB", "AI Secur
 
 The economics explain why. AI lowers the skill and labor an attacker needs per campaign "while leaving potential payoffs largely unchanged," which the report says "makes previously marginal targets viable and encourages higher-volume, lower-touch operations." Opportunistic groups now race to exploit newly published vulnerabilities before patches land, and mass-scan internet-facing devices for anything they can open.
 
-Exploit supply is no longer the bottleneck it was. The report describes a group, including two undergraduate students, that ran an automated exploit foundry, with AI conducting vulnerability research around the clock, kept working while its operators were away, and targeted roughly fifty organizations across education, retail, energy, healthcare, finance and government.
+Exploit supply is no longer the bottleneck it was. The report describes a group, including two undergraduate students, that ran an automated exploit foundry: AI conducted vulnerability research around the clock and kept working while the operators were away. The group targeted roughly fifty organizations across education, retail, energy, healthcare, finance and government.
 
 ---
 
