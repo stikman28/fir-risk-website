@@ -1,7 +1,7 @@
 ---
 title: "Enterprise Frontier Safeguards: Readiness Guide"
 description: "A free readiness guide for Anthropic's Enterprise Frontier Safeguards (EFS): what it is, where availability stands, and what risk and compliance leaders should do now."
-seoTitle: "Anthropic Enterprise Frontier Safeguards (EFS) Readiness Guide"
+seoTitle: "EFS Readiness Guide for Anthropic's Enterprise Frontier Safeguards | FIR Risk"
 date: 2026-10-11
 lastmod: 2026-10-11
 tags: ["ai-governance", "anthropic", "agentic-ai", "third-party-risk"]
@@ -10,7 +10,7 @@ tags: ["ai-governance", "anthropic", "agentic-ai", "third-party-risk"]
 <div class="hero-section text-center py-4 mb-4">
   <h2 id="hero-headline" class="hero-title display-5 fw-bold mb-3">Get Ready Before the Alarm Is Yours</h2>
   <p class="lead">Anthropic is giving enterprises a new way to detect misuse of frontier AI while keeping their data in their own cloud. Here's what it is, where availability stands, and what to do now so you're ready when access opens.</p>
-  <p class="small text-body-secondary mb-0">Status as of October 11, 2026 · For enterprise risk, security and compliance leaders · Free to read and share</p>
+  <p class="small text-body-secondary mb-0">Status as of October 11, 2026 · For enterprise risk, security and compliance leaders · Free to read and share · Independent guide by FIR Risk Advisory, not affiliated with Anthropic</p>
 </div>
 
 ## Where Availability Stands
@@ -18,7 +18,7 @@ tags: ["ai-governance", "anthropic", "agentic-ai", "third-party-risk"]
 - **Announced:** September 1, 2026, by Anthropic.
 - **Status:** Rolling out in phases to **eligible** customers, with the goal of broad availability this fall. We have found no general-availability announcement as of October 11, 2026.
 - **Eligibility:** Anthropic confirms eligibility and has not published the criteria. Submitting the access form does not guarantee access.
-- **Interim option:** Eligible customers on Fable 5 and Fable 5.1 can request zero data retention (ZDR) until EFS reaches them.
+- **Interim option:** Anthropic says eligible customers will receive zero data retention (ZDR) on Fable 5 and Fable 5.1 until EFS is ready for them.
 - **Platforms:** Claude Code, Claude Enterprise, the Claude Platform, Amazon Bedrock, Claude Platform on AWS, Google's Agent Platform and Microsoft Foundry.
 - **Cost:** No Anthropic fee for EFS. Your cloud provider bills storage, reads, writes and egress as usual. Budget for your own team's time to review alerts.
 
@@ -26,7 +26,7 @@ tags: ["ai-governance", "anthropic", "agentic-ai", "third-party-risk"]
 
 ## What EFS Is, in Plain Terms
 
-Detecting serious AI misuse, like an attacker using stolen credentials or a multi-step cyber operation, means looking at activity across many sessions and accounts over time. That requires keeping data for a while. Starting with Fable 5, Anthropic began retaining data for 30 days for this reason, and many regulated organizations couldn't accept that.
+Detecting serious AI misuse, like an attacker using stolen credentials or a multi-step cyber operation, means looking at activity across many sessions and accounts over time. That requires keeping data for a while. Starting with Fable 5, Anthropic began retaining data for 30 days for this reason, and many regulated organizations found that difficult to accept.
 
 EFS is the compromise. It pairs the privacy of zero data retention with Anthropic's automated misuse detection by changing *where the data lives* and *who reviews it*:
 
@@ -43,7 +43,7 @@ EFS is the compromise. It pairs the privacy of zero data retention with Anthropi
 
 ## Who Does What
 
-- **Anthropic:** automated misuse detection across sessions and accounts, account enforcement, intelligence sharing with industry and government, and ongoing safeguard updates.
+- **Anthropic:** operates the automated misuse detection across sessions and accounts. (Anthropic's general practice also includes banning accounts and sharing intelligence with industry and authorities; how these apply under EFS hasn't been published.)
 - **Your organization:** custody of the monitoring data, encryption keys and access policies, reviewing and responding to every flag, and deciding who may see sensitive content.
 - **Your cloud provider:** hosting the storage under your existing agreement and controls.
 
@@ -77,7 +77,7 @@ Pick the track that matches your situation.
 **Legal and compliance**
 
 - [ ] Decide who is cleared to review flagged content that may include privileged, non-public or regulated data.
-- [ ] Set and document a retention period for the monitoring data.
+- [ ] Set and document a retention period for the monitoring data once Anthropic publishes EFS's detection window.
 - [ ] Update data maps, records schedules and, where needed, privacy notices.
 - [ ] Consider how retained AI activity logs would be handled in litigation holds and regulatory requests.
 
