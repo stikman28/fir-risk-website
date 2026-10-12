@@ -118,7 +118,7 @@ description: "AI solutions, data platforms, and risk intelligence for cyber, fra
     <div class="col-md-4">
       <div class="card h-100 p-4">
         <h3 id="resources-live-feeds" class="h5">Resources &amp; Live Feeds</h3>
-        <p>The latest from CISA, NIST, the FIDO Alliance, and the World Economic Forum, refreshed daily in one place.</p>
+        <p>The latest from CISA, NIST, the FBI, the UK NCSC, OWASP, the FIDO Alliance, and the World Economic Forum, refreshed daily in one place.</p>
         <a href="/resources/" class="fw-semibold">See the Feeds →</a>
       </div>
     </div>
