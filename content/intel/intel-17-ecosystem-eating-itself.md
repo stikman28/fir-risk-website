@@ -1,6 +1,8 @@
 ---
 title: "INTEL-17: The Ecosystem Is Eating Itself"
 description: "For the first time in years, the biggest threat to a ransomware crew is another ransomware crew. Black Basta chat leaks, DragonForce hostile takeovers, Operation Endgame disruptions, BreachForums closure, and 81% new entrants in the IAB market signal a criminal supply chain rebuilding from scratch. Lead detection with TTPs, not IoCs."
+meta:
+  description: "Ransomware crews now face their biggest threat from each other: leaks, takeovers and law enforcement disruption. Detect by behavior, not indicators."
 date: 2026-04-22
 type: "intel"
 intel_type: "DEFENDER TAILWIND"

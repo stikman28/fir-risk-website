@@ -1,6 +1,8 @@
 ---
 title: "INTEL-13: Every Wall Has a Door"
 description: "Twelve INTEL posts. Eight research teams. One conclusion: the traditional security model is being dismantled from every direction simultaneously. Five structural shifts — and one closing window to fix them."
+meta:
+  description: "Twelve INTELs, eight research teams, one conclusion: five structural shifts are dismantling the traditional security model at the same time."
 date: 2026-04-06
 type: "intel"
 intel_type: "SYNTHESIS"

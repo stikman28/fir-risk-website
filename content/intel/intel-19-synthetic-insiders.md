@@ -1,6 +1,8 @@
 ---
 title: "INTEL-19: Synthetic Insiders in the Hiring Pipeline"
 description: "Nation-state operatives are using forged identities, deepfake-assisted interviews, and AI-generated personas to be hired as legitimate remote IT workers — then converting employment access into espionage or extortion. Your HR and identity verification process is now a cybersecurity control. Add a live identity-verification step for privileged roles before equipment ships."
+meta:
+  description: "Nation-state operatives use forged identities and deepfake interviews to get hired as remote IT workers. Why hiring is now a cybersecurity control."
 date: 2026-04-24
 type: "intel"
 intel_type: "TREND"

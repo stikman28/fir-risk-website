@@ -1,6 +1,8 @@
 ---
 title: "INTEL-10: The Ransomware Swarm"
 description: "IBM X-Force identified 109 active ransomware groups — a 49% increase. The cartel model is being replaced by a swarm of smaller operators using leaked toolkits and commoditized playbooks."
+meta:
+  description: "IBM X-Force 2026: 109 active ransomware groups, up 49%. The cartel model is giving way to a swarm of smaller operators using leaked toolkits."
 date: 2026-04-01
 type: "intel"
 intel_type: "TREND"

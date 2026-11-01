@@ -1,6 +1,8 @@
 ---
 title: "E93 - The Attacks Aren't New. The Economics Are."
 description: "Anthropic's September 2026 threat intelligence report documents eight months of disrupted AI misuse, and its central finding is not a new technique. It's a new cost structure: the reconnaissance, exploitation, tooling and data processing that once set elite operations apart now run as AI agents, at machine speed and in parallel. You don't need exotic new controls. You need the familiar ones to run at the attacker's speed, and your likelihood scores and your assumption that you're too small to target need to change."
+meta:
+  description: "Anthropic threat report, September 2026: AI agents run reconnaissance, exploitation and tooling at machine speed. The attacks aren't new; the costs are."
 date: 2026-10-13
 image: "/images/tuesday/e93-the-economics-changed.jpg"
 thumbnail: "/images/tuesday/e93-the-economics-changed.jpg"

@@ -1,6 +1,8 @@
 ---
 title: "E87 - The Agents Have Keys"
 description: "Anthropic's 2026 research reveals 57% of enterprises deploy multi-stage AI agent workflows and 42% trust agents to lead development — while only 15% are confident in non-human identity governance. When AI agents hold production credentials and operate autonomously, they become the newest privileged users in your organization. Most security programs are treating them like software licenses."
+meta:
+  description: "Anthropic 2026 AI agent research: enterprises run multi-stage agent workflows with production credentials. Why agents are your newest privileged users."
 date: 2026-04-07
 image: "/images/tuesday/e87-the-agents-have-keys.png"
 thumbnail: "/images/tuesday/e87-the-agents-have-keys.png"

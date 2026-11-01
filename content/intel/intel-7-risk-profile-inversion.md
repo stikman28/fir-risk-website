@@ -1,6 +1,8 @@
 ---
 title: "INTEL-7: A New Risk Has Entered the Top 5"
 description: "Ransomware encryption dropped 38% in one year. Credential theft at 23% is now double encryption at 13%. Undetected long-term access has become a top-5 risk that most organizations haven't added to their risk registers."
+meta:
+  description: "Picus 2026: ransomware encryption fell 38% while credential theft doubled. Undetected long-term access belongs on your risk register."
 date: 2026-03-26
 type: "intel"
 intel_type: "TREND"

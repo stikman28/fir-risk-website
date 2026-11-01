@@ -1,6 +1,8 @@
 ---
 title: "INTEL-16: The Credential Chain"
 description: "57% of organizations deploy multi-agent AI workflows where compromising a single orchestrator can cascade access across every sub-agent. 47% use hybrid models with vendor agents inside the perimeter. Most third-party risk programs don't assess AI agent access as a supply chain dependency."
+meta:
+  description: "Multi-agent AI workflows: compromise one orchestrator and access cascades to every sub-agent. Why third-party risk programs should assess agent access."
 date: 2026-04-10
 type: "intel"
 intel_type: "TECHNIQUE"

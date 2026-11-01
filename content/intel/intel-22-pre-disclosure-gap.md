@@ -1,6 +1,8 @@
 ---
 title: "INTEL-22: The Pre-Disclosure Gap"
 description: "For the first time in the Verizon DBIR's history, exploiting an unpatched vulnerability is the #1 way attackers break in — and 29% of the critical ones were weaponized before a patch existed. The lesson isn't 'patch faster'; it's a consistent, risk-based patching discipline you never let slip."
+meta:
+  description: "Verizon 2026 DBIR: exploiting a vulnerability is now the #1 way in, and many critical flaws are weaponized fast. Why consistent patching discipline wins."
 date: 2026-06-24
 type: "intel"
 intel_type: "VULNERABILITY"

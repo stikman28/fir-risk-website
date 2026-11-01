@@ -1,6 +1,8 @@
 ---
 title: "E91 - The Window Closed"
 description: "Three 2026 threat reports — Rapid7, VulnCheck, and Zscaler — from three different corners of the industry reach one conclusion: the window between when a threat appears and when it hurts you has collapsed. Nearly 3 in 10 vulnerabilities are exploited on or before disclosure, initial access is now a commoditized product, and 100% of red-tested AI systems failed. The neutral Verizon breach data agrees."
+meta:
+  description: "Rapid7, VulnCheck and Zscaler 2026 reports agree: the window between a threat appearing and causing harm has collapsed. Verizon DBIR confirms it."
 date: 2026-07-14
 image: "/images/tuesday/e91-the-window-closed.png"
 thumbnail: "/images/tuesday/e91-the-window-closed.png"

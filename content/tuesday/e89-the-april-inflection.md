@@ -1,6 +1,8 @@
 ---
 title: "E89 - The April Inflection"
 description: "Twelve days ago Anthropic launched Project Glasswing with eleven coalition partners. Five days ago OpenAI launched GPT-5.5 and Trusted Access for Cyber. Two competing US frontier-model labs converged on the same architectural answer in seven days. Read against six months of FIR Risk corpus, this is the inflection the data has been pointing at: AI is finally good enough to be the defender's tool of choice, and the path of least resistance for attackers starts closing this quarter."
+meta:
+  description: "Anthropic Project Glasswing and OpenAI Trusted Access for Cyber, April 2026: two AI labs converge on giving defenders frontier AI. What it means."
 date: 2026-04-28
 image: "/images/tuesday/e89-the-april-inflection.png"
 thumbnail: "/images/tuesday/e89-the-april-inflection.png"

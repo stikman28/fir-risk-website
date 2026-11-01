@@ -1,6 +1,8 @@
 ---
 title: "INTEL-24: Breadth, Not Depth"
 description: "The 2026 Verizon DBIR studied 793 threat actors using AI — and fewer than 1% reached a high or critical capability tier. Generative AI today is a breadth multiplier that scales known attacks, not a depth multiplier that unlocks novel ones. The takeaway for leaders: resource for the volume and velocity of known attacks and keep investing in the proven detections that already catch them — don't re-architect around hypothetical AI super-attacks."
+meta:
+  description: "Verizon 2026 DBIR: of 793 threat actors using AI, fewer than 1% reached high capability. AI scales known attacks; keep investing in proven defenses."
 date: 2026-06-29
 type: "intel"
 intel_type: "TREND"

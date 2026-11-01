@@ -1,6 +1,8 @@
 ---
 title: "E85 - The Responder's Report"
 description: "Mandiant M-Trends 2026 — built on 500,000+ hours of incident response across 83 campaigns and 73 countries. Voice phishing surges to #2 vector, ransomware operators industrialize recovery denial, and the first AI-powered malware families are confirmed in the wild."
+meta:
+  description: "Mandiant M-Trends 2026: 500,000+ hours of incident response. Exploits lead initial access, voice phishing rises to #2, and recovery denial grows."
 date: 2026-03-24
 image: "/images/tuesday/e85-m-trends-2026.png"
 thumbnail: "/images/tuesday/e85-m-trends-2026.png"

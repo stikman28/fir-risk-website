@@ -1,6 +1,8 @@
 ---
 title: "INTEL-30: The Pre-Disclosure Window"
 description: "Nearly three in ten actively-exploited vulnerabilities in 2025 were weaponized on or before the day they were disclosed. VulnCheck's 28.96% figure — corroborated by the Verizon DBIR at 29% — plus the SharePoint ToolShell case study, mean 'patch faster' is a losing race for internet-facing systems. The move: treat the patch window as zero and shift to exposure reduction."
+meta:
+  description: "VulnCheck 2026: nearly 3 in 10 exploited vulnerabilities were weaponized on or before disclosure. For internet-facing systems, focus on exposure reduction."
 date: 2026-07-15
 type: "intel"
 intel_type: "VULNERABILITY"

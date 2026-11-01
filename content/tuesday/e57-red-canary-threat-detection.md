@@ -1,6 +1,8 @@
 ---
 title: "E57 - 93,000 Threats Across 4 Million Endpoints"
 description: "Red Canary's 2025 Threat Detection Report: 93,000 threats detected (+33% YoY), identity attacks surged 4x, ransomware demands hit $75M, and initial access is evolving beyond email phishing."
+meta:
+  description: "Red Canary 2025 Threat Detection Report: 93,000 threats across 4 million endpoints, a fourfold rise in identity attacks, and how initial access is shifting."
 date: 2025-06-03
 image: "/images/tuesday/e57-red-canary-threat-detection.png"
 thumbnail: "/images/tuesday/e57-red-canary-threat-detection.png"

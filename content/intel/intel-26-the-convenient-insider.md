@@ -1,6 +1,8 @@
 ---
 title: "INTEL-26: The Convenient Insider"
 description: "The insider to worry about in 2026 isn't a thief — it's an employee trying to get work done. In the 2026 Verizon DBIR, the dominant privilege-misuse motive flipped from financial gain (33%) to convenience (60%), and shadow AI is now a top non-malicious data-loss channel (up fourfold). The fix isn't a ban — it's a sanctioned AI path with data-loss visibility, governed consistently."
+meta:
+  description: "Verizon 2026 DBIR: privilege misuse is now driven more by convenience than by financial gain, and shadow AI is a growing data-loss channel."
 date: 2026-07-01
 type: "intel"
 intel_type: "TREND"

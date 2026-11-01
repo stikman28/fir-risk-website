@@ -1,6 +1,8 @@
 ---
 title: "E81 - 72 Minutes"
 description: "Unit 42 analyzed 750+ incidents in 2025. 90% were preventable. Exfiltration in 72 minutes. Identity is the skeleton key. AI compresses the kill chain. Supply chains are nation-state highways. A presidential-level debrief on the report that should reshape every security strategy."
+meta:
+  description: "Unit 42 Global Incident Response Report 2026: 750+ incidents, most preventable, data stolen in as little as 72 minutes, and identity at the center."
 date: 2026-03-03
 image: "/images/tuesday/e81-unit42-incident-response-debrief.png"
 thumbnail: "/images/tuesday/e81-unit42-incident-response-debrief.png"

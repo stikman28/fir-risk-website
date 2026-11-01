@@ -1,6 +1,8 @@
 ---
 title: "E82 - Blending In"
 description: "Cloudflare processes 20% of global internet traffic and blocks 230 billion threats daily. Their inaugural threat report reveals attackers have stopped breaking in — they're blending in. 94% of login attempts are bots. 63% of human logins use compromised credentials. Living off XaaS is the new attack model."
+meta:
+  description: "Cloudflare 2026 Threat Report: attackers have stopped breaking in and started blending in, with bots and stolen credentials dominating logins."
 date: 2026-03-09
 image: "/images/tuesday/e82-cloudflare-threat-landscape.png"
 thumbnail: "/images/tuesday/e82-cloudflare-threat-landscape.png"

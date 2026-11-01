@@ -1,6 +1,8 @@
 ---
 title: "E94 - MDDR 2026: A Shift in the Physics of Cyber Risk"
 description: "Microsoft says AI is \"changing the physics of cybersecurity\": it is reducing the time, expertise and cost required to find and exploit weaknesses. Its 2026 Digital Defense Report shows the result, an exposure window opening at both ends. Attackers turn new flaws into working exploits faster than most organizations can patch, and once inside they are staying hidden longer before anyone notices. In the middle sits a new kind of actor, the AI agent, which often has access but no owner. The answer for boards isn't another tool or a stricter deadline. It's direction on two things: the clock, meaning whether defenses are resourced and automated to keep pace with machine-speed attackers, and the owner, meaning a named person who answers for every AI agent and every exposed system."
+meta:
+  description: "Microsoft Digital Defense Report 2026: AI cuts the time and cost to exploit weaknesses, and attackers stay hidden longer. What boards should ask."
 date: 2026-10-20
 image: "/images/tuesday/e94-shift-in-the-physics-of-cyber-risk.jpg"
 thumbnail: "/images/tuesday/e94-shift-in-the-physics-of-cyber-risk.jpg"
