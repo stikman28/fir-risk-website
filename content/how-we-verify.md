@@ -36,7 +36,7 @@ Cyber data often trails the present. Loss studies can run a year or more behind,
 
 ## 4. How we use AI
 
-We use AI tools, including the FIR Risk Platform and Anthropic's Claude, to search our research library, read long reports and draft. AI does not get the final word. Figures are checked against the primary source documents, and Bruce Bird reviews, edits and approves every piece before it is published.
+We use AI models, including Anthropic's Claude and the FIR Risk Platform, to search our research library, read long reports and draft. AI does not get the final word: figures are checked against the primary source documents, and Bruce Bird reviews, edits and approves every piece before it is published.
 
 ## 5. Guidance, not fear
 
