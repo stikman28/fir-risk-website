@@ -1,5 +1,6 @@
 ---
 title: "INTEL-51: Exploits Open the Door, Logins Run Up the Bill"
+seoTitle: "Stolen Logins Tied to 91% of Extreme Cyber Losses"
 description: "Exploited software is the most common way attackers get in. But in the costliest 5% of cyber events, stolen logins were part of 58% of events and 91% of losses, and vendor or partner access was part of 20% of events and 65% of losses. Patching reduces how often you are breached; protecting identity reduces how much the worst events cost."
 meta:
   description: "Cyentia IRIS Xtreme 2026: exploits are the most common way in, but stolen logins are tied to 91% of extreme losses. Rank controls by losses prevented."
