@@ -47,7 +47,7 @@
         {{ .WordCount | lang.FormatNumber 0 }}&nbsp;{{ i18n "words" }}
     </small>
     {{- if and .IsPage (in (slice "intel" "tuesday" "reports") .Section) }}
-    <div class="small text-body-secondary mt-1 byline">By <a href="/about/" rel="author">Bruce C. Bird</a></div>
+    <div class="small text-body-secondary mt-1 byline">By <a href="/about/" rel="author">Bruce C. Bird</a>, CMA, CFM · Founder, FIR Risk Advisory</div>
     {{- end }}
 {{ end }}
 

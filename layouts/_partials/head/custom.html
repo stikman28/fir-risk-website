@@ -26,8 +26,11 @@
   {{ with .Params.thumbnail }}"image": {{ absURL . }},{{ end }}
   "author": {
     "@type": "Person",
-    "name": "Bruce Bird",
-    "url": "https://www.linkedin.com/in/brucecbird/"
+    "@id": "https://firrisk.ai/about/#bruce-bird",
+    "name": "Bruce C. Bird",
+    "url": "https://firrisk.ai/about/",
+    "jobTitle": "Founder & Principal, FIR Risk Advisory",
+    "sameAs": ["https://www.linkedin.com/in/brucecbird/", "https://x.com/stikman28", "https://github.com/stikman28"]
   },
   "publisher": {
     "@type": "Organization",
@@ -37,6 +40,34 @@
   },
   "mainEntityOfPage": {{ .Permalink }},
   "isAccessibleForFree": true
+}
+</script>
+{{ end }}
+
+<!-- Author profile: /about/ is the author page for every Tuesday and INTEL byline (E-E-A-T) -->
+{{ if eq .RelPermalink "/about/" }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfilePage",
+  "url": "https://firrisk.ai/about/",
+  "mainEntity": {
+    "@type": "Person",
+    "@id": "https://firrisk.ai/about/#bruce-bird",
+    "name": "Bruce C. Bird",
+    "alternateName": "Bruce Bird",
+    "url": "https://firrisk.ai/about/",
+    "jobTitle": "Founder & Principal",
+    "worksFor": { "@type": "Organization", "name": "FIR Risk Advisory", "url": "https://firrisk.ai/" },
+    "address": { "@type": "PostalAddress", "addressLocality": "Berthoud", "addressRegion": "CO", "addressCountry": "US" },
+    "alumniOf": { "@type": "CollegeOrUniversity", "name": "Virginia Tech, Pamplin College of Business" },
+    "hasCredential": [
+      { "@type": "EducationalOccupationalCredential", "name": "Certified Management Accountant (CMA)", "credentialCategory": "certification", "recognizedBy": { "@type": "Organization", "name": "Institute of Management Accountants (IMA)" } },
+      { "@type": "EducationalOccupationalCredential", "name": "Certified Financial Manager (CFM)", "credentialCategory": "certification", "recognizedBy": { "@type": "Organization", "name": "Institute of Management Accountants (IMA)" } }
+    ],
+    "knowsAbout": ["Fraud risk", "Cyber risk", "Enterprise risk management", "Internal audit", "IT general controls", "Access and change management", "Accounting", "AI governance", "Data platforms"],
+    "sameAs": ["https://www.linkedin.com/in/brucecbird/", "https://x.com/stikman28", "https://github.com/stikman28"]
+  }
 }
 </script>
 {{ end }}
