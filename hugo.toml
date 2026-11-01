@@ -158,6 +158,9 @@ buildFuture = true
 [outputs]
   home = ["HTML", "RSS", "llms", "llmsfull"]
   section = ["HTML", "RSS"]
+  # Tag/category pages are noindex; their RSS feeds were ~200 "crawled, not indexed" URLs in Search Console.
+  taxonomy = ["HTML"]
+  term = ["HTML"]
 
 # RSS feeds on /resources/ are fetched at build time (resources.GetRemote). Expire the
 # fetch cache so the daily scheduled rebuild pulls fresh items even if the build cache persists.
