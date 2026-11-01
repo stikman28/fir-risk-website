@@ -1,5 +1,6 @@
 ---
 title: "E74 - Welcome to 2026"
+seoTitle: "Google Cybersecurity Forecast 2026 Key Takeaways"
 description: "Google's Cybersecurity Forecast 2026: AI isn't just accelerating cybersecurity—it IS cybersecurity."
 date: 2026-01-02
 image: "/images/tuesday/e74-new-year.png"

@@ -1,5 +1,6 @@
 ---
 title: "INTEL-28: The Ransom Bluff"
+seoTitle: "DBIR 2026: 69% of Ransomware Victims Refused to Pay"
 description: "The ransom economy is cracking. In the 2026 Verizon DBIR, 69% of ransomware victims refused to pay (up from 65/55/51% the prior years), the median ransom fell to $139,875 — and a cross-reference of leak-site 'victim' lists against actual crypto payments suggests only ~9% of publicly named victims ever pay. The lists are partly theater. The one move: pre-decide your ransom-payment posture at the board level, backed by a rehearsed recovery."
 meta:
   description: "Verizon 2026 DBIR: 69% of ransomware victims refused to pay and the median ransom fell. Why boards should decide their payment posture in advance."

@@ -1,5 +1,6 @@
 ---
 title: "E71 - When AI Becomes the Attacker"
+seoTitle: "Anthropic Threat Intelligence Report 2025: AI Misuse"
 description: "Anthropic published transparent data on how their AI models are being weaponized — from ransomware development to employment fraud to automated extortion."
 date: 2025-09-30
 image: "/images/tuesday/e71-ai-driven-threats.png"

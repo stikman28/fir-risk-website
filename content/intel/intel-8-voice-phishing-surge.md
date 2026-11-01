@@ -1,5 +1,6 @@
 ---
 title: "INTEL-8: The Breach Starts With a Phone Call"
+seoTitle: "Voice Phishing Surge: Nearly Double Email Phishing"
 description: "Voice phishing surged to 11% of initial infection vectors — nearly double email phishing at 6%. For cloud-specific breaches, voice phishing is #1 at 23%. Scattered Spider researched help desk staff by name before calling."
 meta:
   description: "Mandiant M-Trends 2026: voice phishing reached 11% of initial infection vectors, nearly double email phishing, and is #1 in cloud breaches."

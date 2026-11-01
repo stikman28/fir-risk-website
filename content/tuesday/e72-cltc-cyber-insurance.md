@@ -1,5 +1,6 @@
 ---
 title: "E72 - When Insurance Becomes a Security Tool"
+seoTitle: "Cyber Insurance as a Security Tool: UC Berkeley CLTC"
 description: "UC Berkeley's CLTC studied cyber insurance economics — 80% of organizations improved security specifically to qualify for coverage."
 date: 2025-10-29
 image: "/images/tuesday/e72-cltc-cyber-insurance.png"

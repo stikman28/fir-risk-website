@@ -1,5 +1,6 @@
 ---
 title: "E73 - Six Threat Vectors. One Action Plan."
+seoTitle: "Microsoft Digital Defense Report 2025 Key Findings"
 description: "Microsoft processes 100 trillion signals daily. Their 2025 Digital Defense Report distills it into six threat vectors every security leader should track."
 date: 2025-11-11
 image: "/images/tuesday/e73-mddr-2025-summary.png"

@@ -1,5 +1,6 @@
 ---
 title: "E68 - Your Code Is Aging Faster Than You're Fixing It"
+seoTitle: "Veracode State of Software Security 2025 Key Findings"
 description: "Veracode's 15th annual report: 80% of apps contain security flaws, median fix time ballooned to 252 days, 74% carry security debt, and 70% of critical debt lives in open-source dependencies."
 meta:
   description: "Veracode 2025 State of Software Security: 80% of apps have flaws, median fix time is 252 days, and most critical security debt sits in open source."

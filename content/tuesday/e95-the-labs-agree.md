@@ -1,5 +1,6 @@
 ---
 title: "E95 - The Labs Agree: Govern What Goes In, Limit What Comes Out"
+seoTitle: "AI Agent Security: What OpenAI, Anthropic and Google Advise"
 description: "AI agents now read your email, browse the web, process invoices and change records with an employee's own access. The companies that build them, OpenAI, Anthropic and Google, have each published how agents should be secured, and OWASP's independent Top 10 lists cover the same ground. They agree on two things. First, you can't fully filter what goes into an agent: hidden instructions in a web page, an email or a document can steer it, and every lab says that problem won't be completely solved. Second, because of that, you have to limit what an agent is allowed to do. As OpenAI puts it, \"a runtime credential is not task authority.\" Govern what goes in, limit what comes out: that makes agent governance a job for compliance, security and the executive team at the same time."
 meta:
   description: "OpenAI, Anthropic, Google and OWASP agree on AI agent security: you can't filter every input, so limit what agents can do and keep a human accountable."

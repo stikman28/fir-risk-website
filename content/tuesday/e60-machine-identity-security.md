@@ -1,5 +1,6 @@
 ---
 title: "E60 - The Identities You're Not Managing Are the Ones Getting Compromised"
+seoTitle: "CyberArk Machine Identity Security Report 2025"
 description: "CyberArk's 2025 report: 50% of orgs had machine identity security incidents. 79% expect 150% growth. Only 23% prioritize them. Certificate outages tripled since 2022."
 meta:
   description: "CyberArk 2025 State of Machine Identity Security: half of organizations had a machine identity incident, yet few prioritize governing them."

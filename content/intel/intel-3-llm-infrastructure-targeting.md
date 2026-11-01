@@ -1,5 +1,6 @@
 ---
 title: "INTEL-3: 91,000 Sessions — Threat Actors Are Mapping Your AI Infrastructure"
+seoTitle: "GreyNoise: 91,000 Recon Sessions Against LLM Deployments"
 description: "GreyNoise documented 91,000+ reconnaissance sessions against LLM deployments in January 2026. If your AI endpoints are reachable without authentication, assume they've been mapped."
 meta:
   description: "GreyNoise recorded 91,000+ reconnaissance sessions against LLM deployments in January 2026. If your AI endpoints are reachable, assume they're mapped."

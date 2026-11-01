@@ -1,5 +1,6 @@
 ---
 title: "E86 - Castles on Quicksand"
+seoTitle: "IBM X-Force and Red Canary 2026 Reports: Key Findings"
 description: "IBM X-Force and Red Canary's 2026 reports converge on an uncomfortable truth: sophisticated attacks are succeeding through basic failures. With 109 active ransomware groups, an 850% surge in identity attacks, and AI currently favoring defenders — the security industry is optimizing for the wrong threats."
 meta:
   description: "IBM X-Force and Red Canary 2026: sophisticated attacks succeed through basic failures, with 109 active ransomware groups and surging identity attacks."

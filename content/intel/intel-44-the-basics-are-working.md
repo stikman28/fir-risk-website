@@ -1,5 +1,6 @@
 ---
 title: "INTEL-44: The Basics Are Working"
+seoTitle: "Password Attacks Down 26%: Secure Account Recovery Next"
 description: "Password attacks fell 26% year over year, which Microsoft calls strong evidence that MFA and passkeys are forcing attackers elsewhere: to new-hire onboarding and account recovery, which still rely on SMS and email codes. The one action: hold account recovery and onboarding to the same standard as login."
 meta:
   description: "Microsoft 2026: password attacks fell 26% as MFA and passkeys work, pushing attackers to onboarding and account recovery. Secure those like login."

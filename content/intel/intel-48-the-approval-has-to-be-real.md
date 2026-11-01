@@ -1,5 +1,6 @@
 ---
 title: "INTEL-48: The Approval Has to Be Real"
+seoTitle: "OWASP Agentic Top 10: Making Human Approvals Real"
 description: "\"Keep a human in the loop\" can fail without anyone noticing. OWASP's Top 10 for Agentic Applications, drawn from the lived experience of early adopters, reports that confident, polished explanations misled human operators into approving harmful actions. What makes an approval real: reviewers see the exact action, approvals stay rare enough to scrutinize, and those responsible for oversight test that they work."
 meta:
   description: "OWASP Agentic Top 10 2026: polished AI explanations can mislead human approvers. What makes a human-in-the-loop approval real."

@@ -1,5 +1,6 @@
 ---
 title: "INTEL-42: The First Email Asks for Nothing"
+seoTitle: "BEC Fraud: The First Email Asks for Nothing (Microsoft)"
 description: "Microsoft detected more than 46 million business impersonation attacks in 12 months, and by June 2026 only 3% of first messages asked for money or documents. The fraud comes later, and 51% of payroll diversion attempts land on a Monday or Tuesday. The one action: put every change to vendor bank details or employee direct deposit under a formal internal control that is designed, audited and verified to work."
 meta:
   description: "Microsoft 2026: only 3% of first impersonation emails ask for money; the fraud comes later. Put bank-detail changes under a formal internal control."

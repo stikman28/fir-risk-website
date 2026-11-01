@@ -1,5 +1,6 @@
 ---
 title: "INTEL-32: When the Sellers Agree"
+seoTitle: "Rapid7, VulnCheck, Zscaler Agree: Response Window Collapsed"
 description: "Three 2026 threat reports — Rapid7, VulnCheck, Zscaler — from unrelated corners of the industry independently reached the same conclusion: the detection-response window has collapsed. Every one sells the cure for the disease it diagnoses, so we tested the thesis against the one dataset with nothing to sell — the Verizon DBIR. It agrees. That is what turns three sales pitches into a pattern you can take to the board."
 meta:
   description: "Rapid7, VulnCheck and Zscaler agree the detection-response window has collapsed, and the vendor-neutral Verizon DBIR confirms it."

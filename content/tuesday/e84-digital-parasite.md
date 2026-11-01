@@ -1,5 +1,6 @@
 ---
 title: "E84 - The Digital Parasite"
+seoTitle: "Picus Red Report 2026: Top MITRE ATT&CK Techniques"
 description: "Picus Labs analyzed 1.1 million malicious files and 15.5 million adversarial actions. 80% of the top 10 MITRE ATT&CK techniques are now dedicated to evasion and persistence — not disruption. Ransomware encryption declined 38%. Credential theft is now twice as prevalent. The adversary's primary success metric is no longer impact — it's dwell time."
 meta:
   description: "Picus Red Report 2026: most top ATT&CK techniques now serve evasion and persistence. Attackers measure success by how long they stay hidden."

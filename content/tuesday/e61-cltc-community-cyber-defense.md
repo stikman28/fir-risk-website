@@ -1,5 +1,6 @@
 ---
 title: "E61 - Cybersecurity's Last Mile Problem"
+seoTitle: "Community Cyber Defense: UC Berkeley CLTC Roadmap"
 description: "UC Berkeley CLTC's roadmap for community cyber defense: hospitals, schools, utilities, and local governments face enterprise-grade threats with minimal resources. Five building blocks for community resilience."
 meta:
   description: "UC Berkeley CLTC roadmap to community cyber defense: why hospitals, schools and local governments face enterprise threats with few resources."

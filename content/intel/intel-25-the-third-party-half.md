@@ -1,5 +1,6 @@
 ---
 title: "INTEL-25: The Third-Party Half"
+seoTitle: "DBIR 2026: Third Parties Behind 48% of Breaches"
 description: "Breaches involving a third party rose 60% year over year and now sit behind 48% of all breaches in the 2026 Verizon DBIR — nearly half your attack surface is owned and operated by people who don't report to you. The fix isn't a once-a-year vendor questionnaire; it's a living, continuously reconciled inventory of every third party with access, contractual MFA requirements, and dependency reduction where the economics allow."
 meta:
   description: "Verizon 2026 DBIR: third parties are now behind 48% of breaches, up 60% in a year. Why vendor risk needs a living inventory, not an annual questionnaire."

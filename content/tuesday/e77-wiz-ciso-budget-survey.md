@@ -1,5 +1,6 @@
 ---
 title: "E77 - The Threat Your Security Stack Can't See"
+seoTitle: "Wiz CISO Budget Survey 2026: Cloud Security Spending"
 description: "Wiz CISO Budget Survey 2026: 85% of CISOs increased cloud security spending—56% say it's still not enough. Shadow AI is the new blind spot."
 date: 2026-02-03
 image: "/images/tuesday/e77-wiz-ciso-budget-survey.png"

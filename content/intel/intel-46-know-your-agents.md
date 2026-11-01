@@ -1,5 +1,6 @@
 ---
 title: "INTEL-46: Know Your Agents"
+seoTitle: "AI Agent Inventory: Know Your Agents (OpenAI Guidance)"
 description: "Before a board can ask who owns an AI agent or whether it could be stopped, someone has to know how many agents the company runs. OpenAI's enterprise security guide puts \"Know your agents\" first on its CISO checklist, followed by assessing each agent's blast radius. A good starting point: an inventory of every AI agent with its owner, purpose, reach and actions, and a risk assessment that shows where controls matter most."
 meta:
   description: "OpenAI's enterprise agent security guide puts 'know your agents' first. Start with an inventory of every AI agent, its owner, reach and actions."

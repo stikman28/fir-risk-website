@@ -1,5 +1,6 @@
 ---
 title: "E64 - A Billion Accounts Without MFA"
+seoTitle: "Trend Micro Cyber Risk Report 2025: 1B Accounts Lack MFA"
 description: "Trend Micro's 2025 Cyber Risk Report: CRI averages 38.4 (medium risk). Over 1 billion accounts lack MFA. 57M high-risk emails blocked (+27% YoY). Mean patch time 41.3 days for large enterprises."
 meta:
   description: "Trend Micro 2025 Cyber Risk Report: over 1 billion accounts without MFA, slow patching at large enterprises, and what drives the cyber risk index."

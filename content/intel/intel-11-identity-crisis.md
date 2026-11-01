@@ -1,5 +1,6 @@
 ---
 title: "INTEL-11: 850% Identity Surge"
+seoTitle: "Identity Threat Detections Up 850% (Red Canary)"
 description: "Red Canary recorded an 850% increase in identity threat detections. IBM confirms 300,000+ ChatGPT credentials on dark web markets. Six consecutive reports confirm identity as the dominant attack vector."
 meta:
   description: "Red Canary recorded an 850% rise in identity threat detections, and six consecutive threat reports confirm identity as the dominant attack vector."

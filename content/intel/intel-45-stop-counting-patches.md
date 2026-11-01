@@ -1,5 +1,6 @@
 ---
 title: "INTEL-45: Stop Counting Patches"
+seoTitle: "Board Cyber Metrics: Replace Patch Counts (MDDR 2026)"
 description: "Microsoft's 2026 Digital Defense Report says reporting should shift from patches deployed to exposure reduced, detection coverage increased and time to mitigate compressed, as weaponization falls well below 24 hours. The one action: replace patch counts in board reporting with those three trend lines."
 meta:
   description: "Microsoft Digital Defense Report 2026: report exposure reduced, detection coverage and time to mitigate to the board, not patches deployed."

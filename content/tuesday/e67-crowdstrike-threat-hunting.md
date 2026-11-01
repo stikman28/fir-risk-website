@@ -1,5 +1,6 @@
 ---
 title: "E67 - Attackers Are Running Like a Business"
+seoTitle: "CrowdStrike Threat Hunting Report 2025 Key Findings"
 description: "CrowdStrike's threat hunting team found interactive intrusions up 27%, 81% malware-free, cloud intrusions surged 136%, and vishing exploded 442%. Electronic crime represents 73% of all interactive activity."
 meta:
   description: "CrowdStrike 2025 Threat Hunting Report: interactive intrusions up 27%, 81% malware-free, cloud intrusions up 136%, and voice phishing surging."

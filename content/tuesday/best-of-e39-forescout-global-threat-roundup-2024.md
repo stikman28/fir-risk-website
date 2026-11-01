@@ -1,5 +1,6 @@
 ---
 title: "Best of E39 - 900 Million Attacks and the List That Missed 73%"
+seoTitle: "Forescout 2024 Threat Roundup: 73% Not in CISA KEV"
 description: "Forescout 2024 Global Threat Roundup: 900M attacks observed. 73% of exploited vulnerabilities NOT in CISA KEV. Critical infrastructure attacks up 668% since 2022. State-sponsored at 48%. The OT/IoT threat landscape most reports miss."
 meta:
   description: "Forescout 2024 Global Threat Roundup: 900 million attacks observed, and 73% of exploited vulnerabilities were not on the CISA KEV list."
