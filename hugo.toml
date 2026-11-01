@@ -142,13 +142,17 @@ buildFuture = true
     url = "/privacy/"
     weight = 1
   [[menu.footer]]
+    name = "How We Verify"
+    url = "/how-we-verify/"
+    weight = 2
+  [[menu.footer]]
     name = "Resources"
     url = "/resources/"
-    weight = 2
+    weight = 3
   [[menu.footer]]
     name = "Contact"
     url = "/contact/"
-    weight = 3
+    weight = 4
 
 [markup]
   [markup.goldmark]
