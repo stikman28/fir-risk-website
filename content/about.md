@@ -34,7 +34,7 @@ Founder, FIR Risk Advisory
 
 Four decades in accounting, audit, risk, and fraud. Bruce started at Arthur Andersen and KPMG, served as a public-company controller, spent fourteen years leading audit and risk work at Focal Point Data Risk, and built Shutterstock's global fraud and risk compliance function. Since 2024 he has been building AI-native data platforms and applications — with controls an auditor would sign off on, and every statistic verified against its primary source.
 
-<a href="https://www.linkedin.com/in/brucecbird/" class="btn btn-primary" target="_blank" rel="noopener">Connect on LinkedIn →</a>
+<a href="https://www.linkedin.com/in/brucecbird/" class="btn btn-primary" target="_blank" rel="noopener">Connect on LinkedIn →</a> <a href="/how-we-verify/" class="btn btn-outline-primary">How we verify our research →</a>
 
 ### Career Highlights
 
