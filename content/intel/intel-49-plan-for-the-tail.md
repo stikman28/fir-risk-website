@@ -1,6 +1,8 @@
 ---
 title: "INTEL-49: Plan for the Tail, Not the Average"
 description: "Averages are a poor guide to cyber loss planning. For a company under $100 million in revenue, the median cyber incident costs about $357,000, but the 95th-percentile loss is $9.1 million, about 25 times higher, and the gap holds at every size. The Cyentia Institute's loss data by revenue band gives every organization a defensible starting point for its worst case, its insurance limits and its reserves."
+meta:
+  description: "Cyentia IRIS: for firms under $100M revenue, the 95th-percentile cyber loss is $9.1M, about 25 times the median. Plan for the tail, not the average."
 date: 2026-11-04
 type: "intel"
 intel_type: "TREND"

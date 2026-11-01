@@ -1,6 +1,8 @@
 ---
 title: "INTEL-52: What SEC Cyber Filings Don't Tell You"
 description: "SEC 8-K cyber filings are a weak guide to how large cyber losses get. Of 205 incidents reported on 8-Ks since the 2023 rule, the filing companies assessed only 6% as material or likely material, only 22 gave any estimate of financial impact, and 2 flagged reputation. The filings are a good record of operational impact; loss data from confirmed events is the better basis for sizing risk."
+meta:
+  description: "Cyentia analysis of 205 SEC 8-K cyber incidents: only 6% assessed material and 22 gave a loss estimate. Use filings for operations, not loss sizing."
 date: 2026-11-09
 type: "intel"
 intel_type: "FILING INTEL"

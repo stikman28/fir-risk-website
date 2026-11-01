@@ -1,6 +1,8 @@
 ---
 title: "INTEL-50: The Costliest Cyber Events Are Disruption, Not Data Theft"
 description: "Most cyber incidents are data exposure. The costliest ones mostly aren't. Among the costliest 5% of cyber events, data exposure falls to 33% and operational disruption rises to 43%, and outside cryptocurrency theft, business interruption is the largest share of losses. A risk register built on what happens most often may be missing where the big losses land."
+meta:
+  description: "Cyentia IRIS Xtreme 2026: the costliest cyber events are mostly operational disruption, not data theft. Add multi-week outages to your risk register."
 date: 2026-11-05
 type: "intel"
 intel_type: "TREND"
