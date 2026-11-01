@@ -62,6 +62,7 @@ buildFuture = true
     type = "Organization"
     name = "FIR Risk Advisory"
     locale = "en-US"
+    twitter = "https://x.com/stikman28"
     github = "https://github.com/stikman28"
     linkedin = "https://www.linkedin.com/in/brucecbird/"
     [params.schema.author]
