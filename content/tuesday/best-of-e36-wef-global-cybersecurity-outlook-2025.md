@@ -1,6 +1,8 @@
 ---
 title: "Best of E36 - 66% Say AI Will Reshape Cybersecurity. Only 37% Are Ready."
 description: "WEF Global Cybersecurity Outlook 2025: The 29-point gap between AI expectation and readiness defines 2025. 60% cite geopolitical risk, 54% name supply chain #1 challenge, 35% of SMBs lack resilience, 69% cite regulatory complexity, $12.5B in cybercrime costs."
+meta:
+  description: "WEF Global Cybersecurity Outlook 2025: 66% expect AI to reshape cybersecurity, but only 37% say they're ready. Geopolitics and supply chain risk lead."
 date: 2025-01-14
 category: "best-of"
 image: "/images/tuesday/best-of-e36-wef-global-cybersecurity-outlook-2025.png"

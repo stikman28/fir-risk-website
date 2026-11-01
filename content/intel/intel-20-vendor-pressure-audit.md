@@ -1,6 +1,8 @@
 ---
 title: "INTEL-20: The Vendor Pressure Audit"
 description: "Most enterprises are already inside the AI-defender coalition — at one degree of separation, through their existing security stack. Glasswing partners include AWS, CrowdStrike, JPMorgan Chase, Microsoft, Palo Alto and others; OpenAI's TAC scales to thousands of verified defenders. Vendors aren't volunteering when coalition-derived AI defensive capability arrives in your existing license. The action: add a single recurring agenda item to every security-vendor QBR — what's your timeline, and what's the mechanism?"
+meta:
+  description: "Most enterprises are already inside the AI-defender coalition through their security vendors. What to ask vendors about new AI defensive capability."
 date: 2026-04-29
 type: "intel"
 intel_type: "TREND"

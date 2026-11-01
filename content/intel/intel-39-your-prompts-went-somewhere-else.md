@@ -1,6 +1,8 @@
 ---
 title: "INTEL-39: Your Prompts Went Somewhere Else"
 description: "Anthropic's September 2026 threat report alleges that several AI labs silently relayed user prompts, many arriving via third-party model routers,, including names, company data and live credentials, to another provider's model without telling users. The one action: inventory the AI tools your employees use and approve only those whose data path you can see."
+meta:
+  description: "Anthropic September 2026 alleges some AI services relayed user prompts to other providers' models. Approve only AI tools whose data path you can see."
 date: 2026-10-19
 type: "intel"
 intel_type: "REGULATORY"

@@ -1,6 +1,8 @@
 ---
 title: "Best of E23 - The War You Can't See"
 description: "Atlantic Council research on Information Influence Activities: the IIA taxonomy (disinformation, misinformation, malinformation, propaganda), Russia's documented playbook, AI as force multiplier for information warfare, and why your SOC isn't built to detect the threat that costs more than ransomware."
+meta:
+  description: "Atlantic Council research on information influence: disinformation, misinformation and propaganda, AI as a force multiplier, and why most SOCs miss it."
 date: 2024-10-15
 category: "best-of"
 image: "/images/tuesday/best-of-e23-atlantic-council-information-influence-activities.png"

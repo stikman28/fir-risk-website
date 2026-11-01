@@ -1,6 +1,8 @@
 ---
 title: "E56 - 48 Minutes to Breakout"
 description: "SANS analyst Katie Nickels synthesizes Mandiant, CrowdStrike, and Verizon DBIR: 48-minute breakout time, ransomware surged 37%, dwell time down to 11 days, 79% of detections involve legitimate tool misuse."
+meta:
+  description: "SANS Threat Analysis Rundown: Katie Nickels synthesizes Mandiant, CrowdStrike and Verizon DBIR on breakout time, ransomware and dwell time."
 date: 2025-05-27
 image: "/images/tuesday/e56-sans-threat-analysis-rundown.png"
 thumbnail: "/images/tuesday/e56-sans-threat-analysis-rundown.png"

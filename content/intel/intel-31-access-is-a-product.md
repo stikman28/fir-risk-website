@@ -1,6 +1,8 @@
 ---
 title: "INTEL-31: Access Is a Product"
 description: "Initial access to your network is now a commoditized product — bought pre-packaged from brokers, then handed downstream to whoever monetizes it. Rapid7's 2026 report calls it the industrialization of access; the Verizon DBIR's 60% year-over-year rise in third-party breach involvement confirms it from the victim's side. The move: treat vendor access as your own attack surface and make credential hygiene a contract term."
+meta:
+  description: "Rapid7 2026: initial network access is now a commoditized product sold by brokers. Treat vendor access as your own attack surface."
 date: 2026-07-16
 type: "intel"
 intel_type: "TREND"

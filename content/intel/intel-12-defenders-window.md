@@ -1,6 +1,8 @@
 ---
 title: "INTEL-12: The Defender's Window"
 description: "Red Canary says AI benefits defenders more than adversaries. IBM warns the advantage is temporary. The organizations that deploy AI defensively now will have a structural advantage when the window closes."
+meta:
+  description: "Red Canary says AI currently helps defenders more than attackers; IBM warns the advantage is temporary. Why deploying defensive AI now matters."
 date: 2026-04-03
 type: "intel"
 intel_type: "TREND"

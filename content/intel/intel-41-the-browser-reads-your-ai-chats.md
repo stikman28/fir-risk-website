@@ -1,6 +1,8 @@
 ---
 title: "INTEL-41: The Browser Reads Your AI Chats"
 description: "Microsoft's 2026 Digital Defense Report found malicious browser extensions posing as AI assistants with about 900,000 installs, active in more than 20,000 enterprise tenants, harvesting AI chat histories. Microsoft calls AI browsers a material enterprise risk. The one action: enforce an approved list of AI browsers and extensions, block the rest, and treat AI chat histories as sensitive business data."
+meta:
+  description: "Microsoft 2026: fake AI browser extensions, active in 20,000+ enterprise tenants, harvested AI chat histories. Allow only approved AI extensions."
 date: 2026-10-27
 type: "intel"
 intel_type: "TREND"

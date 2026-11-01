@@ -1,6 +1,8 @@
 ---
 title: "E80 - From Knowing to Doing"
 description: "WEF Roundup: Three reports in one week expose the same gap — organizations know the risks but aren't acting fast enough. 87% flag AI vulnerabilities. Fewer than 1% govern AI responsibly. Quantum harvest-now-decrypt-later is already underway. What leaders need to hear to close the gap."
+meta:
+  description: "World Economic Forum February 2026: three reports, one gap. Organizations know their AI and quantum risks but are not acting fast enough."
 date: 2026-02-24
 image: "/images/tuesday/e80-wef-knowing-doing-gap.png"
 thumbnail: "/images/tuesday/e80-wef-knowing-doing-gap.png"

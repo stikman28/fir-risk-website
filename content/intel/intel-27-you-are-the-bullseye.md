@@ -1,6 +1,8 @@
 ---
 title: "INTEL-27: You Are the Bullseye"
 description: "The 'we're too small to be a target' assumption is dead. The 2026 Verizon DBIR puts ransomware in 83% of breaches at small and mid-sized businesses, and 96% of all ransomware victims are SMBs. The single highest-leverage move for a resource-constrained business: tested, isolated, OFFLINE backups with a rehearsed restore — the reason 69% of victims can refuse to pay."
+meta:
+  description: "Verizon 2026 DBIR: ransomware is in 83% of small and mid-sized business breaches. Why tested, offline backups are the highest-leverage defense."
 date: 2026-07-02
 type: "intel"
 intel_type: "SECTOR ALERT"

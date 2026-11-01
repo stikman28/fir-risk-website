@@ -1,6 +1,8 @@
 ---
 title: "INTEL-47: The Rule of Two"
 description: "An AI agent that reads outside content, reaches sensitive data and can act or send information out has everything a prompt injection attack needs. OWASP's 2026 Top 10 for LLM Applications calls its floor the Rule of Two: an agent with all three needs human approval for each action. The same three capabilities are a useful lens for any agent risk assessment, and the first one, what goes in, is where governance starts."
+meta:
+  description: "OWASP 2026 Rule of Two: an AI agent with untrusted input, sensitive data and the power to act needs human approval for each action. Use it in reviews."
 date: 2026-11-02
 type: "intel"
 intel_type: "TECHNIQUE"

@@ -1,6 +1,8 @@
 ---
 title: "E96 - The Costliest 5%: What Confirmed Losses Teach Us About Planning"
 description: "Most cyber risk research counts attacks. The Cyentia Institute's IRIS Xtreme 2026 counts what the worst ones actually cost. It studies the costliest 5% of publicly reported cyber incidents over five years: 136 confirmed events and $26.4 billion in documented losses, plus 205 incidents companies reported to the SEC. It is hindsight evidence, and the newest events date from early 2025, because the full cost of an attack takes a long time to become known. That is exactly what makes it useful: it shows where the money was really lost, so you can check your own risk assessment against outcomes rather than headlines."
+meta:
+  description: "Cyentia IRIS Xtreme 2026: what the costliest 5% of cyber events really cost and why. Use confirmed losses to size your cyber risk plan and insurance."
 date: 2026-11-03
 image: "/images/tuesday/e96-the-costliest-five-percent.jpg"
 thumbnail: "/images/tuesday/e96-the-costliest-five-percent.jpg"

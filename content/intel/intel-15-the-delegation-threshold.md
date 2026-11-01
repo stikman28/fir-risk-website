@@ -1,6 +1,8 @@
 ---
 title: "INTEL-15: The Delegation Threshold"
 description: "77% of enterprise AI interactions are now full task delegation — not collaboration. For the first time, automation exceeds augmentation. The human is leaving the loop at the exact moment agent access to production systems is expanding."
+meta:
+  description: "77% of enterprise AI interactions are now full task delegation, not collaboration. The human leaves the loop just as agent access to production expands."
 date: 2026-04-09
 type: "intel"
 intel_type: "TREND"

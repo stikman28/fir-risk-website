@@ -1,6 +1,8 @@
 ---
 title: "INTEL-40: Obscurity Is Not a Control"
 description: "Anthropic's September 2026 threat report declares that security through obscurity 'is no longer viable': AI makes unusual configurations easy to understand and exploit, and makes previously marginal targets worth attacking. The one action: build a complete inventory of everything you expose to the internet, with an owner for each item."
+meta:
+  description: "Anthropic September 2026: AI makes unusual configurations easy to exploit, so obscurity no longer protects. Inventory everything internet-facing."
 date: 2026-10-20
 type: "intel"
 intel_type: "TREND"

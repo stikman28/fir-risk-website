@@ -1,6 +1,8 @@
 ---
 title: "E59 - 150,000 Incidents Prove Time Is the Variable That Matters"
 description: "Cyentia Institute's IRIS 2025: 150,000+ incidents over 15 years. Sixfold increase in significant incidents. Large firms 620x more likely to be targeted. Median loss $2.9M, tail risk $32M."
+meta:
+  description: "Cyentia IRIS 2025: 150,000+ cyber incidents over 15 years. Significant incidents rose sixfold, and why loss models must be recalibrated regularly."
 date: 2025-06-17
 image: "/images/tuesday/e59-iris-2025-risk-insights.png"
 thumbnail: "/images/tuesday/e59-iris-2025-risk-insights.png"

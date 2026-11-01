@@ -1,6 +1,8 @@
 ---
 title: "E65 - 110 CISOs Told Us What Keeps Them Up at Night"
 description: "Team8's 2025 CISO Village Survey: #1 pain point is securing AI agents (39%). 5 of top 9 priorities are AI-related. 67% deploying agentic AI in 2025. Budgets tightening — 52% saw increases, down from 70%."
+meta:
+  description: "Team8 2025 CISO Village Survey: 110 CISOs rank securing AI agents as their top pain point, with five of their top nine priorities AI-related."
 date: 2025-07-29
 image: "/images/tuesday/e65-ciso-priorities-2025.png"
 thumbnail: "/images/tuesday/e65-ciso-priorities-2025.png"

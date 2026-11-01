@@ -1,6 +1,8 @@
 ---
 title: "INTEL-23: The Permission Problem"
 description: "The 2026 Verizon DBIR settles a long-running argument: privilege escalation is an identity-and-permissions problem, not a patching one. 83% of escalation incidents involved no vulnerability exploit at all — attackers used the permissions already there. The fix isn't a faster patch cycle; it's a standing privileged-access inventory you shrink every cycle."
+meta:
+  description: "Verizon 2026 DBIR: 83% of privilege escalations used no exploit at all. Privilege escalation is a permissions problem, not a patching one."
 date: 2026-06-25
 type: "intel"
 intel_type: "TECHNIQUE"

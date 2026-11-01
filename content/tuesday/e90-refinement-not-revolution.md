@@ -1,6 +1,8 @@
 ---
 title: "E90 - Refinement, Not Revolution"
 description: "The 2026 Verizon DBIR runs 121 pages of headlines about AI and zero-days — but the breaches underneath are still fundamentals, and that's the most useful finding in the report. Vulnerability exploitation is now the #1 way in, 83% of privilege escalations use no exploit at all, third-party breaches are up 60%, and of 793 threat actors caught using AI, fewer than 1% were genuinely dangerous."
+meta:
+  description: "Verizon 2026 DBIR: exploitation is now the #1 way in, third-party breaches up 60%, and fewer than 1% of AI-using attackers were truly dangerous."
 date: 2026-06-23
 image: "/images/tuesday/e90-refinement-not-revolution.png"
 thumbnail: "/images/tuesday/e90-refinement-not-revolution.png"

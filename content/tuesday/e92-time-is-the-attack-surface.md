@@ -1,6 +1,8 @@
 ---
 title: "E92 - Time Is the Attack Surface"
 description: "A Microsoft/Accenture report written for governments contains one idea every private risk leader should steal: cyber loss is no longer priced by whether you're breached — it's priced by three clocks. Recovery time (each extra week of downtime roughly triples the economic damage), adversary tempo (a disclosed espionage campaign ran 80–90% of its lifecycle on agentic AI), and your data's shelf life (harvest-now-decrypt-later is already operational). All three clocks need an owner."
+meta:
+  description: "Microsoft and Accenture, Securing Nations 2026: cyber loss is priced by recovery time, attacker tempo and data shelf life. Lessons for risk leaders."
 date: 2026-07-21
 image: "/images/tuesday/e92-time-is-the-attack-surface.png"
 thumbnail: "/images/tuesday/e92-time-is-the-attack-surface.png"

@@ -1,6 +1,8 @@
 ---
 title: "Best of E30 - A Five Eyes Intelligence Agency Shows Its Cards"
 description: "Australian Signals Directorate Annual Cyber Threat Report: 36,700 hotline calls, 82M malicious domains blocked, 250% surge in high-priority taskings. PRC pre-positioning confirmed. SMB cybercrime costs rising. A government intelligence perspective on the threat landscape."
+meta:
+  description: "Australian Signals Directorate Annual Cyber Threat Report 2023-24: a Five Eyes agency's view of state pre-positioning and rising small-business cybercrime."
 date: 2024-12-03
 category: "best-of"
 image: "/images/tuesday/best-of-e30-asd-annual-cyber-threat-report.png"

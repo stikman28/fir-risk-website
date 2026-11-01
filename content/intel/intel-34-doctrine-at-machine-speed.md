@@ -1,6 +1,8 @@
 ---
 title: "INTEL-34: Doctrine at Machine Speed"
 description: "The GTG-1002 case — 80–90% of an espionage campaign's attack lifecycle executed by agentic AI — has been elevated into Microsoft/Accenture national-security doctrine and MITRE's catalogue. The one action: pre-authorize automated containment steps so response tempo matches machine-speed adversaries."
+meta:
+  description: "An espionage campaign run 80 to 90% by agentic AI is now in national security doctrine. Pre-authorize automated containment to match machine speed."
 date: 2026-07-23
 type: "intel"
 intel_type: "THREAT ALERT"
