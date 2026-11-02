@@ -1,5 +1,6 @@
 ---
 title: "INTEL-43: Attackers Didn't Get Slower. We Did."
+seoTitle: "Dwell Time Is Rising: Attackers Didn't Get Slower"
 description: "Microsoft found a statistically significant increase in dwell time while the length of attacker activity stayed broadly stable: organizations are taking longer to notice intruders. Mandiant's median dwell time rose to 14 days from 11. The one action: don't wait for a breach to learn your dwell time. Test it with threat hunts and timed assume-breach exercises, and report detection coverage to leadership."
 meta:
   description: "Microsoft and Mandiant 2026: dwell time is rising because organizations take longer to notice intruders. Measure yours with hunts and timed exercises."

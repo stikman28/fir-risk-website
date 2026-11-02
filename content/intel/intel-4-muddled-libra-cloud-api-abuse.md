@@ -1,5 +1,6 @@
 ---
 title: "INTEL-4: Your Cloud APIs Are the Attack Infrastructure"
+seoTitle: "Muddled Libra: Help Desk Resets and Cloud API Abuse"
 description: "Muddled Libra doesn't bring malware. They call your help desk, reset a password, and use Microsoft Graph API to own your cloud from the inside. Unit 42's 2026 report flags them across aerospace, finance, tech, and telecom."
 meta:
   description: "Unit 42 2026: Muddled Libra calls the help desk, resets a password and uses Microsoft Graph to take over cloud environments without malware."

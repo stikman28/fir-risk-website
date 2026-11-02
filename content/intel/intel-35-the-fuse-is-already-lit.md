@@ -1,5 +1,6 @@
 ---
 title: "INTEL-35: The Fuse Is Already Lit"
+seoTitle: "Harvest Now, Decrypt Later: Start Your Crypto Inventory"
 description: "Harvest-now-decrypt-later is operational and governments have set dated post-quantum migration mandates (US 2035, EU/UK 2030) — yet only 22% of executives rank quantum as game-changing. The one action: start the cryptographic inventory of your 10-year-plus data in 2026."
 meta:
   description: "Harvest-now-decrypt-later is underway and post-quantum migration deadlines are set. Start an inventory of the cryptography protecting long-lived data."

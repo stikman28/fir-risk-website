@@ -1,5 +1,6 @@
 ---
 title: "INTEL-36: The Alarm Is Yours"
+seoTitle: "Anthropic Enterprise Frontier Safeguards: Own the Alerts"
 description: "Anthropic's Enterprise Frontier Safeguards moves AI misuse monitoring into the customer's own cloud, under the customer's keys, with flags routed to the customer's own reviewers. No Anthropic fee, phased rollout to eligible customers this fall. The one action: name the owner of every AI misuse flag before access opens."
 meta:
   description: "Anthropic Enterprise Frontier Safeguards puts AI misuse monitoring in the customer's own cloud. Name the owner of every AI misuse flag before access opens."

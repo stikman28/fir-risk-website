@@ -1,5 +1,6 @@
 ---
 title: "INTEL-33: The Cost of Week Two"
+seoTitle: "Cyber Recovery Time: Why Week Two Costs Far More"
 description: "Cyber damage compounds with downtime — economic modeling shows each extension of recovery time roughly triples the loss (1.4% → 4.6% → 13.7% of monthly GDP), with the Jaguar Land Rover incident as the empirical anchor. The one action: prove your restore time with a live failover test, then re-weight the budget toward recovery-time compression."
 meta:
   description: "Cyber damage compounds with downtime: each added stretch of recovery multiplies the loss. Prove your restore time with a live failover test."

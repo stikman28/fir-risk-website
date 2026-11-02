@@ -1,5 +1,6 @@
 ---
 title: "INTEL-37: Loot, Compute, Cover"
+seoTitle: "Stolen AI API Keys: Resale, Free Compute and Cover"
 description: "Anthropic's September 2026 threat report finds that stolen AI API keys and session tokens have become the sole objective of multiple criminal groups. A stolen key gives an attacker three things at once: resale value, free compute, and an alibi in your name. The one action: find every AI key your organization has exposed, starting with the places attackers look first."
 meta:
   description: "Anthropic September 2026: stolen AI API keys give attackers resale value, free compute and an alibi in your name. Find every AI key you've exposed."

@@ -1,5 +1,6 @@
 ---
 title: "INTEL-1: Law Firms Are Now Premium Ransomware Targets"
+seoTitle: "Law Firms Are Now Premium Ransomware Targets"
 description: "Law firms paid ransoms at a 41% rate in 2025—about 14% more often than the cross-sector average."
 date: 2026-01-29
 type: "intel"

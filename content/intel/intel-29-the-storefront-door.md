@@ -1,5 +1,6 @@
 ---
 title: "INTEL-29: The Storefront Door"
+seoTitle: "DBIR 2026 Retail: Third Parties in 68% of Breaches"
 description: "The 2026 Verizon DBIR retail chapter: exploited vulnerabilities are now the #1 way in (42% of initial access) and third parties appear in 68% of retail breaches — for ecommerce, the storefront's integration surface IS the attack surface. The one action: inventory, govern, retire, and patch every third party with a door into your storefront."
 meta:
   description: "Verizon 2026 DBIR retail: exploits lead initial access and third parties appear in 68% of retail breaches. Govern every integration into your storefront."

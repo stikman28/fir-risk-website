@@ -1,5 +1,6 @@
 ---
 title: "E88 - The Trust Audit"
+seoTitle: "Intel 471 and Trend Micro 2026 Threat Reports Compared"
 description: "Intel 471 and Trend Micro's 2026 threat reports converge on one conclusion: 2025 was the year trust got weaponized. Extortion breach events up ~63% year over year, but the costliest campaigns rode in through trusted software (CLOP/Oracle EBS, Salesloft/Salesforce, Qilin Korean Leak), user-driven execution (ClickFix), and synthetic insiders — not zero-day heroics. The durable 2026 investment is verification-as-architecture."
 meta:
   description: "Intel 471 and Trend Micro 2026 threat reports: 2025 was the year trust was weaponized, through trusted software, ClickFix and synthetic insiders."

@@ -1,5 +1,6 @@
 ---
 title: "E79 - Same AI, Different Mission"
+seoTitle: "Google GTIG AI Threat Tracker 2026: How Attackers Use AI"
 description: "GTIG AI Threat Tracker: Seven state-sponsored groups weaponize Gemini across the full attack lifecycle. HONESTCUE malware calls AI APIs at runtime. Model extraction at 100K+ prompts. ClickFix campaigns hosted on trusted AI platforms."
 meta:
   description: "Google GTIG AI Threat Tracker 2026: how state-sponsored groups use Gemini across the attack lifecycle, from malware that calls AI APIs to model extraction."

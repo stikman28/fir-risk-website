@@ -1,5 +1,6 @@
 ---
 title: "INTEL-2: The Human-in-the-Loop Imperative for AI Security"
+seoTitle: "NIST: Keep Humans in the Loop for AI Security Detection"
 description: "NIST built its detection framework around one assumption: AI detects, humans validate. Fully automated security is a design flaw."
 date: 2026-02-04
 type: "intel"

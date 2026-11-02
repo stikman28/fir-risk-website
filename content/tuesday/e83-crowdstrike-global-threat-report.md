@@ -1,5 +1,6 @@
 ---
 title: "E83 - The Convergence"
+seoTitle: "CrowdStrike Global Threat Report 2026 Key Findings"
 description: "CrowdStrike tracks 281 adversaries. The fastest breakout time: 27 seconds. 82% of intrusions are malware-free. Three major 2026 threat reports in three weeks converge on one conclusion — identity is the perimeter, cloud is the battlefield, and traditional security models are defending against yesterday's threat landscape."
 meta:
   description: "CrowdStrike 2026 Global Threat Report: 281 adversaries tracked, 82% of intrusions malware-free, and identity as the new perimeter."

@@ -1,5 +1,6 @@
 ---
 title: "INTEL-9: 22 Seconds"
+seoTitle: "Access Broker to Ransomware Handoff: 22 Seconds"
 description: "The median handoff from initial access broker to ransomware operator collapsed from 8+ hours in 2022 to 22 seconds in 2025. A 1,300x compression. Low-impact browser infections are now full ransomware events."
 meta:
   description: "The handoff from access broker to ransomware operator fell from 8+ hours in 2022 to 22 seconds in 2025. Treat low-impact infections as ransomware events."

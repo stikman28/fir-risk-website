@@ -1,5 +1,6 @@
 ---
 title: "E58 - Can AI Agents Tip the Scales Toward Defenders?"
+seoTitle: "WEF: Can AI Agents Tip Cybersecurity Toward Defenders?"
 description: "World Economic Forum: autonomous AI agents can shift cybersecurity advantage toward defenders — proactive vulnerability remediation, self-healing networks, and coordinated global defense at microsecond speed."
 meta:
   description: "World Economic Forum on AI agents and cybersecurity: how autonomous agents could shift the advantage to defenders, and what leaders should weigh."

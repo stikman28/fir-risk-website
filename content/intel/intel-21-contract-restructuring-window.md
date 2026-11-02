@@ -1,5 +1,6 @@
 ---
 title: "INTEL-21: The Contract Restructuring Window"
+seoTitle: "Cyber Vendor Contracts After Frontier AI: Renewal Terms"
 description: "The April 16–23 window changed something cyber vendors do not want priced into procurement: the cadence of frontier-AI defender upgrades just shifted, and no one can predict when the next release lands. Multi-year contracts assumed a slow capability curve — that assumption was invalidated in seven days. The action: at the next renewal or RFP, replace the 36-month-with-annual default with a four-element template — shorter base term, capability-uplift commitments at every renewal, AI-derived-capability roadmap disclosure, and exit clauses tied to defender-tool generations."
 meta:
   description: "Frontier AI defender upgrades now arrive unpredictably. Why multi-year cyber vendor contracts need new terms at the next renewal or RFP."

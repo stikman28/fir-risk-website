@@ -1,5 +1,6 @@
 ---
 title: "INTEL-38: Three Hours to Admin"
+seoTitle: "Stolen Developer Token to Cloud Admin in Three Hours"
 description: "In Anthropic's September 2026 threat report, one stolen developer token became full administrative control of a cloud environment in roughly three hours, and one SaaS breach exposed roughly 200 downstream customers. AI agents did nearly all the work. The one action: ask your most critical SaaS vendors how fast they can detect and revoke a stolen token."
 meta:
   description: "Anthropic September 2026: one stolen developer token became full cloud admin in about three hours. Ask critical SaaS vendors how fast they can revoke it."

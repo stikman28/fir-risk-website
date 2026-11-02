@@ -1,5 +1,6 @@
 ---
 title: "E78 - Three Flags, One Target"
+seoTitle: "CERT-EU Cyber Brief January 2026: Key Threats"
 description: "CERT-EU's January 2026 Cyber Brief: China, Russia, and North Korea converged on Western critical infrastructure simultaneously. Salt Typhoon, Sandworm, Contagious Interview, 6 zero-days, and LLM targeting."
 meta:
   description: "CERT-EU Cyber Brief January 2026: China, Russia and North Korea converge on Western critical infrastructure. What it means for risk leaders."

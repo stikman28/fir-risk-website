@@ -1,5 +1,6 @@
 ---
 title: "INTEL-14: Shadow Agents"
+seoTitle: "Shadow AI Agents and Non-Human Identity Governance"
 description: "Only 15% of organizations report confidence in non-human identity governance — while 57% deploy AI agents with production credentials. Unsanctioned adoption is creating shadow machine identities that security teams can't see."
 meta:
   description: "Shadow AI agents: enterprises deploy agents with production credentials faster than they can govern them, creating machine identities security can't see."

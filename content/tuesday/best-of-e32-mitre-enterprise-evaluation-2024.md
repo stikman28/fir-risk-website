@@ -1,5 +1,6 @@
 ---
 title: "Best of E32 - 19 Vendors Tested. Most Missed Over Half the Attack."
+seoTitle: "MITRE ATT&CK Evaluations 2024: Enterprise Results"
 description: "MITRE ATT&CK Enterprise Evaluation 2024: 19 endpoint vendors tested against LockBit and CL0P ransomware behaviors. Most detected fewer than 50% of attack steps. Cynet and Cortex XDR achieved 100%. First macOS testing and false positive tracking."
 meta:
   description: "MITRE ATT&CK Enterprise Evaluation 2024: 19 endpoint vendors tested against LockBit and CL0P behaviors, and what the results mean for buyers."
