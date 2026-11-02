@@ -125,6 +125,11 @@ buildFuture = true
     parent = "intelligence"
     weight = 4
   [[menu.main]]
+    name = "How We Verify"
+    url = "/how-we-verify/"
+    parent = "intelligence"
+    weight = 5
+  [[menu.main]]
     name = "Partners"
     url = "/partners/"
     weight = 6
