@@ -36,6 +36,7 @@ description: "Contact FIR Risk Advisory about the FIR Risk Platform, Microsoft F
           <label for="interest" class="form-label">I'm interested in:</label>
           <select class="form-select" id="interest" name="interest">
             <option value="general">General Inquiry</option>
+            <option value="agent-trial">FIR Agent trial</option>
             <option value="platform">FIR Risk Platform Access</option>
             <option value="data-platform">Data Platform (Microsoft Fabric)</option>
             <option value="ai-solution">Custom AI Solution</option>
@@ -72,6 +73,11 @@ description: "Contact FIR Risk Advisory about the FIR Risk Platform, Microsoft F
     if (params.get('submitted') === 'true') {
       document.getElementById('form-success').classList.remove('d-none');
       document.getElementById('contact-form').classList.add('d-none');
+    }
+    const interest = params.get('interest');
+    const select = document.getElementById('interest');
+    if (interest && select && select.querySelector('option[value="' + interest + '"]')) {
+      select.value = interest;
     }
     if (params.get('error') === 'true') {
       document.getElementById('form-error').classList.remove('d-none');
