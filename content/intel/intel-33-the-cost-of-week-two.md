@@ -12,9 +12,9 @@ tags: ["Cyber Resilience", "Business Continuity", "Disaster Recovery", "Economic
 
 ## The INTEL
 
-**Cyber damage doesn't grow in proportion to downtime — it compounds. Economic modeling in a new Microsoft/Accenture report shows each extension of recovery time roughly *triples* the loss: 1.4% of monthly national GDP if operations are restored within a week, 4.6% at three weeks, 13.7% at thirty days. And the empirical anchor is real: the 2025 Jaguar Land Rover cyberattack measurably showed up in UK national statistics.**
+**Cyber damage doesn't grow in proportion to downtime — it compounds. Economic modeling in a new Microsoft/Accenture report shows each extension of recovery time roughly *triples* the loss: 1.4% of monthly national GDP if operations are restored within a week, 4.6% if the first week is lost and recovery only starts in week two, 13.7% if restoring takes almost two weeks. And the empirical anchor is real: the 2025 Jaguar Land Rover cyberattack measurably showed up in UK national statistics.**
 
-The model simulates a cyberattack on an upstream oil-and-gas operation in an oil-dependent economy using input-output tables — the standard tool for tracing how a shock to one industry propagates through everything that buys from and sells to it. Three resilience scenarios, three outcomes: restore within a week and the damage is contained (1.4% of monthly GDP); slip to three weeks and it more than triples (4.6%, ~$4.7B); slip to thirty days and it triples again (13.7%).
+The model simulates a cyberattack on an upstream oil-and-gas operation in an oil-dependent economy using input-output tables — the standard tool for tracing how a shock to one industry propagates through everything that buys from and sells to it. Three resilience scenarios, three outcomes: restore within a week and the damage is contained (1.4% of monthly GDP); lose the first week and restore only from week two and it more than triples (4.6%, ~$4.7B); take almost two weeks to restore and it triples again (13.7%).
 
 The real-world companion needs no model. When a cyber incident halted Jaguar Land Rover's manufacturing, UK motor vehicle production fell 28.6% in September — the country's lowest car output in 73 years — and roughly 0.1% came off UK monthly GDP (~$2.5B), per the Office for National Statistics. One company's incident, visible in a G7 economy's output. (The two analyses are separate in the report: the real event proves it happens; the model quantifies how it scales.)
 
@@ -22,11 +22,11 @@ The real-world companion needs no model. When a cyber incident halted Jaguar Lan
 
 ## Why It Matters
 
-Every CISO already argues that downtime is expensive. What most cannot do is put a *shape* on the claim — and the shape is the finding. A convex loss curve means the difference between a one-week recovery and a three-week recovery is not "twice as bad." It's triple. And the difference between three weeks and thirty days is triple again.
+Every CISO already argues that downtime is expensive. What most cannot do is put a *shape* on the claim — and the shape is the finding. A convex loss curve means the difference between restoring within a week and taking almost two weeks is not "twice as bad." It's roughly ten times: the loss triples at each step.
 
 That flips the budget logic. If losses compound with duration, then investment that compresses recovery time buys *exponential* risk reduction — while marginal prevention spend buys linear improvement at best. Most security budgets are still weighted heavily toward prevention and detection, with recovery treated as an insurance afterthought. The curve says that weighting is backwards for any organization whose revenue stops when operations stop: manufacturers, logistics, healthcare delivery, payment processors.
 
-It also gives risk leaders something rare: a citable multiplier for the board memo. "Resilience matters" is a platitude. "Each extra week of downtime roughly triples the economic damage, per Microsoft/Accenture economic modeling, with the JLR incident as the empirical anchor" is a planning input.
+It also gives risk leaders something rare: a citable multiplier for the board memo. "Resilience matters" is a platitude. "Going from a one-week to a two-week recovery multiplies the economic damage roughly tenfold, per Microsoft/Accenture economic modeling, with the JLR incident as the empirical anchor" is a planning input.
 
 ---
 
