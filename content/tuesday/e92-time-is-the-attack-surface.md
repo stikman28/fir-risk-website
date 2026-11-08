@@ -50,7 +50,7 @@ The shape matters more than the numbers. From scenario one to two the damage mul
 
 One honesty note before it goes in your board memo: the JLR case and the scenario model are **two separate analyses** in the report — the real incident was not run through the 1.4/4.6/13.7 framework, and implying otherwise would overreach. Real event proves it happens; model quantifies how it scales.
 
-> **INTEL [GLOBAL] [FINDING]:** Microsoft/Accenture input-output modeling of a critical-infrastructure cyberattack shows national monthly GDP impact scaling non-linearly with recovery time — 1.4% (≤1 week), 4.6% (~3 weeks), 13.7% (~30 days) — each extension roughly tripling damage. Empirical companion: the 2025 Jaguar Land Rover incident measurably reduced UK monthly GDP ~0.1% (~$2.5B), with motor vehicle production down 28.6% (ONS). Board implication: recovery-time compression yields convex, not linear, risk reduction — RTO investment now has a quantified multiplier attached.
+> **INTEL [GLOBAL] [FINDING]:** Microsoft/Accenture input-output modeling of a critical-infrastructure cyberattack shows national monthly GDP impact scaling non-linearly with recovery time — 1.4% (restored within a week), 4.6% (first week lost, restored from week two), 13.7% (almost two weeks to restore) — each extension roughly tripling damage. Empirical companion: the 2025 Jaguar Land Rover incident measurably reduced UK monthly GDP ~0.1% (~$2.5B), with motor vehicle production down 28.6% (ONS). Board implication: recovery-time compression yields convex, not linear, risk reduction — RTO investment now has a quantified multiplier attached.
 
 ---
 

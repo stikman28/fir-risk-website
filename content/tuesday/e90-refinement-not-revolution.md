@@ -40,7 +40,7 @@ Strip away the marketing and the 2026 DBIR is a report about a dangerous illusio
 
 Verizon proves it in section after section. Of 793 real threat actors caught using AI, **fewer than 1% reached high or critical capability** — AI mass-produces *known* techniques, not novel ones. **83% of privilege-escalation incidents involved no vulnerability at all** — escalation is an identity-and-permissions problem, not a patching one. And the single most common way attackers get in is to simply *log in* with valid credentials.
 
-But this is not a "just patch your stuff" story, because the fundamentals are getting harder and faster, not easier. Vulnerability exploitation **doubled in a single year** to become the number-one way in. Known-exploited-vulnerability remediation got **worse**. And **29% of known-exploited vulnerabilities were weaponized before a patch even existed.**
+But this is not a "just patch your stuff" story, because the fundamentals are getting harder and faster, not easier. Vulnerability exploitation **doubled in a single year** to become the number-one way in. Known-exploited-vulnerability remediation got **worse**. And **29% of known-exploited vulnerabilities were attacked before public disclosure.**
 
 The translation for a risk leader: you don't need to chase every AI headline. You need to do the fundamentals better, and faster, than you did last year. Refinement — under fire.
 
@@ -106,7 +106,7 @@ This is no longer abstract. Verizon's own year-in-review reads like a ledger of 
 
 And third-party risk cascades sideways. A single zero-day in **Oracle's E-Business Suite**, weaponized by the Cl0p crew, produced breaches across both Education and Healthcare — two sectors with nothing in common except a shared piece of enterprise software. Shared software is now a cross-sector single point of failure.
 
-The sector that should be reading this twice is **manufacturing**, which carries both the highest third-party exposure in the report (**61%** of its breaches) and an elevated espionage motive (15%) — supply-chain attack surface meeting intellectual-property theft.
+The sector that should be reading this twice is **manufacturing**, which carries both one of the highest third-party exposures in the report (**61%** of its breaches) and an elevated espionage motive (15%) — supply-chain attack surface meeting intellectual-property theft.
 
 > **INTEL [GLOBAL] [THIRD-PARTY RISK]:** Third-party-involved breaches grew 60% year over year to 48% of all breaches in the 2026 DBIR. A single Oracle E-Business Suite zero-day (Cl0p) cascaded across Education and Healthcare; the Jaguar Land Rover incident (~£1.9B, five-week shutdown, ~5,000 downstream entities) is the new benchmark for supply-chain blast radius. The defensive posture: a maintained inventory of third parties with access, contractual security and MFA requirements, continuous (not annual) vendor reconciliation, and — where the economics allow — *reducing* third-party dependency outright. Owning the stack is a control.
 

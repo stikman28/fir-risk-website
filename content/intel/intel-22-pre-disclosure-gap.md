@@ -1,7 +1,7 @@
 ---
 title: "INTEL-22: The Pre-Disclosure Gap"
 seoTitle: "Verizon DBIR 2026: Exploitation Is the #1 Way In"
-description: "For the first time in the Verizon DBIR's history, exploiting an unpatched vulnerability is the #1 way attackers break in — and 29% of the critical ones were weaponized before a patch existed. The lesson isn't 'patch faster'; it's a consistent, risk-based patching discipline you never let slip."
+description: "For the first time in the Verizon DBIR's history, exploiting an unpatched vulnerability is the #1 way attackers break in — and 29% of the critical ones were attacked before public disclosure. The lesson isn't 'patch faster'; it's a consistent, risk-based patching discipline you never let slip."
 meta:
   description: "Verizon 2026 DBIR: exploiting a vulnerability is now the #1 way in, and many critical flaws are weaponized fast. Why consistent patching discipline wins."
 date: 2026-06-24
@@ -11,7 +11,7 @@ tags: ["Vulnerability Management", "CISA KEV", "Zero-Day", "Patch Management", "
 ---
 ## The INTEL
 
-**For the first time in the Verizon DBIR's history, exploiting an unpatched vulnerability is the single most common way attackers break in — and 29% of the critical ones were weaponized before a patch existed. "Patch when it's disclosed" is now "patch after the breach."**
+**For the first time in the Verizon DBIR's history, exploiting an unpatched vulnerability is the single most common way attackers break in — and 29% of the critical ones were attacked before public disclosure. "Patch when it's disclosed" is now "patch after the breach."**
 
 The 2026 DBIR puts exploitation of vulnerabilities at the top of the initial-access list — 31% of breaches, up from 20% a year ago, a 55% jump that finally pushed it past stolen credentials and phishing. As a raw attack action, it doubled, to 32% of breaches.
 

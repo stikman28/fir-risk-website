@@ -1,9 +1,9 @@
 ---
 title: "INTEL-14: Shadow Agents"
 seoTitle: "Shadow AI Agents and Non-Human Identity Governance"
-description: "Only 15% of organizations report confidence in non-human identity governance — while 57% deploy AI agents with production credentials. Unsanctioned adoption is creating shadow machine identities that security teams can't see."
+description: "57% of organizations already deploy AI agents for multi-stage workflows. Each of those agents needs credentials, and most identity programs were built for people. Unsanctioned adoption is creating shadow machine identities that security teams can't see."
 meta:
-  description: "Shadow AI agents: enterprises deploy agents with production credentials faster than they can govern them, creating machine identities security can't see."
+  description: "Shadow AI agents: enterprises deploy AI agents faster than they can govern their access, creating machine identities security can't see."
 date: 2026-04-08
 type: "intel"
 intel_type: "TREND"
@@ -11,7 +11,7 @@ tags: ["AI Agents", "Machine Identity", "Identity Security", "AI Governance", "S
 ---
 ## The INTEL
 
-**Only 15% of organizations report confidence in their non-human identity governance. 57% are already deploying AI agents with production credentials.**
+**57% of organizations already deploy AI agents for multi-stage workflows. Each of those agents needs credentials, and most identity programs were built for people.**
 
 Anthropic's 2026 State of AI Agents survey of 500+ technical leaders reveals that AI agents have crossed from experimental tools to production infrastructure — 80% of organizations report measurable financial returns, 86% use coding agents across the full development lifecycle, and 42% trust agents to lead development with limited human review.
 

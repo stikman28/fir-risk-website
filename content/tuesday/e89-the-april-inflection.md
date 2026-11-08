@@ -96,7 +96,7 @@ The April inflection is acceleration, not absolution. The known defender gaps do
 
 - **56%** of CISOs say cloud security spend is insufficient *and aren't fixing it* (Wiz, [E77](/tuesday/e77-wiz-ciso-budget-survey/))
 - **87%** of executives recognize AI as a top risk; **<1%** have operationalized AI governance (WEF, [E80](/tuesday/e80-wef-knowing-doing-gap/))
-- **15%** of organizations are confident in non-human identity governance — even as **57%** deploy multi-stage AI agents with production credentials (Anthropic, [E87](/tuesday/e87-the-agents-have-keys/))
+- **57%** of organizations deploy AI agents for multi-stage workflows, and **42%** let agents lead development with limited human review (Anthropic, [E87](/tuesday/e87-the-agents-have-keys/))
 - **58%** of organizations run **25+ security tools** — the meta-risk is unmanaged sprawl, not underinvestment (Wiz, [E77](/tuesday/e77-wiz-ciso-budget-survey/))
 - **60%** of attacks exploit **cloud misconfigurations** defenders already know about (Fortinet, [E75](/tuesday/e75-fortinet-predictions/))
 
