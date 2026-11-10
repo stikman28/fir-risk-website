@@ -72,7 +72,7 @@ The most striking pattern is how much these companies have committed to pay for,
 
 **The race is now funded with borrowed money and new shares.** Capital spending roughly doubled: Alphabet $132.0 billion in the first nine months of 2026, up from $63.6 billion; Amazon $77.3 billion in the third quarter alone, up from $35.1 billion; Microsoft $39.4 billion in its September quarter, up from $19.4 billion before finance leases; Oracle $28.5 billion in its August quarter, up from $8.5 billion. Between October 29 and November 5, the companies raised more than $72 billion, plus €6 billion, in bonds, shares and preferred stock, according to their 8-K filings. Microsoft sold $25 billion of bonds with maturities out to 2066. Oracle sold $10 billion of new shares and $10 billion of bonds, on top of $129.5 billion of debt at the end of May. Over the last twelve months, Amazon's free cash flow was negative $42.4 billion, and it brought in $124.1 billion from financing, including a $17.5 billion term loan.
 
-**Some of the money moves in circles.** The builders are also financing the companies that buy their capacity. Amazon invested $50.0 billion in OpenAI's preferred stock and $10.0 billion in Anthropic's in the first nine months of 2026. Microsoft calls itself "a major investor in OpenAI," and its quarterly results now swing with that stake: $4.1 billion of net losses a year ago and $272 million of gains this quarter, which it excludes from its adjusted results. Alphabet now discloses $75.7 billion of backstops for data centers, including $10.0 billion with Crux AI, which it identifies as a related party, plus $22.8 billion of guarantees so its counterparties can order power equipment. And Anthropic, which has committed about $895 billion to compute, earns 44% of its revenue through the builders' own cloud marketplaces.
+**Some of the money moves in circles.** The builders are also financing the companies that buy their capacity. Amazon invested $50.0 billion in OpenAI's preferred stock and $10.0 billion in Anthropic's in the first nine months of 2026. Microsoft calls itself "a major investor in OpenAI," and its quarterly results now swing with that stake: $4.1 billion of net losses a year ago and $272 million of gains this quarter, which it excludes from its adjusted results. Alphabet now discloses $75.7 billion of backstops for data centers, including $10.0 billion with Crux AI, which it identifies as a related party, plus $22.8 billion of guarantees so its counterparties can order power equipment. And Anthropic, which has committed about $900 billion to compute, earns 44% of its revenue through the builders' own cloud marketplaces. Its latest IPO filing adds that seven of its suppliers and partners, including Google, Microsoft and NVIDIA, have agreed to buy $26.0 billion of its shares when it goes public.
 
 **Our read:** in a race, financing your own demand is rational, but it links the risks. A setback at a major model maker, or at a partner a builder has guaranteed, would travel through investors, suppliers and customers at the same time.
 
@@ -154,7 +154,7 @@ The builders now say AI is speeding up the discovery of software flaws, for atta
 
 ## 7. Special section: Anthropic's IPO filing
 
-Anthropic is not yet public. It filed for an initial public offering on October 26 (proposed Nasdaq symbol "ANT") and amended the filing on November 2. A first-time filer has no prior year to compare against, so we compared the amendment with the original filing a week earlier.
+Anthropic is not yet public. It filed for an initial public offering on October 26 (proposed Nasdaq symbol "ANT") and amended the filing on November 2, and again on November 10, the day this edition published. The analysis below compares the first amendment with the original filing; what the second amendment added is at the end of this section. A first-time filer has no prior year to compare against, so we compared the amendment with the original filing a week earlier.
 
 *Disclosure: FIR Risk uses AI models from several providers, including Anthropic.*
 
@@ -175,6 +175,14 @@ Anthropic is not yet public. It filed for an initial public offering on October 
 **What stayed the same, and matters most to buyers:** Amazon, Google and Microsoft are Anthropic's investors, customers, distribution partners and competitors at the same time, a relationship the filing says creates "potential conflicts of interest that are difficult to fully anticipate or mitigate." The same few companies sit on every side of the AI supply chain. If your business depends on one AI model, that circularity is part of your concentration risk.
 
 **What it means for you:** read Anthropic's filing as a view from the other side of the market. Big tech warns about depending on outside model makers. The model maker warns about depending on big tech for computing power. Your organization likely depends on both.
+
+**Update, November 10: Amendment No. 2.** Anthropic amended its filing again on the day this edition published. Three changes add to the analysis above:
+
+- **The safety threshold, from "may" to "have met."** The company now says "we made a determination that we have met this threshold based on what we expect from future models and our overall rate of progress, rather than on what we have observed from current models." It says it is evaluating the implications and will release further reports.
+- **Suppliers become shareholders.** Google, NVIDIA, AMD, Broadcom, Micron, Microsoft and TSMC have agreed to buy $26.0 billion of Anthropic's non-voting shares at the IPO price, closing right after the offering. The companies that supply its chips, cloud and distribution will also own part of it, which tightens the circle described in signal one.
+- **Updated figures.** Committed spending on compute and infrastructure is now about $900.9 billion, including $451.6 billion before the end of 2030 and $70.7 billion within twelve months. The expected price range is $70 to $78 a share.
+
+**What it adds for you:** the concentration risk in the AI supply chain is now written into the ownership. If your AI, cloud and chip supply trace back to the same few companies, a problem at one of them can reach you through several paths at once.
 
 ---
 
@@ -213,7 +221,7 @@ Not yet covered: Nvidia reports later in November, SpaceX and Tesla get their ow
 - [Meta Form 10-Q, quarter ended September 30, 2026](https://www.sec.gov/Archives/edgar/data/1326801/000162828026066773/meta-20260930.htm)
 - [Microsoft Form 10-Q, quarter ended September 30, 2026](https://www.sec.gov/Archives/edgar/data/789019/000119312526436133/msft-20260930.htm) and [Form 10-K, fiscal year ended June 30, 2026](https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm)
 - [Oracle Form 10-K, fiscal year ended May 31, 2026](https://www.sec.gov/Archives/edgar/data/1341439/000119312526277521/orcl-20260531.htm) and [Form 10-Q, quarter ended August 31, 2026](https://www.sec.gov/Archives/edgar/data/1341439/000119312526389274/orcl-20260831.htm)
-- [Anthropic, PBC Form S-1/A, November 2, 2026](https://www.sec.gov/Archives/edgar/data/2130357/000162828026068676/anthropicpbc-sx1ax1.htm)
+- [Anthropic, PBC Form S-1/A, November 2, 2026](https://www.sec.gov/Archives/edgar/data/2130357/000162828026068676/anthropicpbc-sx1ax1.htm) and [Amendment No. 2, November 10, 2026](https://www.sec.gov/Archives/edgar/data/2130357/000162828026072484/anthropicpbc-sx1ax2.htm)
 - [FIR Risk Tuesday E95 — The Labs Agree](/tuesday/e95-the-labs-agree/) — what the AI labs say about governing agents
 
 ---
