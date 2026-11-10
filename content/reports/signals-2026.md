@@ -93,7 +93,7 @@ FIR reading: [INTEL-8 The Breach Starts With a Phone Call](/intel/intel-8-voice-
 
 ### 03 · Half of breaches now involve a third party.
 
-**48%** of breaches involved a vendor, partner or supplier, up from **9%** three editions ago. *(Verizon DBIR, 2023–2026 editions)*
+**48%** of breaches involved a vendor, partner or supplier, up from **9%** three editions ago. *(Verizon DBIR, 2024–2026 editions)*
 
 - Only **23%** of third parties fully fixed missing MFA on their cloud accounts. *(Verizon DBIR 2026)*
 - Major supply-chain and third-party breaches rose about **4×** over five years. *(IBM X-Force 2026)*
@@ -301,7 +301,7 @@ All 43 figures in the report, each traced to the page of the primary report it c
 - **OpenAI, Anthropic, Google:** AI agent security guidance (2026)
 - **OWASP:** Top 10 for LLM Applications 2026 · Top 10 for Agentic Applications
 - **Palo Alto Networks Unit 42:** Global Incident Response Report 2026
-- **Verizon:** Data Breach Investigations Report, 2023–2026 editions
+- **Verizon:** Data Breach Investigations Report, 2024–2026 editions
 - **VulnCheck:** Exploit Intelligence Report 2026
 
 Also re-read, as useful context (no figure in this report depends on them): Red Canary Threat Detection Report 2026 · Rapid7 Global Threat Landscape Report 2026 · Picus Red Report 2026 · GuidePoint GRIT 2026 Ransomware and Cyber Threat Report · Zscaler ThreatLabz 2026 AI Security Report · Anthropic 2026 Agentic Coding Trends Report and 2026 State of AI Agents Report.
