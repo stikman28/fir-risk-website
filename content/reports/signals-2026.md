@@ -317,8 +317,6 @@ Also re-read, as useful context (no figure in this report depends on them): Red 
 <details>
 <summary>Read the narrated edition transcript</summary>
 
-**Cold open**
-
 Twenty-seven seconds.
 
 That is how long it took one attacker last year to get from the first foothold inside a company to moving freely through its network. Not twenty-seven minutes. Seconds.
@@ -326,8 +324,6 @@ That is how long it took one attacker last year to get from the first foothold i
 By the time anyone could have opened the alert, it was already over.
 
 This is SIGNALS 2026, from FIR Risk Advisory.
-
-**What we're going to tell you**
 
 Every year, the security industry publishes hundreds of reports. Most of them are careful, serious work. And almost every one of them makes the same argument: *our* problem is the biggest one.
 
@@ -347,8 +343,6 @@ And five: your own AI is the risk you control.
 
 Each one ends with a single question for your next board meeting. Let's take them one at a time.
 
-**Signal one — The window is gone**
-
 **Signal one. The window is gone.**
 
 There used to be a window. A flaw was discovered, a fix was published, and you had weeks, sometimes months, to patch before attackers caught up.
@@ -365,8 +359,6 @@ So the question for your board is this:
 
 **Do we know every system we expose to the internet and every open-source package we depend on, and is that footprint getting smaller?**
 
-**Signal two — Inside, they look like you**
-
 **Signal two. Inside, they look like you.**
 
 Picture a phone call to your help desk. The caller is friendly, a little stressed, knows the right names. They've lost their phone and need their login reset before a meeting.
@@ -380,8 +372,6 @@ And once they're inside, they don't bring malware. In 2025, eighty-two percent o
 To your security tools, the attacker looks exactly like an employee having a busy day.
 
 **If an attacker were logged in as one of our employees today, would we know?**
-
-**Signal three — Half of breaches now involve a third party**
 
 **Signal three. Half of breaches now involve a third party.**
 
@@ -397,8 +387,6 @@ Forty-eight percent is an average, though. Nobody can tell you your number. It d
 
 **How many vendors do we rely on, and how many of the critical ones have a current risk assessment?**
 
-**Signal four — Recovery time sets the bill**
-
 **Signal four. Recovery time sets the bill.**
 
 In 2025, a cyberattack stopped production at Jaguar Land Rover. The lines stayed down for five weeks. Verizon calls it the most economically damaging cyberattack in British history: about one point nine billion pounds.
@@ -410,8 +398,6 @@ So the cost of an attack is no longer set by the ransom. It's set by how long yo
 And that cost doesn't grow in a straight line. In one economic model from Microsoft and Accenture, restoring operations within a week cost one point four percent of a month's national output. Taking almost two weeks cost thirteen point seven percent. One extra week, roughly ten times the damage.
 
 **How quickly could we really restore core operations, and have we tested it?**
-
-**Signal five — Your own AI is the risk you control**
 
 **Signal five. Your own AI is the risk you control.**
 
@@ -427,15 +413,11 @@ You can't control the attackers' AI. You can control your own.
 
 **Which AI tools and agents are in use across our company, approved or not, and who owns each one?**
 
-**The good news**
-
 Not everything this year was bad news.
 
 The basics work. Multi-factor authentication blocks more than ninety-nine percent of unauthorized sign-ins. Companies are catching more attacks themselves: Mandiant found that the share of breaches organizations detected on their own rose from forty-three percent to fifty-two percent in a year. And Unit 42 found that in more than ninety percent of breaches, the gap that let the attacker in was preventable. The fixes are known.
 
 We also left out the loud claims that didn't pass our tests. You'll find them in the report.
-
-**Weak signals to watch in 2027**
 
 Finally, four things we're watching. They're real, but they haven't passed our tests yet. Any one of them could be a signal next year.
 
@@ -446,8 +428,6 @@ Prompt injection: hiding instructions that trick an AI system into doing somethi
 Intruders staying unseen longer. The median time to detect one rose from eleven days to fourteen, partly because of long-running espionage cases.
 
 And quantum. Governments have set dates to move to new encryption: 2030 for critical infrastructure in Europe and the UK, 2035 for US federal systems. The deadlines are set. The threat date isn't.
-
-**What we told you**
 
 Five signals. Five questions.
 
