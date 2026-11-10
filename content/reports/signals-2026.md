@@ -333,7 +333,7 @@ Every year, the security industry publishes hundreds of reports. Most of them ar
 
 If you sit on a board or run a company, the result is noise.
 
-So we tried something different. Over two years, we've read, researched and distilled those reports in one hundred FIR Risk editions, and counting. This year we put them side by side and asked one question: what survives?
+So we tried something different. Over two and a half years, we've read, researched and distilled those reports in one hundred FIR Risk editions, and counting. This year we put them side by side and asked one question: what survives?
 
 We kept a finding only if independent sources agreed on it, if it held for more than a year, and if it matters to decisions a board actually makes.
 
