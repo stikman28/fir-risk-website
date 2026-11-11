@@ -4,13 +4,62 @@
 <!-- Google Search Console Verification -->
 <meta name="google-site-verification" content="dDzKtAoDdXsMnzGFnLHt0EG7ePF9yggAykUr21dUC4Y" />
 
-<!-- Google Analytics (GA4) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-P1XDGZLFDP"></script>
+<!-- Google Analytics (GA4). Property "firrisk.ai", measurement ID G-4JQR00S7G4 (switched from G-P1XDGZLFDP on 2026-11-11). -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-4JQR00S7G4"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-  gtag('config', 'G-P1XDGZLFDP');
+  gtag('config', 'G-4JQR00S7G4');
+</script>
+
+<!-- Inquiry tracking: two lightweight GA4 events, no Tag Manager, no banners or gates.
+     generate_lead : the contact form was sent (the form redirects to /contact/?submitted=true on success).
+                     Carries the form's "I'm interested in" choice. Only fires after a real submit, so a
+                     reload or bookmark of the thank-you URL doesn't count twice.
+     contact_click : a click on any link to /contact/, an email link or a phone link, with the link text
+                     and the page it came from, so you can see which pages and buttons send people to you.
+     In GA4, mark generate_lead as a key event (Admin > Events). -->
+<script>
+  (function () {
+    var KEY = 'fir_inquiry_interest';
+    function send(name, params) { if (typeof gtag === 'function') gtag('event', name, params); }
+
+    document.addEventListener('submit', function (e) {
+      var form = e.target;
+      if (!form || form.id !== 'contact-form') return;
+      try {
+        var interest = form.querySelector('[name="interest"]');
+        sessionStorage.setItem(KEY, interest ? interest.value : 'general');
+      } catch (err) {}
+    }, true);
+
+    document.addEventListener('click', function (e) {
+      var link = e.target && e.target.closest ? e.target.closest('a[href]') : null;
+      if (!link) return;
+      var href = link.getAttribute('href') || '';
+      var method = /^mailto:/i.test(href) ? 'email'
+                 : /^tel:/i.test(href) ? 'phone'
+                 : /(^|firrisk\.ai)\/contact\/?($|[?#])/i.test(href) ? 'contact_page'
+                 : '';
+      if (!method) return;
+      send('contact_click', {
+        method: method,
+        link_text: (link.textContent || '').replace(/\s+/g, ' ').trim().slice(0, 100),
+        page_path: location.pathname
+      });
+    }, true);
+
+    var onContact = location.pathname.replace(/\/$/, '') === '/contact';
+    if (onContact && new URLSearchParams(location.search).get('submitted') === 'true') {
+      var fire = true, chosen = 'unknown';
+      try {
+        var saved = sessionStorage.getItem(KEY);
+        if (saved === null) { fire = false; } else { chosen = saved; sessionStorage.removeItem(KEY); }
+      } catch (err) {}
+      if (fire) send('generate_lead', { method: 'contact_form', interest: chosen });
+    }
+  })();
 </script>
 
 <!-- Article schema for FIR Risk Tuesday + INTEL pages (SEO + AI answer engines) -->
