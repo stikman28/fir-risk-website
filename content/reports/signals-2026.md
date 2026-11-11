@@ -451,8 +451,6 @@ Twenty-seven seconds. That's how fast it moves now. The good news is that the qu
 
 This was SIGNALS 2026, from FIR Risk Advisory. The full report, with every number and its source, is at firrisk.ai.
 
-This was SIGNALS 2026, from FIR Risk Advisory. The full report, with every number and its source, is at firrisk.ai.
-
 </details>
 
 ---
