@@ -12,9 +12,18 @@ tags: ["SIGNALS", "Board Oversight", "CEO", "Third-Party Risk", "AI Governance",
 
 **Five signals that cut through the noise.**
 
-*Published November 2026 · For CEOs and boards · 18-page PDF · Narrated edition (10 min) · Free*
+*Published November 2026 · For CEOs and boards · 18-page PDF · Narrated video and audio (10 min) · Free*
 
 Every vendor report says its problem is the biggest. We read two years of them, checked every number against the source, and kept only what independent sources agree on, what has lasted, and what changes a board decision.
+
+<div class="card p-4 my-4">
+  <h2 id="watch" class="h5 mt-0">Watch SIGNALS 2026</h2>
+  <p class="mb-3">The narrated edition with the report's charts and figures on screen. Captions included. About 10 minutes.</p>
+  <video controls preload="metadata" playsinline poster="/video/FIR-SIGNALS-2026-poster.jpg" style="width:100%;height:auto;border-radius:8px">
+    <source src="/video/FIR-SIGNALS-2026.mp4" type="video/mp4">
+    Your browser can't play this video. <a href="/video/FIR-SIGNALS-2026.mp4">Download the video</a>.
+  </video>
+</div>
 
 <div class="card p-4 my-4">
   <h2 id="listen" class="h5 mt-0">Listen to SIGNALS 2026</h2>
