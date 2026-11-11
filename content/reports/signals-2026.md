@@ -4,7 +4,7 @@ seoTitle: "SIGNALS 2026: Five Cyber Risk Signals for CEOs and Boards"
 description: "FIR Risk's annual report for CEOs and boards. We read two years of threat reports, checked every number at the source, and kept five signals that independent sources agree on, each with one question for your next board meeting."
 meta:
   description: "SIGNALS 2026: five cyber risk signals that held up across two years of threat reports, 43 figures checked at the source, and five board questions."
-date: 2026-11-17
+date: 2026-11-14
 type: "report"
 pdf: "/reports/FIR-SIGNALS-2026.pdf"
 tags: ["SIGNALS", "Board Oversight", "CEO", "Third-Party Risk", "AI Governance", "Ransomware", "Risk Management"]
