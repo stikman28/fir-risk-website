@@ -12,6 +12,30 @@ description: "AI solutions, data platforms, and risk intelligence for cyber, fra
   </div>
 </div>
 
+<div class="py-3">
+  <div class="card p-0 overflow-hidden signals-feature">
+    <div class="row g-0">
+      <div class="col-md-6">
+        <a href="/reports/signals-2026/">
+          <img src="/video/FIR-SIGNALS-2026-poster.jpg" width="1920" height="1080" decoding="async" class="img-fluid w-100 h-100" style="object-fit: cover;" alt="SIGNALS 2026 cover: a noisy line that settles into one clear peak, with the tagline Five signals that cut through the noise">
+        </a>
+      </div>
+      <div class="col-md-6 d-flex align-items-center">
+        <div class="p-4 p-lg-5">
+          <span class="badge bg-primary text-dark mb-2">New · Annual report</span>
+          <h2 id="signals-2026-feature" class="h3 mb-2"><a href="/reports/signals-2026/" class="text-decoration-none">SIGNALS 2026</a></h2>
+          <p class="text-muted mb-2"><em>Five signals that cut through the noise. For CEOs and boards.</em></p>
+          <p class="mb-3">We read two years of threat reports, checked all 43 key figures at the source, and kept five findings that independent sources agree on, each with one question for your next board meeting.</p>
+          <div class="d-flex gap-3 flex-wrap align-items-center">
+            <a href="/reports/signals-2026/" class="btn btn-primary">Read the report →</a>
+            <a href="/reports/signals-2026/#watch-video" class="fw-semibold">Watch the 10-min video</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 <div class="py-4">
   <div class="row g-4">
     <div class="col-lg-6">
@@ -92,7 +116,7 @@ description: "AI solutions, data platforms, and risk intelligence for cyber, fra
         <div class="p-4">
           <span class="badge bg-primary text-dark mb-2">Free · No paywall</span>
           <h3 id="fir-risk-research" class="h4 mb-2"><a href="/intel/" class="text-decoration-none">FIR Risk Research</a></h3>
-          <p class="text-muted mb-1">FIR Risk Tuesday editions, INTEL briefs, and annual Fraud Intelligence Reports</p>
+          <p class="text-muted mb-1">FIR Risk Tuesday editions, INTEL briefs, and annual reports, including SIGNALS 2026</p>
           <p class="mb-3">We read the major threat reports end to end, verify every statistic against the primary source, and turn them into board-ready briefs: what changed, why it matters, and the one action to take.</p>
           <a href="/intel/" class="btn btn-primary">Read the research →</a>
         </div>
