@@ -5,13 +5,21 @@ description: "Annual fraud intelligence and cybersecurity reports from FIR Risk 
 
 <div class="hero-section text-center py-4 mb-4">
   <h1 id="hero-headline" class="display-5 fw-bold mb-3">Original Research. Powered by AI.</h1>
-  <p class="lead">Annual intelligence briefs synthesizing government, industry, and proprietary threat data into actionable insights for business leaders. Our 2026 report will be fully powered by the FIR Risk Platform.</p>
+  <p class="lead">Annual intelligence briefs synthesizing government, industry, and proprietary threat data into actionable insights for business leaders. Our 2026 report, SIGNALS, was built on the FIR Risk Platform: two years of verified editions, with every number checked at the source.</p>
 </div>
 
 <div class="py-4">
   <h2 id="annual-reports" class="mb-4">Annual Reports</h2>
 
   <div class="row g-4">
+    <div class="col-12">
+      <div class="card p-4">
+        <h3 id="signals-2026" class="h5"><a href="/reports/signals-2026/">SIGNALS 2026</a></h3>
+        <p class="text-muted mb-2"><em>Five signals that cut through the noise. For CEOs and boards.</em></p>
+        <p class="mb-2">We read two years of threat reports, checked all 43 key figures at the source, and kept five findings that independent sources agree on, each with one question for your next board meeting. Read it, download the PDF, or listen to the 10-minute narrated edition.</p>
+        <a href="/reports/signals-2026/" class="fw-semibold">Read, Listen & Download →</a>
+      </div>
+    </div>
     <div class="col-12">
       <div class="card p-4">
         <h3 id="fir-2025" class="h5"><a href="/reports/fir-2025/">2025 Fraud Intelligence Report</a></h3>
