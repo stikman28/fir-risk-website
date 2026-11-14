@@ -80,6 +80,7 @@ description: "The FIR Risk Platform pairs AI analysis with a curated knowledge b
   <h2 id="request-access" class="mb-3">Request Access</h2>
   <p class="lead mb-4">The FIR Risk Platform is currently in early access with select organizations.</p>
   <a href="/contact/" class="btn btn-primary btn-lg px-5">Request Early Access</a>
+  <p class="mt-4 mb-0">Want to see the knowledge behind it first? <a href="/connect/">Add the free FIR library to Claude, ChatGPT or Copilot →</a></p>
 </div>
 
 {{< section-nav next="/solutions/" next-label="Services" >}}
